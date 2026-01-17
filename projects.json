@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Syntikkaprojekti 2025",
+    "description": "Tämä on kokeellinen ambient-kappale, joka on tehty modulaarisyntikalla.",
+    "image": "https://via.placeholder.com/150",
+    "link": "https://soundcloud.com"
+  },
+  {
+    "id": 2,
+    "name": "3D-mallinnus",
+    "description": "Opettelin Blenderiä ja tein tämän hienon donitsin.",
+    "image": "https://via.placeholder.com/150",
+    "link": "https://youtube.com"
+  }
+]
