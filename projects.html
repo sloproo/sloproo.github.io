@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyry Hallamaan projektit</title>
+
+    <!-- Tyylit -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Logiikka projektien lataamiseen -->
+    <script src="js/projects.js"></script>
+</head>
+<body>
+
+    <table class="main-layout" cellpadding="0" cellspacing="0">
+        <!-- HEADER -->
+        <tr>
+            <td colspan="2" style="background-color: #003366; height: 90px; vertical-align: middle; border-bottom: 3px ridge #fff;">
+                 <center>
+                    <h1 style="color: white; margin: 0;">Pyry Hallamaa</h1>
+                    <span style="color: #ffffcc; font-size: 12px; font-family: 'Times New Roman';">~*~ Personal Home Page ~*~</span>
+                 </center>
+            </td>
+        </tr>
+        
+        <tr>
+            <!-- SIDEBAR (Identtinen etusivun kanssa) -->
+            <td class="sidebar">
+                <br>
+                <img src="https://web.archive.org/web/20091027073735/http://geocities.com/clipart/pbi/bullets/Templates/SquareBlueBullets.gif" alt="bullet"> 
+                <b>Menu</b>
+                <br><br>
+                
+                <a href="index.html" class="nav-button">Etusivu</a>
+                <a href="#" class="nav-button">CV / Resume</a>
+                <a href="projects.html" class="nav-button" style="background-color: #e0e0e0; border-style: inset;">Projektit</a>
+                <a href="#" class="nav-button">Linkit</a>
+                <a href="mailto:omamail@iki.fi" class="nav-button">Sähköposti</a>
+                
+                <br>
+                <hr width="80%">
+                
+                <div style="font-size: 11px; margin-top: 10px;">
+                    <b>Linkit:</b><br>
+                    <a href="https://github.com" target="_blank">[ GitHub ]</a><br>
+                    <a href="https://google.com" target="_blank">[ Google ]</a><br>
+                </div>
+                
+                <br><br>
+                <div style="border: 1px solid #888; background: #fff; padding: 5px; font-size: 10px;">
+                    <img src="https://web.archive.org/web/20090829023720/http://geocities.com/clipart/pbi/cautions/Best_Viewed_With_IE.gif" alt="IE Logo"><br>
+                    Best viewed with<br>Internet Explorer 6.0
+                </div>
+            </td>
+
+            <!-- CONTENT -->
+            <td class="content">
+                <h2>Omat Projektit</h2>
+                
+                <p>Tällä sivulla esittelen harrasteprojektejani, koodauksia ja muita tuotoksia.</p>
+                <p><i>Lista päivittyy dynaamisesti (JSON-teknologialla).</i></p>
+
+                <hr class="divider">
+                <br>
+
+                <!-- Tähän javascript generoi projektit -->
+                <div id="projects-container">
+                    <img src="https://web.archive.org/web/20090829023617/http://geocities.com/clipart/pbi/cautions/Ani_Construction.gif" style="vertical-align: middle;">
+                    Ladataan projekteja...
+                </div>
+
+                <br><br>
+                <small>
+                    Copyright &copy; 2026 Pyry Hallamaa<br>
+                    <a href="#">Takaisin ylös</a>
+                </small>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
