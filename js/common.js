@@ -15,7 +15,7 @@ function renderNavigation(activePage) {
                 <a href="index.html" class="nav-button" ${activePage === 'index' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Etusivu</a>
                 <a href="cv.html" class="nav-button" ${activePage === 'cv' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>CV / Resume</a>
                 <a href="projects.html" class="nav-button" ${activePage === 'projects' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Projektit</a>
-                <a href="#" class="nav-button">Linkit</a>
+                <a href="links.html" class="nav-button" ${activePage === 'links' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Linkit</a>
                 <a href="mailto:omamail@iki.fi" class="nav-button">Sähköposti</a>
                 
                 <br>
@@ -34,7 +34,7 @@ function renderNavigation(activePage) {
                     Best viewed with<br>Firefox
                 </div>
     `;
-    
+
     const navPlaceholder = document.getElementById('nav-placeholder');
     if (navPlaceholder) {
         navPlaceholder.innerHTML = navHTML;
@@ -48,22 +48,25 @@ function updateVisitorCounter() {
 
     // Namespace for this specific site
     const NAMESPACE = 'sloproo.github.io';
-    const KEY = 'visits';
-    
+    const KEY = 'visits_v2'; // New key for reset
+    const OFFSET = 12; // Start from 12
+
     // Using countapi.xyz
     fetch(`https://api.countapi.xyz/hit/${NAMESPACE}/${KEY}`)
         .then(response => response.json())
         .then(data => {
-            counterElement.innerText = data.value.toString().padStart(6, '0');
+            const count = data.value + OFFSET;
+            counterElement.innerText = count.toString().padStart(6, '0');
         })
         .catch(err => {
             console.warn('Counter API failed, falling back to local storage', err);
             // Fallback for demo/local purposes
-            let visits = parseInt(localStorage.getItem('visits') || '4286');
-            if (isNaN(visits)) visits = 4286;
+            let visits = parseInt(localStorage.getItem('visits_v2') || '0');
             visits++;
-            localStorage.setItem('visits', visits);
-            counterElement.innerText = visits.toString().padStart(6, '0');
+            localStorage.setItem('visits_v2', visits);
+
+            const count = visits + OFFSET;
+            counterElement.innerText = count.toString().padStart(6, '0');
         });
 }
 
@@ -71,13 +74,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Auto-detect active page
     const path = window.location.pathname;
     let page = 'index'; // Default
-    
+
     if (path.includes('projects.html')) {
         page = 'projects';
     } else if (path.includes('cv.html')) {
         page = 'cv';
+    } else if (path.includes('links.html')) {
+        page = 'links';
     }
-    
+
     renderNavigation(page);
     updateVisitorCounter();
 });

@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             projects.forEach(project => {
                 // UUSI LAYOUT:
                 // Ei enää taulukkoa (table), vaan elementit allekkain.
-                
+
                 const projectHTML = `
                     <div style="
                         border: 2px solid #ffffff; 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             ${project.description}
                         </p>
                         
-                        <!-- 3. Kuva (skaalautuva) -->
+                        <!-- 3. Kuva (skaalautuva) - NYT KLIKATTAVA -->
                         <div style="
                             background-color: #808080; 
                             padding: 5px; 
@@ -55,15 +55,17 @@ document.addEventListener("DOMContentLoaded", () => {
                             text-align: center; 
                             margin-bottom: 15px;
                         ">
-                            <img src="${project.image}" alt="${project.name}" style="
-                                max-width: 100%;       /* Ei leveämpi kuin laatikko */
-                                max-height: 300px;     /* Ei korkeampi kuin 300px (säädä tätä jos haluat matalamman) */
-                                width: auto;           /* Säilyttää kuvasuhteen */
-                                height: auto;          /* Säilyttää kuvasuhteen */
-                                display: block; 
-                                margin: 0 auto;        /* Keskitetään kuva */
-                                border: 1px solid #000;
-                            ">
+                            <a href="${project.link}" target="_blank">
+                                <img src="${project.image}" alt="${project.name}" style="
+                                    max-width: 100%;       /* Ei leveämpi kuin laatikko */
+                                    max-height: 300px;     /* Ei korkeampi kuin 300px (säädä tätä jos haluat matalamman) */
+                                    width: auto;           /* Säilyttää kuvasuhteen */
+                                    height: auto;          /* Säilyttää kuvasuhteen */
+                                    display: block; 
+                                    margin: 0 auto;        /* Keskitetään kuva */
+                                    border: 1px solid #000;
+                                ">
+                            </a>
                         </div>
                         
                         <!-- 4. Linkki-painike -->
@@ -81,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         </div>
                     </div>
                 `;
-                
+
                 container.innerHTML += projectHTML;
             });
         })

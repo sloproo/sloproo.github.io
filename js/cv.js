@@ -16,34 +16,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
 
-            html += `<h3 style="background-color: #e0e0e0; padding: 5px; border-left: 5px solid #003366;">Työkokemus</h3>`;
-            data.experience.forEach(job => {
-                html += `
-                    <div class="job" style="margin-bottom: 15px; padding-left: 10px;">
-                        <h4 style="margin: 0;">${job.position} <span style="font-weight: normal;">@ ${job.company}</span></h4>
-                        <small style="color: #666;">📅 ${job.period}</small>
-                        <p style="margin-top: 5px;">${job.description}</p>
-                    </div>
-                `;
-            });
-
-            html += `<br><h3 style="background-color: #e0e0e0; padding: 5px; border-left: 5px solid #003366;">Koulutus</h3>`;
-            data.education.forEach(edu => {
-                html += `
-                    <div class="education" style="margin-bottom: 15px; padding-left: 10px;">
-                        <h4 style="margin: 0;">${edu.school}</h4>
-                        <p style="margin-top: 5px;">${edu.degree} <br><small style="color: #666;">📅 ${edu.period}</small></p>
-                    </div>
-                `;
-            });
-
-            html += `<br><h3 style="background-color: #e0e0e0; padding: 5px; border-left: 5px solid #003366;">Taidot</h3>`;
-            html += `<div style="padding-left: 10px;"><p>${data.skills.map(s => `<span style="background: #eee; border: 1px solid #ccc; padding: 2px 5px; margin-right: 5px; border-radius: 3px;">${s}</span>`).join(' ')}</p></div>`;
+            if (data.sections && Array.isArray(data.sections)) {
+                data.sections.forEach(section => {
+                    html += `<h3 style="background-color: #e0e0e0; padding: 5px; border-left: 5px solid #003366;">${section.title}</h3>`;
+                    html += `<ul style="list-style-type: square; margin-bottom: 20px;">`;
+                    section.items.forEach(item => {
+                        html += `<li style="margin-bottom: 8px;">${item}</li>`;
+                    });
+                    html += `</ul>`;
+                });
+            }
 
             container.innerHTML = html;
         })
         .catch(err => {
-            container.innerHTML = '<p style="color: red;">Virhe ladattaessa CV:tä. Varmista että cv.json on olemassa.</p>';
+            container.innerHTML = '<p style="color: red;">Virhe ladattaessa CV:tä. Varmista että cv.json on olemassa ja ehjä.</p>';
             console.error(err);
         });
 });

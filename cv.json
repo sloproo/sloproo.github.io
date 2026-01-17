@@ -6,25 +6,25 @@
     "location": "Turku, Suomi",
     "summary": "Kohtalaisen monipuolisesti erilaisista asioista kiinnostunut laillinen henkilö"
   },
-  "experience": [
+  "sections": [
     {
-      "company": "Tyks psykiatria",
-      "position": "erikoistuva lääkäri",
-      "period": "2021 - Nykyhetki",
-      "description": "Lääkärin hommat"
-    }
-  ],
-  "education": [
-    {
-      "school": "Turun yliopisto",
-      "degree": "Humanististen tieteiden kandidaatti, pääaine mediatutkimus",
-      "period": "2013"
+      "title": "Työkokemus",
+      "items": [
+        "<b>2021 - Nykyhetki: erikoistuva lääkäri @ Tyks</b><br>Lääkärin hommat"
+      ]
     },
     {
-      "school": "Turun yliopisto",
-      "degree": "Lääketieteen lisensiaatti",
-      "period": "2020"
+      "title": "Koulutus",
+      "items": [
+        "<b>2020: Lääketieteen lisensiaatti</b>, Turun yliopisto",
+        "<b>2013: Humanististen tieteiden kandidaatti, pääaine mediatutkimus</b>, Turun yliopisto"
+      ]
+    },
+    {
+      "title": "Taidot",
+      "items": [
+        "Python"
+      ]
     }
-  ],
-  "skills": ["Python"]
+  ]
 }

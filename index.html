@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
     <meta property="og:title" content="Pyry Hallamaan Kotisivut">
     <!-- PÄIVITETTY KUVAUS: -->
     <meta property="og:description" content="Pyry Hallamaan henkilökohtaiset kotisivut">
-    
+
     <meta property="og:image" content="https://hallamaa.iki.fi/images/preview.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://hallamaa.iki.fi">
@@ -22,20 +23,25 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Jaettu logiikka: navigaatio ja laskuri -->
     <script src="js/common.js"></script>
+    <!-- Bluesky Feed -->
+    <script src="js/bluesky.js"></script>
 </head>
+
 <body>
 
     <table class="main-layout" cellpadding="0" cellspacing="0">
         <!-- HEADER -->
         <tr>
-            <td colspan="2" style="background-color: #003366; height: 90px; vertical-align: middle; border-bottom: 3px ridge #fff;">
-                 <center>
+            <td colspan="2"
+                style="background-color: #003366; height: 90px; vertical-align: middle; border-bottom: 3px ridge #fff;">
+                <center>
                     <h1 style="color: white; margin: 0;">Pyry Hallamaa</h1>
-                    <span style="color: #ffffcc; font-size: 12px; font-family: 'Times New Roman';">~*~ Personal Home Page ~*~</span>
-                 </center>
+                    <span style="color: #ffffcc; font-size: 12px; font-family: 'Times New Roman';">~*~ Personal Home
+                        Page ~*~</span>
+                </center>
             </td>
         </tr>
-        
+
         <tr>
             <!-- SIDEBAR -->
             <td class="sidebar" id="nav-placeholder">
@@ -53,8 +59,9 @@
                 </div>
 
                 <h2>Tervetuloa kotisivuilleni!</h2>
-                
-                <p>Olet saapunut <b>Pyry Hallamaan</b> viralliselle internet-sivustolle. Täältä löydät tietoa minusta ja projekteistani.</p>
+
+                <p>Olet saapunut <b>Pyry Hallamaan</b> viralliselle internet-sivustolle. Täältä löydät tietoa minusta ja
+                    projekteistani.</p>
 
                 <!-- 3D OCTAHEDRON SCENE -->
                 <div class="scene">
@@ -80,13 +87,22 @@
 
                 <table width="100%" border="0">
                     <tr>
-                        <td style="text-align: left; font-size: 12px;">
+                        <td style="text-align: left; font-size: 12px; vertical-align: top;">
                             <b>Uutiset:</b>
                             <ul>
                                 <li><b>17.01.2026:</b> Kuvien hallinta siirretty omaan hakemistoon.</li>
                                 <li><b>17.01.2026:</b> Projektit-osio avattu!</li>
                                 <li><b>13.01.2026:</b> Sivu julkaistu netissä!</li>
                             </ul>
+                        </td>
+                        <td
+                            style="width: 250px; vertical-align: top; padding-left: 10px; border-left: 1px dotted #ccc;">
+                            <b>Bluesky (<a href="https://bsky.app/profile/pyry.bsky.social"
+                                    target="_blank">@pyry.bsky.social</a>):</b>
+                            <div id="bluesky-feed"
+                                style="margin-top: 5px; background-color: rgba(255, 255, 255, 0.5); padding: 5px; border-radius: 5px;">
+                                <!-- Feed loads here -->
+                            </div>
                         </td>
                     </tr>
                 </table>
@@ -96,7 +112,7 @@
                     Vierailijoita yhteensä:<br>
                     <div class="counter">...</div>
                 </center>
-                
+
                 <br><br>
                 <small>
                     Copyright &copy; 2026 Pyry Hallamaa<br>
@@ -108,4 +124,5 @@
     </table>
 
 </body>
+
 </html>

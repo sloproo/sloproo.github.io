@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pyry Hallamaa - CV</title>
+    <title>Pyry Hallamaa - Linkit</title>
 
     <!-- Tyylit -->
     <link rel="stylesheet" href="css/style.css">
@@ -12,8 +12,8 @@
     <!-- Jaettu logiikka -->
     <script src="js/common.js"></script>
 
-    <!-- CV renderöintilogiikka -->
-    <script src="js/cv.js"></script>
+    <!-- Linkkien renderöintilogiikka -->
+    <script src="js/links.js"></script>
 </head>
 
 <body>
@@ -40,20 +40,15 @@
 
             <!-- CONTENT -->
             <td class="content">
-                <h2>Ansioluettelo</h2>
+                <h2>Linkkikokoelma</h2>
 
-                <p>Tässä on virallinen ansioluetteloni, joka on generoitu dynaamisesti JSON-tiedostosta.</p>
-
-                <div style="text-align: right; margin-bottom: 10px;">
-                    <a href="cv.json" target="_blank" style="font-size: 12px;">[ Lataa raakamuotoinen JSON ]</a>
-                </div>
+                <p>Mielenkiintoisia sivustoja ja muita resursseja.</p>
 
                 <hr class="divider">
                 <br>
 
-                <!-- Tähän javascript generoi CV:n sisällön -->
-                <div id="cv-container" class="paper-sheet"
-                    style="background-color: rgba(255, 255, 255, 0.6); border: 1px solid #ccc; padding: 20px; box-shadow: 3px 3px 5px rgba(0,0,0,0.1);">
+                <!-- Tähän javascript generoi linkit -->
+                <div id="links-container">
 
                 </div>
 
