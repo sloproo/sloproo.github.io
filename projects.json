@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Syntikkaprojekti 2025",
-    "description": "Tämä on kokeellinen ambient-kappale, joka on tehty modulaarisyntikalla.",
-    "image": "https://via.placeholder.com/150",
-    "link": "https://soundcloud.com"
+    "name": "Siunaus",
+    "description": "Elektronisen musiikin yhtye, jossa soitan.",
+    "image": "https://f4.bcbits.com/img/0010291074_100.png",
+    "link": "https://siunaus.bandcamp.com/"
   },
   {
     "id": 2,
-    "name": "3D-mallinnus",
-    "description": "Opettelin Blenderiä ja tein tämän hienon donitsin.",
-    "image": "https://via.placeholder.com/150",
-    "link": "https://youtube.com"
+    "name": "Sisyfoksen kivi",
+    "description": "HC-punkyhtyes, jossa soitan.",
+    "image": "https://f4.bcbits.com/img/0006202134_100.png",
+    "link": "https://sisyfoksenkivi.bandcamp.com/"
+  }
+  {
+    "id": 3,
+    "name": "Stories of This City -kokoelma",
+    "description": "Gen untitled recordsin erinomaisen kiinnostava ja laaja kokoelma, jolla on kolme kappaletta minulta.",
+    "image": "https://f4.bcbits.com/img/a4100018166_10.jpg",
+    "link": "https://genuntitledrecords.bandcamp.com/album/stories-of-this-city"
   }
 ]
