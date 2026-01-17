@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pyry Hallamaan projektit</title>
+    <title>Pyry Hallamaa - Vieraskirja</title>
 
     <!-- SIVUN IKONI (FAVICON) -->
     <link rel="icon" type="image/png" href="images/icon_p.png">
@@ -14,9 +14,6 @@
 
     <!-- Jaettu logiikka -->
     <script src="js/common.js"></script>
-
-    <!-- Logiikka projektien lataamiseen -->
-    <script src="js/projects.js"></script>
 </head>
 
 <body>
@@ -35,7 +32,7 @@
         </tr>
 
         <tr>
-            <!-- SIDEBAR (Identtinen etusivun kanssa) -->
+            <!-- SIDEBAR -->
             <td class="sidebar" id="nav-placeholder">
                 <br>
                 Ladataan valikkoa...
@@ -43,19 +40,21 @@
 
             <!-- CONTENT -->
             <td class="content">
-                <h2>Omat Projektit</h2>
+                <h2>Vieraskirja</h2>
 
-                <p>Tällä sivulla esittelen harrasteprojektejani, koodauksia ja muita tuotoksia.</p>
-                <p><i>Lista päivittyy dynaamisesti (JSON-teknologialla).</i></p>
+                <p>Jätä puumerkkisi! Keskustelu käyttää GitHub Discussions -ominaisuutta.</p>
 
                 <hr class="divider">
                 <br>
 
-                <!-- Tähän javascript generoi projektit -->
-                <div id="projects-container">
-                    <img src="https://web.archive.org/web/20090829023617/http://geocities.com/clipart/pbi/cautions/Ani_Construction.gif"
-                        style="vertical-align: middle;">
-                    Ladataan projekteja...
+                <!-- GISCUS CONTAINER -->
+                <div id="guestbook-container"
+                    style="background-color: rgba(255, 255, 255, 0.6); padding: 20px; border: 1px solid #ccc; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);">
+                    <script src="https://giscus.app/client.js" data-repo="sloproo/sloproo.github.io"
+                        data-repo-id="R_kgDOQ4mlCg" data-category="Q&A" data-category-id="DIC_kwDOQ4mlCs4C1FU_"
+                        data-mapping="title" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0"
+                        data-input-position="bottom" data-theme="light" data-lang="en" crossorigin="anonymous" async>
+                        </script>
                 </div>
 
                 <br><br>
