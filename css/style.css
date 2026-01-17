@@ -5,7 +5,7 @@
 body {
     background-color: #c0c0c0;
     /* VIITTAUS PAIKALLISEEN KUVAAN: */
-    background-image: url('../images/bg_main.gif');
+    background-image: url('../images/marble.jpg');
     /* Fallback, jos kuvaa ei ole: */
     background-repeat: repeat;
     
@@ -44,7 +44,7 @@ td.sidebar {
 td.content {
     text-align: center;
     /* VIITTAUS PAIKALLISEEN KUVAAN: */
-    background-image: url('../images/bg_paper.gif');
+    background-image: url('../images/bg_paper.png');
 }
 
 /* Otsikot */
