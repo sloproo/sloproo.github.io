@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pyry Hallamaan projektit</title>
+    <title>Pyry Hallamaa - CV</title>
 
     <!-- Tyylit -->
     <link rel="stylesheet" href="css/style.css">
@@ -12,8 +12,8 @@
     <!-- Jaettu logiikka -->
     <script src="js/common.js"></script>
 
-    <!-- Logiikka projektien lataamiseen -->
-    <script src="js/projects.js"></script>
+    <!-- CV renderöintilogiikka -->
+    <script src="js/cv.js"></script>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
         </tr>
 
         <tr>
-            <!-- SIDEBAR (Identtinen etusivun kanssa) -->
+            <!-- SIDEBAR -->
             <td class="sidebar" id="nav-placeholder">
                 <br>
                 Ladataan valikkoa...
@@ -40,19 +40,21 @@
 
             <!-- CONTENT -->
             <td class="content">
-                <h2>Omat Projektit</h2>
+                <h2>Ansioluettelo</h2>
 
-                <p>Tällä sivulla esittelen harrasteprojektejani, koodauksia ja muita tuotoksia.</p>
-                <p><i>Lista päivittyy dynaamisesti (JSON-teknologialla).</i></p>
+                <p>Tässä on virallinen ansioluetteloni, joka on generoitu dynaamisesti JSON-tiedostosta.</p>
+
+                <div style="text-align: right; margin-bottom: 10px;">
+                    <a href="cv.json" target="_blank" style="font-size: 12px;">[ Lataa raakamuotoinen JSON ]</a>
+                </div>
 
                 <hr class="divider">
                 <br>
 
-                <!-- Tähän javascript generoi projektit -->
-                <div id="projects-container">
-                    <img src="https://web.archive.org/web/20090829023617/http://geocities.com/clipart/pbi/cautions/Ani_Construction.gif"
-                        style="vertical-align: middle;">
-                    Ladataan projekteja...
+                <!-- Tähän javascript generoi CV:n sisällön -->
+                <div id="cv-container" class="paper-sheet"
+                    style="background-color: white; border: 1px solid #ccc; padding: 20px; box-shadow: 3px 3px 5px rgba(0,0,0,0.1);">
+
                 </div>
 
                 <br><br>

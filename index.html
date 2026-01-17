@@ -20,6 +20,8 @@
 
     <!-- Linkitys CSS-tiedostoon -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Jaettu logiikka: navigaatio ja laskuri -->
+    <script src="js/common.js"></script>
 </head>
 <body>
 
@@ -36,35 +38,10 @@
         
         <tr>
             <!-- SIDEBAR -->
-            <td class="sidebar">
+            <td class="sidebar" id="nav-placeholder">
+                <!-- Navigaatio ladataan js/common.js avulla -->
                 <br>
-                <!-- KUVA SKAALATTU PIENEMMÄKSI (width: 60px) -->
-                <img src="images/bullet_256.png" alt="bullet" style="width: 60px; height: auto;"> 
-                <br>
-                <b>Menu</b>
-                <br><br>
-                
-                <a href="index.html" class="nav-button" style="background-color: #e0e0e0; border-style: inset;">Etusivu</a>
-                <a href="#" class="nav-button">CV / Resume</a>
-                <a href="projects.html" class="nav-button">Projektit</a>
-                <a href="#" class="nav-button">Linkit</a>
-                <a href="mailto:omamail@iki.fi" class="nav-button">Sähköposti</a>
-                
-                <br>
-                <hr width="80%">
-                
-                <div style="font-size: 11px; margin-top: 10px;">
-                    <b>Linkit:</b><br>
-                    <a href="https://github.com" target="_blank">[ GitHub ]</a><br>
-                    <a href="https://google.com" target="_blank">[ Google ]</a><br>
-                </div>
-                
-                <br><br>
-                <div style="border: 1px solid #888; background: #fff; padding: 5px; font-size: 10px;">
-                    <!-- KUVA SKAALATTU PIENEMMÄKSI (width: 88px) -->
-                    <img src="images/firefox.jpg" alt="Best viewed with Firefox" style="width: 88px; height: auto;"><br>
-                    Best viewed with<br>Firefox
-                </div>
+                Ladataan valikkoa...
             </td>
 
             <!-- CONTENT -->
@@ -117,7 +94,7 @@
                 <br>
                 <center>
                     Vierailijoita yhteensä:<br>
-                    <div class="counter">004286</div>
+                    <div class="counter">...</div>
                 </center>
                 
                 <br><br>

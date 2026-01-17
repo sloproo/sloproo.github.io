@@ -1,0 +1,30 @@
+{
+  "header": {
+    "name": "Pyry Hallamaa",
+    "title": "Psykiatrian erikoistuva lääkäri, HuK, LL",
+    "email": "hallamaa@iki.fi",
+    "location": "Turku, Suomi",
+    "summary": "Kohtalaisen monipuolisesti erilaisista asioista kiinnostunut laillinen henkilö"
+  },
+  "experience": [
+    {
+      "company": "Tyks psykiatria",
+      "position": "erikoistuva lääkäri",
+      "period": "2021 - Nykyhetki",
+      "description": "Lääkärin hommat"
+    }
+  ],
+  "education": [
+    {
+      "school": "Turun yliopisto",
+      "degree": "Humanististen tieteiden kandidaatti, pääaine mediatutkimus",
+      "period": "2013"
+    },
+    {
+      "school": "Turun yliopisto",
+      "degree": "Lääketieteen lisensiaatti",
+      "period": "2020"
+    }
+  ],
+  "skills": ["Python"]
+}
