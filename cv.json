@@ -4,13 +4,16 @@
     "title": "Psykiatrian erikoistuva lääkäri, HuK, LL",
     "email": "hallamaa@iki.fi",
     "location": "Turku, Suomi",
-    "summary": "Kohtalaisen monipuolisesti erilaisista asioista kiinnostunut laillinen henkilö"
+    "summary": "Kohtalaisen monipuolisesti erilaisista asioista kiinnostunut ihminen"
   },
   "sections": [
     {
       "title": "Työkokemus",
       "items": [
-        "<b>2021 - Nykyhetki: erikoistuva lääkäri @ Tyks</b><br>Lääkärin hommat"
+        "<b>2021 - Nykyhetki: erikoistuva lääkäri @ Tyks psykiatria</b><br>Lääkärin hommat",
+        "<b>2007 - 2011: Freelance-toimittaja Enimmäkseen musajuttuja</b><br>freelance-toimittajana Turun Sanomat Treffiin ja Sueen",
+        "<b>1998 - 2011: Kaupan kassan</b><br>kesäisin ja viikonloppuisin sekä satunnaisesti opintojen ohessa",
+        "<b>n. 2006 - 2011: Ohjelmatoimisto Pommilaukan luottohenkilö:</b><br>Merchandisen myyntiä, kiertueassistenttina toimimista, julisteiden levittämistä, lipunmyyntiä yms."
       ]
     },
     {
@@ -21,9 +24,22 @@
       ]
     },
     {
-      "title": "Taidot",
+      "title": "Harrastustoiminta",
       "items": [
-        "Python"
+        "<b>Lapsukaisena pianon soittoa, partiota ja lukemista</b>",
+        "<b>Aikuisiällä musiikkia eri rooleissa, tietokoneen naputtelua, juoksua, joogaa ja muuta liikuntaa, lukemista, satunnaista kulttuuritoimintaa</b>"
+      ]
+    },
+    {
+      "title": "Saavutukset",
+      "items": [
+        "<b>Musiikin Maailman Mestaruus Kilpailun finalisti 2019 ja 2023</b>"
+      ]
+    },
+    {
+      "title": "Sanottua",
+      "items": [
+        "<b>Pyry, sinä olet hyvä ihminen</b><br>Perttu Häkkinen"
       ]
     }
   ]

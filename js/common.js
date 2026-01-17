@@ -16,7 +16,8 @@ function renderNavigation(activePage) {
                 <a href="cv.html" class="nav-button" ${activePage === 'cv' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>CV / Resume</a>
                 <a href="projects.html" class="nav-button" ${activePage === 'projects' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Projektit</a>
                 <a href="links.html" class="nav-button" ${activePage === 'links' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Linkit</a>
-                <a href="mailto:omamail@iki.fi" class="nav-button">Sähköposti</a>
+                <a href="guestbook.html" class="nav-button" ${activePage === 'guestbook' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Vieraskirja</a>
+                <a href="mailto:hallamaa@iki.fi" class="nav-button">Sähköposti</a>
                 
                 <br>
                 <hr width="80%">
@@ -81,6 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
         page = 'cv';
     } else if (path.includes('links.html')) {
         page = 'links';
+    } else if (path.includes('guestbook.html')) {
+        page = 'guestbook';
     }
 
     renderNavigation(page);
