@@ -4,11 +4,10 @@
 
 body {
     background-color: #c0c0c0;
-    /* Taustakuvio */
-    background-image: url('https://web.archive.org/web/20090830025316/http://geocities.com/clipart/pbi/backgrounds/Generic/MarbleGrey.gif');
-    /* Fallback jos kuva ei lataudu */
-    background-image: radial-gradient(circle, transparent 20%, #b0b0b0 20%, #b0b0b0 80%, transparent 80%, transparent);
-    background-size: 4px 4px;
+    /* VIITTAUS PAIKALLISEEN KUVAAN: */
+    background-image: url('../images/bg_main.gif');
+    /* Fallback, jos kuvaa ei ole: */
+    background-repeat: repeat;
     
     font-family: "Times New Roman", Times, serif;
     color: #000000;
@@ -44,7 +43,8 @@ td.sidebar {
 /* Pääsisältö */
 td.content {
     text-align: center;
-    background-image: url('https://web.archive.org/web/20090728033830/http://geocities.com/clipart/pbi/backgrounds/Generic/PaperWrinkle.gif');
+    /* VIITTAUS PAIKALLISEEN KUVAAN: */
+    background-image: url('../images/bg_paper.gif');
 }
 
 /* Otsikot */
