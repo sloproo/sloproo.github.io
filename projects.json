@@ -8,16 +8,23 @@
   },
   {
     "id": 2,
+    "name": "Stories of This City -kokoelma",
+    "description": "Gen untitled recordsin erinomaisen kiinnostava ja laaja kokoelma, jolla on kolme kappaletta minulta. Yksi omalla, kaksi Allsång på Skansen -nimellä.",
+    "image": "https://f4.bcbits.com/img/a4100018166_10.jpg",
+    "link": "https://genuntitledrecords.bandcamp.com/album/stories-of-this-city"
+  },
+  {
+    "id": 3,
+    "name": "Tumpelo Moose",
+    "description": "Vanha yhtye, jonka levyn uudelleenjulkaisussa olin mukana.",
+    "image": "https://f4.bcbits.com/img/a1549715709_10.jpg",
+    "link": "https://tumpelomoose.bandcamp.com/"
+  },
+  {
+    "id": 4,
     "name": "Sisyfoksen kivi",
     "description": "HC-punkyhtyes, jossa soitan.",
     "image": "https://f4.bcbits.com/img/0006202134_100.png",
     "link": "https://sisyfoksenkivi.bandcamp.com/"
-  },
-  {
-    "id": 3,
-    "name": "Stories of This City -kokoelma",
-    "description": "Gen untitled recordsin erinomaisen kiinnostava ja laaja kokoelma, jolla on kolme kappaletta minulta.",
-    "image": "https://f4.bcbits.com/img/a4100018166_10.jpg",
-    "link": "https://genuntitledrecords.bandcamp.com/album/stories-of-this-city"
   }
 ]
