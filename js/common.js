@@ -24,15 +24,21 @@ function renderNavigation(activePage) {
                 
                 <div style="font-size: 11px; margin-top: 10px;">
                     <b>Linkit:</b><br>
-                    <a href="https://github.com" target="_blank">[ GitHub ]</a><br>
-                    <a href="https://google.com" target="_blank">[ Google ]</a><br>
+                    <div style="margin-bottom: 8px; line-height: 1.2;">
+                        <a href="https://bandcamp.com" target="_blank"><b>[ Bandcamp ]</b></a><br>
+                        <span style="font-size: 10px; color: #333;">Monenlaista musiikkia</span>
+                    </div>
+                    <div style="margin-bottom: 8px; line-height: 1.2;">
+                        <a href="https://uusijuttu.fi" target="_blank"><b>[ Uusi Juttu ]</b></a><br>
+                        <span style="font-size: 10px; color: #333;">Hyvää journalismia, joskin vihaan uutiskooste Puuron väkinäisiä ja kielikorvan rikkovia puhekielisyyksiä.</span>
+                    </div>
                 </div>
                 
                 <br><br>
                 <div style="border: 1px solid #888; background: #fff; padding: 5px; font-size: 10px;">
                     <!-- KUVA SKAALATTU PIENEMMÄKSI (width: 88px) -->
-                    <img src="images/firefox.jpg" alt="Best viewed with Firefox" style="width: 88px; height: auto;"><br>
-                    Best viewed with<br>Firefox
+                    <a href="https://www.firefox.com/" target="_blank"><img src="images/firefox.jpg" alt="Best viewed with Firefox" style="width: 88px; height: auto; border: 0;"></a><br>
+                    Best viewed with<br><a href="https://www.firefox.com/" target="_blank">Firefox</a>
                 </div>
     `;
 
