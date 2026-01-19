@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         <table style="width: 100%; border: 0;">
                             <tr>
                                 ${link.image ? `
-                                <td style="width: 60px; vertical-align: top; padding-right: 15px;">
+                                <td style="width: 90px; vertical-align: top; padding-right: 15px;">
                                     <a href="${link.url}" target="_blank">
-                                        <img src="${link.image}" alt="${link.name}" style="width: 50px; height: auto; border: 1px solid #555;">
+                                        <img src="${link.image}" alt="${link.name}" style="width: 80px; height: auto; border: 1px solid #555;">
                                     </a>
                                 </td>
                                 ` : ''}
@@ -31,9 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
                                         <a href="${link.url}" target="_blank" style="text-decoration: underline;">${link.name}</a>
                                     </h3>
                                     <p style="margin: 0; font-size: 14px;">${link.description}</p>
-                                    <div style="margin-top: 5px;">
-                                        <a href="${link.url}" target="_blank" style="font-size: 11px; color: green;">[ Siirry sivulle ]</a>
-                                    </div>
                                 </td>
                             </tr>
                         </table>

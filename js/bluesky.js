@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            let html = '<ul style="list-style-type: none; padding-left: 0; font-size: 11px;">';
+            let html = '<ul style="list-style-type: none; padding-left: 0; font-size: 16px;">';
 
             postsToShow.forEach(item => {
                 const post = item.post;
