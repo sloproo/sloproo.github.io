@@ -22,17 +22,7 @@ function renderNavigation(activePage) {
                 <br>
                 <hr width="80%">
                 
-                <div style="font-size: 11px; margin-top: 10px;">
-                    <b>Linkit:</b><br>
-                    <div style="margin-bottom: 8px; line-height: 1.2;">
-                        <a href="https://bandcamp.com" target="_blank"><b>[ Bandcamp ]</b></a><br>
-                        <span style="font-size: 10px; color: #333;">Monenlaista musiikkia</span>
-                    </div>
-                    <div style="margin-bottom: 8px; line-height: 1.2;">
-                        <a href="https://uusijuttu.fi" target="_blank"><b>[ Uusi Juttu ]</b></a><br>
-                        <span style="font-size: 10px; color: #333;">Hyvää journalismia, joskin vihaan uutiskooste Puuron väkinäisiä ja kielikorvan rikkovia puhekielisyyksiä.</span>
-                    </div>
-                </div>
+
                 
                 <br><br>
                 <div style="border: 1px solid #888; background: #fff; padding: 5px; font-size: 10px;">

@@ -4,5 +4,23 @@
         "url": "https://adventofcode.com",
         "description": "Viime vuosien tärkein jouluperinteeni. Joulukalenteri, jossa on joka joulukuu päivä päivältä vaikeammaksi käyviä koodaustehtäviä.",
         "image": "https://adventofcode.com/favicon.png"
+    },
+    {
+        "name": "Uusi Juttu",
+        "url": "https://uusijuttu.fi",
+        "description": "Hyvää journalismia, joskin vihaan uutiskooste Puuron väkinäisiä ja kielikorvan rikkovia puhekielisyyksiä.",
+        "image": "https://www.google.com/s2/favicons?domain=uusijuttu.fi&sz=128"
+    },
+    {
+        "name": "Clues by Sam",
+        "url": "https://cluesbysam.com/",
+        "description": "Suosikkini netin päivittäispeleistä. Puhdasta loogista päättelyä, maanantaista sunnuntaihin vaikeutuvat tehtävät.",
+        "image": "https://em-content.zobj.net/source/apple/391/woman-detective_1f575-fe0f-200d-2640-fe0f.png"
+    },
+    {
+        "name": "Bandcamp",
+        "url": "https://bandcamp.com",
+        "description": "Monenlaista musiikkia",
+        "image": "https://www.google.com/s2/favicons?domain=bandcamp.com&sz=128"
     }
 ]

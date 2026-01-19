@@ -33,5 +33,26 @@
     "description": "Enemmän ja vähemmän julkaisukelpoisia koodausprojekteja viime vuosilta. Mukana mm. <a href=\"https://adventofcode.com\">Advent of Code</a> -koodauskalenterin ratkaisuni ja <a href=\"https://hallamaa.iki.fi/\">nämä sivut</a>.",
     "image": "https://github.com/fluidicon.png",
     "link": "https://github.com/sloproo/"
+  },
+  {
+    "id": 6,
+    "name": "Partaalla-lyhytelokuva",
+    "description": "Lyhytelokuva jonka tein Heikki S:n kanssa.",
+    "image": "https://i.vimeocdn.com/video/556552175-f6101cb9e84dfd5b86d007f12e8db5a2d9e394520f9441990c14bc4755c03210-d_640?region=us",
+    "link": "https://vimeo.com/155719055"
+  },
+  {
+    "id": 7,
+    "name": "Pyrhönen",
+    "description": "Taas yksi musiikkiprojektini. Melko staattista kamaa, sopii hyvin taustamusiikiksi.",
+    "image": "https://www.google.com/s2/favicons?domain=pyrhonen.bandcamp.com&sz=128",
+    "link": "https://pyrhonen.bandcamp.com/"
+  },
+  {
+    "id": 8,
+    "name": "Pyyhr",
+    "description": "Voi kuinka pieninä murusina onkaan mun musani maailmalla. Hyvin sekalaista.",
+    "image": "https://i1.sndcdn.com/avatars-000002561036-1uoou5-t500x500.jpg",
+    "link": "https://soundcloud.com/pyyhr"
   }
 ]
