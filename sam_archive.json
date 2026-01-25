@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-01-25",
+    "puzzle_id": "08feed17ec4e",
+    "difficulty": "Evil",
+    "flavor_text": "One criminal would play Samsweeper",
+    "share_url": "https://cluesbysam.com/s/help/08feed17ec4e",
+    "stats": {
+      "p1": 214162,
+      "p5": 322412,
+      "p10": 402910,
+      "p25": 583356,
+      "p50": 905180,
+      "perfect_rate": 0.08247188458480063
+    }
+  },
+  {
+    "date": "2026-01-24",
+    "puzzle_id": "72658673347c",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal believes in moral absolutism",
+    "share_url": "https://cluesbysam.com/s/help/72658673347c",
+    "stats": {
+      "p1": 208295,
+      "p5": 290656,
+      "p10": 345619,
+      "p25": 470809,
+      "p50": 677973,
+      "perfect_rate": 0.22633537873453374
+    }
+  },
+  {
+    "date": "2026-01-22",
+    "puzzle_id": "41dd2d5a699f",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal has taken distance to others",
+    "share_url": "https://cluesbysam.com/s/help/41dd2d5a699f",
+    "stats": {
+      "p1": 127071,
+      "p5": 186449,
+      "p10": 221027,
+      "p25": 295475,
+      "p50": 419618,
+      "perfect_rate": 0.38956533805113264
+    }
+  }
+]

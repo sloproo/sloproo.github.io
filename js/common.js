@@ -15,6 +15,7 @@ function renderNavigation(activePage) {
                 <a href="index.html" class="nav-button" ${activePage === 'index' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Etusivu</a>
                 <a href="cv.html" class="nav-button" ${activePage === 'cv' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>CV / Resume</a>
                 <a href="projects.html" class="nav-button" ${activePage === 'projects' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Projektit</a>
+                <a href="sam_archive.html" class="nav-button" ${activePage === 'sam_archive' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Sam-arkisto</a>
                 <a href="links.html" class="nav-button" ${activePage === 'links' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Linkit</a>
                 <a href="guestbook.html" class="nav-button" ${activePage === 'guestbook' ? 'style="background-color: #e0e0e0; border-style: inset;"' : ''}>Vieraskirja</a>
                 <a href="mailto:hallamaa@iki.fi" class="nav-button">Sähköposti</a>
@@ -78,6 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
         page = 'cv';
     } else if (path.includes('links.html')) {
         page = 'links';
+    } else if (path.includes('sam_archive.html')) {
+        page = 'sam_archive';
     } else if (path.includes('guestbook.html')) {
         page = 'guestbook';
     }
