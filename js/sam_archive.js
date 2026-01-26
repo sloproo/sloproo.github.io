@@ -154,7 +154,7 @@ function renderCalendar(data) {
 
 // Tooltip Logic
 let tooltipTimeout;
-const TOOLTIP_DELAY = 1500; // 1.5s
+const TOOLTIP_DELAY = 500; // 0.5s
 const tooltip = document.getElementById('hover-tooltip');
 
 function setupTooltip(element, data) {
