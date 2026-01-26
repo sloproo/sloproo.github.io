@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-01-26",
+    "puzzle_id": "b82635f9ef76",
+    "share_url": "https://cluesbysam.com/s/help/b82635f9ef76",
+    "stats": {
+      "p1": 81762,
+      "p5": 107290,
+      "p10": 124585,
+      "p25": 164092,
+      "p50": 232629,
+      "perfect_rate": 0.4599793708096957
+    }
+  },
+  {
     "date": "2026-01-25",
     "puzzle_id": "08feed17ec4e",
     "difficulty": "Evil",
