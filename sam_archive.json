@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-01-26",
+    "puzzle_id": "b82635f9ef76",
+    "share_url": "https://cluesbysam.com/s/help/b82635f9ef76",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is certain she is a criminal",
+    "stats": {
+      "p1": 83779,
+      "p5": 109065,
+      "p10": 126986,
+      "p25": 167035,
+      "p50": 237070,
+      "perfect_rate": 0.44955542382928276
+    }
+  },
+  {
     "date": "2026-01-25",
     "puzzle_id": "08feed17ec4e",
     "difficulty": "Evil",
