@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('sam_archive.json')
         .then(response => response.json())
         .then(data => {
-            renderCalendar(data);
+            renderPage(data);
         })
         .catch(err => console.error('Error loading archive:', err));
 });
@@ -15,62 +15,76 @@ const MONTH_NAMES = [
 
 const WEEKDAYS = ['Ma', 'Ti', 'Ke', 'To', 'Pe', 'La', 'Su'];
 
-function renderCalendar(data) {
-    const container = document.getElementById('calendar-container');
-    container.innerHTML = '';
-
-    // Create a map for quick lookup
-    const puzzleMap = new Map();
+function renderPage(data) {
+    // Group puzzles by date
+    const puzzleGroups = new Map();
     let minDate = new Date();
     let maxDate = new Date(0);
 
     data.forEach(item => {
-        puzzleMap.set(item.date, item);
-        const parts = item.date.split('-');
-        const d = new Date(parts[0], parts[1] - 1, parts[2]);
-        if (d < minDate) minDate = d;
-        if (d > maxDate) maxDate = d;
+        if (!puzzleGroups.has(item.date)) {
+            puzzleGroups.set(item.date, []);
+        }
+        puzzleGroups.get(item.date).push(item);
+
+        // Skip fallback date for min/max calculation of calendar
+        if (item.date !== '2025-01-01') {
+            const parts = item.date.split('-');
+            const d = new Date(parts[0], parts[1] - 1, parts[2]);
+            if (d < minDate) minDate = d;
+            if (d > maxDate) maxDate = d;
+        }
     });
 
-    if (data.length === 0) {
+    renderCalendar(puzzleGroups, minDate, maxDate);
+    renderExtraPuzzles(puzzleGroups);
+}
+
+function getPrimaryPuzzle(puzzles) {
+    if (!puzzles || puzzles.length === 0) return null;
+    // Prefer one with stats
+    const withStats = puzzles.filter(p => p.stats);
+    if (withStats.length > 0) return withStats[0];
+    return puzzles[0];
+}
+
+function renderCalendar(puzzleGroups, minDate, maxDate) {
+    const container = document.getElementById('calendar-container');
+    container.innerHTML = '';
+
+    if (puzzleGroups.size === 0) {
         container.innerHTML = 'Ei dataa.';
         return;
     }
-
-    // Determine start and end year/month
-    // We want to show from the earliest year to the latest year (or user said "grows downwards", usually implies chronological)
-    // But commonly latest is at bottom? Or top?
-    // "Näkymä kasvaa arkiston kasvaessa alaspäin" -> New content at bottom?
-    // Let's assume Chronological: 2024 -> 2025 -> 2026.
 
     const startYear = minDate.getFullYear();
     const endYear = maxDate.getFullYear();
 
     for (let year = startYear; year <= endYear; year++) {
-        // Year Header
-        const yearHeader = document.createElement('div');
-        yearHeader.className = 'year-header';
-        yearHeader.textContent = year;
-        container.appendChild(yearHeader);
+        const yearMonths = [];
 
-        const monthsContainer = document.createElement('div');
-        monthsContainer.className = 'months-container';
-        container.appendChild(monthsContainer);
-
-        // For each month 0-11
         for (let month = 0; month < 12; month++) {
-            // Check if we have any data for this month/year combo
-            // Or should we just render all months?
-            // Usually nice to just render all months for a complete year view
-            // OR only render months within the minDate-maxDate range.
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const monthStart = new Date(year, month, 1);
+            const monthEnd = new Date(year, month, daysInMonth);
 
-            const currentMonthDate = new Date(year, month, 1);
-            const nextMonthDate = new Date(year, month + 1, 1);
+            if (monthEnd < minDate || monthStart > maxDate) continue;
 
-            // Check if this month is within range (roughly)
-            // Actually, showing full years is probably cleaner visually
+            // Check if month has any puzzles (excluding solo fallback 2025-01-01)
+            let monthHasPuzzles = false;
+            for (let d = 1; d <= daysInMonth; d++) {
+                const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+                const p = puzzleGroups.get(dateStr);
+                if (p && p.length > 0) {
+                    // If it's 2025-01-01, it only counts if it's NOT the grouped fallback one we skip in calendar
+                    if (dateStr === '2025-01-01' && p.length > 1) continue;
+                    monthHasPuzzles = true;
+                    break;
+                }
+            }
 
-            // Render Month
+            if (!monthHasPuzzles) continue;
+
             const monthBlock = document.createElement('div');
             monthBlock.className = 'month-block';
 
@@ -82,7 +96,6 @@ function renderCalendar(data) {
             const grid = document.createElement('div');
             grid.className = 'calendar-grid';
 
-            // Headers
             WEEKDAYS.forEach(day => {
                 const dh = document.createElement('div');
                 dh.className = 'day-header';
@@ -90,77 +103,134 @@ function renderCalendar(data) {
                 grid.appendChild(dh);
             });
 
-            // Days
-            // Get day of week of 1st day (0=Sun, 1=Mon...6=Sat)
-            // We want Mon=0, Sun=6
-            let firstDay = new Date(year, month, 1).getDay(); // 0 is Sunday
-            // Convert to Mon=0..Sun=6
-            // Su(0) -> 6
-            // Ma(1) -> 0
-            // ...
+            let firstDay = new Date(year, month, 1).getDay();
             firstDay = (firstDay === 0) ? 6 : firstDay - 1;
 
-            const daysInMonth = new Date(year, month + 1, 0).getDate();
-
-            // Empty cells before 1st
             for (let i = 0; i < firstDay; i++) {
                 const empty = document.createElement('div');
                 empty.className = 'day-cell empty';
                 grid.appendChild(empty);
             }
 
-            // Fill days
-            let hasData = false;
             for (let d = 1; d <= daysInMonth; d++) {
                 const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 
-                const dayCell = document.createElement('div');
-                dayCell.className = 'day-cell';
-                dayCell.textContent = d;
-
-                const puzzle = puzzleMap.get(dateStr);
-                if (puzzle) {
-                    hasData = true;
-                    dayCell.classList.add('has-puzzle');
-                    dayCell.dataset.json = JSON.stringify(puzzle);
-
-                    // Click handler
-                    dayCell.addEventListener('click', () => {
-                        window.open(puzzle.share_url, '_blank');
-                    });
-
-                    // Hover events for tooltip
-                    setupTooltip(dayCell, puzzle);
+                // Special case: skip fallback date in calendar if it's the artificial one
+                if (dateStr === '2025-01-01' && (puzzleGroups.get(dateStr)?.length || 0) > 1) {
+                    const empty = document.createElement('div');
+                    empty.className = 'day-cell empty';
+                    empty.textContent = d;
+                    grid.appendChild(empty);
+                    continue;
                 }
 
+                const puzzles = puzzleGroups.get(dateStr);
+                let dayCell;
+
+                if (puzzles && puzzles.length > 0) {
+                    const primary = getPrimaryPuzzle(puzzles);
+                    dayCell = document.createElement('a');
+                    dayCell.className = 'day-cell has-puzzle';
+                    dayCell.href = primary.share_url;
+                    dayCell.target = '_blank';
+
+                    if (puzzles.length > 1) {
+                        const count = document.createElement('span');
+                        count.style.fontSize = '8px';
+                        count.style.position = 'absolute';
+                        count.style.bottom = '1px';
+                        count.style.right = '2px';
+                        count.textContent = `x${puzzles.length}`;
+                        dayCell.style.position = 'relative';
+                        dayCell.appendChild(count);
+                    }
+
+                    setupTooltip(dayCell, puzzles);
+                } else {
+                    dayCell = document.createElement('div');
+                    dayCell.className = 'day-cell';
+                }
+
+                const num = document.createTextNode(d);
+                dayCell.appendChild(num);
                 grid.appendChild(dayCell);
             }
 
             monthBlock.appendChild(grid);
+            yearMonths.push(monthBlock);
+        }
 
-            // Only append month if it's within the valid range of data?
-            // E.g. don't show Jan 2024 if data starts Dec 2024.
-            // Check if month is >= minDate's month/year AND <= maxDate's month/year
-            const monthStart = new Date(year, month, 1);
-            const monthEnd = new Date(year, month, daysInMonth);
+        if (yearMonths.length > 0) {
+            const yearHeader = document.createElement('div');
+            yearHeader.className = 'year-header';
+            yearHeader.textContent = year;
+            container.appendChild(yearHeader);
 
-            // We can loosen this if we want full years
-            if (monthEnd >= minDate && monthStart <= maxDate) {
-                monthsContainer.appendChild(monthBlock);
-            }
+            const monthsContainer = document.createElement('div');
+            monthsContainer.className = 'months-container';
+            yearMonths.forEach(m => monthsContainer.appendChild(m));
+            container.appendChild(monthsContainer);
         }
     }
 }
 
+function renderExtraPuzzles(puzzleGroups) {
+    const section = document.getElementById('extra-puzzles-section');
+    const container = document.getElementById('extra-puzzles-container');
+    container.innerHTML = '';
+
+    const extraDates = Array.from(puzzleGroups.keys()).filter(date => {
+        return date === '2025-01-01' || puzzleGroups.get(date).length > 1;
+    }).sort((a, b) => b.localeCompare(a)); // Newest first
+
+    if (extraDates.length === 0) {
+        section.style.display = 'none';
+        return;
+    }
+
+    section.style.display = 'block';
+
+    extraDates.forEach(date => {
+        const puzzles = puzzleGroups.get(date);
+        const groupDiv = document.createElement('div');
+        groupDiv.style.marginBottom = '10px';
+        groupDiv.style.textAlign = 'left';
+
+        const dateParts = date.split('-');
+        const dateFormatted = date === '2025-01-01' ? 'Tuntematon pvm' : `${dateParts[2]}.${dateParts[1]}.${dateParts[0]}`;
+
+        puzzles.forEach((p, index) => {
+            const link = document.createElement('a');
+            link.href = p.share_url;
+            link.target = '_blank';
+            link.className = 'nav-button'; // Reuse existing site style
+            link.style.display = 'inline-block';
+            link.style.width = 'auto';
+            link.style.margin = '2px 5px';
+            link.style.padding = '3px 8px';
+
+            const name = puzzles.length > 1 ? `${dateFormatted} #${index + 1}` : dateFormatted;
+            link.textContent = name;
+
+            // Re-setup tooltip for these links too
+            setupTooltip(link, [p]);
+
+            groupDiv.appendChild(link);
+        });
+
+        container.appendChild(groupDiv);
+    });
+}
+
 // Tooltip Logic
 let tooltipTimeout;
-const TOOLTIP_DELAY = 500; // 0.5s
+const TOOLTIP_DELAY = 500;
 const tooltip = document.getElementById('hover-tooltip');
 
-function setupTooltip(element, data) {
-    element.addEventListener('mouseenter', (e) => {
+function setupTooltip(element, puzzles) {
+    element.addEventListener('mouseenter', () => {
         tooltipTimeout = setTimeout(() => {
-            showTooltip(e, data);
+            showTooltip(element, puzzles);
         }, TOOLTIP_DELAY);
     });
 
@@ -170,49 +240,56 @@ function setupTooltip(element, data) {
     });
 }
 
-function showTooltip(e, data) {
+function formatTime(ms) {
+    if (!ms) return '-';
+    const s = ms / 1000;
+    if (s < 60) return s.toFixed(1) + 's';
+    const m = Math.floor(s / 60);
+    const remS = (s % 60).toFixed(0);
+    return `${m}m ${remS}s`;
+}
+
+function showTooltip(element, puzzles) {
     if (!tooltip) return;
 
-    // Build content
-    const stats = data.stats || {};
-    const perfectRate = stats.perfect_rate ? (stats.perfect_rate * 100).toFixed(1) + '%' : 'N/A';
+    let html = '';
+    puzzles.forEach((data, index) => {
+        if (index > 0) html += '<hr style="border: 0; border-top: 2px solid #000; margin: 10px 0;">';
 
-    // Format times (ms) to something readable? e.g. "1m 30s" or "12.5s"
-    const formatTime = (ms) => {
-        if (!ms) return '-';
-        const s = ms / 1000;
-        if (s < 60) return s.toFixed(1) + 's';
-        const m = Math.floor(s / 60);
-        const remS = (s % 60).toFixed(0);
-        return `${m}m ${remS}s`;
-    };
+        let statsHtml = '';
+        if (data.stats) {
+            const stats = data.stats;
+            const perfectRate = stats.perfect_rate ? (stats.perfect_rate * 100).toFixed(1) + '%' : 'N/A';
+            statsHtml = `
+                <hr style="margin: 5px 0;">
+                <div class="stat-row"><span>Top 1%:</span> <span>${formatTime(stats.p1)}</span></div>
+                <div class="stat-row"><span>Top 5%:</span> <span>${formatTime(stats.p5)}</span></div>
+                <div class="stat-row"><span>Top 10%:</span> <span>${formatTime(stats.p10)}</span></div>
+                <div class="stat-row"><span>Top 25%:</span> <span>${formatTime(stats.p25)}</span></div>
+                <div class="stat-row"><span>Top 50%:</span> <span>${formatTime(stats.p50)}</span></div>
+                <div class="stat-row" style="margin-top:5px; border-top:1px dashed #ccc;">
+                    <span>Erehtymättömät:</span> <span>${perfectRate}</span>
+                </div>
+            `;
+        }
 
-    let html = `
-        <h4>${data.date}</h4>
-        <b>${data.difficulty}</b><br>
-        <i>${data.flavor_text || ''}</i>
-        <hr style="margin: 5px 0;">
-        <div class="stat-row"><span>Top 1%:</span> <span>${formatTime(stats.p1)}</span></div>
-        <div class="stat-row"><span>Top 5%:</span> <span>${formatTime(stats.p5)}</span></div>
-        <div class="stat-row"><span>Top 10%:</span> <span>${formatTime(stats.p10)}</span></div>
-        <div class="stat-row"><span>Top 25%:</span> <span>${formatTime(stats.p25)}</span></div>
-        <div class="stat-row"><span>Top 50%:</span> <span>${formatTime(stats.p50)}</span></div>
-        <div class="stat-row" style="margin-top:5px; border-top:1px dashed #ccc;">
-            <span>Erehtymättömät:</span> <span>${perfectRate}</span>
-        </div>
-    `;
+        html += `
+            <div style="${puzzles.length > 1 ? 'padding: 5px; background: rgba(0,0,0,0.05);' : ''}">
+                <h4>${data.date}${puzzles.length > 1 ? ` (#${index + 1})` : ''}</h4>
+                <b>${data.difficulty || 'Vaikeustaso ei tiedossa'}</b><br>
+                ${data.flavor_text ? `<i>${data.flavor_text}</i>` : ''}
+                ${statsHtml}
+            </div>
+        `;
+    });
 
     tooltip.innerHTML = html;
     tooltip.style.display = 'block';
 
-    // Position
-    const rect = e.target.getBoundingClientRect();
-    // Position above or below?
-    // Let's position relative to viewport
-    tooltip.style.left = (window.scrollX + rect.left + 20) + 'px';
-    tooltip.style.top = (window.scrollY + rect.top + 20) + 'px';
+    const rect = element.getBoundingClientRect();
+    tooltip.style.left = (window.scrollX + rect.left + 25) + 'px';
+    tooltip.style.top = (window.scrollY + rect.top + 25) + 'px';
 
-    // Show with opacity transition
     requestAnimationFrame(() => {
         tooltip.classList.add('visible');
     });
@@ -221,7 +298,5 @@ function showTooltip(e, data) {
 function hideTooltip() {
     if (!tooltip) return;
     tooltip.classList.remove('visible');
-    // Hide display:none after transition
-    // But opacity handles the visual part
     tooltip.style.display = 'none';
 }
