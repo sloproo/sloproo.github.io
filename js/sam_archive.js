@@ -114,24 +114,24 @@ function renderCalendar(data) {
             for (let d = 1; d <= daysInMonth; d++) {
                 const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 
-                const dayCell = document.createElement('div');
-                dayCell.className = 'day-cell';
-                dayCell.textContent = d;
-
                 const puzzle = puzzleMap.get(dateStr);
+                let dayCell;
+
                 if (puzzle) {
                     hasData = true;
-                    dayCell.classList.add('has-puzzle');
-                    dayCell.dataset.json = JSON.stringify(puzzle);
-
-                    // Click handler
-                    dayCell.addEventListener('click', () => {
-                        window.open(puzzle.share_url, '_blank');
-                    });
+                    dayCell = document.createElement('a');
+                    dayCell.className = 'day-cell has-puzzle';
+                    dayCell.href = puzzle.share_url;
+                    dayCell.target = '_blank';
 
                     // Hover events for tooltip
                     setupTooltip(dayCell, puzzle);
+                } else {
+                    dayCell = document.createElement('div');
+                    dayCell.className = 'day-cell';
                 }
+
+                dayCell.textContent = d;
 
                 grid.appendChild(dayCell);
             }
