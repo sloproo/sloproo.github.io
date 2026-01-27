@@ -60,10 +60,10 @@ function renderCalendar(puzzleGroups, minDate, maxDate) {
     const startYear = minDate.getFullYear();
     const endYear = maxDate.getFullYear();
 
-    for (let year = startYear; year <= endYear; year++) {
+    for (let year = endYear; year >= startYear; year--) {
         const yearMonths = [];
 
-        for (let month = 0; month < 12; month++) {
+        for (let month = 11; month >= 0; month--) {
             const daysInMonth = new Date(year, month + 1, 0).getDate();
             const monthStart = new Date(year, month, 1);
             const monthEnd = new Date(year, month, daysInMonth);
