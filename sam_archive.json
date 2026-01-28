@@ -650,115 +650,6 @@
     "share_url": "https://cluesbysam.com/s/help/2025-04-25"
   },
   {
-    "date": "2025-01-01",
-    "puzzle_id": "ef11ddf0423e",
-    "share_url": "https://cluesbysam.com/s/help/ef11ddf0423e"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "dc4d7b598bb5",
-    "share_url": "https://cluesbysam.com/s/help/dc4d7b598bb5"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "d0a404cb4b44",
-    "share_url": "https://cluesbysam.com/s/help/d0a404cb4b44"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "ac0fcab9c5e7",
-    "share_url": "https://cluesbysam.com/s/help/ac0fcab9c5e7"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "9f8069d0e07b",
-    "difficulty": "Hard",
-    "share_url": "https://cluesbysam.com/s/help/9f8069d0e07b"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "95fb1caa8f21",
-    "share_url": "https://cluesbysam.com/s/help/95fb1caa8f21"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "8bc6eb8ee0d3",
-    "difficulty": "Medium",
-    "share_url": "https://cluesbysam.com/s/help/8bc6eb8ee0d3"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "8b0a8809f1c7",
-    "share_url": "https://cluesbysam.com/s/help/8b0a8809f1c7"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "50a0dd4cef98",
-    "share_url": "https://cluesbysam.com/s/help/50a0dd4cef98"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "49693df212da",
-    "share_url": "https://cluesbysam.com/s/help/49693df212da"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "45e7d2e1fbce",
-    "share_url": "https://cluesbysam.com/s/help/45e7d2e1fbce"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "40f9906dd86c",
-    "share_url": "https://cluesbysam.com/s/help/40f9906dd86c"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "2025-05-31",
-    "share_url": "https://cluesbysam.com/s/help/2025-05-31"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "2025-05-26",
-    "share_url": "https://cluesbysam.com/s/help/2025-05-26"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "2020-07-28",
-    "share_url": "https://cluesbysam.com/s/help/2020-07-28"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "2020-07-20",
-    "share_url": "https://cluesbysam.com/s/help/2020-07-20"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "2020-06-29",
-    "share_url": "https://cluesbysam.com/s/help/2020-06-29"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "2020-06-06",
-    "share_url": "https://cluesbysam.com/s/help/2020-06-06"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "173e7ae2396f",
-    "share_url": "https://cluesbysam.com/s/help/173e7ae2396f"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "162954995328",
-    "difficulty": "Easy",
-    "flavor_text": "The criminal in front of me might be speeding",
-    "share_url": "https://cluesbysam.com/s/help/162954995328"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "08d7806daeff",
-    "share_url": "https://cluesbysam.com/s/help/08d7806daeff"
-  },
-  {
     "date": "2020-08-27",
     "puzzle_id": "5c0ade8149be",
     "share_url": "https://cluesbysam.com/s/help/5c0ade8149be"
@@ -822,5 +713,31 @@
     "date": "2020-06-06",
     "puzzle_id": "0d9ec47b3a34",
     "share_url": "https://cluesbysam.com/s/help/0d9ec47b3a34"
+  },
+  {
+    "puzzle_id": "ef11ddf0423e",
+    "share_url": "https://cluesbysam.com/s/help/ef11ddf0423e",
+    "puzzle_pack": 2,
+    "puzzle_number": 16
+  },
+  {
+    "puzzle_id": "9f8069d0e07b",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/9f8069d0e07b",
+    "puzzle_pack": 1,
+    "puzzle_number": 38
+  },
+  {
+    "puzzle_id": "8bc6eb8ee0d3",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/8bc6eb8ee0d3",
+    "puzzle_pack": 1,
+    "puzzle_number": 18
+  },
+  {
+    "puzzle_id": "08d7806daeff",
+    "share_url": "https://cluesbysam.com/s/help/08d7806daeff",
+    "puzzle_pack": 2,
+    "puzzle_number": 37
   }
 ]
