@@ -114,9 +114,14 @@
     border-radius: 50%;
 }
 
-#extra-puzzles-container .nav-button {
+#extra-puzzles-container .nav-button,
+.archive-button {
     font-family: monospace;
     font-size: 11px;
+    display: inline-block;
+    width: auto;
+    margin: 2px 5px;
+    padding: 3px 8px;
 }
 
 #hover-tooltip {

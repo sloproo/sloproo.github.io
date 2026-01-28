@@ -16,28 +16,37 @@ const MONTH_NAMES = [
 const WEEKDAYS = ['Ma', 'Ti', 'Ke', 'To', 'Pe', 'La', 'Su'];
 
 function renderPage(data) {
-    // Group puzzles by date
+    // Group puzzles by date and puzzle packs
     const puzzleGroups = new Map();
+    const puzzlePacks = new Map(); // Map<number, Puzzle[]>
+
     let minDate = new Date();
     let maxDate = new Date(0);
 
     data.forEach(item => {
-        if (!puzzleGroups.has(item.date)) {
-            puzzleGroups.set(item.date, []);
-        }
-        puzzleGroups.get(item.date).push(item);
+        if (item.puzzle_pack != null) {
+            if (!puzzlePacks.has(item.puzzle_pack)) {
+                puzzlePacks.set(item.puzzle_pack, []);
+            }
+            puzzlePacks.get(item.puzzle_pack).push(item);
+        } else if (item.date) {
+            if (!puzzleGroups.has(item.date)) {
+                puzzleGroups.set(item.date, []);
+            }
+            puzzleGroups.get(item.date).push(item);
 
-        // Skip fallback date for min/max calculation of calendar
-        if (item.date !== '2025-01-01') {
-            const parts = item.date.split('-');
-            const d = new Date(parts[0], parts[1] - 1, parts[2]);
-            if (d < minDate) minDate = d;
-            if (d > maxDate) maxDate = d;
+            // Skip fallback date for min/max calculation of calendar
+            if (item.date !== '2025-01-01') {
+                const parts = item.date.split('-');
+                const d = new Date(parts[0], parts[1] - 1, parts[2]);
+                if (d < minDate) minDate = d;
+                if (d > maxDate) maxDate = d;
+            }
         }
     });
 
     renderCalendar(puzzleGroups, minDate, maxDate);
-    renderExtraPuzzles(puzzleGroups);
+    renderExtraPuzzles(puzzleGroups, puzzlePacks);
 }
 
 function getPrimaryPuzzle(puzzles) {
@@ -174,7 +183,7 @@ function renderCalendar(puzzleGroups, minDate, maxDate) {
     }
 }
 
-function renderExtraPuzzles(puzzleGroups) {
+function renderExtraPuzzles(puzzleGroups, puzzlePacks) {
     const section = document.getElementById('extra-puzzles-section');
     const container = document.getElementById('extra-puzzles-container');
     container.innerHTML = '';
@@ -183,43 +192,75 @@ function renderExtraPuzzles(puzzleGroups) {
         return date === '2025-01-01' || puzzleGroups.get(date).length > 1;
     }).sort((a, b) => b.localeCompare(a)); // Newest first
 
-    if (extraDates.length === 0) {
+    if (extraDates.length === 0 && puzzlePacks.size === 0) {
         section.style.display = 'none';
         return;
     }
 
     section.style.display = 'block';
 
-    extraDates.forEach(date => {
-        const puzzles = puzzleGroups.get(date);
-        const groupDiv = document.createElement('div');
-        groupDiv.style.marginBottom = '10px';
-        groupDiv.style.textAlign = 'left';
+    // 1. Render Extra Dated Puzzles
+    if (extraDates.length > 0) {
+        extraDates.forEach(date => {
+            const puzzles = puzzleGroups.get(date);
+            const groupDiv = document.createElement('div');
+            groupDiv.style.marginBottom = '10px';
+            groupDiv.style.textAlign = 'left';
 
-        const dateParts = date.split('-');
-        const dateFormatted = date === '2025-01-01' ? 'Tuntematon pvm' : `${dateParts[2]}.${dateParts[1]}.${dateParts[0]}`;
+            const dateParts = date.split('-');
+            const dateFormatted = date === '2025-01-01' ? 'Tuntematon pvm' : `${dateParts[2]}.${dateParts[1]}.${dateParts[0]}`;
 
-        puzzles.forEach((p, index) => {
-            const link = document.createElement('a');
-            link.href = p.share_url;
-            link.target = '_blank';
-            link.className = 'nav-button'; // Reuse existing site style
-            link.style.display = 'inline-block';
-            link.style.width = 'auto';
-            link.style.margin = '2px 5px';
-            link.style.padding = '3px 8px';
+            puzzles.forEach((p, index) => {
+                const link = document.createElement('a');
+                link.href = p.share_url;
+                link.target = '_blank';
+                link.className = 'nav-button archive-button';
 
-            const name = puzzles.length > 1 ? `${dateFormatted} #${index + 1}` : dateFormatted;
-            link.textContent = name;
+                const name = puzzles.length > 1 ? `${dateFormatted} #${index + 1}` : dateFormatted;
+                link.textContent = name;
 
-            // Re-setup tooltip for these links too
-            setupTooltip(link, [p]);
-
-            groupDiv.appendChild(link);
+                setupTooltip(link, [p]);
+                groupDiv.appendChild(link);
+            });
+            container.appendChild(groupDiv);
         });
+    }
 
-        container.appendChild(groupDiv);
-    });
+    // 2. Render Puzzle Packs
+    if (puzzlePacks.size > 0) {
+        // Sort packs (e.g., Pack 1, Pack 2...)
+        const sortedPacks = Array.from(puzzlePacks.keys()).sort((a, b) => a - b);
+
+        sortedPacks.forEach(packNum => {
+            const packHeader = document.createElement('h3');
+            packHeader.style.fontSize = '16px';
+            packHeader.style.marginTop = '15px';
+            packHeader.style.marginBottom = '5px';
+            packHeader.textContent = `Puzzle Pack #${packNum}`;
+            container.appendChild(packHeader);
+
+            const packDiv = document.createElement('div');
+            packDiv.style.marginBottom = '10px';
+            packDiv.style.textAlign = 'left';
+
+            const puzzles = puzzlePacks.get(packNum);
+            // Sort by puzzle_number within pack if available
+            puzzles.sort((a, b) => (a.puzzle_number || 0) - (b.puzzle_number || 0));
+
+            puzzles.forEach(p => {
+                const link = document.createElement('a');
+                link.href = p.share_url;
+                link.target = '_blank';
+                link.className = 'nav-button archive-button';
+
+                link.textContent = p.puzzle_number ? `Tehtävä #${p.puzzle_number}` : 'Tehtävä';
+
+                setupTooltip(link, [p]);
+                packDiv.appendChild(link);
+            });
+            container.appendChild(packDiv);
+        });
+    }
 }
 
 // Tooltip Logic
@@ -273,9 +314,15 @@ function showTooltip(element, puzzles) {
             `;
         }
 
+        let title = data.date || '';
+        if (!title && data.puzzle_pack != null) {
+            title = `Puzzle Pack #${data.puzzle_pack}`;
+            if (data.puzzle_number != null) title += ` Tehtävä #${data.puzzle_number}`;
+        }
+
         html += `
             <div style="${puzzles.length > 1 ? 'padding: 5px; background: rgba(0,0,0,0.05);' : ''}">
-                <h4>${data.date}${puzzles.length > 1 ? ` (#${index + 1})` : ''}</h4>
+                <h4>${title}${puzzles.length > 1 && data.date ? ` (#${index + 1})` : ''}</h4>
                 <b>${data.difficulty || 'Vaikeustaso ei tiedossa'}</b><br>
                 ${data.flavor_text ? `<i>${data.flavor_text}</i>` : ''}
                 ${statsHtml}
