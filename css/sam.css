@@ -102,6 +102,23 @@
     background: #ddd;
 }
 
+/* Multiple puzzles indicator */
+.day-cell.multiple::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 4px;
+    height: 4px;
+    background: #000080;
+    border-radius: 50%;
+}
+
+#extra-puzzles-container .nav-button {
+    font-family: monospace;
+    font-size: 11px;
+}
+
 #hover-tooltip {
     position: absolute;
     background: #ffffcc;
@@ -114,7 +131,7 @@
     z-index: 1000;
     pointer-events: none;
     /* Let clicks pass through if covered */
-    max-width: 250px;
+    max-width: 300px;
     text-align: left;
 
     /* Transition for visibility/opacity */
