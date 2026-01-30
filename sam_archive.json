@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-01-30",
+    "puzzle_id": "80f3961cbe7a",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal likes 90s action movies",
+    "share_url": "https://cluesbysam.com/s/help/80f3961cbe7a",
+    "stats": {
+      "p1": 146468,
+      "p5": 191203,
+      "p10": 220462,
+      "p25": 288453,
+      "p50": 400959,
+      "perfect_rate": 0.4885247913598429
+    }
+  },
+  {
     "date": "2026-01-29",
     "puzzle_id": "2f01e7949523",
     "difficulty": "Tricky",
