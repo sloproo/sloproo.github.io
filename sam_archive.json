@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-01",
+    "puzzle_id": "0d03089b06ed",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is overpaying for a car",
+    "share_url": "https://cluesbysam.com/s/help/0d03089b06ed",
+    "stats": {
+      "p1": 203855,
+      "p5": 278176,
+      "p10": 326868,
+      "p25": 442927,
+      "p50": 628386,
+      "perfect_rate": 0.27564123193769513
+    }
+  },
+  {
     "date": "2026-01-31",
     "puzzle_id": "6be87b967633",
     "difficulty": "Hard",
