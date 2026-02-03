@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-02",
+    "puzzle_id": "97bc1d4791fd",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal has a great hunch",
+    "share_url": "https://cluesbysam.com/s/help/97bc1d4791fd",
+    "stats": {
+      "p1": 75594,
+      "p5": 98457,
+      "p10": 113921,
+      "p25": 147914,
+      "p50": 205175,
+      "perfect_rate": 0.45479110860472766
+    }
+  },
+  {
     "date": "2026-02-01",
     "puzzle_id": "0d03089b06ed",
     "difficulty": "Hard",
