@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-03",
+    "puzzle_id": "e3f23640d8dc",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is like an onion",
+    "share_url": "https://cluesbysam.com/s/help/e3f23640d8dc",
+    "stats": {
+      "p1": 100576,
+      "p5": 131064,
+      "p10": 152568,
+      "p25": 201722,
+      "p50": 284246,
+      "perfect_rate": 0.422514033680834
+    }
+  },
+  {
     "date": "2026-02-02",
     "puzzle_id": "97bc1d4791fd",
     "difficulty": "Easy",
