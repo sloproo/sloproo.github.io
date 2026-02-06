@@ -577,6 +577,24 @@
     "share_url": "https://cluesbysam.com/s/help/95a745eb930a"
   },
   {
+    "date": "2025-09-29",
+    "puzzle_id": "2b3e2497cb93",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/2b3e2497cb93"
+  },
+  {
+    "date": "2025-09-29",
+    "puzzle_id": "179b02b09638",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/179b02b09638"
+  },
+  {
+    "date": "2025-09-29",
+    "puzzle_id": "0cf47a07fe08",
+    "difficulty": "Super Evil",
+    "share_url": "https://cluesbysam.com/s/help/0cf47a07fe08"
+  },
+  {
     "date": "2025-09-28",
     "puzzle_id": "08cab97f0fdb",
     "difficulty": "Evil",
@@ -619,6 +637,24 @@
     "share_url": "https://cluesbysam.com/s/help/cc45923fd05d"
   },
   {
+    "date": "2025-09-22",
+    "puzzle_id": "3b5fb791f8e6",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/3b5fb791f8e6"
+  },
+  {
+    "date": "2025-09-22",
+    "puzzle_id": "276b40a30062",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/276b40a30062"
+  },
+  {
+    "date": "2025-09-22",
+    "puzzle_id": "20e7ef113c10",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/20e7ef113c10"
+  },
+  {
     "date": "2025-09-21",
     "puzzle_id": "5a202dc4eb32",
     "difficulty": "Evil",
@@ -659,6 +695,30 @@
     "difficulty": "Medium",
     "flavor_text": "One criminal has a mullet",
     "share_url": "https://cluesbysam.com/s/help/441a5b6472bf"
+  },
+  {
+    "date": "2025-09-15",
+    "puzzle_id": "d9ba32e1b3cb",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/d9ba32e1b3cb"
+  },
+  {
+    "date": "2025-09-15",
+    "puzzle_id": "47535aec2bdf",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/47535aec2bdf"
+  },
+  {
+    "date": "2025-09-15",
+    "puzzle_id": "42785cf891f8",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/42785cf891f8"
+  },
+  {
+    "date": "2025-09-15",
+    "puzzle_id": "30a49ce082e3",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/30a49ce082e3"
   },
   {
     "date": "2025-09-15",
@@ -708,6 +768,36 @@
     "difficulty": "Medium",
     "flavor_text": "All innocents are longing for summer",
     "share_url": "https://cluesbysam.com/s/help/091d70eacdfd"
+  },
+  {
+    "date": "2025-09-08",
+    "puzzle_id": "93306c54f605",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/93306c54f605"
+  },
+  {
+    "date": "2025-09-08",
+    "puzzle_id": "8d71de575af8",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/8d71de575af8"
+  },
+  {
+    "date": "2025-09-08",
+    "puzzle_id": "8a4704d2b2d4",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/8a4704d2b2d4"
+  },
+  {
+    "date": "2025-09-08",
+    "puzzle_id": "7f38de464f7a",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/7f38de464f7a"
+  },
+  {
+    "date": "2025-09-08",
+    "puzzle_id": "76de37871c6e",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/76de37871c6e"
   },
   {
     "date": "2025-09-08",
@@ -1150,6 +1240,12 @@
     "share_url": "https://cluesbysam.com/s/help/1a5b873cd0ca"
   },
   {
+    "date": "2025-07-01",
+    "puzzle_id": "0d092fa4533a",
+    "flavor_text": "I saw the art thief speeding that way!",
+    "share_url": "https://cluesbysam.com/s/help/0d092fa4533a"
+  },
+  {
     "date": "2025-06-29",
     "puzzle_id": "1e11ff10595f",
     "flavor_text": "The criminal above me called someone",
@@ -1391,50 +1487,119 @@
     "share_url": "https://cluesbysam.com/s/help/2025-04-25"
   },
   {
-    "date": "2025-07-01",
-    "puzzle_id": "0d092fa4533a",
-    "flavor_text": "I saw the art thief speeding that way!",
-    "share_url": "https://cluesbysam.com/s/help/0d092fa4533a"
+    "date": "2025-01-01",
+    "puzzle_id": "c0d1c3b16323",
+    "share_url": "https://cluesbysam.com/s/help/c0d1c3b16323"
   },
   {
-    "date": "2020-08-27",
-    "puzzle_id": "5c0ade8149be",
-    "share_url": "https://cluesbysam.com/s/help/5c0ade8149be"
+    "date": "2025-01-01",
+    "puzzle_id": "ac0fcab9c5e7",
+    "share_url": "https://cluesbysam.com/s/help/ac0fcab9c5e7"
   },
   {
-    "date": "2020-08-03",
+    "date": "2025-01-01",
+    "puzzle_id": "a947b3609006",
+    "share_url": "https://cluesbysam.com/s/help/a947b3609006"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "982261263e88",
+    "share_url": "https://cluesbysam.com/s/help/982261263e88"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "8faf28bd283d",
+    "share_url": "https://cluesbysam.com/s/help/8faf28bd283d"
+  },
+  {
+    "date": "2025-01-01",
     "puzzle_id": "8d9719c8dbd6",
     "share_url": "https://cluesbysam.com/s/help/8d9719c8dbd6"
   },
   {
-    "date": "2020-08-02",
-    "puzzle_id": "5d00f32eb69c",
-    "share_url": "https://cluesbysam.com/s/help/5d00f32eb69c"
-  },
-  {
-    "date": "2020-08-01",
+    "date": "2025-01-01",
     "puzzle_id": "74d989b10cff",
     "share_url": "https://cluesbysam.com/s/help/74d989b10cff"
   },
   {
-    "date": "2020-07-31",
-    "puzzle_id": "47e494c5ac7a",
-    "share_url": "https://cluesbysam.com/s/help/47e494c5ac7a"
+    "date": "2025-01-01",
+    "puzzle_id": "72fd1570b51a",
+    "share_url": "https://cluesbysam.com/s/help/72fd1570b51a"
   },
   {
-    "date": "2020-07-29",
+    "date": "2025-01-01",
+    "puzzle_id": "5d00f32eb69c",
+    "share_url": "https://cluesbysam.com/s/help/5d00f32eb69c"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "5c0ade8149be",
+    "share_url": "https://cluesbysam.com/s/help/5c0ade8149be"
+  },
+  {
+    "date": "2025-01-01",
     "puzzle_id": "4e9f0da7b8ae",
     "share_url": "https://cluesbysam.com/s/help/4e9f0da7b8ae"
   },
   {
-    "date": "2020-07-28",
+    "date": "2025-01-01",
+    "puzzle_id": "4e8f6f0f6e0f",
+    "share_url": "https://cluesbysam.com/s/help/4e8f6f0f6e0f"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "49693df212da",
+    "share_url": "https://cluesbysam.com/s/help/49693df212da"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "47e494c5ac7a",
+    "share_url": "https://cluesbysam.com/s/help/47e494c5ac7a"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "45e7d2e1fbce",
+    "share_url": "https://cluesbysam.com/s/help/45e7d2e1fbce"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "40f9906dd86c",
+    "share_url": "https://cluesbysam.com/s/help/40f9906dd86c"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "265d1b03d3a2",
+    "share_url": "https://cluesbysam.com/s/help/265d1b03d3a2"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "16d3ea80b8f6",
+    "share_url": "https://cluesbysam.com/s/help/16d3ea80b8f6"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "161cddab486f",
+    "share_url": "https://cluesbysam.com/s/help/161cddab486f"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "137bd28ad492",
+    "share_url": "https://cluesbysam.com/s/help/137bd28ad492"
+  },
+  {
+    "date": "2025-01-01",
+    "puzzle_id": "0f83229e2937",
+    "share_url": "https://cluesbysam.com/s/help/0f83229e2937"
+  },
+  {
+    "date": "2025-01-01",
     "puzzle_id": "04ca9487cc93",
     "share_url": "https://cluesbysam.com/s/help/04ca9487cc93"
   },
   {
-    "date": "2020-07-22",
-    "puzzle_id": "0f83229e2937",
-    "share_url": "https://cluesbysam.com/s/help/0f83229e2937"
+    "date": "2025-01-01",
+    "puzzle_id": "024c78900771",
+    "share_url": "https://cluesbysam.com/s/help/024c78900771"
   },
   {
     "date": "2020-07-20",
@@ -1455,6 +1620,11 @@
     "date": "2020-06-12",
     "puzzle_id": "b161a9e709e2",
     "share_url": "https://cluesbysam.com/s/help/b161a9e709e2"
+  },
+  {
+    "date": "2020-06-08",
+    "puzzle_id": "da879b8359d5",
+    "share_url": "https://cluesbysam.com/s/help/da879b8359d5"
   },
   {
     "date": "2020-06-06",
