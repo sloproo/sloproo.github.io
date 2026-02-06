@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-05",
+    "puzzle_id": "a3dc0d40384d",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal wants a new beginning",
+    "share_url": "https://cluesbysam.com/s/help/a3dc0d40384d",
+    "stats": {
+      "p1": 151925,
+      "p5": 203929,
+      "p10": 239031,
+      "p25": 321945,
+      "p50": 458087,
+      "perfect_rate": 0.33771529599635
+    }
+  },
+  {
     "date": "2026-02-04",
     "puzzle_id": "798a12bae192",
     "difficulty": "Medium",
