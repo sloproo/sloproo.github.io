@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-07",
+    "puzzle_id": "b254ea7c89c4",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is more nefarious than she looks",
+    "share_url": "https://cluesbysam.com/s/help/b254ea7c89c4",
+    "stats": {
+      "p1": 173287,
+      "p5": 234774,
+      "p10": 280041,
+      "p25": 379554,
+      "p50": 550474,
+      "perfect_rate": 0.3681281780677348
+    }
+  },
+  {
     "date": "2026-02-06",
     "puzzle_id": "ee75de2710b5",
     "difficulty": "Tricky",
