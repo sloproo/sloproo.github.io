@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-09",
+    "puzzle_id": "432137b5980e",
+    "difficulty": "Easy",
+    "flavor_text": "All criminals feel beaten",
+    "share_url": "https://cluesbysam.com/s/help/432137b5980e",
+    "stats": {
+      "p1": 91059,
+      "p5": 114054,
+      "p10": 129724,
+      "p25": 164478,
+      "p50": 223092,
+      "perfect_rate": 0.459579260111175
+    }
+  },
+  {
     "date": "2026-02-08",
     "puzzle_id": "6f3e400c1d18",
     "difficulty": "Hard",
