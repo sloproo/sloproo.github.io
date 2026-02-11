@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-10",
+    "puzzle_id": "f21180445f94",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is insanely good at hiding",
+    "share_url": "https://cluesbysam.com/s/help/f21180445f94",
+    "stats": {
+      "p1": 89953,
+      "p5": 113819,
+      "p10": 129413,
+      "p25": 163618,
+      "p50": 218736,
+      "perfect_rate": 0.3565934330080285
+    }
+  },
+  {
     "date": "2026-02-09",
     "puzzle_id": "432137b5980e",
     "difficulty": "Easy",
