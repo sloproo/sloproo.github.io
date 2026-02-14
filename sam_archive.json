@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-13",
+    "puzzle_id": "f66e8687224d",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is more immature than the others",
+    "share_url": "https://cluesbysam.com/s/help/f66e8687224d",
+    "stats": {
+      "p1": 162702,
+      "p5": 222829,
+      "p10": 263698,
+      "p25": 355720,
+      "p50": 506759,
+      "perfect_rate": 0.403363412633306
+    }
+  },
+  {
     "date": "2026-02-12",
     "puzzle_id": "89afdde2f855",
     "difficulty": "Tricky",
