@@ -1,5 +1,21 @@
 [
   {
+<<<<<<< HEAD
+    "date": "2026-02-14",
+    "puzzle_id": "4547b827af7a",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent is taking hide 'n seek to new heights",
+    "share_url": "https://cluesbysam.com/s/help/4547b827af7a",
+    "stats": {
+      "p1": 234432,
+      "p5": 324112,
+      "p10": 380237,
+      "p25": 507447,
+      "p50": 711760,
+      "perfect_rate": 0.3124128312412831
+    }
+  },
+  {
     "date": "2026-02-13",
     "puzzle_id": "f66e8687224d",
     "difficulty": "Tricky",
@@ -103,6 +119,30 @@
       "p50": 550474,
       "perfect_rate": 0.3681281780677348
     }
+=======
+    "date": "2026-02-09",
+    "puzzle_id": "fe7de959768c",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/fe7de959768c"
+  },
+  {
+    "date": "2026-02-09",
+    "puzzle_id": "879da349c27d",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/879da349c27d"
+  },
+  {
+    "date": "2026-02-09",
+    "puzzle_id": "6787173da87d",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/6787173da87d"
+  },
+  {
+    "date": "2026-02-09",
+    "puzzle_id": "327a79cc5a8c",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/327a79cc5a8c"
+>>>>>>> refs/remotes/origin/master
   },
   {
     "date": "2026-02-06",
@@ -166,6 +206,24 @@
   },
   {
     "date": "2026-02-02",
+    "puzzle_id": "e7373cf55c90",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/e7373cf55c90"
+  },
+  {
+    "date": "2026-02-02",
+    "puzzle_id": "dd0a4616a658",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/dd0a4616a658"
+  },
+  {
+    "date": "2026-02-02",
+    "puzzle_id": "d9b7f6418e96",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/d9b7f6418e96"
+  },
+  {
+    "date": "2026-02-02",
     "puzzle_id": "97bc1d4791fd",
     "difficulty": "Easy",
     "flavor_text": "One criminal has a great hunch",
@@ -178,6 +236,12 @@
       "p50": 205175,
       "perfect_rate": 0.45479110860472766
     }
+  },
+  {
+    "date": "2026-02-02",
+    "puzzle_id": "917949351aac",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/917949351aac"
   },
   {
     "date": "2026-02-01",
@@ -271,6 +335,12 @@
   },
   {
     "date": "2026-01-26",
+    "puzzle_id": "b97de6242547",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/b97de6242547"
+  },
+  {
+    "date": "2026-01-26",
     "puzzle_id": "b82635f9ef76",
     "share_url": "https://cluesbysam.com/s/help/b82635f9ef76",
     "difficulty": "Easy",
@@ -283,6 +353,18 @@
       "p50": 236450,
       "perfect_rate": 0.4504879317201505
     }
+  },
+  {
+    "date": "2026-01-26",
+    "puzzle_id": "6170a457eed5",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/6170a457eed5"
+  },
+  {
+    "date": "2026-01-26",
+    "puzzle_id": "42ef48c3ba76",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/42ef48c3ba76"
   },
   {
     "date": "2026-01-25",
@@ -315,6 +397,13 @@
     }
   },
   {
+    "date": "2026-01-23",
+    "puzzle_id": "f4f9221ca131",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal always misclicks",
+    "share_url": "https://cluesbysam.com/s/help/f4f9221ca131"
+  },
+  {
     "date": "2026-01-22",
     "puzzle_id": "41dd2d5a699f",
     "difficulty": "Tricky",
@@ -337,10 +426,35 @@
     "share_url": "https://cluesbysam.com/s/help/da77e005726c"
   },
   {
+    "date": "2026-01-20",
+    "puzzle_id": "1c479aac06e7",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal borrows a lot of pens",
+    "share_url": "https://cluesbysam.com/s/help/1c479aac06e7"
+  },
+  {
+    "date": "2026-01-19",
+    "puzzle_id": "7d0ab357ee30",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/7d0ab357ee30"
+  },
+  {
+    "date": "2026-01-19",
+    "puzzle_id": "773dfa1bb9b2",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/773dfa1bb9b2"
+  },
+  {
     "date": "2026-01-19",
     "puzzle_id": "5fb1fcef6082",
     "share_url": "https://cluesbysam.com/s/help/5fb1fcef6082",
     "difficulty": "Hard"
+  },
+  {
+    "date": "2026-01-19",
+    "puzzle_id": "11c8ca003794",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/11c8ca003794"
   },
   {
     "date": "2026-01-18",
@@ -362,6 +476,20 @@
     "difficulty": "Tricky",
     "flavor_text": "One innocent doesn't like to brag",
     "share_url": "https://cluesbysam.com/s/help/dcda9c372cbc"
+  },
+  {
+    "date": "2026-01-15",
+    "puzzle_id": "c02abebbc2d6",
+    "difficulty": "Tricky",
+    "flavor_text": "Criminals share 60% of their DNA with a banana",
+    "share_url": "https://cluesbysam.com/s/help/c02abebbc2d6"
+  },
+  {
+    "date": "2026-01-14",
+    "puzzle_id": "b5ef7c23bc40",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal has never stepped inside a prison",
+    "share_url": "https://cluesbysam.com/s/help/b5ef7c23bc40"
   },
   {
     "date": "2026-01-13",
