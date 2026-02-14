@@ -76,6 +76,24 @@
   },
   {
     "date": "2026-02-09",
+    "puzzle_id": "fe7de959768c",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/fe7de959768c"
+  },
+  {
+    "date": "2026-02-09",
+    "puzzle_id": "879da349c27d",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/879da349c27d"
+  },
+  {
+    "date": "2026-02-09",
+    "puzzle_id": "6787173da87d",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/6787173da87d"
+  },
+  {
+    "date": "2026-02-09",
     "puzzle_id": "432137b5980e",
     "difficulty": "Easy",
     "flavor_text": "All criminals feel beaten",
@@ -88,6 +106,12 @@
       "p50": 223092,
       "perfect_rate": 0.459579260111175
     }
+  },
+  {
+    "date": "2026-02-09",
+    "puzzle_id": "327a79cc5a8c",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/327a79cc5a8c"
   },
   {
     "date": "2026-02-08",
@@ -118,30 +142,6 @@
       "p50": 550474,
       "perfect_rate": 0.3681281780677348
     }
-  },
-  {
-    "date": "2026-02-09",
-    "puzzle_id": "fe7de959768c",
-    "difficulty": "Tricky",
-    "share_url": "https://cluesbysam.com/s/help/fe7de959768c"
-  },
-  {
-    "date": "2026-02-09",
-    "puzzle_id": "879da349c27d",
-    "difficulty": "Tricky",
-    "share_url": "https://cluesbysam.com/s/help/879da349c27d"
-  },
-  {
-    "date": "2026-02-09",
-    "puzzle_id": "6787173da87d",
-    "difficulty": "Evil",
-    "share_url": "https://cluesbysam.com/s/help/6787173da87d"
-  },
-  {
-    "date": "2026-02-09",
-    "puzzle_id": "327a79cc5a8c",
-    "difficulty": "Medium",
-    "share_url": "https://cluesbysam.com/s/help/327a79cc5a8c"
   },
   {
     "date": "2026-02-06",
@@ -442,6 +442,13 @@
     "puzzle_id": "773dfa1bb9b2",
     "difficulty": "Medium",
     "share_url": "https://cluesbysam.com/s/help/773dfa1bb9b2"
+  },
+  {
+    "date": "2026-01-19",
+    "puzzle_id": "6e07c9f022fe",
+    "difficulty": "Easy",
+    "flavor_text": "All criminals had a leisure weekend",
+    "share_url": "https://cluesbysam.com/s/help/6e07c9f022fe"
   },
   {
     "date": "2026-01-19",
