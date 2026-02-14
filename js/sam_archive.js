@@ -45,6 +45,23 @@ function renderPage(data) {
         }
     });
 
+    // Sort puzzles within each date group (Primary: Flavor Text, Secondary: Stats)
+    puzzleGroups.forEach((puzzles) => {
+        puzzles.sort((a, b) => {
+            const aHasFlavor = !!a.flavor_text;
+            const bHasFlavor = !!b.flavor_text;
+            if (aHasFlavor && !bHasFlavor) return -1;
+            if (!aHasFlavor && bHasFlavor) return 1;
+
+            const aHasStats = !!a.stats;
+            const bHasStats = !!b.stats;
+            if (aHasStats && !bHasStats) return -1;
+            if (!aHasStats && bHasStats) return 1;
+
+            return 0;
+        });
+    });
+
     renderCalendar(puzzleGroups, minDate, maxDate);
     renderExtraPuzzles(puzzleGroups, puzzlePacks);
 }
