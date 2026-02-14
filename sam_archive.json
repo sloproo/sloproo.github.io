@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< HEAD
     "date": "2026-02-14",
     "puzzle_id": "4547b827af7a",
     "difficulty": "Hard",
@@ -119,7 +118,6 @@
       "p50": 550474,
       "perfect_rate": 0.3681281780677348
     }
-=======
     "date": "2026-02-09",
     "puzzle_id": "fe7de959768c",
     "difficulty": "Tricky",
@@ -142,7 +140,6 @@
     "puzzle_id": "327a79cc5a8c",
     "difficulty": "Medium",
     "share_url": "https://cluesbysam.com/s/help/327a79cc5a8c"
->>>>>>> refs/remotes/origin/master
   },
   {
     "date": "2026-02-06",
