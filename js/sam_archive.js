@@ -317,7 +317,9 @@ function showTooltip(element, puzzles) {
         let statsHtml = '';
         if (data.stats) {
             const stats = data.stats;
-            const perfectRate = stats.perfect_rate ? (stats.perfect_rate * 100).toFixed(1) + '%' : 'N/A';
+            const perfectRate = stats.perfect_rate ? (stats.perfect_rate * 100).toFixed(1) + '%' : null;
+            const noHintRate = stats.no_hint_rate ? (stats.no_hint_rate * 100).toFixed(1) + '%' : null;
+
             statsHtml = `
                 <hr style="margin: 5px 0;">
                 <div class="stat-row"><span>Top 1%:</span> <span>${formatTime(stats.p1)}</span></div>
@@ -325,9 +327,11 @@ function showTooltip(element, puzzles) {
                 <div class="stat-row"><span>Top 10%:</span> <span>${formatTime(stats.p10)}</span></div>
                 <div class="stat-row"><span>Top 25%:</span> <span>${formatTime(stats.p25)}</span></div>
                 <div class="stat-row"><span>Top 50%:</span> <span>${formatTime(stats.p50)}</span></div>
+                ${stats.p75 ? `<div class="stat-row"><span>Top 75%:</span> <span>${formatTime(stats.p75)}</span></div>` : ''}
                 <div class="stat-row" style="margin-top:5px; border-top:1px dashed #ccc;">
-                    <span>Erehtymättömät:</span> <span>${perfectRate}</span>
+                    <span>Tyylipuhtaat:</span> <span>${perfectRate || 'N/A'}</span>
                 </div>
+                ${noHintRate ? `<div class="stat-row"><span>Ilman vihjeitä:</span> <span>${noHintRate}</span></div>` : ''}
             `;
         }
 
