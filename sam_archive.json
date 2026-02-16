@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-02-16",
+    "puzzle_id": "76e6de72c3da",
+    "difficulty": "Evil",
+    "flavor_text": "One innocent is too gullible",
+    "share_url": "https://cluesbysam.com/s/help/76e6de72c3da",
+    "stats": {
+      "p1": 256446,
+      "p5": 353538,
+      "p10": 418014,
+      "p25": 556254,
+      "p50": 778071,
+      "perfect_rate": 0.25259515570934254
+    }
+  },
+  {
     "date": "2026-02-14",
     "puzzle_id": "4547b827af7a",
     "difficulty": "Hard",
