@@ -1,10 +1,25 @@
 [
   {
     "date": "2026-02-16",
+    "puzzle_id": "3a90070e2453",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent needs to buy a vowel",
+    "share_url": "https://cluesbysam.com/s/archive/3a90070e2453",
+    "stats": {
+      "p1": 79474,
+      "p5": 100167,
+      "p10": 114079,
+      "p25": 146852,
+      "p50": 199376,
+      "perfect_rate": 0.5325426019067637
+    }
+  },
+  {
+    "date": "2026-02-15",
     "puzzle_id": "76e6de72c3da",
     "difficulty": "Evil",
     "flavor_text": "One innocent is too gullible",
-    "share_url": "https://cluesbysam.com/s/help/76e6de72c3da",
+    "share_url": "https://cluesbysam.com/s/archive/76e6de72c3da",
     "stats": {
       "p1": 256446,
       "p5": 353538,
@@ -19,7 +34,7 @@
     "puzzle_id": "4547b827af7a",
     "difficulty": "Hard",
     "flavor_text": "One innocent is taking hide 'n seek to new heights",
-    "share_url": "https://cluesbysam.com/s/help/4547b827af7a",
+    "share_url": "https://cluesbysam.com/s/archive/4547b827af7a",
     "stats": {
       "p1": 239754,
       "p5": 331324,
@@ -34,7 +49,7 @@
     "puzzle_id": "f66e8687224d",
     "difficulty": "Tricky",
     "flavor_text": "One innocent is more immature than the others",
-    "share_url": "https://cluesbysam.com/s/help/f66e8687224d",
+    "share_url": "https://cluesbysam.com/s/archive/f66e8687224d",
     "stats": {
       "p1": 162702,
       "p5": 222829,
@@ -49,7 +64,7 @@
     "puzzle_id": "89afdde2f855",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is at least trying to be helpful",
-    "share_url": "https://cluesbysam.com/s/help/89afdde2f855",
+    "share_url": "https://cluesbysam.com/s/archive/89afdde2f855",
     "stats": {
       "p1": 135982,
       "p5": 175475,
@@ -64,7 +79,7 @@
     "puzzle_id": "6690c763c8d3",
     "difficulty": "Medium",
     "flavor_text": "One innocent needs a notebook to remember",
-    "share_url": "https://cluesbysam.com/s/help/6690c763c8d3",
+    "share_url": "https://cluesbysam.com/s/archive/6690c763c8d3",
     "stats": {
       "p1": 134410,
       "p5": 179529,
@@ -79,7 +94,7 @@
     "puzzle_id": "f21180445f94",
     "difficulty": "Medium",
     "flavor_text": "One criminal is insanely good at hiding",
-    "share_url": "https://cluesbysam.com/s/help/f21180445f94",
+    "share_url": "https://cluesbysam.com/s/archive/f21180445f94",
     "stats": {
       "p1": 89953,
       "p5": 113819,
@@ -112,7 +127,7 @@
     "puzzle_id": "432137b5980e",
     "difficulty": "Easy",
     "flavor_text": "All criminals feel beaten",
-    "share_url": "https://cluesbysam.com/s/help/432137b5980e",
+    "share_url": "https://cluesbysam.com/s/archive/432137b5980e",
     "stats": {
       "p1": 91059,
       "p5": 114054,
@@ -133,7 +148,7 @@
     "puzzle_id": "6f3e400c1d18",
     "difficulty": "Hard",
     "flavor_text": "One criminal is practically Mary Poppins",
-    "share_url": "https://cluesbysam.com/s/help/6f3e400c1d18",
+    "share_url": "https://cluesbysam.com/s/archive/6f3e400c1d18",
     "stats": {
       "p1": 247126,
       "p5": 339717,
@@ -148,7 +163,7 @@
     "puzzle_id": "b254ea7c89c4",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is more nefarious than she looks",
-    "share_url": "https://cluesbysam.com/s/help/b254ea7c89c4",
+    "share_url": "https://cluesbysam.com/s/archive/b254ea7c89c4",
     "stats": {
       "p1": 173287,
       "p5": 234774,
@@ -163,7 +178,7 @@
     "puzzle_id": "ee75de2710b5",
     "difficulty": "Tricky",
     "flavor_text": "One criminal parks a lot",
-    "share_url": "https://cluesbysam.com/s/help/ee75de2710b5",
+    "share_url": "https://cluesbysam.com/s/archive/ee75de2710b5",
     "stats": {
       "p1": 144795,
       "p5": 201674,
@@ -178,7 +193,7 @@
     "puzzle_id": "a3dc0d40384d",
     "difficulty": "Tricky",
     "flavor_text": "One criminal wants a new beginning",
-    "share_url": "https://cluesbysam.com/s/help/a3dc0d40384d",
+    "share_url": "https://cluesbysam.com/s/archive/a3dc0d40384d",
     "stats": {
       "p1": 151925,
       "p5": 203929,
@@ -193,7 +208,7 @@
     "puzzle_id": "798a12bae192",
     "difficulty": "Medium",
     "flavor_text": "One criminal is putting away his durian fruit",
-    "share_url": "https://cluesbysam.com/s/help/798a12bae192",
+    "share_url": "https://cluesbysam.com/s/archive/798a12bae192",
     "stats": {
       "p1": 105135,
       "p5": 136833,
@@ -208,7 +223,7 @@
     "puzzle_id": "e3f23640d8dc",
     "difficulty": "Easy",
     "flavor_text": "One criminal is like an onion",
-    "share_url": "https://cluesbysam.com/s/help/e3f23640d8dc",
+    "share_url": "https://cluesbysam.com/s/archive/e3f23640d8dc",
     "stats": {
       "p1": 100576,
       "p5": 131064,
@@ -241,7 +256,7 @@
     "puzzle_id": "97bc1d4791fd",
     "difficulty": "Easy",
     "flavor_text": "One criminal has a great hunch",
-    "share_url": "https://cluesbysam.com/s/help/97bc1d4791fd",
+    "share_url": "https://cluesbysam.com/s/archive/97bc1d4791fd",
     "stats": {
       "p1": 75594,
       "p5": 98457,
@@ -262,7 +277,7 @@
     "puzzle_id": "0d03089b06ed",
     "difficulty": "Hard",
     "flavor_text": "One criminal is overpaying for a car",
-    "share_url": "https://cluesbysam.com/s/help/0d03089b06ed",
+    "share_url": "https://cluesbysam.com/s/archive/0d03089b06ed",
     "stats": {
       "p1": 203855,
       "p5": 278176,
@@ -277,7 +292,7 @@
     "puzzle_id": "6be87b967633",
     "difficulty": "Hard",
     "flavor_text": "One criminal is prone to influences",
-    "share_url": "https://cluesbysam.com/s/help/6be87b967633",
+    "share_url": "https://cluesbysam.com/s/archive/6be87b967633",
     "stats": {
       "p1": 184899,
       "p5": 252156,
@@ -292,7 +307,7 @@
     "puzzle_id": "80f3961cbe7a",
     "difficulty": "Tricky",
     "flavor_text": "One criminal likes 90s action movies",
-    "share_url": "https://cluesbysam.com/s/help/80f3961cbe7a",
+    "share_url": "https://cluesbysam.com/s/archive/80f3961cbe7a",
     "stats": {
       "p1": 149455,
       "p5": 197047,
@@ -307,7 +322,7 @@
     "puzzle_id": "2f01e7949523",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is dreaming of becoming a cook",
-    "share_url": "https://cluesbysam.com/s/help/2f01e7949523",
+    "share_url": "https://cluesbysam.com/s/archive/2f01e7949523",
     "stats": {
       "p1": 153015,
       "p5": 197383,
@@ -322,7 +337,7 @@
     "puzzle_id": "0b6bcc8bfe36",
     "difficulty": "Tricky",
     "flavor_text": "One innocent is hiding unnecessarily well",
-    "share_url": "https://cluesbysam.com/s/help/0b6bcc8bfe36",
+    "share_url": "https://cluesbysam.com/s/archive/0b6bcc8bfe36",
     "stats": {
       "p1": 146544,
       "p5": 197678,
@@ -337,7 +352,7 @@
     "puzzle_id": "79d5e4bbb266",
     "difficulty": "Medium",
     "flavor_text": "One criminal wants to be taken seriously",
-    "share_url": "https://cluesbysam.com/s/help/79d5e4bbb266",
+    "share_url": "https://cluesbysam.com/s/archive/79d5e4bbb266",
     "stats": {
       "p1": 120960,
       "p5": 154603,
@@ -356,7 +371,7 @@
   {
     "date": "2026-01-26",
     "puzzle_id": "b82635f9ef76",
-    "share_url": "https://cluesbysam.com/s/help/b82635f9ef76",
+    "share_url": "https://cluesbysam.com/s/archive/b82635f9ef76",
     "difficulty": "Easy",
     "flavor_text": "One criminal is certain she is a criminal",
     "stats": {
@@ -385,7 +400,7 @@
     "puzzle_id": "08feed17ec4e",
     "difficulty": "Evil",
     "flavor_text": "One criminal would play Samsweeper",
-    "share_url": "https://cluesbysam.com/s/help/08feed17ec4e",
+    "share_url": "https://cluesbysam.com/s/archive/08feed17ec4e",
     "stats": {
       "p1": 214162,
       "p5": 322412,
@@ -400,7 +415,7 @@
     "puzzle_id": "72658673347c",
     "difficulty": "Hard",
     "flavor_text": "One criminal believes in moral absolutism",
-    "share_url": "https://cluesbysam.com/s/help/72658673347c",
+    "share_url": "https://cluesbysam.com/s/archive/72658673347c",
     "stats": {
       "p1": 208295,
       "p5": 290656,
@@ -415,14 +430,14 @@
     "puzzle_id": "f4f9221ca131",
     "difficulty": "Tricky",
     "flavor_text": "One criminal always misclicks",
-    "share_url": "https://cluesbysam.com/s/help/f4f9221ca131"
+    "share_url": "https://cluesbysam.com/s/archive/f4f9221ca131"
   },
   {
     "date": "2026-01-22",
     "puzzle_id": "41dd2d5a699f",
     "difficulty": "Tricky",
     "flavor_text": "One criminal has taken distance to others",
-    "share_url": "https://cluesbysam.com/s/help/41dd2d5a699f",
+    "share_url": "https://cluesbysam.com/s/archive/41dd2d5a699f",
     "stats": {
       "p1": 127071,
       "p5": 186449,
@@ -437,14 +452,14 @@
     "puzzle_id": "da77e005726c",
     "difficulty": "Medium",
     "flavor_text": "One criminal crossed the road to get to the other side",
-    "share_url": "https://cluesbysam.com/s/help/da77e005726c"
+    "share_url": "https://cluesbysam.com/s/archive/da77e005726c"
   },
   {
     "date": "2026-01-20",
     "puzzle_id": "1c479aac06e7",
     "difficulty": "Medium",
     "flavor_text": "One criminal borrows a lot of pens",
-    "share_url": "https://cluesbysam.com/s/help/1c479aac06e7"
+    "share_url": "https://cluesbysam.com/s/archive/1c479aac06e7"
   },
   {
     "date": "2026-01-19",
@@ -463,7 +478,7 @@
     "puzzle_id": "6e07c9f022fe",
     "difficulty": "Easy",
     "flavor_text": "All criminals had a leisure weekend",
-    "share_url": "https://cluesbysam.com/s/help/6e07c9f022fe"
+    "share_url": "https://cluesbysam.com/s/archive/6e07c9f022fe"
   },
   {
     "date": "2026-01-19",
@@ -482,42 +497,42 @@
     "puzzle_id": "e01d5d9e723c",
     "difficulty": "Hard",
     "flavor_text": "One criminal doesn't have any standards",
-    "share_url": "https://cluesbysam.com/s/help/e01d5d9e723c"
+    "share_url": "https://cluesbysam.com/s/archive/e01d5d9e723c"
   },
   {
     "date": "2026-01-17",
     "puzzle_id": "47ee39574404",
     "difficulty": "Hard",
     "flavor_text": "One criminal runs in a lot of meetings",
-    "share_url": "https://cluesbysam.com/s/help/47ee39574404"
+    "share_url": "https://cluesbysam.com/s/archive/47ee39574404"
   },
   {
     "date": "2026-01-16",
     "puzzle_id": "dcda9c372cbc",
     "difficulty": "Tricky",
     "flavor_text": "One innocent doesn't like to brag",
-    "share_url": "https://cluesbysam.com/s/help/dcda9c372cbc"
+    "share_url": "https://cluesbysam.com/s/archive/dcda9c372cbc"
   },
   {
     "date": "2026-01-15",
     "puzzle_id": "c02abebbc2d6",
     "difficulty": "Tricky",
     "flavor_text": "Criminals share 60% of their DNA with a banana",
-    "share_url": "https://cluesbysam.com/s/help/c02abebbc2d6"
+    "share_url": "https://cluesbysam.com/s/archive/c02abebbc2d6"
   },
   {
     "date": "2026-01-14",
     "puzzle_id": "b5ef7c23bc40",
     "difficulty": "Tricky",
     "flavor_text": "One criminal has never stepped inside a prison",
-    "share_url": "https://cluesbysam.com/s/help/b5ef7c23bc40"
+    "share_url": "https://cluesbysam.com/s/archive/b5ef7c23bc40"
   },
   {
     "date": "2026-01-13",
     "puzzle_id": "5c9194fe0759",
     "difficulty": "Medium",
     "flavor_text": "One innocent looks like an emoji, but is he one?",
-    "share_url": "https://cluesbysam.com/s/help/5c9194fe0759"
+    "share_url": "https://cluesbysam.com/s/archive/5c9194fe0759"
   },
   {
     "date": "2026-01-12",
@@ -530,7 +545,7 @@
     "puzzle_id": "5e6c7d8fb6f5",
     "difficulty": "Easy",
     "flavor_text": "One #innocent is a total #bore. #JustSaying.",
-    "share_url": "https://cluesbysam.com/s/help/5e6c7d8fb6f5"
+    "share_url": "https://cluesbysam.com/s/archive/5e6c7d8fb6f5"
   },
   {
     "date": "2026-01-12",
@@ -543,49 +558,49 @@
     "puzzle_id": "4db68e51b522",
     "difficulty": "Hard",
     "flavor_text": "The criminals don't find thinking relaxing",
-    "share_url": "https://cluesbysam.com/s/help/4db68e51b522"
+    "share_url": "https://cluesbysam.com/s/archive/4db68e51b522"
   },
   {
     "date": "2026-01-10",
     "puzzle_id": "ea3f0ca7cf74",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is content with his name.",
-    "share_url": "https://cluesbysam.com/s/help/ea3f0ca7cf74"
+    "share_url": "https://cluesbysam.com/s/archive/ea3f0ca7cf74"
   },
   {
     "date": "2026-01-09",
     "puzzle_id": "a64ac617e04e",
     "difficulty": "Tricky",
     "flavor_text": "One criminal doesn't think much of his clue",
-    "share_url": "https://cluesbysam.com/s/help/a64ac617e04e"
+    "share_url": "https://cluesbysam.com/s/archive/a64ac617e04e"
   },
   {
     "date": "2026-01-08",
     "puzzle_id": "1438bfac684b",
     "difficulty": "Tricky",
     "flavor_text": "One innocent loses her phone frequently",
-    "share_url": "https://cluesbysam.com/s/help/1438bfac684b"
+    "share_url": "https://cluesbysam.com/s/archive/1438bfac684b"
   },
   {
     "date": "2026-01-07",
     "puzzle_id": "01c315cae125",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is living too central",
-    "share_url": "https://cluesbysam.com/s/help/01c315cae125"
+    "share_url": "https://cluesbysam.com/s/archive/01c315cae125"
   },
   {
     "date": "2026-01-04",
     "puzzle_id": "18c8b4eb4137",
     "difficulty": "Hard",
     "flavor_text": "One pug is not neighboring a cinnamon roll",
-    "share_url": "https://cluesbysam.com/s/help/18c8b4eb4137"
+    "share_url": "https://cluesbysam.com/s/archive/18c8b4eb4137"
   },
   {
     "date": "2026-01-03",
     "puzzle_id": "4941d32678b7",
     "difficulty": "Hard",
     "flavor_text": "One innocent judges criminals by their cover",
-    "share_url": "https://cluesbysam.com/s/help/4941d32678b7"
+    "share_url": "https://cluesbysam.com/s/archive/4941d32678b7"
   },
   {
     "date": "2025-12-29",
@@ -598,237 +613,237 @@
     "puzzle_id": "b123cc595475",
     "difficulty": "Easy",
     "flavor_text": "One criminal is no longer invited to secret meetings",
-    "share_url": "https://cluesbysam.com/s/help/b123cc595475"
+    "share_url": "https://cluesbysam.com/s/archive/b123cc595475"
   },
   {
     "date": "2025-10-31",
     "puzzle_id": "f09c4ec465b7",
     "difficulty": "Treaty",
     "flavor_text": "One criminal has really scary sheets",
-    "share_url": "https://cluesbysam.com/s/help/f09c4ec465b7"
+    "share_url": "https://cluesbysam.com/s/archive/f09c4ec465b7"
   },
   {
     "date": "2025-10-30",
     "puzzle_id": "dc5a7d851ae4",
     "difficulty": "Tricky",
     "flavor_text": "Two criminals are such blabbermouths",
-    "share_url": "https://cluesbysam.com/s/help/dc5a7d851ae4"
+    "share_url": "https://cluesbysam.com/s/archive/dc5a7d851ae4"
   },
   {
     "date": "2025-10-29",
     "puzzle_id": "660ee15aad64",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is not a pumpkin",
-    "share_url": "https://cluesbysam.com/s/help/660ee15aad64"
+    "share_url": "https://cluesbysam.com/s/archive/660ee15aad64"
   },
   {
     "date": "2025-10-28",
     "puzzle_id": "379df4eeced7",
     "difficulty": "Medium",
     "flavor_text": "One criminal is banned from weigh-offs",
-    "share_url": "https://cluesbysam.com/s/help/379df4eeced7"
+    "share_url": "https://cluesbysam.com/s/archive/379df4eeced7"
   },
   {
     "date": "2025-10-27",
     "puzzle_id": "c9a098d84b63",
     "difficulty": "Easy",
     "flavor_text": "One criminal questions the essence of Halloween",
-    "share_url": "https://cluesbysam.com/s/help/c9a098d84b63"
+    "share_url": "https://cluesbysam.com/s/archive/c9a098d84b63"
   },
   {
     "date": "2025-10-26",
     "puzzle_id": "ece029a8de6e",
     "difficulty": "Hard",
     "flavor_text": "One criminal is applying for a job at a coin laundry",
-    "share_url": "https://cluesbysam.com/s/help/ece029a8de6e"
+    "share_url": "https://cluesbysam.com/s/archive/ece029a8de6e"
   },
   {
     "date": "2025-10-25",
     "puzzle_id": "b7ec1eef581f",
     "difficulty": "Hard",
     "flavor_text": "One innocent is low on credit",
-    "share_url": "https://cluesbysam.com/s/help/b7ec1eef581f"
+    "share_url": "https://cluesbysam.com/s/archive/b7ec1eef581f"
   },
   {
     "date": "2025-10-24",
     "puzzle_id": "ae27e0c387c7",
     "difficulty": "Hard",
     "flavor_text": "One criminal is in dire need of coffee",
-    "share_url": "https://cluesbysam.com/s/help/ae27e0c387c7"
+    "share_url": "https://cluesbysam.com/s/archive/ae27e0c387c7"
   },
   {
     "date": "2025-10-23",
     "puzzle_id": "402ed955b487",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is hosting a podcast",
-    "share_url": "https://cluesbysam.com/s/help/402ed955b487"
+    "share_url": "https://cluesbysam.com/s/archive/402ed955b487"
   },
   {
     "date": "2025-10-22",
     "puzzle_id": "902060094f0c",
     "difficulty": "Medium",
     "flavor_text": "One criminal doesn't show up in selfies",
-    "share_url": "https://cluesbysam.com/s/help/902060094f0c"
+    "share_url": "https://cluesbysam.com/s/archive/902060094f0c"
   },
   {
     "date": "2025-10-21",
     "puzzle_id": "5d26247266f3",
     "difficulty": "Medium",
     "flavor_text": "One criminal is hiding inside a pumpkin",
-    "share_url": "https://cluesbysam.com/s/help/5d26247266f3"
+    "share_url": "https://cluesbysam.com/s/archive/5d26247266f3"
   },
   {
     "date": "2025-10-20",
     "puzzle_id": "5b1dcea329de",
     "difficulty": "Easy",
     "flavor_text": "One criminal is canceling her trip to Rome",
-    "share_url": "https://cluesbysam.com/s/help/5b1dcea329de"
+    "share_url": "https://cluesbysam.com/s/archive/5b1dcea329de"
   },
   {
     "date": "2025-10-19",
     "puzzle_id": "c3792f5a9df8",
     "difficulty": "Hard",
     "flavor_text": "One criminal is avoiding cave paintings",
-    "share_url": "https://cluesbysam.com/s/help/c3792f5a9df8"
+    "share_url": "https://cluesbysam.com/s/archive/c3792f5a9df8"
   },
   {
     "date": "2025-10-18",
     "puzzle_id": "8df620c1683c",
     "difficulty": "Hard",
     "flavor_text": "One criminal came through her neighbors wall",
-    "share_url": "https://cluesbysam.com/s/help/8df620c1683c"
+    "share_url": "https://cluesbysam.com/s/archive/8df620c1683c"
   },
   {
     "date": "2025-10-17",
     "puzzle_id": "e2766ad98a34",
     "difficulty": "Hard",
     "flavor_text": "One criminal is croaking by the pond",
-    "share_url": "https://cluesbysam.com/s/help/e2766ad98a34"
+    "share_url": "https://cluesbysam.com/s/archive/e2766ad98a34"
   },
   {
     "date": "2025-10-16",
     "puzzle_id": "89c6822d68bc",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is peskier than the others",
-    "share_url": "https://cluesbysam.com/s/help/89c6822d68bc"
+    "share_url": "https://cluesbysam.com/s/archive/89c6822d68bc"
   },
   {
     "date": "2025-10-15",
     "puzzle_id": "a7efccd8427a",
     "difficulty": "Tricky",
     "flavor_text": "One criminal pretends to work here",
-    "share_url": "https://cluesbysam.com/s/help/a7efccd8427a"
+    "share_url": "https://cluesbysam.com/s/archive/a7efccd8427a"
   },
   {
     "date": "2025-10-14",
     "puzzle_id": "cdf8c1f3e699",
     "difficulty": "Medium",
     "flavor_text": "One criminals is already lining up for tomorrow",
-    "share_url": "https://cluesbysam.com/s/help/cdf8c1f3e699"
+    "share_url": "https://cluesbysam.com/s/archive/cdf8c1f3e699"
   },
   {
     "date": "2025-10-13",
     "puzzle_id": "1ec604119755",
     "difficulty": "Easy",
     "flavor_text": "One criminal has cucurbitophobia",
-    "share_url": "https://cluesbysam.com/s/help/1ec604119755"
+    "share_url": "https://cluesbysam.com/s/archive/1ec604119755"
   },
   {
     "date": "2025-10-12",
     "puzzle_id": "6a2de5776b21",
     "difficulty": "Hard",
     "flavor_text": "One criminal has a funny feeling",
-    "share_url": "https://cluesbysam.com/s/help/6a2de5776b21"
+    "share_url": "https://cluesbysam.com/s/archive/6a2de5776b21"
   },
   {
     "date": "2025-10-11",
     "puzzle_id": "edb322d17c7f",
     "difficulty": "Hard",
     "flavor_text": "Two criminals are at least trying",
-    "share_url": "https://cluesbysam.com/s/help/edb322d17c7f"
+    "share_url": "https://cluesbysam.com/s/archive/edb322d17c7f"
   },
   {
     "date": "2025-10-10",
     "puzzle_id": "ea8b1d814a2c",
     "difficulty": "Hard",
     "flavor_text": "One criminal is hard to judge",
-    "share_url": "https://cluesbysam.com/s/help/ea8b1d814a2c"
+    "share_url": "https://cluesbysam.com/s/archive/ea8b1d814a2c"
   },
   {
     "date": "2025-10-09",
     "puzzle_id": "078dc3648fea",
     "difficulty": "Tricky",
     "flavor_text": "A little bird told that a criminal spilled the beans",
-    "share_url": "https://cluesbysam.com/s/help/078dc3648fea"
+    "share_url": "https://cluesbysam.com/s/archive/078dc3648fea"
   },
   {
     "date": "2025-10-08",
     "puzzle_id": "a6c864b37b45",
     "difficulty": "Medium",
     "flavor_text": "One criminal doesn't understand herself",
-    "share_url": "https://cluesbysam.com/s/help/a6c864b37b45"
+    "share_url": "https://cluesbysam.com/s/archive/a6c864b37b45"
   },
   {
     "date": "2025-10-07",
     "puzzle_id": "72983db48fc1",
     "difficulty": "Medium",
     "flavor_text": "One criminal can be mistaken for a christmas tree",
-    "share_url": "https://cluesbysam.com/s/help/72983db48fc1"
+    "share_url": "https://cluesbysam.com/s/archive/72983db48fc1"
   },
   {
     "date": "2025-10-06",
     "puzzle_id": "1abfd8511f4c",
     "difficulty": "Easy",
     "flavor_text": "One criminal is planning a new circus act",
-    "share_url": "https://cluesbysam.com/s/help/1abfd8511f4c"
+    "share_url": "https://cluesbysam.com/s/archive/1abfd8511f4c"
   },
   {
     "date": "2025-10-05",
     "puzzle_id": "f359d0b23256",
     "difficulty": "Hard",
     "flavor_text": "One criminal only escapes twice",
-    "share_url": "https://cluesbysam.com/s/help/f359d0b23256"
+    "share_url": "https://cluesbysam.com/s/archive/f359d0b23256"
   },
   {
     "date": "2025-10-04",
     "puzzle_id": "b1e3283e7d71",
     "difficulty": "Hard",
     "flavor_text": "One criminal is hiding in plain sight",
-    "share_url": "https://cluesbysam.com/s/help/b1e3283e7d71"
+    "share_url": "https://cluesbysam.com/s/archive/b1e3283e7d71"
   },
   {
     "date": "2025-10-03",
     "puzzle_id": "0b81efd5e182",
     "difficulty": "Hard",
     "flavor_text": "One criminal is sweet on someone",
-    "share_url": "https://cluesbysam.com/s/help/0b81efd5e182"
+    "share_url": "https://cluesbysam.com/s/archive/0b81efd5e182"
   },
   {
     "date": "2025-10-02",
     "puzzle_id": "4dc86b9ba0d5",
     "difficulty": "Tricky",
     "flavor_text": "A certain dog is lurking behind one of the criminals",
-    "share_url": "https://cluesbysam.com/s/help/4dc86b9ba0d5"
+    "share_url": "https://cluesbysam.com/s/archive/4dc86b9ba0d5"
   },
   {
     "date": "2025-10-01",
     "puzzle_id": "4ffdeb968031",
     "difficulty": "Medium",
     "flavor_text": "One criminal has ants in their pants",
-    "share_url": "https://cluesbysam.com/s/help/4ffdeb968031"
+    "share_url": "https://cluesbysam.com/s/archive/4ffdeb968031"
   },
   {
     "date": "2025-09-30",
     "puzzle_id": "01871472385d",
     "difficulty": "Medium",
-    "share_url": "https://cluesbysam.com/s/help/01871472385d"
+    "share_url": "https://cluesbysam.com/s/archive/01871472385d"
   },
   {
     "date": "2025-09-29",
     "puzzle_id": "95a745eb930a",
     "difficulty": "Medium",
     "flavor_text": "Florida man turns out to be a criminal",
-    "share_url": "https://cluesbysam.com/s/help/95a745eb930a"
+    "share_url": "https://cluesbysam.com/s/archive/95a745eb930a"
   },
   {
     "date": "2025-09-29",
@@ -853,42 +868,42 @@
     "puzzle_id": "08cab97f0fdb",
     "difficulty": "Evil",
     "flavor_text": "One criminal got singing lessons from the black market",
-    "share_url": "https://cluesbysam.com/s/help/08cab97f0fdb"
+    "share_url": "https://cluesbysam.com/s/archive/08cab97f0fdb"
   },
   {
     "date": "2025-09-27",
     "puzzle_id": "17b596917377",
     "difficulty": "Hard",
     "flavor_text": "The criminals are living up to their names",
-    "share_url": "https://cluesbysam.com/s/help/17b596917377"
+    "share_url": "https://cluesbysam.com/s/archive/17b596917377"
   },
   {
     "date": "2025-09-26",
     "puzzle_id": "e2d570f233fa",
     "difficulty": "Hard",
     "flavor_text": "One criminal is escaping on a leaf blower on wheels",
-    "share_url": "https://cluesbysam.com/s/help/e2d570f233fa"
+    "share_url": "https://cluesbysam.com/s/archive/e2d570f233fa"
   },
   {
     "date": "2025-09-24",
     "puzzle_id": "4c782f15fbc6",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is hiding inside the central heating system",
-    "share_url": "https://cluesbysam.com/s/help/4c782f15fbc6"
+    "share_url": "https://cluesbysam.com/s/archive/4c782f15fbc6"
   },
   {
     "date": "2025-09-23",
     "puzzle_id": "d2587413420d",
     "difficulty": "Medium",
     "flavor_text": "One criminal is taking advice from a groundhog",
-    "share_url": "https://cluesbysam.com/s/help/d2587413420d"
+    "share_url": "https://cluesbysam.com/s/archive/d2587413420d"
   },
   {
     "date": "2025-09-22",
     "puzzle_id": "cc45923fd05d",
     "difficulty": "Easy",
     "flavor_text": "One criminal might be traveling longitudinally",
-    "share_url": "https://cluesbysam.com/s/help/cc45923fd05d"
+    "share_url": "https://cluesbysam.com/s/archive/cc45923fd05d"
   },
   {
     "date": "2025-09-22",
@@ -913,42 +928,42 @@
     "puzzle_id": "5a202dc4eb32",
     "difficulty": "Evil",
     "flavor_text": "One criminal is like super-duper sorry",
-    "share_url": "https://cluesbysam.com/s/help/5a202dc4eb32"
+    "share_url": "https://cluesbysam.com/s/archive/5a202dc4eb32"
   },
   {
     "date": "2025-09-20",
     "puzzle_id": "ba765f9bc2e4",
     "difficulty": "Hard",
     "flavor_text": "Three criminals can be found at a notorious card table",
-    "share_url": "https://cluesbysam.com/s/help/ba765f9bc2e4"
+    "share_url": "https://cluesbysam.com/s/archive/ba765f9bc2e4"
   },
   {
     "date": "2025-09-19",
     "puzzle_id": "b1644d70d6a8",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is doing crimes in paradise",
-    "share_url": "https://cluesbysam.com/s/help/b1644d70d6a8"
+    "share_url": "https://cluesbysam.com/s/archive/b1644d70d6a8"
   },
   {
     "date": "2025-09-18",
     "puzzle_id": "dd82bcaf4971",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is not to be trusted, for a reason",
-    "share_url": "https://cluesbysam.com/s/help/dd82bcaf4971"
+    "share_url": "https://cluesbysam.com/s/archive/dd82bcaf4971"
   },
   {
     "date": "2025-09-17",
     "puzzle_id": "a6c162ee7811",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is fetching free money from the bank",
-    "share_url": "https://cluesbysam.com/s/help/a6c162ee7811"
+    "share_url": "https://cluesbysam.com/s/archive/a6c162ee7811"
   },
   {
     "date": "2025-09-16",
     "puzzle_id": "441a5b6472bf",
     "difficulty": "Medium",
     "flavor_text": "One criminal has a mullet",
-    "share_url": "https://cluesbysam.com/s/help/441a5b6472bf"
+    "share_url": "https://cluesbysam.com/s/archive/441a5b6472bf"
   },
   {
     "date": "2025-09-15",
@@ -979,661 +994,661 @@
     "puzzle_id": "0c8fb0e570c9",
     "difficulty": "Easy",
     "flavor_text": "As a criminal, one person is excited about Monday",
-    "share_url": "https://cluesbysam.com/s/help/0c8fb0e570c9"
+    "share_url": "https://cluesbysam.com/s/archive/0c8fb0e570c9"
   },
   {
     "date": "2025-09-14",
     "puzzle_id": "607021a9b710",
     "difficulty": "Hard",
     "flavor_text": "One criminal is blowing in the wind",
-    "share_url": "https://cluesbysam.com/s/help/607021a9b710"
+    "share_url": "https://cluesbysam.com/s/archive/607021a9b710"
   },
   {
     "date": "2025-09-13",
     "puzzle_id": "7627b7f719e8",
     "difficulty": "Hard",
     "flavor_text": "One innocent sometimes dreams of cheese",
-    "share_url": "https://cluesbysam.com/s/help/7627b7f719e8"
+    "share_url": "https://cluesbysam.com/s/archive/7627b7f719e8"
   },
   {
     "date": "2025-09-12",
     "puzzle_id": "90b8b364154c",
     "difficulty": "Tricky",
     "flavor_text": "One criminal can be found in a mirror shop",
-    "share_url": "https://cluesbysam.com/s/help/90b8b364154c"
+    "share_url": "https://cluesbysam.com/s/archive/90b8b364154c"
   },
   {
     "date": "2025-09-11",
     "puzzle_id": "fc4018981ade",
     "difficulty": "Tricky",
     "flavor_text": "One criminal's dog ate his puzzle result",
-    "share_url": "https://cluesbysam.com/s/help/fc4018981ade"
+    "share_url": "https://cluesbysam.com/s/archive/fc4018981ade"
   },
   {
     "date": "2025-09-10",
     "puzzle_id": "8d6f2ee60fab",
     "difficulty": "Medium",
     "flavor_text": "One criminal did something. Maybe.",
-    "share_url": "https://cluesbysam.com/s/help/8d6f2ee60fab"
+    "share_url": "https://cluesbysam.com/s/archive/8d6f2ee60fab"
   },
   {
     "date": "2025-09-09",
     "puzzle_id": "091d70eacdfd",
     "difficulty": "Medium",
     "flavor_text": "All innocents are longing for summer",
-    "share_url": "https://cluesbysam.com/s/help/091d70eacdfd"
+    "share_url": "https://cluesbysam.com/s/archive/091d70eacdfd"
   },
   {
     "date": "2025-09-08",
     "puzzle_id": "93306c54f605",
     "difficulty": "Tricky",
-    "share_url": "https://cluesbysam.com/s/help/93306c54f605"
+    "share_url": "https://cluesbysam.com/s/archive/93306c54f605"
   },
   {
     "date": "2025-09-08",
     "puzzle_id": "8d71de575af8",
     "difficulty": "Tricky",
-    "share_url": "https://cluesbysam.com/s/help/8d71de575af8"
+    "share_url": "https://cluesbysam.com/s/archive/8d71de575af8"
   },
   {
     "date": "2025-09-08",
     "puzzle_id": "8a4704d2b2d4",
     "difficulty": "Hard",
-    "share_url": "https://cluesbysam.com/s/help/8a4704d2b2d4"
+    "share_url": "https://cluesbysam.com/s/archive/8a4704d2b2d4"
   },
   {
     "date": "2025-09-08",
     "puzzle_id": "7f38de464f7a",
     "difficulty": "Evil",
-    "share_url": "https://cluesbysam.com/s/help/7f38de464f7a"
+    "share_url": "https://cluesbysam.com/s/archive/7f38de464f7a"
   },
   {
     "date": "2025-09-08",
     "puzzle_id": "76de37871c6e",
     "difficulty": "Medium",
-    "share_url": "https://cluesbysam.com/s/help/76de37871c6e"
+    "share_url": "https://cluesbysam.com/s/archive/76de37871c6e"
   },
   {
     "date": "2025-09-08",
     "puzzle_id": "5df2e072328a",
     "difficulty": "Easy",
     "flavor_text": "One innocent should perhaps see someone",
-    "share_url": "https://cluesbysam.com/s/help/5df2e072328a"
+    "share_url": "https://cluesbysam.com/s/archive/5df2e072328a"
   },
   {
     "date": "2025-09-07",
     "puzzle_id": "b3fcaab6a81f",
     "difficulty": "Hard",
     "flavor_text": "Two criminals are starting an ice cream company",
-    "share_url": "https://cluesbysam.com/s/help/b3fcaab6a81f"
+    "share_url": "https://cluesbysam.com/s/archive/b3fcaab6a81f"
   },
   {
     "date": "2025-09-06",
     "puzzle_id": "42e016fbca71",
     "difficulty": "Hard",
     "flavor_text": "One innocent is missing his pants",
-    "share_url": "https://cluesbysam.com/s/help/42e016fbca71"
+    "share_url": "https://cluesbysam.com/s/archive/42e016fbca71"
   },
   {
     "date": "2025-09-05",
     "puzzle_id": "42d804903ef8",
     "difficulty": "Tricky",
     "flavor_text": "One innocent is dangerously hanging over a ravine",
-    "share_url": "https://cluesbysam.com/s/help/42d804903ef8"
+    "share_url": "https://cluesbysam.com/s/archive/42d804903ef8"
   },
   {
     "date": "2025-09-04",
     "puzzle_id": "803e34deff3b",
     "difficulty": "Tricky",
     "flavor_text": "One criminal prefers poetry to math",
-    "share_url": "https://cluesbysam.com/s/help/803e34deff3b"
+    "share_url": "https://cluesbysam.com/s/archive/803e34deff3b"
   },
   {
     "date": "2025-09-03",
     "puzzle_id": "dbe571338e7a",
     "difficulty": "Medium",
     "flavor_text": "There are more criminals than innocents among the criminals",
-    "share_url": "https://cluesbysam.com/s/help/dbe571338e7a"
+    "share_url": "https://cluesbysam.com/s/archive/dbe571338e7a"
   },
   {
     "date": "2025-09-02",
     "puzzle_id": "fda869978937",
     "difficulty": "Medium",
     "flavor_text": "One innocent wonders if anyone is actually criminal",
-    "share_url": "https://cluesbysam.com/s/help/fda869978937"
+    "share_url": "https://cluesbysam.com/s/archive/fda869978937"
   },
   {
     "date": "2025-08-31",
     "puzzle_id": "534926b17285",
     "difficulty": "Hard",
     "flavor_text": "One criminal is just trying to enjoy Sunday",
-    "share_url": "https://cluesbysam.com/s/help/534926b17285"
+    "share_url": "https://cluesbysam.com/s/archive/534926b17285"
   },
   {
     "date": "2025-08-30",
     "puzzle_id": "2bed9e01fc31",
     "difficulty": "Hard",
     "flavor_text": "One criminal is considering getting glasses",
-    "share_url": "https://cluesbysam.com/s/help/2bed9e01fc31"
+    "share_url": "https://cluesbysam.com/s/archive/2bed9e01fc31"
   },
   {
     "date": "2025-08-29",
     "puzzle_id": "ba12f5ae7d5a",
     "difficulty": "Tricky",
     "flavor_text": "Only one criminal regrets skipping school",
-    "share_url": "https://cluesbysam.com/s/help/ba12f5ae7d5a"
+    "share_url": "https://cluesbysam.com/s/archive/ba12f5ae7d5a"
   },
   {
     "date": "2025-08-28",
     "puzzle_id": "caa67bff9dc9",
     "difficulty": "Tricky",
     "flavor_text": "All criminals have consumed too much pop culture",
-    "share_url": "https://cluesbysam.com/s/help/caa67bff9dc9"
+    "share_url": "https://cluesbysam.com/s/archive/caa67bff9dc9"
   },
   {
     "date": "2025-08-27",
     "puzzle_id": "f14610e1cd4d",
     "difficulty": "Medium",
     "flavor_text": "Two criminals swapped their brains",
-    "share_url": "https://cluesbysam.com/s/help/f14610e1cd4d"
+    "share_url": "https://cluesbysam.com/s/archive/f14610e1cd4d"
   },
   {
     "date": "2025-08-26",
     "puzzle_id": "325524b265bc",
     "difficulty": "Easy",
     "flavor_text": "One criminal wishes she doesn't need to share her cell",
-    "share_url": "https://cluesbysam.com/s/help/325524b265bc"
+    "share_url": "https://cluesbysam.com/s/archive/325524b265bc"
   },
   {
     "date": "2025-08-25",
     "puzzle_id": "2530e0ffc40a",
     "difficulty": "Easy",
     "flavor_text": "One criminal defies Logic",
-    "share_url": "https://cluesbysam.com/s/help/2530e0ffc40a"
+    "share_url": "https://cluesbysam.com/s/archive/2530e0ffc40a"
   },
   {
     "date": "2025-08-24",
     "puzzle_id": "f9e389e24044",
     "difficulty": "Hard",
     "flavor_text": "One criminal wants to raise charges",
-    "share_url": "https://cluesbysam.com/s/help/f9e389e24044"
+    "share_url": "https://cluesbysam.com/s/archive/f9e389e24044"
   },
   {
     "date": "2025-08-23",
     "puzzle_id": "5709bca36557",
     "difficulty": "Hard",
     "flavor_text": "One criminal is addicted to her phone",
-    "share_url": "https://cluesbysam.com/s/help/5709bca36557"
+    "share_url": "https://cluesbysam.com/s/archive/5709bca36557"
   },
   {
     "date": "2025-08-22",
     "puzzle_id": "9c5c2cf4d453",
     "difficulty": "Hard",
     "flavor_text": "All criminals in my row are connected by cables",
-    "share_url": "https://cluesbysam.com/s/help/9c5c2cf4d453"
+    "share_url": "https://cluesbysam.com/s/archive/9c5c2cf4d453"
   },
   {
     "date": "2025-08-21",
     "puzzle_id": "e5a55fb98820",
     "difficulty": "Tricky",
     "flavor_text": "All criminals are on the edges, hypothetically",
-    "share_url": "https://cluesbysam.com/s/help/e5a55fb98820"
+    "share_url": "https://cluesbysam.com/s/archive/e5a55fb98820"
   },
   {
     "date": "2025-08-20",
     "puzzle_id": "98bbd63d9c92",
     "difficulty": "Medium",
     "flavor_text": "One criminal can't use his one call to phone home",
-    "share_url": "https://cluesbysam.com/s/help/98bbd63d9c92"
+    "share_url": "https://cluesbysam.com/s/archive/98bbd63d9c92"
   },
   {
     "date": "2025-08-19",
     "puzzle_id": "d7d07ec6811d",
     "difficulty": "Medium",
     "flavor_text": "The criminals are hiding something more than a charger",
-    "share_url": "https://cluesbysam.com/s/help/d7d07ec6811d"
+    "share_url": "https://cluesbysam.com/s/archive/d7d07ec6811d"
   },
   {
     "date": "2025-08-18",
     "puzzle_id": "9ffcda12f3c3",
     "difficulty": "Easy",
     "flavor_text": "No criminal respects others' chargers",
-    "share_url": "https://cluesbysam.com/s/help/9ffcda12f3c3"
+    "share_url": "https://cluesbysam.com/s/archive/9ffcda12f3c3"
   },
   {
     "date": "2025-08-17",
     "puzzle_id": "468ae8aedff5",
     "difficulty": "Hard",
     "flavor_text": "Alas, one criminal isn't snitching on the others",
-    "share_url": "https://cluesbysam.com/s/help/468ae8aedff5"
+    "share_url": "https://cluesbysam.com/s/archive/468ae8aedff5"
   },
   {
     "date": "2025-08-16",
     "puzzle_id": "7bdae23a992c",
     "difficulty": "Hard",
     "flavor_text": "One criminal is preparing for bed",
-    "share_url": "https://cluesbysam.com/s/help/7bdae23a992c"
+    "share_url": "https://cluesbysam.com/s/archive/7bdae23a992c"
   },
   {
     "date": "2025-08-15",
     "puzzle_id": "9a67df83b264",
     "difficulty": "Tricky",
     "flavor_text": "One criminal is addicted to Bee Sort by Sam",
-    "share_url": "https://cluesbysam.com/s/help/9a67df83b264"
+    "share_url": "https://cluesbysam.com/s/archive/9a67df83b264"
   },
   {
     "date": "2025-08-14",
     "puzzle_id": "9d47b7b1ca7b",
     "difficulty": "Tricky",
     "flavor_text": "Honesty got one criminal in trouble",
-    "share_url": "https://cluesbysam.com/s/help/9d47b7b1ca7b"
+    "share_url": "https://cluesbysam.com/s/archive/9d47b7b1ca7b"
   },
   {
     "date": "2025-08-13",
     "puzzle_id": "0bc6d21e51d6",
     "difficulty": "Medium",
     "flavor_text": "One criminal is dreaming of a beach holiday. In jail.",
-    "share_url": "https://cluesbysam.com/s/help/0bc6d21e51d6"
+    "share_url": "https://cluesbysam.com/s/archive/0bc6d21e51d6"
   },
   {
     "date": "2025-08-12",
     "puzzle_id": "b1ef870167e6",
     "difficulty": "Medium",
     "flavor_text": "One criminal got overwhelmed by the number of reveals",
-    "share_url": "https://cluesbysam.com/s/help/b1ef870167e6"
+    "share_url": "https://cluesbysam.com/s/archive/b1ef870167e6"
   },
   {
     "date": "2025-08-11",
     "puzzle_id": "4e1374b0d801",
     "difficulty": "Beginner",
     "flavor_text": "One criminal didn't get out of bed. Like a rock star.",
-    "share_url": "https://cluesbysam.com/s/help/4e1374b0d801"
+    "share_url": "https://cluesbysam.com/s/archive/4e1374b0d801"
   },
   {
     "date": "2025-08-10",
     "puzzle_id": "f16801e2de12",
     "difficulty": "Hard",
     "flavor_text": "One criminal shaves all who don't shave themselves",
-    "share_url": "https://cluesbysam.com/s/help/f16801e2de12"
+    "share_url": "https://cluesbysam.com/s/archive/f16801e2de12"
   },
   {
     "date": "2025-08-09",
     "puzzle_id": "e38df75133ff",
     "difficulty": "Tricky",
     "flavor_text": "One criminal got a black eye from a floppy disk",
-    "share_url": "https://cluesbysam.com/s/help/e38df75133ff"
+    "share_url": "https://cluesbysam.com/s/archive/e38df75133ff"
   },
   {
     "date": "2025-08-08",
     "puzzle_id": "41cb9b561a81",
     "difficulty": "Tricky",
     "flavor_text": "One criminal escaped on a ferry",
-    "share_url": "https://cluesbysam.com/s/help/41cb9b561a81"
+    "share_url": "https://cluesbysam.com/s/archive/41cb9b561a81"
   },
   {
     "date": "2025-08-07",
     "puzzle_id": "63691f19f415",
     "difficulty": "Medium",
     "flavor_text": "The criminals have a lacking sense of justice",
-    "share_url": "https://cluesbysam.com/s/help/63691f19f415"
+    "share_url": "https://cluesbysam.com/s/archive/63691f19f415"
   },
   {
     "date": "2025-08-06",
     "puzzle_id": "ff2ddec591b8",
     "difficulty": "Medium",
     "flavor_text": "One criminal is almost related to Al Capone",
-    "share_url": "https://cluesbysam.com/s/help/ff2ddec591b8"
+    "share_url": "https://cluesbysam.com/s/archive/ff2ddec591b8"
   },
   {
     "date": "2025-08-05",
     "puzzle_id": "bbd0849dcbc0",
     "difficulty": "Easy",
     "flavor_text": "The only criminal on row 2 is barely a criminal",
-    "share_url": "https://cluesbysam.com/s/help/bbd0849dcbc0"
+    "share_url": "https://cluesbysam.com/s/archive/bbd0849dcbc0"
   },
   {
     "date": "2025-08-04",
     "puzzle_id": "eeac20357052",
     "flavor_text": "One innocent skipped Friday's puzzle",
-    "share_url": "https://cluesbysam.com/s/help/eeac20357052"
+    "share_url": "https://cluesbysam.com/s/archive/eeac20357052"
   },
   {
     "date": "2025-08-03",
     "puzzle_id": "2994c696de32",
     "flavor_text": "The criminal in front of me might be speeding",
-    "share_url": "https://cluesbysam.com/s/help/2994c696de32"
+    "share_url": "https://cluesbysam.com/s/archive/2994c696de32"
   },
   {
     "date": "2025-08-02",
     "puzzle_id": "700756802003",
     "flavor_text": "One criminal knows it all already",
-    "share_url": "https://cluesbysam.com/s/help/700756802003"
+    "share_url": "https://cluesbysam.com/s/archive/700756802003"
   },
   {
     "date": "2025-08-01",
     "puzzle_id": "6c5f0f4378ad",
     "flavor_text": "All criminals are canceling their weekend plans",
-    "share_url": "https://cluesbysam.com/s/help/6c5f0f4378ad"
+    "share_url": "https://cluesbysam.com/s/archive/6c5f0f4378ad"
   },
   {
     "date": "2025-07-31",
     "puzzle_id": "47cc66c24950",
     "flavor_text": "All criminals don't fit in the game night",
-    "share_url": "https://cluesbysam.com/s/help/47cc66c24950"
+    "share_url": "https://cluesbysam.com/s/archive/47cc66c24950"
   },
   {
     "date": "2025-07-30",
     "puzzle_id": "e6a77c188184",
     "flavor_text": "The criminals are not what they seem",
-    "share_url": "https://cluesbysam.com/s/help/e6a77c188184"
+    "share_url": "https://cluesbysam.com/s/archive/e6a77c188184"
   },
   {
     "date": "2025-07-29",
     "puzzle_id": "0b0f4c401da9",
     "flavor_text": "All criminals are taking painting lessons",
-    "share_url": "https://cluesbysam.com/s/help/0b0f4c401da9"
+    "share_url": "https://cluesbysam.com/s/archive/0b0f4c401da9"
   },
   {
     "date": "2025-07-28",
     "puzzle_id": "827da9815a12",
     "flavor_text": "One criminal has big promises for next week",
-    "share_url": "https://cluesbysam.com/s/help/827da9815a12"
+    "share_url": "https://cluesbysam.com/s/archive/827da9815a12"
   },
   {
     "date": "2025-07-27",
     "puzzle_id": "fb90fd1f66a2",
     "flavor_text": "One criminal is listening to lambada",
-    "share_url": "https://cluesbysam.com/s/help/fb90fd1f66a2"
+    "share_url": "https://cluesbysam.com/s/archive/fb90fd1f66a2"
   },
   {
     "date": "2025-07-26",
     "puzzle_id": "aa569b88bf99",
     "flavor_text": "One criminal in row 2 is missing Ozzy",
-    "share_url": "https://cluesbysam.com/s/help/aa569b88bf99"
+    "share_url": "https://cluesbysam.com/s/archive/aa569b88bf99"
   },
   {
     "date": "2025-07-25",
     "puzzle_id": "846fc182b085",
     "flavor_text": "There was a knife hidden inside the watermelon",
-    "share_url": "https://cluesbysam.com/s/help/846fc182b085"
+    "share_url": "https://cluesbysam.com/s/archive/846fc182b085"
   },
   {
     "date": "2025-07-24",
     "puzzle_id": "c55b3d4f90f7",
     "flavor_text": "One criminal paid for everyone",
-    "share_url": "https://cluesbysam.com/s/help/c55b3d4f90f7"
+    "share_url": "https://cluesbysam.com/s/archive/c55b3d4f90f7"
   },
   {
     "date": "2025-07-23",
     "puzzle_id": "ee58153642c6",
     "flavor_text": "One criminal is named after her mom",
-    "share_url": "https://cluesbysam.com/s/help/ee58153642c6"
+    "share_url": "https://cluesbysam.com/s/archive/ee58153642c6"
   },
   {
     "date": "2025-07-22",
     "puzzle_id": "30c8c800360c",
     "flavor_text": "One pilot was bullied by a criminal",
-    "share_url": "https://cluesbysam.com/s/help/30c8c800360c"
+    "share_url": "https://cluesbysam.com/s/archive/30c8c800360c"
   },
   {
     "date": "2025-07-21",
     "puzzle_id": "3dea7c9c4455",
     "flavor_text": "One innocent looks very fit",
-    "share_url": "https://cluesbysam.com/s/help/3dea7c9c4455"
+    "share_url": "https://cluesbysam.com/s/archive/3dea7c9c4455"
   },
   {
     "date": "2025-07-20",
     "puzzle_id": "0bac6095888d",
     "flavor_text": "The criminal above me finds the odds unfair",
-    "share_url": "https://cluesbysam.com/s/help/0bac6095888d"
+    "share_url": "https://cluesbysam.com/s/archive/0bac6095888d"
   },
   {
     "date": "2025-07-19",
     "puzzle_id": "c65ca31875a4",
     "flavor_text": "The butler is missing a handkerchief",
-    "share_url": "https://cluesbysam.com/s/help/c65ca31875a4"
+    "share_url": "https://cluesbysam.com/s/archive/c65ca31875a4"
   },
   {
     "date": "2025-07-18",
     "puzzle_id": "60a1ba03da7f",
     "flavor_text": "One criminal never lets me concentrate",
-    "share_url": "https://cluesbysam.com/s/help/60a1ba03da7f"
+    "share_url": "https://cluesbysam.com/s/archive/60a1ba03da7f"
   },
   {
     "date": "2025-07-17",
     "puzzle_id": "b53e1f1891c6",
     "flavor_text": "The alibi was neat, but the timing's offbeat",
-    "share_url": "https://cluesbysam.com/s/help/b53e1f1891c6"
+    "share_url": "https://cluesbysam.com/s/archive/b53e1f1891c6"
   },
   {
     "date": "2025-07-16",
     "puzzle_id": "af88c1db17db",
     "flavor_text": "The criminal pulled an Inception",
-    "share_url": "https://cluesbysam.com/s/help/af88c1db17db"
+    "share_url": "https://cluesbysam.com/s/archive/af88c1db17db"
   },
   {
     "date": "2025-07-15",
     "puzzle_id": "b3257e6a2739",
     "flavor_text": "Someone in top row is making illegal sushi",
-    "share_url": "https://cluesbysam.com/s/help/b3257e6a2739"
+    "share_url": "https://cluesbysam.com/s/archive/b3257e6a2739"
   },
   {
     "date": "2025-07-14",
     "puzzle_id": "3b51412b2086",
-    "share_url": "https://cluesbysam.com/s/help/3b51412b2086"
+    "share_url": "https://cluesbysam.com/s/archive/3b51412b2086"
   },
   {
     "date": "2025-07-13",
     "puzzle_id": "bc9d0bfdb618",
-    "share_url": "https://cluesbysam.com/s/help/bc9d0bfdb618"
+    "share_url": "https://cluesbysam.com/s/archive/bc9d0bfdb618"
   },
   {
     "date": "2025-07-12",
     "puzzle_id": "458dde4ebffa",
     "flavor_text": "One criminal had a rough week",
-    "share_url": "https://cluesbysam.com/s/help/458dde4ebffa"
+    "share_url": "https://cluesbysam.com/s/archive/458dde4ebffa"
   },
   {
     "date": "2025-07-11",
     "puzzle_id": "1a835a3e53b2",
     "flavor_text": "The solution to the riddle is quite simple",
-    "share_url": "https://cluesbysam.com/s/help/1a835a3e53b2"
+    "share_url": "https://cluesbysam.com/s/archive/1a835a3e53b2"
   },
   {
     "date": "2025-07-10",
     "puzzle_id": "3924c55f4736",
     "flavor_text": "A criminal identity is hidden inside a potato",
-    "share_url": "https://cluesbysam.com/s/help/3924c55f4736"
+    "share_url": "https://cluesbysam.com/s/archive/3924c55f4736"
   },
   {
     "date": "2025-07-09",
     "puzzle_id": "1f48864618bf",
     "flavor_text": "I saw the criminal above me cry",
-    "share_url": "https://cluesbysam.com/s/help/1f48864618bf"
+    "share_url": "https://cluesbysam.com/s/archive/1f48864618bf"
   },
   {
     "date": "2025-07-08",
     "puzzle_id": "b83b0e379c92",
     "flavor_text": "The number of criminals might be infinite",
-    "share_url": "https://cluesbysam.com/s/help/b83b0e379c92"
+    "share_url": "https://cluesbysam.com/s/archive/b83b0e379c92"
   },
   {
     "date": "2025-07-07",
     "puzzle_id": "90ec29366006",
     "flavor_text": "The one caring about grammar is criminal",
-    "share_url": "https://cluesbysam.com/s/help/90ec29366006"
+    "share_url": "https://cluesbysam.com/s/archive/90ec29366006"
   },
   {
     "date": "2025-07-06",
     "puzzle_id": "8152bd423343",
     "flavor_text": "The criminal hideout is full of innocents",
-    "share_url": "https://cluesbysam.com/s/help/8152bd423343"
+    "share_url": "https://cluesbysam.com/s/archive/8152bd423343"
   },
   {
     "date": "2025-07-05",
     "puzzle_id": "4736759c5a11",
     "flavor_text": "The criminal is hiding in a cave",
-    "share_url": "https://cluesbysam.com/s/help/4736759c5a11"
+    "share_url": "https://cluesbysam.com/s/archive/4736759c5a11"
   },
   {
     "date": "2025-07-04",
     "puzzle_id": "d3703630f755",
     "flavor_text": "The criminal disappeared into the parade",
-    "share_url": "https://cluesbysam.com/s/help/d3703630f755"
+    "share_url": "https://cluesbysam.com/s/archive/d3703630f755"
   },
   {
     "date": "2025-07-03",
     "puzzle_id": "d9a9ffe4438e",
     "flavor_text": "There are a lot of criminals in the museum",
-    "share_url": "https://cluesbysam.com/s/help/d9a9ffe4438e"
+    "share_url": "https://cluesbysam.com/s/archive/d9a9ffe4438e"
   },
   {
     "date": "2025-07-02",
     "puzzle_id": "1a5b873cd0ca",
     "flavor_text": "The thief might still be inside...",
-    "share_url": "https://cluesbysam.com/s/help/1a5b873cd0ca"
+    "share_url": "https://cluesbysam.com/s/archive/1a5b873cd0ca"
   },
   {
     "date": "2025-07-01",
     "puzzle_id": "0d092fa4533a",
     "flavor_text": "I saw the art thief speeding that way!",
-    "share_url": "https://cluesbysam.com/s/help/0d092fa4533a"
+    "share_url": "https://cluesbysam.com/s/archive/0d092fa4533a"
   },
   {
     "date": "2025-06-29",
     "puzzle_id": "1e11ff10595f",
     "flavor_text": "The criminal above me called someone",
-    "share_url": "https://cluesbysam.com/s/help/1e11ff10595f"
+    "share_url": "https://cluesbysam.com/s/archive/1e11ff10595f"
   },
   {
     "date": "2025-06-28",
     "puzzle_id": "9fe1100fbc99",
     "flavor_text": "The criminal above me is gaming you!",
-    "share_url": "https://cluesbysam.com/s/help/9fe1100fbc99"
+    "share_url": "https://cluesbysam.com/s/archive/9fe1100fbc99"
   },
   {
     "date": "2025-06-27",
     "puzzle_id": "b49039682f22",
     "flavor_text": "One of the criminals won't take a hint",
-    "share_url": "https://cluesbysam.com/s/help/b49039682f22"
+    "share_url": "https://cluesbysam.com/s/archive/b49039682f22"
   },
   {
     "date": "2025-06-26",
     "puzzle_id": "14fc844dd66d",
     "flavor_text": "You'll be stuck with the next clue!",
-    "share_url": "https://cluesbysam.com/s/help/14fc844dd66d"
+    "share_url": "https://cluesbysam.com/s/archive/14fc844dd66d"
   },
   {
     "date": "2025-06-25",
     "puzzle_id": "22036ea563fc",
     "flavor_text": "The criminal hangs out on Discord",
-    "share_url": "https://cluesbysam.com/s/help/22036ea563fc"
+    "share_url": "https://cluesbysam.com/s/archive/22036ea563fc"
   },
   {
     "date": "2025-06-23",
     "puzzle_id": "08cf13937dd8",
     "flavor_text": "All criminals hate Mondays",
-    "share_url": "https://cluesbysam.com/s/help/08cf13937dd8"
+    "share_url": "https://cluesbysam.com/s/archive/08cf13937dd8"
   },
   {
     "date": "2025-06-21",
     "puzzle_id": "716bf2855ea7",
     "flavor_text": "I'd be lying if I didn't tell you I'm in a cult",
-    "share_url": "https://cluesbysam.com/s/help/716bf2855ea7"
+    "share_url": "https://cluesbysam.com/s/archive/716bf2855ea7"
   },
   {
     "date": "2025-06-20",
     "puzzle_id": "d73e97db9875",
     "flavor_text": "Someone stole my sauna whisk!",
-    "share_url": "https://cluesbysam.com/s/help/d73e97db9875"
+    "share_url": "https://cluesbysam.com/s/archive/d73e97db9875"
   },
   {
     "date": "2025-06-19",
     "puzzle_id": "0dd3b09af317",
     "flavor_text": "The teacher taught one of the criminals",
-    "share_url": "https://cluesbysam.com/s/help/0dd3b09af317"
+    "share_url": "https://cluesbysam.com/s/archive/0dd3b09af317"
   },
   {
     "date": "2025-06-17",
     "puzzle_id": "7b1d92260fed",
-    "share_url": "https://cluesbysam.com/s/help/7b1d92260fed"
+    "share_url": "https://cluesbysam.com/s/archive/7b1d92260fed"
   },
   {
     "date": "2025-06-16",
     "puzzle_id": "cb0c9c04fdb9",
     "flavor_text": "The jewel thief is nearby",
-    "share_url": "https://cluesbysam.com/s/help/cb0c9c04fdb9"
+    "share_url": "https://cluesbysam.com/s/archive/cb0c9c04fdb9"
   },
   {
     "date": "2025-06-14",
     "puzzle_id": "8760a73f98a5",
     "flavor_text": "I'd never start a band with a criminal",
-    "share_url": "https://cluesbysam.com/s/help/8760a73f98a5"
+    "share_url": "https://cluesbysam.com/s/archive/8760a73f98a5"
   },
   {
     "date": "2025-06-12",
     "puzzle_id": "1d7ca68a72a9",
-    "share_url": "https://cluesbysam.com/s/help/1d7ca68a72a9"
+    "share_url": "https://cluesbysam.com/s/archive/1d7ca68a72a9"
   },
   {
     "date": "2025-06-11",
     "puzzle_id": "24f6a8e9f0b6",
-    "share_url": "https://cluesbysam.com/s/help/24f6a8e9f0b6"
+    "share_url": "https://cluesbysam.com/s/archive/24f6a8e9f0b6"
   },
   {
     "date": "2025-06-10",
     "puzzle_id": "466909ba8cd4",
-    "share_url": "https://cluesbysam.com/s/help/466909ba8cd4"
+    "share_url": "https://cluesbysam.com/s/archive/466909ba8cd4"
   },
   {
     "date": "2025-06-08",
     "puzzle_id": "a02d686ec5ba",
-    "share_url": "https://cluesbysam.com/s/help/a02d686ec5ba"
+    "share_url": "https://cluesbysam.com/s/archive/a02d686ec5ba"
   },
   {
     "date": "2025-06-07",
     "puzzle_id": "678a07fe39ba",
-    "share_url": "https://cluesbysam.com/s/help/678a07fe39ba"
+    "share_url": "https://cluesbysam.com/s/archive/678a07fe39ba"
   },
   {
     "date": "2025-06-03",
     "puzzle_id": "9aa2ac94f330",
-    "share_url": "https://cluesbysam.com/s/help/9aa2ac94f330"
+    "share_url": "https://cluesbysam.com/s/archive/9aa2ac94f330"
   },
   {
     "date": "2025-06-02",
     "puzzle_id": "4867d3f2ef6e",
-    "share_url": "https://cluesbysam.com/s/help/4867d3f2ef6e"
+    "share_url": "https://cluesbysam.com/s/archive/4867d3f2ef6e"
   },
   {
     "date": "2025-06-01",
     "puzzle_id": "bc07bce0f591",
-    "share_url": "https://cluesbysam.com/s/help/bc07bce0f591"
+    "share_url": "https://cluesbysam.com/s/archive/bc07bce0f591"
   },
   {
     "date": "2025-05-31",
     "puzzle_id": "2da647bedc51",
-    "share_url": "https://cluesbysam.com/s/help/2da647bedc51"
+    "share_url": "https://cluesbysam.com/s/archive/2da647bedc51"
   },
   {
     "date": "2025-05-26",
     "puzzle_id": "cbdcec51804d",
-    "share_url": "https://cluesbysam.com/s/help/cbdcec51804d"
+    "share_url": "https://cluesbysam.com/s/archive/cbdcec51804d"
   },
   {
     "date": "2025-05-25",
     "puzzle_id": "417c2a0d0bfb",
-    "share_url": "https://cluesbysam.com/s/help/417c2a0d0bfb"
+    "share_url": "https://cluesbysam.com/s/archive/417c2a0d0bfb"
   },
   {
     "date": "2025-05-16",
     "puzzle_id": "0b00a7fcfb62",
-    "share_url": "https://cluesbysam.com/s/help/0b00a7fcfb62"
+    "share_url": "https://cluesbysam.com/s/archive/0b00a7fcfb62"
   },
   {
     "date": "2025-05-15",
     "puzzle_id": "da0480f775b4",
-    "share_url": "https://cluesbysam.com/s/help/da0480f775b4"
+    "share_url": "https://cluesbysam.com/s/archive/da0480f775b4"
   },
   {
     "date": "2025-05-15",
@@ -1743,147 +1758,147 @@
   {
     "date": "2025-01-01",
     "puzzle_id": "c0d1c3b16323",
-    "share_url": "https://cluesbysam.com/s/help/c0d1c3b16323"
+    "share_url": "https://cluesbysam.com/s/archive/c0d1c3b16323"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "ac0fcab9c5e7",
-    "share_url": "https://cluesbysam.com/s/help/ac0fcab9c5e7"
+    "share_url": "https://cluesbysam.com/s/archive/ac0fcab9c5e7"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "a947b3609006",
-    "share_url": "https://cluesbysam.com/s/help/a947b3609006"
+    "share_url": "https://cluesbysam.com/s/archive/a947b3609006"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "982261263e88",
-    "share_url": "https://cluesbysam.com/s/help/982261263e88"
+    "share_url": "https://cluesbysam.com/s/archive/982261263e88"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "8faf28bd283d",
-    "share_url": "https://cluesbysam.com/s/help/8faf28bd283d"
+    "share_url": "https://cluesbysam.com/s/archive/8faf28bd283d"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "8d9719c8dbd6",
-    "share_url": "https://cluesbysam.com/s/help/8d9719c8dbd6"
+    "share_url": "https://cluesbysam.com/s/archive/8d9719c8dbd6"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "74d989b10cff",
-    "share_url": "https://cluesbysam.com/s/help/74d989b10cff"
+    "share_url": "https://cluesbysam.com/s/archive/74d989b10cff"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "72fd1570b51a",
-    "share_url": "https://cluesbysam.com/s/help/72fd1570b51a"
+    "share_url": "https://cluesbysam.com/s/archive/72fd1570b51a"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "5d00f32eb69c",
-    "share_url": "https://cluesbysam.com/s/help/5d00f32eb69c"
+    "share_url": "https://cluesbysam.com/s/archive/5d00f32eb69c"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "5c0ade8149be",
-    "share_url": "https://cluesbysam.com/s/help/5c0ade8149be"
+    "share_url": "https://cluesbysam.com/s/archive/5c0ade8149be"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "4e9f0da7b8ae",
-    "share_url": "https://cluesbysam.com/s/help/4e9f0da7b8ae"
+    "share_url": "https://cluesbysam.com/s/archive/4e9f0da7b8ae"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "4e8f6f0f6e0f",
-    "share_url": "https://cluesbysam.com/s/help/4e8f6f0f6e0f"
+    "share_url": "https://cluesbysam.com/s/archive/4e8f6f0f6e0f"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "49693df212da",
-    "share_url": "https://cluesbysam.com/s/help/49693df212da"
+    "share_url": "https://cluesbysam.com/s/archive/49693df212da"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "47e494c5ac7a",
-    "share_url": "https://cluesbysam.com/s/help/47e494c5ac7a"
+    "share_url": "https://cluesbysam.com/s/archive/47e494c5ac7a"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "45e7d2e1fbce",
-    "share_url": "https://cluesbysam.com/s/help/45e7d2e1fbce"
+    "share_url": "https://cluesbysam.com/s/archive/45e7d2e1fbce"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "40f9906dd86c",
-    "share_url": "https://cluesbysam.com/s/help/40f9906dd86c"
+    "share_url": "https://cluesbysam.com/s/archive/40f9906dd86c"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "265d1b03d3a2",
-    "share_url": "https://cluesbysam.com/s/help/265d1b03d3a2"
+    "share_url": "https://cluesbysam.com/s/archive/265d1b03d3a2"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "16d3ea80b8f6",
-    "share_url": "https://cluesbysam.com/s/help/16d3ea80b8f6"
+    "share_url": "https://cluesbysam.com/s/archive/16d3ea80b8f6"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "161cddab486f",
-    "share_url": "https://cluesbysam.com/s/help/161cddab486f"
+    "share_url": "https://cluesbysam.com/s/archive/161cddab486f"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "137bd28ad492",
-    "share_url": "https://cluesbysam.com/s/help/137bd28ad492"
+    "share_url": "https://cluesbysam.com/s/archive/137bd28ad492"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "0f83229e2937",
-    "share_url": "https://cluesbysam.com/s/help/0f83229e2937"
+    "share_url": "https://cluesbysam.com/s/archive/0f83229e2937"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "04ca9487cc93",
-    "share_url": "https://cluesbysam.com/s/help/04ca9487cc93"
+    "share_url": "https://cluesbysam.com/s/archive/04ca9487cc93"
   },
   {
     "date": "2025-01-01",
     "puzzle_id": "024c78900771",
-    "share_url": "https://cluesbysam.com/s/help/024c78900771"
+    "share_url": "https://cluesbysam.com/s/archive/024c78900771"
   },
   {
     "date": "2020-07-20",
     "puzzle_id": "029e3521790a",
-    "share_url": "https://cluesbysam.com/s/help/029e3521790a"
+    "share_url": "https://cluesbysam.com/s/archive/029e3521790a"
   },
   {
     "date": "2020-06-30",
     "puzzle_id": "5e5d3dda5607",
-    "share_url": "https://cluesbysam.com/s/help/5e5d3dda5607"
+    "share_url": "https://cluesbysam.com/s/archive/5e5d3dda5607"
   },
   {
     "date": "2020-06-29",
     "puzzle_id": "568edf33c847",
-    "share_url": "https://cluesbysam.com/s/help/568edf33c847"
+    "share_url": "https://cluesbysam.com/s/archive/568edf33c847"
   },
   {
     "date": "2020-06-12",
     "puzzle_id": "b161a9e709e2",
-    "share_url": "https://cluesbysam.com/s/help/b161a9e709e2"
+    "share_url": "https://cluesbysam.com/s/archive/b161a9e709e2"
   },
   {
     "date": "2020-06-08",
     "puzzle_id": "da879b8359d5",
-    "share_url": "https://cluesbysam.com/s/help/da879b8359d5"
+    "share_url": "https://cluesbysam.com/s/archive/da879b8359d5"
   },
   {
     "date": "2020-06-06",
     "puzzle_id": "0d9ec47b3a34",
-    "share_url": "https://cluesbysam.com/s/help/0d9ec47b3a34"
+    "share_url": "https://cluesbysam.com/s/archive/0d9ec47b3a34"
   },
   {
     "puzzle_id": "ef11ddf0423e",
