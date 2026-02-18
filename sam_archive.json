@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-02-17",
+    "puzzle_id": "f166fff56d17",
+    "difficulty": "Medium",
+    "flavor_text": "The criminal scapegoat was born in 2003",
+    "share_url": "https://cluesbysam.com/s/archive/f166fff56d17",
+    "stats": {
+      "p1": 139352,
+      "p5": 193769,
+      "p10": 233716,
+      "p25": 325341,
+      "p50": 483632,
+      "p75": 745070,
+      "perfect_rate": 0.29718450923659023,
+      "no_hint_rate": 0.5448475406187403
+    }
+  },
+  {
     "date": "2026-02-16",
     "puzzle_id": "3a90070e2453",
     "difficulty": "Easy",
