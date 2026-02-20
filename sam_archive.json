@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-02-19",
+    "puzzle_id": "dfa3640a14b4",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal wants to get married next",
+    "share_url": "https://cluesbysam.com/s/archive/dfa3640a14b4",
+    "stats": {
+      "p1": 161294,
+      "p5": 217213,
+      "p10": 255474,
+      "p25": 343547,
+      "p50": 496069,
+      "p75": 744782,
+      "perfect_rate": 0.3666212224494433,
+      "no_hint_rate": 0.618694614860259
+    }
+  },
+  {
     "date": "2026-02-18",
     "puzzle_id": "1bc7a203e444",
     "difficulty": "Tricky",
