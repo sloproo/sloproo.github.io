@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-02-20",
+    "puzzle_id": "f8de0dedd084",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal will switch to tea",
+    "share_url": "https://cluesbysam.com/s/archive/f8de0dedd084",
+    "stats": {
+      "p1": 160885,
+      "p5": 208667,
+      "p10": 239486,
+      "p25": 309434,
+      "p50": 424588,
+      "p75": 613127,
+      "perfect_rate": 0.25832035122503894,
+      "no_hint_rate": 0.842175329273474
+    }
+  },
+  {
     "date": "2026-02-19",
     "puzzle_id": "dfa3640a14b4",
     "difficulty": "Tricky",
