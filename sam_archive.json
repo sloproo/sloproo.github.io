@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-02-21",
+    "puzzle_id": "1d241898e6d1",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal wants to be part of the action",
+    "share_url": "https://cluesbysam.com/s/archive/1d241898e6d1",
+    "stats": {
+      "p1": 206942,
+      "p5": 273556,
+      "p10": 325394,
+      "p25": 433693,
+      "p50": 622161,
+      "p75": 923792,
+      "perfect_rate": 0.36444333535346335,
+      "no_hint_rate": 0.7212220598196143
+    }
+  },
+  {
     "date": "2026-02-20",
     "puzzle_id": "f8de0dedd084",
     "difficulty": "Hard",
