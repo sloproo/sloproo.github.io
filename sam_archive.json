@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-02-23",
+    "puzzle_id": "L2",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal might be planning a sock heist",
+    "share_url": "https://cluesbysam.com/s/archive/L2"
+  },
+  {
+    "date": "2026-02-22",
+    "puzzle_id": "4bdeafef513e",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal might be planning a sock heist",
+    "share_url": "https://cluesbysam.com/s/archive/4bdeafef513e",
+    "stats": {
+      "p1": 154054,
+      "p5": 198138,
+      "p10": 228087,
+      "p25": 290943,
+      "p50": 391365,
+      "p75": 534475,
+      "perfect_rate": 0.49683070185548,
+      "no_hint_rate": 0.7892704851907342
+    }
+  },
+  {
     "date": "2026-02-21",
     "puzzle_id": "1d241898e6d1",
     "difficulty": "Hard",
@@ -86,6 +110,11 @@
   },
   {
     "date": "2026-02-16",
+    "puzzle_id": "49f3f1-9eb600102931a676",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=49f3f1-9eb600102931a676"
+  },
+  {
+    "date": "2026-02-16",
     "puzzle_id": "3a90070e2453",
     "difficulty": "Easy",
     "flavor_text": "One innocent needs to buy a vowel",
@@ -100,6 +129,23 @@
       "perfect_rate": 0.5059325940843908,
       "no_hint_rate": 0.8713027442797175
     }
+  },
+  {
+    "date": "2026-02-16",
+    "puzzle_id": "2c715f-aa0958a8f59ed97f",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=2c715f-aa0958a8f59ed97f"
+  },
+  {
+    "date": "2026-02-16",
+    "puzzle_id": "15a80064dd71",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/15a80064dd71"
+  },
+  {
+    "date": "2026-02-16",
+    "puzzle_id": "10d7b2f77141",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/10d7b2f77141"
   },
   {
     "date": "2026-02-15",
