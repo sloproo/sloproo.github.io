@@ -1,10 +1,34 @@
 [
   {
+    "puzzle_id": "ef11ddf0423e",
+    "share_url": "https://cluesbysam.com/s/help/ef11ddf0423e",
+    "puzzle_pack": 2,
+    "puzzle_number": 16,
+    "date": "void"
+  },
+  {
+    "puzzle_id": "08d7806daeff",
+    "share_url": "https://cluesbysam.com/s/help/08d7806daeff",
+    "puzzle_pack": 2,
+    "puzzle_number": 37,
+    "date": "void"
+  },
+  {
     "date": "2026-02-23",
-    "puzzle_id": "L2",
-    "difficulty": "Hard",
-    "flavor_text": "One criminal might be planning a sock heist",
-    "share_url": "https://cluesbysam.com/s/archive/L2"
+    "puzzle_id": "1b9d9acdf85b",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal likes socks more than hats",
+    "share_url": "https://cluesbysam.com/s/archive/1b9d9acdf85b",
+    "stats": {
+      "p1": 77484,
+      "p5": 97172,
+      "p10": 110831,
+      "p25": 140137,
+      "p50": 191326,
+      "p75": 274385,
+      "perfect_rate": 0.5055322566253234,
+      "no_hint_rate": 0.8842241456232711
+    }
   },
   {
     "date": "2026-02-22",
@@ -1890,73 +1914,13 @@
   },
   {
     "date": "2025-01-01",
-    "puzzle_id": "c0d1c3b16323",
-    "share_url": "https://cluesbysam.com/s/archive/c0d1c3b16323"
-  },
-  {
-    "date": "2025-01-01",
     "puzzle_id": "ac0fcab9c5e7",
     "share_url": "https://cluesbysam.com/s/archive/ac0fcab9c5e7"
   },
   {
     "date": "2025-01-01",
-    "puzzle_id": "a947b3609006",
-    "share_url": "https://cluesbysam.com/s/archive/a947b3609006"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "982261263e88",
-    "share_url": "https://cluesbysam.com/s/archive/982261263e88"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "8faf28bd283d",
-    "share_url": "https://cluesbysam.com/s/archive/8faf28bd283d"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "8d9719c8dbd6",
-    "share_url": "https://cluesbysam.com/s/archive/8d9719c8dbd6"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "74d989b10cff",
-    "share_url": "https://cluesbysam.com/s/archive/74d989b10cff"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "72fd1570b51a",
-    "share_url": "https://cluesbysam.com/s/archive/72fd1570b51a"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "5d00f32eb69c",
-    "share_url": "https://cluesbysam.com/s/archive/5d00f32eb69c"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "5c0ade8149be",
-    "share_url": "https://cluesbysam.com/s/archive/5c0ade8149be"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "4e9f0da7b8ae",
-    "share_url": "https://cluesbysam.com/s/archive/4e9f0da7b8ae"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "4e8f6f0f6e0f",
-    "share_url": "https://cluesbysam.com/s/archive/4e8f6f0f6e0f"
-  },
-  {
-    "date": "2025-01-01",
     "puzzle_id": "49693df212da",
     "share_url": "https://cluesbysam.com/s/archive/49693df212da"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "47e494c5ac7a",
-    "share_url": "https://cluesbysam.com/s/archive/47e494c5ac7a"
   },
   {
     "date": "2025-01-01",
@@ -1969,39 +1933,99 @@
     "share_url": "https://cluesbysam.com/s/archive/40f9906dd86c"
   },
   {
-    "date": "2025-01-01",
+    "date": "2020-08-27",
+    "puzzle_id": "5c0ade8149be",
+    "share_url": "https://cluesbysam.com/s/archive/5c0ade8149be"
+  },
+  {
+    "date": "2020-08-26",
+    "puzzle_id": "c0d1c3b16323",
+    "share_url": "https://cluesbysam.com/s/archive/c0d1c3b16323"
+  },
+  {
+    "date": "2020-08-25",
     "puzzle_id": "265d1b03d3a2",
     "share_url": "https://cluesbysam.com/s/archive/265d1b03d3a2"
   },
   {
-    "date": "2025-01-01",
-    "puzzle_id": "16d3ea80b8f6",
-    "share_url": "https://cluesbysam.com/s/archive/16d3ea80b8f6"
-  },
-  {
-    "date": "2025-01-01",
-    "puzzle_id": "161cddab486f",
-    "share_url": "https://cluesbysam.com/s/archive/161cddab486f"
-  },
-  {
-    "date": "2025-01-01",
+    "date": "2020-08-21",
     "puzzle_id": "137bd28ad492",
     "share_url": "https://cluesbysam.com/s/archive/137bd28ad492"
   },
   {
-    "date": "2025-01-01",
-    "puzzle_id": "0f83229e2937",
-    "share_url": "https://cluesbysam.com/s/archive/0f83229e2937"
+    "date": "2020-08-20",
+    "puzzle_id": "4e8f6f0f6e0f",
+    "share_url": "https://cluesbysam.com/s/archive/4e8f6f0f6e0f"
   },
   {
-    "date": "2025-01-01",
+    "date": "2020-08-19",
+    "puzzle_id": "8faf28bd283d",
+    "share_url": "https://cluesbysam.com/s/archive/8faf28bd283d"
+  },
+  {
+    "date": "2020-08-18",
+    "puzzle_id": "161cddab486f",
+    "share_url": "https://cluesbysam.com/s/archive/161cddab486f"
+  },
+  {
+    "date": "2020-08-15",
+    "puzzle_id": "72fd1570b51a",
+    "share_url": "https://cluesbysam.com/s/archive/72fd1570b51a"
+  },
+  {
+    "date": "2020-08-14",
+    "puzzle_id": "a947b3609006",
+    "share_url": "https://cluesbysam.com/s/archive/a947b3609006"
+  },
+  {
+    "date": "2020-08-13",
+    "puzzle_id": "16d3ea80b8f6",
+    "share_url": "https://cluesbysam.com/s/archive/16d3ea80b8f6"
+  },
+  {
+    "date": "2020-08-12",
+    "puzzle_id": "982261263e88",
+    "share_url": "https://cluesbysam.com/s/archive/982261263e88"
+  },
+  {
+    "date": "2020-08-11",
+    "puzzle_id": "024c78900771",
+    "share_url": "https://cluesbysam.com/s/archive/024c78900771"
+  },
+  {
+    "date": "2020-08-03",
+    "puzzle_id": "8d9719c8dbd6",
+    "share_url": "https://cluesbysam.com/s/archive/8d9719c8dbd6"
+  },
+  {
+    "date": "2020-08-02",
+    "puzzle_id": "5d00f32eb69c",
+    "share_url": "https://cluesbysam.com/s/archive/5d00f32eb69c"
+  },
+  {
+    "date": "2020-08-01",
+    "puzzle_id": "74d989b10cff",
+    "share_url": "https://cluesbysam.com/s/archive/74d989b10cff"
+  },
+  {
+    "date": "2020-07-31",
+    "puzzle_id": "47e494c5ac7a",
+    "share_url": "https://cluesbysam.com/s/archive/47e494c5ac7a"
+  },
+  {
+    "date": "2020-07-29",
+    "puzzle_id": "4e9f0da7b8ae",
+    "share_url": "https://cluesbysam.com/s/archive/4e9f0da7b8ae"
+  },
+  {
+    "date": "2020-07-28",
     "puzzle_id": "04ca9487cc93",
     "share_url": "https://cluesbysam.com/s/archive/04ca9487cc93"
   },
   {
-    "date": "2025-01-01",
-    "puzzle_id": "024c78900771",
-    "share_url": "https://cluesbysam.com/s/archive/024c78900771"
+    "date": "2020-07-22",
+    "puzzle_id": "0f83229e2937",
+    "share_url": "https://cluesbysam.com/s/archive/0f83229e2937"
   },
   {
     "date": "2020-07-20",
@@ -2034,12 +2058,6 @@
     "share_url": "https://cluesbysam.com/s/archive/0d9ec47b3a34"
   },
   {
-    "puzzle_id": "ef11ddf0423e",
-    "share_url": "https://cluesbysam.com/s/help/ef11ddf0423e",
-    "puzzle_pack": 2,
-    "puzzle_number": 16
-  },
-  {
     "puzzle_id": "9f8069d0e07b",
     "difficulty": "Hard",
     "share_url": "https://cluesbysam.com/s/help/9f8069d0e07b",
@@ -2052,11 +2070,5 @@
     "share_url": "https://cluesbysam.com/s/help/8bc6eb8ee0d3",
     "puzzle_pack": 1,
     "puzzle_number": 18
-  },
-  {
-    "puzzle_id": "08d7806daeff",
-    "share_url": "https://cluesbysam.com/s/help/08d7806daeff",
-    "puzzle_pack": 2,
-    "puzzle_number": 37
   }
 ]
