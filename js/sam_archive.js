@@ -29,7 +29,7 @@ function renderPage(data) {
                 puzzlePacks.set(item.puzzle_pack, []);
             }
             puzzlePacks.get(item.puzzle_pack).push(item);
-        } else if (item.date) {
+        } else if (item.date && item.date !== 'void') {
             if (!puzzleGroups.has(item.date)) {
                 puzzleGroups.set(item.date, []);
             }
