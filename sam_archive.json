@@ -14,6 +14,49 @@
     "date": "void"
   },
   {
+    "date": "2026-02-24",
+    "puzzle_id": "6fab80f215b0",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent does laundry daily, hopefully",
+    "share_url": "https://cluesbysam.com/s/archive/6fab80f215b0",
+    "stats": {
+      "p1": 126766,
+      "p5": 160869,
+      "p10": 186500,
+      "p25": 241342,
+      "p50": 332570,
+      "p75": 479743,
+      "perfect_rate": 0.4967598318080633,
+      "no_hint_rate": 0.8484788523373732
+    }
+  },
+  {
+    "date": "2026-02-23",
+    "puzzle_id": "f20ef1eb0bdc",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/f20ef1eb0bdc"
+  },
+  {
+    "date": "2026-02-23",
+    "puzzle_id": "ce58c1-5645f71ff42dcadd",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=ce58c1-5645f71ff42dcadd"
+  },
+  {
+    "date": "2026-02-23",
+    "puzzle_id": "5c22fc-5f689463a0f6d98d",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=5c22fc-5f689463a0f6d98d"
+  },
+  {
+    "date": "2026-02-23",
+    "puzzle_id": "370a85-f5d9635a98c5d656",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=370a85-f5d9635a98c5d656"
+  },
+  {
+    "date": "2026-02-23",
+    "puzzle_id": "2d7cb5-fb69d54594e550c1",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=2d7cb5-fb69d54594e550c1"
+  },
+  {
     "date": "2026-02-23",
     "puzzle_id": "1b9d9acdf85b",
     "difficulty": "Easy",
