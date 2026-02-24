@@ -20,14 +20,14 @@
     "flavor_text": "One criminal likes socks more than hats",
     "share_url": "https://cluesbysam.com/s/archive/1b9d9acdf85b",
     "stats": {
-      "p1": 77484,
-      "p5": 97172,
-      "p10": 110831,
-      "p25": 140137,
-      "p50": 191326,
-      "p75": 274385,
-      "perfect_rate": 0.5055322566253234,
-      "no_hint_rate": 0.8842241456232711
+      "p1": 78673,
+      "p5": 99067,
+      "p10": 113166,
+      "p25": 144160,
+      "p50": 198025,
+      "p75": 288396,
+      "perfect_rate": 0.4873499287797599,
+      "no_hint_rate": 0.8663320445861312
     }
   },
   {
