@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-02-25",
+    "puzzle_id": "6fa083f83a02",
+    "difficulty": "Medium",
+    "flavor_text": "The criminal plans are not what they seem",
+    "share_url": "https://cluesbysam.com/s/archive/6fa083f83a02",
+    "stats": {
+      "p1": 107591,
+      "p5": 138773,
+      "p10": 159311,
+      "p25": 205392,
+      "p50": 283076,
+      "p75": 413314,
+      "perfect_rate": 0.5517132519002405,
+      "no_hint_rate": 0.896646348867141
+    }
+  },
+  {
     "date": "2026-02-24",
     "puzzle_id": "6fab80f215b0",
     "difficulty": "Medium",
