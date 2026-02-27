@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-02-26",
+    "puzzle_id": "c05760a71c2b",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal isn't keeping her plans under her hat",
+    "share_url": "https://cluesbysam.com/s/archive/c05760a71c2b",
+    "stats": {
+      "p1": 116329,
+      "p5": 153732,
+      "p10": 178818,
+      "p25": 235618,
+      "p50": 335041,
+      "p75": 493995,
+      "perfect_rate": 0.3438243039398665,
+      "no_hint_rate": 0.7804821926213791
+    }
+  },
+  {
     "date": "2026-02-25",
     "puzzle_id": "6fa083f83a02",
     "difficulty": "Medium",
