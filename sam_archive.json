@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-02-27",
+    "puzzle_id": "1e9796feb236",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is very attached to his hat",
+    "share_url": "https://cluesbysam.com/s/archive/1e9796feb236",
+    "stats": {
+      "p1": 171800,
+      "p5": 227595,
+      "p10": 265832,
+      "p25": 349296,
+      "p50": 486659,
+      "p75": 698326,
+      "perfect_rate": 0.33969175283874786,
+      "no_hint_rate": 0.6716914147248598
+    }
+  },
+  {
     "date": "2026-02-26",
     "puzzle_id": "c05760a71c2b",
     "difficulty": "Tricky",
