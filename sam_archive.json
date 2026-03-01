@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-02-28",
+    "puzzle_id": "f83f9be74a12",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is socking away for retirement",
+    "share_url": "https://cluesbysam.com/s/archive/f83f9be74a12",
+    "stats": {
+      "p1": 255683,
+      "p5": 357389,
+      "p10": 426543,
+      "p25": 583553,
+      "p50": 841108,
+      "p75": 1233918,
+      "perfect_rate": 0.25979560774081323,
+      "no_hint_rate": 0.653968253968254
+    }
+  },
+  {
     "date": "2026-02-27",
     "puzzle_id": "1e9796feb236",
     "difficulty": "Tricky",
