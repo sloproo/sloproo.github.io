@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-01",
+    "puzzle_id": "d682200df2db",
+    "difficulty": "Evil",
+    "flavor_text": "One criminal is a turncoat",
+    "share_url": "https://cluesbysam.com/s/archive/d682200df2db",
+    "stats": {
+      "p1": 246926,
+      "p5": 389947,
+      "p10": 490849,
+      "p25": 712159,
+      "p50": 1056552,
+      "p75": 1590879,
+      "perfect_rate": 0.23670435050367308,
+      "no_hint_rate": 0.5766946729424185
+    }
+  },
+  {
     "date": "2026-02-28",
     "puzzle_id": "f83f9be74a12",
     "difficulty": "Hard",
