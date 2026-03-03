@@ -15,6 +15,23 @@
   },
   {
     "date": "2026-03-02",
+    "puzzle_id": "b5a79a3969d4",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is impressively queit",
+    "share_url": "https://cluesbysam.com/s/archive/b5a79a3969d4",
+    "stats": {
+      "p1": 82087,
+      "p5": 104460,
+      "p10": 119414,
+      "p25": 152398,
+      "p50": 208657,
+      "p75": 302016,
+      "perfect_rate": 0.4793925255020356,
+      "no_hint_rate": 0.8762179223274325
+    }
+  },
+  {
+    "date": "2026-03-02",
     "puzzle_id": "4e49a60709f1",
     "difficulty": "Hard",
     "share_url": "https://cluesbysam.com/s/help/4e49a60709f1"
