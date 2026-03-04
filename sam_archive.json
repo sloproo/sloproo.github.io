@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-03",
+    "puzzle_id": "0daf71d482be",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals are numerous",
+    "share_url": "https://cluesbysam.com/s/archive/0daf71d482be",
+    "stats": {
+      "p1": 90885,
+      "p5": 115880,
+      "p10": 132862,
+      "p25": 170767,
+      "p50": 236126,
+      "p75": 355520,
+      "perfect_rate": 0.5113205737036504,
+      "no_hint_rate": 0.8871540269583154
+    }
+  },
+  {
     "date": "2026-03-02",
     "puzzle_id": "b5a79a3969d4",
     "difficulty": "Easy",
