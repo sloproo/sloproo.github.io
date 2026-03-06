@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-05",
+    "puzzle_id": "c2b09e616d29",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are inventing new literature genres",
+    "share_url": "https://cluesbysam.com/s/archive/c2b09e616d29",
+    "stats": {
+      "p1": 131465,
+      "p5": 173847,
+      "p10": 204380,
+      "p25": 272104,
+      "p50": 386364,
+      "p75": 566509,
+      "perfect_rate": 0.422883618658709,
+      "no_hint_rate": 0.830192136537354
+    }
+  },
+  {
     "date": "2026-03-04",
     "puzzle_id": "2f0985dc1fed",
     "difficulty": "Medium",
