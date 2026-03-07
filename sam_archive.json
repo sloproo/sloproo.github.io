@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-06",
+    "puzzle_id": "1316749a0194",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is selling weekends by the dozen",
+    "share_url": "https://cluesbysam.com/s/archive/1316749a0194",
+    "stats": {
+      "p1": 193345,
+      "p5": 265078,
+      "p10": 313066,
+      "p25": 423426,
+      "p50": 607712,
+      "p75": 903048,
+      "perfect_rate": 0.30292239324288533,
+      "no_hint_rate": 0.5719414932752582
+    }
+  },
+  {
     "date": "2026-03-05",
     "puzzle_id": "c2b09e616d29",
     "difficulty": "Tricky",
