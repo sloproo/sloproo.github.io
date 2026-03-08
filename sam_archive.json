@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-07",
+    "puzzle_id": "4a9fab536c5b",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal almost slipped on beans",
+    "share_url": "https://cluesbysam.com/s/archive/4a9fab536c5b",
+    "stats": {
+      "p1": 198290,
+      "p5": 273880,
+      "p10": 327894,
+      "p25": 446211,
+      "p50": 637902,
+      "p75": 943046,
+      "perfect_rate": 0.21790146671681082,
+      "no_hint_rate": 0.6126363294471606
+    }
+  },
+  {
     "date": "2026-03-06",
     "puzzle_id": "1316749a0194",
     "difficulty": "Hard",
