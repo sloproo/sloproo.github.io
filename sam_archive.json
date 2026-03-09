@@ -14,6 +14,40 @@
     "date": "void"
   },
   {
+    "date": "2026-03-09",
+    "puzzle_id": "4d1a54de3f32",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals can barely be called criminals",
+    "share_url": "https://cluesbysam.com/s/archive/4d1a54de3f32",
+    "stats": {
+      "p1": 69976,
+      "p5": 89826,
+      "p10": 103222,
+      "p25": 133074,
+      "p50": 184708,
+      "p75": 260981,
+      "perfect_rate": 0.6035205364626991,
+      "no_hint_rate": 0.9463537300922046
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "puzzle_id": "aed1d687b382",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is criming 24/7",
+    "share_url": "https://cluesbysam.com/s/archive/aed1d687b382",
+    "stats": {
+      "p1": 172684,
+      "p5": 242738,
+      "p10": 285078,
+      "p25": 385985,
+      "p50": 542394,
+      "p75": 769663,
+      "perfect_rate": 0.3455108359133127,
+      "no_hint_rate": 0.6768489852081183
+    }
+  },
+  {
     "date": "2026-03-07",
     "puzzle_id": "4a9fab536c5b",
     "difficulty": "Hard",
