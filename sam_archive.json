@@ -14,20 +14,37 @@
     "date": "void"
   },
   {
+    "date": "2026-03-10",
+    "puzzle_id": "b6831e40425a",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals are facing an age-old problem",
+    "share_url": "https://cluesbysam.com/s/archive/b6831e40425a",
+    "stats": {
+      "p1": 82578,
+      "p5": 111623,
+      "p10": 129543,
+      "p25": 181059,
+      "p50": 259147,
+      "p75": 376749,
+      "perfect_rate": 0.4821109123434705,
+      "no_hint_rate": 0.7450805008944544
+    }
+  },
+  {
     "date": "2026-03-09",
     "puzzle_id": "4d1a54de3f32",
     "difficulty": "Easy",
     "flavor_text": "The criminals can barely be called criminals",
     "share_url": "https://cluesbysam.com/s/archive/4d1a54de3f32",
     "stats": {
-      "p1": 69976,
-      "p5": 89826,
-      "p10": 103222,
-      "p25": 133074,
-      "p50": 184708,
-      "p75": 260981,
-      "perfect_rate": 0.6035205364626991,
-      "no_hint_rate": 0.9463537300922046
+      "p1": 78145,
+      "p5": 97617,
+      "p10": 111944,
+      "p25": 143089,
+      "p50": 193475,
+      "p75": 279029,
+      "perfect_rate": 0.5696663631095289,
+      "no_hint_rate": 0.9157215001241825
     }
   },
   {
