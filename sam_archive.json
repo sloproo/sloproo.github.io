@@ -20,14 +20,14 @@
     "flavor_text": "The criminals are facing an age-old problem",
     "share_url": "https://cluesbysam.com/s/archive/b6831e40425a",
     "stats": {
-      "p1": 82578,
-      "p5": 111623,
-      "p10": 129543,
-      "p25": 181059,
-      "p50": 259147,
-      "p75": 376749,
-      "perfect_rate": 0.4821109123434705,
-      "no_hint_rate": 0.7450805008944544
+      "p1": 91186,
+      "p5": 122685,
+      "p10": 146119,
+      "p25": 198309,
+      "p50": 282868,
+      "p75": 418618,
+      "perfect_rate": 0.43121090150817126,
+      "no_hint_rate": 0.6863149216817807
     }
   },
   {
