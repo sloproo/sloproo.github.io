@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-11",
+    "puzzle_id": "ce60bf18fd18",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal placed an order from ACME",
+    "share_url": "https://cluesbysam.com/s/archive/ce60bf18fd18",
+    "stats": {
+      "p1": 128588,
+      "p5": 165540,
+      "p10": 191747,
+      "p25": 250225,
+      "p50": 354835,
+      "p75": 530237,
+      "perfect_rate": 0.26995525603491133,
+      "no_hint_rate": 0.8510744075567586
+    }
+  },
+  {
     "date": "2026-03-10",
     "puzzle_id": "b6831e40425a",
     "difficulty": "Easy",
