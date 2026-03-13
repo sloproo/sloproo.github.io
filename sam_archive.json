@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-12",
+    "puzzle_id": "629c3c825dab",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal soon has blisters in his hands",
+    "share_url": "https://cluesbysam.com/s/archive/629c3c825dab",
+    "stats": {
+      "p1": 165455,
+      "p5": 220461,
+      "p10": 259198,
+      "p25": 346898,
+      "p50": 493807,
+      "p75": 724386,
+      "perfect_rate": 0.2533847087698926,
+      "no_hint_rate": 0.7427093505053971
+    }
+  },
+  {
     "date": "2026-03-11",
     "puzzle_id": "ce60bf18fd18",
     "difficulty": "Tricky",
