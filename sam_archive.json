@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-13",
+    "puzzle_id": "7fdf398992ee",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent has criminal sympathies",
+    "share_url": "https://cluesbysam.com/s/archive/7fdf398992ee",
+    "stats": {
+      "p1": 157891,
+      "p5": 209938,
+      "p10": 244692,
+      "p25": 327262,
+      "p50": 467189,
+      "p75": 686078,
+      "perfect_rate": 0.3605091586463831,
+      "no_hint_rate": 0.788388699161751
+    }
+  },
+  {
     "date": "2026-03-12",
     "puzzle_id": "629c3c825dab",
     "difficulty": "Hard",
