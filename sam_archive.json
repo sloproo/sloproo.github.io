@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-14",
+    "puzzle_id": "677a3a83141b",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is still craving for some jam",
+    "share_url": "https://cluesbysam.com/s/archive/677a3a83141b",
+    "stats": {
+      "p1": 175464,
+      "p5": 241488,
+      "p10": 290103,
+      "p25": 398830,
+      "p50": 593490,
+      "p75": 887231,
+      "perfect_rate": 0.3361247947454844,
+      "no_hint_rate": 0.6826929392446633
+    }
+  },
+  {
     "date": "2026-03-13",
     "puzzle_id": "7fdf398992ee",
     "difficulty": "Hard",
