@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-15",
+    "puzzle_id": "595c60f33698",
+    "difficulty": "Hard",
+    "flavor_text": "At least one criminal was caught",
+    "share_url": "https://cluesbysam.com/s/archive/595c60f33698",
+    "stats": {
+      "p1": 223099,
+      "p5": 308788,
+      "p10": 362635,
+      "p25": 481804,
+      "p50": 674525,
+      "p75": 976704,
+      "perfect_rate": 0.2835590484878254,
+      "no_hint_rate": 0.6633569574064978
+    }
+  },
+  {
     "date": "2026-03-14",
     "puzzle_id": "677a3a83141b",
     "difficulty": "Hard",
