@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-16",
+    "puzzle_id": "02bddd1a97ea",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is being sulky for no reason",
+    "share_url": "https://cluesbysam.com/s/archive/02bddd1a97ea",
+    "stats": {
+      "p1": 80462,
+      "p5": 102614,
+      "p10": 117343,
+      "p25": 150720,
+      "p50": 208615,
+      "p75": 304200,
+      "perfect_rate": 0.5299108529910853,
+      "no_hint_rate": 0.8241915824191582
+    }
+  },
+  {
     "date": "2026-03-15",
     "puzzle_id": "595c60f33698",
     "difficulty": "Hard",
