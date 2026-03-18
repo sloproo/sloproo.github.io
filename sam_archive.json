@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-17",
+    "puzzle_id": "46e2dfbee07e",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals like doing it the hard way",
+    "share_url": "https://cluesbysam.com/s/archive/46e2dfbee07e",
+    "stats": {
+      "p1": 85161,
+      "p5": 111075,
+      "p10": 129384,
+      "p25": 170232,
+      "p50": 238992,
+      "p75": 349933,
+      "perfect_rate": 0.5969371982973867,
+      "no_hint_rate": 0.8546833757401374
+    }
+  },
+  {
     "date": "2026-03-16",
     "puzzle_id": "02bddd1a97ea",
     "difficulty": "Easy",
