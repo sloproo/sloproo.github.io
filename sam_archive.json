@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-19",
+    "puzzle_id": "bc5c41b0b531",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent doesn't make mistakes. Mistakes make him.",
+    "share_url": "https://cluesbysam.com/s/archive/bc5c41b0b531",
+    "stats": {
+      "p1": 131652,
+      "p5": 171063,
+      "p10": 199718,
+      "p25": 259860,
+      "p50": 362074,
+      "p75": 518424,
+      "perfect_rate": 0.42185845963181945,
+      "no_hint_rate": 0.8217448555420722
+    }
+  },
+  {
     "date": "2026-03-18",
     "puzzle_id": "e78d9f3ba628",
     "difficulty": "Tricky",
