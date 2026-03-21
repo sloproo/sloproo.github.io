@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-20",
+    "puzzle_id": "313da5e4f5c6",
+    "difficulty": "Hard",
+    "flavor_text": "The tower of crime is tumbling down",
+    "share_url": "https://cluesbysam.com/s/archive/313da5e4f5c6",
+    "stats": {
+      "p1": 146633,
+      "p5": 191060,
+      "p10": 222545,
+      "p25": 294010,
+      "p50": 420521,
+      "p75": 632677,
+      "perfect_rate": 0.3346883083657864,
+      "no_hint_rate": 0.7998521845419142
+    }
+  },
+  {
     "date": "2026-03-19",
     "puzzle_id": "bc5c41b0b531",
     "difficulty": "Tricky",
