@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-21",
+    "puzzle_id": "486f76f2edc3",
+    "difficulty": "Hard",
+    "flavor_text": "Only one innocent enjoys crime fiction",
+    "share_url": "https://cluesbysam.com/s/archive/486f76f2edc3",
+    "stats": {
+      "p1": 192378,
+      "p5": 258431,
+      "p10": 301882,
+      "p25": 398930,
+      "p50": 551566,
+      "p75": 787860,
+      "perfect_rate": 0.29262452107279696,
+      "no_hint_rate": 0.7156449553001277
+    }
+  },
+  {
     "date": "2026-03-20",
     "puzzle_id": "313da5e4f5c6",
     "difficulty": "Hard",
