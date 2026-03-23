@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-22",
+    "puzzle_id": "655a6d125fed",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal requested being caught by surprise",
+    "share_url": "https://cluesbysam.com/s/archive/655a6d125fed",
+    "stats": {
+      "p1": 252939,
+      "p5": 357719,
+      "p10": 430176,
+      "p25": 594353,
+      "p50": 860412,
+      "p75": 1260009,
+      "perfect_rate": 0.18584541705467605,
+      "no_hint_rate": 0.5140348543301849
+    }
+  },
+  {
     "date": "2026-03-21",
     "puzzle_id": "486f76f2edc3",
     "difficulty": "Hard",
