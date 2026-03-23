@@ -14,6 +14,47 @@
     "date": "void"
   },
   {
+    "date": "2026-03-23",
+    "puzzle_id": "e0b13a3cbb16",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/e0b13a3cbb16"
+  },
+  {
+    "date": "2026-03-23",
+    "puzzle_id": "accbd0de383a",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/accbd0de383a"
+  },
+  {
+    "date": "2026-03-23",
+    "puzzle_id": "769518fbc30c",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/769518fbc30c"
+  },
+  {
+    "date": "2026-03-23",
+    "puzzle_id": "5d4d987b8a6d",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/5d4d987b8a6d"
+  },
+  {
+    "date": "2026-03-23",
+    "puzzle_id": "52881dff4cff",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/archive/52881dff4cff",
+    "flavor_text": "One innocent is missing the obvious",
+    "stats": {
+      "p1": 77163,
+      "p5": 97172,
+      "p10": 111038,
+      "p25": 141299,
+      "p50": 195256,
+      "p75": 285250,
+      "perfect_rate": 0.6509407024334528,
+      "no_hint_rate": 0.8714108950157048
+    }
+  },
+  {
     "date": "2026-03-22",
     "puzzle_id": "655a6d125fed",
     "difficulty": "Hard",
@@ -114,6 +155,24 @@
       "perfect_rate": 0.5969371982973867,
       "no_hint_rate": 0.8546833757401374
     }
+  },
+  {
+    "date": "2026-03-16",
+    "puzzle_id": "c3aa9817984b",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/c3aa9817984b"
+  },
+  {
+    "date": "2026-03-16",
+    "puzzle_id": "a6f5347677fb",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/a6f5347677fb"
+  },
+  {
+    "date": "2026-03-16",
+    "puzzle_id": "3cd0e2de42bb",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/3cd0e2de42bb"
   },
   {
     "date": "2026-03-16",
@@ -236,6 +295,18 @@
   },
   {
     "date": "2026-03-09",
+    "puzzle_id": "a32509fb03e2",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/a32509fb03e2"
+  },
+  {
+    "date": "2026-03-09",
+    "puzzle_id": "7ea21d327c62",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/7ea21d327c62"
+  },
+  {
+    "date": "2026-03-09",
     "puzzle_id": "4d1a54de3f32",
     "difficulty": "Easy",
     "flavor_text": "The criminals can barely be called criminals",
@@ -250,6 +321,12 @@
       "perfect_rate": 0.5696663631095289,
       "no_hint_rate": 0.9157215001241825
     }
+  },
+  {
+    "date": "2026-03-09",
+    "puzzle_id": "48b0df039d64",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/48b0df039d64"
   },
   {
     "date": "2026-03-08",
