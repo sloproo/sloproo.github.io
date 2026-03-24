@@ -44,14 +44,14 @@
     "share_url": "https://cluesbysam.com/s/archive/52881dff4cff",
     "flavor_text": "One innocent is missing the obvious",
     "stats": {
-      "p1": 77163,
-      "p5": 97172,
-      "p10": 111038,
-      "p25": 141299,
-      "p50": 195256,
-      "p75": 285250,
-      "perfect_rate": 0.6509407024334528,
-      "no_hint_rate": 0.8714108950157048
+      "p1": 78231,
+      "p5": 98964,
+      "p10": 112939,
+      "p25": 144765,
+      "p50": 201171,
+      "p75": 297206,
+      "perfect_rate": 0.6346690015898984,
+      "no_hint_rate": 0.8590520518905965
     }
   },
   {
