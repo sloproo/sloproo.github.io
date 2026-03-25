@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-24",
+    "puzzle_id": "5ceb2aed0786",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent isn't sure what he's been paid for",
+    "share_url": "https://cluesbysam.com/s/archive/5ceb2aed0786",
+    "stats": {
+      "p1": 135847,
+      "p5": 179664,
+      "p10": 209069,
+      "p25": 270951,
+      "p50": 370736,
+      "p75": 524877,
+      "perfect_rate": 0.43158223589349226,
+      "no_hint_rate": 0.7631933096222243
+    }
+  },
+  {
     "date": "2026-03-23",
     "puzzle_id": "e0b13a3cbb16",
     "difficulty": "Easy",
