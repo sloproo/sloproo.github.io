@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-25",
+    "puzzle_id": "611af97c55ff",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal can be found in Madame Toussands",
+    "share_url": "https://cluesbysam.com/s/archive/611af97c55ff",
+    "stats": {
+      "p1": 91136,
+      "p5": 121337,
+      "p10": 143221,
+      "p25": 190011,
+      "p50": 272053,
+      "p75": 408039,
+      "perfect_rate": 0.4323537198835054,
+      "no_hint_rate": 0.7762533997641226
+    }
+  },
+  {
     "date": "2026-03-24",
     "puzzle_id": "5ceb2aed0786",
     "difficulty": "Medium",
