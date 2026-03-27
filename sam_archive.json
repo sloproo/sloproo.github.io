@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-26",
+    "puzzle_id": "be6880449276",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal doesn't care too much about her kitchen",
+    "share_url": "https://cluesbysam.com/s/archive/be6880449276",
+    "stats": {
+      "p1": 166543,
+      "p5": 220630,
+      "p10": 258204,
+      "p25": 342113,
+      "p50": 481565,
+      "p75": 700627,
+      "perfect_rate": 0.32289413890333707,
+      "no_hint_rate": 0.6998001587779572
+    }
+  },
+  {
     "date": "2026-03-25",
     "puzzle_id": "611af97c55ff",
     "difficulty": "Medium",
