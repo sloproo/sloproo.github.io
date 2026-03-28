@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-27",
+    "puzzle_id": "e96538575c4f",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is getting all the hate",
+    "share_url": "https://cluesbysam.com/s/archive/e96538575c4f",
+    "stats": {
+      "p1": 152525,
+      "p5": 205830,
+      "p10": 241667,
+      "p25": 322342,
+      "p50": 449776,
+      "p75": 650021,
+      "perfect_rate": 0.36430171380944937,
+      "no_hint_rate": 0.649033703182789
+    }
+  },
+  {
     "date": "2026-03-26",
     "puzzle_id": "be6880449276",
     "difficulty": "Tricky",
