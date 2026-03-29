@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-28",
+    "puzzle_id": "6d7fe1ba7822",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is short on weapons",
+    "share_url": "https://cluesbysam.com/s/archive/6d7fe1ba7822",
+    "stats": {
+      "p1": 191222,
+      "p5": 255523,
+      "p10": 299344,
+      "p25": 401802,
+      "p50": 570626,
+      "p75": 836468,
+      "perfect_rate": 0.27501442585112523,
+      "no_hint_rate": 0.6568378534333525
+    }
+  },
+  {
     "date": "2026-03-27",
     "puzzle_id": "e96538575c4f",
     "difficulty": "Hard",
