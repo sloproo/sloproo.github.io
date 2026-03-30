@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-29",
+    "puzzle_id": "5e31194a4cf1",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are queuing to universities",
+    "share_url": "https://cluesbysam.com/s/archive/5e31194a4cf1",
+    "stats": {
+      "p1": 194972,
+      "p5": 268140,
+      "p10": 314733,
+      "p25": 424085,
+      "p50": 603705,
+      "p75": 886322,
+      "perfect_rate": 0.24809611942109894,
+      "no_hint_rate": 0.6262629327346096
+    }
+  },
+  {
     "date": "2026-03-28",
     "puzzle_id": "6d7fe1ba7822",
     "difficulty": "Hard",
