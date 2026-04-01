@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-03-31",
+    "puzzle_id": "898d675b2087",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is sitting on a ticking time-bomb",
+    "share_url": "https://cluesbysam.com/s/archive/898d675b2087",
+    "stats": {
+      "p1": 82571,
+      "p5": 106049,
+      "p10": 121177,
+      "p25": 156310,
+      "p50": 215266,
+      "p75": 314001,
+      "perfect_rate": 0.565077201352662,
+      "no_hint_rate": 0.8577083387946628
+    }
+  },
+  {
     "date": "2026-03-30",
     "puzzle_id": "f7b6fdfa1c72",
     "difficulty": "Easy",
