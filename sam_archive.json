@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-01",
+    "puzzle_id": "bf4da2c33b9c",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is not easily fooled",
+    "share_url": "https://cluesbysam.com/s/archive/bf4da2c33b9c",
+    "stats": {
+      "p1": 109803,
+      "p5": 152326,
+      "p10": 180031,
+      "p25": 237216,
+      "p50": 326969,
+      "p75": 463589,
+      "perfect_rate": 0.31607711399132593,
+      "no_hint_rate": 0.7945799593872998
+    }
+  },
+  {
     "date": "2026-03-31",
     "puzzle_id": "898d675b2087",
     "difficulty": "Medium",
@@ -46,6 +63,30 @@
       "perfect_rate": 0.5418753640069889,
       "no_hint_rate": 0.8966336633663367
     }
+  },
+  {
+    "date": "2026-03-30",
+    "puzzle_id": "e31747997ab3",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/e31747997ab3"
+  },
+  {
+    "date": "2026-03-30",
+    "puzzle_id": "984cb9d38975",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/984cb9d38975"
+  },
+  {
+    "date": "2026-03-30",
+    "puzzle_id": "66b8885ab82c",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/66b8885ab82c"
+  },
+  {
+    "date": "2026-03-30",
+    "puzzle_id": "456742093385",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/456742093385"
   },
   {
     "date": "2026-03-29",
