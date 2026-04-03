@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-02",
+    "puzzle_id": "dd1239b256d1",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal likes paradoxical tricks",
+    "share_url": "https://cluesbysam.com/s/archive/dd1239b256d1",
+    "stats": {
+      "p1": 107272,
+      "p5": 138469,
+      "p10": 158519,
+      "p25": 204520,
+      "p50": 280173,
+      "p75": 403535,
+      "perfect_rate": 0.46782340758700813,
+      "no_hint_rate": 0.8015103298479568
+    }
+  },
+  {
     "date": "2026-04-01",
     "puzzle_id": "bf4da2c33b9c",
     "difficulty": "Tricky",
