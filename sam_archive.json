@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-03",
+    "puzzle_id": "c648d789ca53",
+    "difficulty": "Hard",
+    "flavor_text": "The innocents are ready for the weekend",
+    "share_url": "https://cluesbysam.com/s/archive/c648d789ca53",
+    "stats": {
+      "p1": 178453,
+      "p5": 243387,
+      "p10": 287140,
+      "p25": 385130,
+      "p50": 545931,
+      "p75": 807727,
+      "perfect_rate": 0.3071212460779919,
+      "no_hint_rate": 0.6294822949350067
+    }
+  },
+  {
     "date": "2026-04-02",
     "puzzle_id": "dd1239b256d1",
     "difficulty": "Tricky",
