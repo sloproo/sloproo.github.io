@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-05",
+    "puzzle_id": "80917bdfb0b1",
+    "difficulty": "Evil",
+    "flavor_text": "The criminals know how to ruin a game",
+    "share_url": "https://cluesbysam.com/s/archive/80917bdfb0b1",
+    "stats": {
+      "p1": 233677,
+      "p5": 324562,
+      "p10": 383038,
+      "p25": 513975,
+      "p50": 730368,
+      "p75": 1076174,
+      "perfect_rate": 0.18524886609551477,
+      "no_hint_rate": 0.5154892834909436
+    }
+  },
+  {
     "date": "2026-04-04",
     "puzzle_id": "527cfb65d0e7",
     "difficulty": "Hard",
