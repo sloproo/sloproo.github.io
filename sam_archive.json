@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-07",
+    "puzzle_id": "1d96fbd1cbd5",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals are getting philosophical",
+    "share_url": "https://cluesbysam.com/s/archive/1d96fbd1cbd5",
+    "stats": {
+      "p1": 86788,
+      "p5": 110737,
+      "p10": 126563,
+      "p25": 160412,
+      "p50": 221220,
+      "p75": 325270,
+      "perfect_rate": 0.47069996482588816,
+      "no_hint_rate": 0.8567944659397351
+    }
+  },
+  {
     "date": "2026-04-06",
     "puzzle_id": "1afc6c227569",
     "difficulty": "Easy",
