@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-09",
+    "puzzle_id": "02efa4049d1e",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent wears a monocle on both eyes",
+    "share_url": "https://cluesbysam.com/s/archive/02efa4049d1e",
+    "stats": {
+      "p1": 126304,
+      "p5": 163887,
+      "p10": 190315,
+      "p25": 250314,
+      "p50": 351120,
+      "p75": 511785,
+      "perfect_rate": 0.5043838285435948,
+      "no_hint_rate": 0.8302971261568436
+    }
+  },
+  {
     "date": "2026-04-08",
     "puzzle_id": "2763ad2a4677",
     "difficulty": "Medium",
