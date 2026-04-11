@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-10",
+    "puzzle_id": "73c1efeede19",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are not even trying",
+    "share_url": "https://cluesbysam.com/s/archive/73c1efeede19",
+    "stats": {
+      "p1": 158657,
+      "p5": 214333,
+      "p10": 251595,
+      "p25": 334930,
+      "p50": 473762,
+      "p75": 692342,
+      "perfect_rate": 0.30164828033744323,
+      "no_hint_rate": 0.7073069435431538
+    }
+  },
+  {
     "date": "2026-04-09",
     "puzzle_id": "02efa4049d1e",
     "difficulty": "Tricky",
