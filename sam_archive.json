@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-11",
+    "puzzle_id": "38be167f55d3",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal runs a teddybear hospital",
+    "share_url": "https://cluesbysam.com/s/archive/38be167f55d3",
+    "stats": {
+      "p1": 206090,
+      "p5": 279613,
+      "p10": 326763,
+      "p25": 431742,
+      "p50": 603569,
+      "p75": 871791,
+      "perfect_rate": 0.23957904638720678,
+      "no_hint_rate": 0.6430125227820566
+    }
+  },
+  {
     "date": "2026-04-10",
     "puzzle_id": "73c1efeede19",
     "difficulty": "Tricky",
