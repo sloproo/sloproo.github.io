@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-12",
+    "puzzle_id": "6077fc00c27d",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal was hoping for catch-and-go",
+    "share_url": "https://cluesbysam.com/s/archive/6077fc00c27d",
+    "stats": {
+      "p1": 236550,
+      "p5": 330017,
+      "p10": 389635,
+      "p25": 531688,
+      "p50": 777546,
+      "p75": 1172962,
+      "perfect_rate": 0.12089324164756546,
+      "no_hint_rate": 0.5022921441967076
+    }
+  },
+  {
     "date": "2026-04-11",
     "puzzle_id": "38be167f55d3",
     "difficulty": "Hard",
