@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-13",
+    "puzzle_id": "177e707d6eda",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal saves the day",
+    "share_url": "https://cluesbysam.com/s/archive/177e707d6eda",
+    "stats": {
+      "p1": 76048,
+      "p5": 95845,
+      "p10": 109302,
+      "p25": 137957,
+      "p50": 186482,
+      "p75": 267935,
+      "perfect_rate": 0.5124382597713074,
+      "no_hint_rate": 0.882518775795575
+    }
+  },
+  {
     "date": "2026-04-12",
     "puzzle_id": "6077fc00c27d",
     "difficulty": "Hard",
