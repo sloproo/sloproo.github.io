@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-14",
+    "puzzle_id": "4e60738d097d",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals can call it a day",
+    "share_url": "https://cluesbysam.com/s/archive/4e60738d097d",
+    "stats": {
+      "p1": 112089,
+      "p5": 142516,
+      "p10": 163822,
+      "p25": 210276,
+      "p50": 290937,
+      "p75": 422148,
+      "perfect_rate": 0.5171394799054374,
+      "no_hint_rate": 0.8604973631569376
+    }
+  },
+  {
     "date": "2026-04-13",
     "puzzle_id": "177e707d6eda",
     "difficulty": "Easy",
