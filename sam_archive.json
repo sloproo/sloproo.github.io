@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-15",
+    "puzzle_id": "7f01d3dd4318",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are being edged out",
+    "share_url": "https://cluesbysam.com/s/archive/7f01d3dd4318",
+    "stats": {
+      "p1": 168544,
+      "p5": 225771,
+      "p10": 265373,
+      "p25": 354253,
+      "p50": 505984,
+      "p75": 752691,
+      "perfect_rate": 0.2852601011365343,
+      "no_hint_rate": 0.6486006108246132
+    }
+  },
+  {
     "date": "2026-04-14",
     "puzzle_id": "4e60738d097d",
     "difficulty": "Medium",
