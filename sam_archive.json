@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-16",
+    "puzzle_id": "df2ce6874e44",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent isn't afraid of confrontation",
+    "share_url": "https://cluesbysam.com/s/archive/df2ce6874e44",
+    "stats": {
+      "p1": 126144,
+      "p5": 164920,
+      "p10": 191168,
+      "p25": 255024,
+      "p50": 363509,
+      "p75": 540198,
+      "perfect_rate": 0.4369954284602665,
+      "no_hint_rate": 0.793891644781636
+    }
+  },
+  {
     "date": "2026-04-15",
     "puzzle_id": "7f01d3dd4318",
     "difficulty": "Tricky",
