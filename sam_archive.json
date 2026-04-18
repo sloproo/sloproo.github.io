@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-17",
+    "puzzle_id": "1b6c5a4e3b2a",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is up for the award of worst pickpocket",
+    "share_url": "https://cluesbysam.com/s/archive/1b6c5a4e3b2a",
+    "stats": {
+      "p1": 212990,
+      "p5": 298082,
+      "p10": 353020,
+      "p25": 478447,
+      "p50": 693804,
+      "p75": 1033531,
+      "perfect_rate": 0.2769118292147975,
+      "no_hint_rate": 0.5713115952624652
+    }
+  },
+  {
     "date": "2026-04-16",
     "puzzle_id": "df2ce6874e44",
     "difficulty": "Tricky",
