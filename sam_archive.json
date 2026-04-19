@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-18",
+    "puzzle_id": "fbec7a200c4d",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal values simple design",
+    "share_url": "https://cluesbysam.com/s/archive/fbec7a200c4d",
+    "stats": {
+      "p1": 187120,
+      "p5": 253456,
+      "p10": 299851,
+      "p25": 394722,
+      "p50": 551283,
+      "p75": 797962,
+      "perfect_rate": 0.33883179318881884,
+      "no_hint_rate": 0.674496934104845
+    }
+  },
+  {
     "date": "2026-04-17",
     "puzzle_id": "1b6c5a4e3b2a",
     "difficulty": "Hard",
