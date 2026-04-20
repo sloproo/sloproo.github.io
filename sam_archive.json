@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-19",
+    "puzzle_id": "c326375cc729",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal didn't read the warning sign",
+    "share_url": "https://cluesbysam.com/s/archive/c326375cc729",
+    "stats": {
+      "p1": 219287,
+      "p5": 312942,
+      "p10": 368108,
+      "p25": 496959,
+      "p50": 715495,
+      "p75": 1063445,
+      "perfect_rate": 0.17817028717067243,
+      "no_hint_rate": 0.500103725217082
+    }
+  },
+  {
     "date": "2026-04-18",
     "puzzle_id": "fbec7a200c4d",
     "difficulty": "Hard",
