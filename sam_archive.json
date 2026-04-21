@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-20",
+    "puzzle_id": "8322f0f201ec",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal thinks highly of herself",
+    "share_url": "https://cluesbysam.com/s/archive/8322f0f201ec",
+    "stats": {
+      "p1": 76724,
+      "p5": 98424,
+      "p10": 112927,
+      "p25": 144505,
+      "p50": 196525,
+      "p75": 282452,
+      "perfect_rate": 0.48484713729849915,
+      "no_hint_rate": 0.8845580878265703
+    }
+  },
+  {
     "date": "2026-04-19",
     "puzzle_id": "c326375cc729",
     "difficulty": "Hard",
