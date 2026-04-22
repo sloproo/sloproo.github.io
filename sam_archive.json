@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-21",
+    "puzzle_id": "c89fe59e471e",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal recently saw Transformers",
+    "share_url": "https://cluesbysam.com/s/archive/c89fe59e471e",
+    "stats": {
+      "p1": 94460,
+      "p5": 119999,
+      "p10": 136887,
+      "p25": 174738,
+      "p50": 239683,
+      "p75": 344603,
+      "perfect_rate": 0.503160413562689,
+      "no_hint_rate": 0.8805815160955348
+    }
+  },
+  {
     "date": "2026-04-20",
     "puzzle_id": "8322f0f201ec",
     "difficulty": "Easy",
