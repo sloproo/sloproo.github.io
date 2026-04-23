@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-22",
+    "puzzle_id": "319f27dcf7e3",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal doesn't know a day has 24 hours",
+    "share_url": "https://cluesbysam.com/s/archive/319f27dcf7e3",
+    "stats": {
+      "p1": 98658,
+      "p5": 124721,
+      "p10": 143137,
+      "p25": 183505,
+      "p50": 251594,
+      "p75": 362022,
+      "perfect_rate": 0.49870188508861046,
+      "no_hint_rate": 0.8309967264928322
+    }
+  },
+  {
     "date": "2026-04-21",
     "puzzle_id": "c89fe59e471e",
     "difficulty": "Easy",
