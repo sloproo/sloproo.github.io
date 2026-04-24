@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-23",
+    "puzzle_id": "c32e2d76c4b8",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is crowdsourcing ideas",
+    "share_url": "https://cluesbysam.com/s/archive/c32e2d76c4b8",
+    "stats": {
+      "p1": 146385,
+      "p5": 193448,
+      "p10": 226928,
+      "p25": 300120,
+      "p50": 416687,
+      "p75": 597909,
+      "perfect_rate": 0.4875418281614868,
+      "no_hint_rate": 0.7647993451936734
+    }
+  },
+  {
     "date": "2026-04-22",
     "puzzle_id": "319f27dcf7e3",
     "difficulty": "Medium",
