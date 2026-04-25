@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-24",
+    "puzzle_id": "0ab80c6dadf9",
+    "difficulty": "Tricky",
+    "flavor_text": "More than one innocent is a hopeless romantic",
+    "share_url": "https://cluesbysam.com/s/archive/0ab80c6dadf9",
+    "stats": {
+      "p1": 156100,
+      "p5": 208158,
+      "p10": 246025,
+      "p25": 332867,
+      "p50": 481809,
+      "p75": 726071,
+      "perfect_rate": 0.40961992136304065,
+      "no_hint_rate": 0.7167758846657929
+    }
+  },
+  {
     "date": "2026-04-23",
     "puzzle_id": "c32e2d76c4b8",
     "difficulty": "Tricky",
