@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-25",
+    "puzzle_id": "ed6690125b84",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal has massive pockets",
+    "share_url": "https://cluesbysam.com/s/archive/ed6690125b84",
+    "stats": {
+      "p1": 244403,
+      "p5": 332954,
+      "p10": 388129,
+      "p25": 513640,
+      "p50": 721016,
+      "p75": 1045542,
+      "perfect_rate": 0.10359159845167841,
+      "no_hint_rate": 0.5181800875690082
+    }
+  },
+  {
     "date": "2026-04-24",
     "puzzle_id": "0ab80c6dadf9",
     "difficulty": "Tricky",
