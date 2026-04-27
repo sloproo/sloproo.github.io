@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-26",
+    "puzzle_id": "eaf7705e4b50",
+    "difficulty": "Hard",
+    "flavor_text": "All criminals flew too close to the sun",
+    "share_url": "https://cluesbysam.com/s/archive/eaf7705e4b50",
+    "stats": {
+      "p1": 275737,
+      "p5": 369034,
+      "p10": 437707,
+      "p25": 603442,
+      "p50": 906001,
+      "p75": 1365583,
+      "perfect_rate": 0.10420910880149166,
+      "no_hint_rate": 0.4193570663996409
+    }
+  },
+  {
     "date": "2026-04-25",
     "puzzle_id": "ed6690125b84",
     "difficulty": "Hard",
