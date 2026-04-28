@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-27",
+    "puzzle_id": "e200f109101c",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal doesn't see the speck in her own eye",
+    "share_url": "https://cluesbysam.com/s/archive/e200f109101c",
+    "stats": {
+      "p1": 83528,
+      "p5": 108730,
+      "p10": 124519,
+      "p25": 160304,
+      "p50": 222040,
+      "p75": 326299,
+      "perfect_rate": 0.5085680564697338,
+      "no_hint_rate": 0.8514718899657278
+    }
+  },
+  {
     "date": "2026-04-26",
     "puzzle_id": "eaf7705e4b50",
     "difficulty": "Hard",
