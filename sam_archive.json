@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-28",
+    "puzzle_id": "4ad8f4df23a7",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal used to be an actor",
+    "share_url": "https://cluesbysam.com/s/archive/4ad8f4df23a7",
+    "stats": {
+      "p1": 105751,
+      "p5": 135053,
+      "p10": 155841,
+      "p25": 202395,
+      "p50": 282756,
+      "p75": 410761,
+      "perfect_rate": 0.4731220007382798,
+      "no_hint_rate": 0.7506921373200443
+    }
+  },
+  {
     "date": "2026-04-27",
     "puzzle_id": "e200f109101c",
     "difficulty": "Easy",
