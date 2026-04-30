@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-29",
+    "puzzle_id": "d3d1cc59168d",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal didn't break a leg",
+    "share_url": "https://cluesbysam.com/s/archive/d3d1cc59168d",
+    "stats": {
+      "p1": 132933,
+      "p5": 177016,
+      "p10": 207898,
+      "p25": 278095,
+      "p50": 399780,
+      "p75": 592735,
+      "perfect_rate": 0.4836306273510496,
+      "no_hint_rate": 0.7195243295716539
+    }
+  },
+  {
     "date": "2026-04-28",
     "puzzle_id": "4ad8f4df23a7",
     "difficulty": "Medium",
