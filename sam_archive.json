@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-04-30",
+    "puzzle_id": "3ad543f16cab",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal should buy a calendar",
+    "share_url": "https://cluesbysam.com/s/archive/3ad543f16cab",
+    "stats": {
+      "p1": 129990,
+      "p5": 173855,
+      "p10": 202859,
+      "p25": 270888,
+      "p50": 380315,
+      "p75": 553344,
+      "perfect_rate": 0.38169404736505225,
+      "no_hint_rate": 0.7620842519498376
+    }
+  },
+  {
     "date": "2026-04-29",
     "puzzle_id": "d3d1cc59168d",
     "difficulty": "Medium",
@@ -63,6 +80,36 @@
       "perfect_rate": 0.5085680564697338,
       "no_hint_rate": 0.8514718899657278
     }
+  },
+  {
+    "date": "2026-04-27",
+    "puzzle_id": "7eadcb71607f",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/7eadcb71607f"
+  },
+  {
+    "date": "2026-04-27",
+    "puzzle_id": "6e9c53fc7830",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/6e9c53fc7830"
+  },
+  {
+    "date": "2026-04-27",
+    "puzzle_id": "2fd6ef15a752",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/2fd6ef15a752"
+  },
+  {
+    "date": "2026-04-27",
+    "puzzle_id": "0badedf150ea",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/0badedf150ea"
+  },
+  {
+    "date": "2026-04-27",
+    "puzzle_id": "0abfb0af2e43",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/0abfb0af2e43"
   },
   {
     "date": "2026-04-26",
@@ -168,6 +215,12 @@
   },
   {
     "date": "2026-04-20",
+    "puzzle_id": "e695f633afaf",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/e695f633afaf"
+  },
+  {
+    "date": "2026-04-20",
     "puzzle_id": "8322f0f201ec",
     "difficulty": "Easy",
     "flavor_text": "One criminal thinks highly of herself",
@@ -182,6 +235,24 @@
       "perfect_rate": 0.48484713729849915,
       "no_hint_rate": 0.8845580878265703
     }
+  },
+  {
+    "date": "2026-04-20",
+    "puzzle_id": "73d3c45174b4",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/73d3c45174b4"
+  },
+  {
+    "date": "2026-04-20",
+    "puzzle_id": "16e8a2d45b89",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/16e8a2d45b89"
+  },
+  {
+    "date": "2026-04-20",
+    "puzzle_id": "08e4e6338521",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/08e4e6338521"
   },
   {
     "date": "2026-04-19",
@@ -284,6 +355,30 @@
       "perfect_rate": 0.5171394799054374,
       "no_hint_rate": 0.8604973631569376
     }
+  },
+  {
+    "date": "2026-04-13",
+    "puzzle_id": "e5e0ed97df6d",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/e5e0ed97df6d"
+  },
+  {
+    "date": "2026-04-13",
+    "puzzle_id": "dd2c35347313",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/dd2c35347313"
+  },
+  {
+    "date": "2026-04-13",
+    "puzzle_id": "b53c388eed74",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/b53c388eed74"
+  },
+  {
+    "date": "2026-04-13",
+    "puzzle_id": "2bcb9a82575c",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/2bcb9a82575c"
   },
   {
     "date": "2026-04-13",
@@ -406,6 +501,24 @@
   },
   {
     "date": "2026-04-06",
+    "puzzle_id": "d33f26ca6446",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/d33f26ca6446"
+  },
+  {
+    "date": "2026-04-06",
+    "puzzle_id": "b822c1ee4ebf",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/b822c1ee4ebf"
+  },
+  {
+    "date": "2026-04-06",
+    "puzzle_id": "6273210771ba",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/6273210771ba"
+  },
+  {
+    "date": "2026-04-06",
     "puzzle_id": "1afc6c227569",
     "difficulty": "Easy",
     "flavor_text": "One criminal might be a dentist in disguise",
@@ -420,6 +533,12 @@
       "perfect_rate": 0.5468827752896851,
       "no_hint_rate": 0.8483922181938817
     }
+  },
+  {
+    "date": "2026-04-06",
+    "puzzle_id": "199c214e73bf",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/199c214e73bf"
   },
   {
     "date": "2026-04-05",
