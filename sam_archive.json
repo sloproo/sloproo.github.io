@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-01",
+    "puzzle_id": "386a0fcfb299",
+    "difficulty": "Tricky",
+    "flavor_text": "Two innocents will show themselves out",
+    "share_url": "https://cluesbysam.com/s/archive/386a0fcfb299",
+    "stats": {
+      "p1": 158568,
+      "p5": 214669,
+      "p10": 252072,
+      "p25": 332278,
+      "p50": 457054,
+      "p75": 651112,
+      "perfect_rate": 0.3827274543093978,
+      "no_hint_rate": 0.6346249875162289
+    }
+  },
+  {
     "date": "2026-04-30",
     "puzzle_id": "3ad543f16cab",
     "difficulty": "Tricky",
