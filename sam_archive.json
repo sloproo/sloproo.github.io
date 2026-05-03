@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-02",
+    "puzzle_id": "ab9e922f5e3d",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is in the wrong game",
+    "share_url": "https://cluesbysam.com/s/archive/ab9e922f5e3d",
+    "stats": {
+      "p1": 232493,
+      "p5": 318319,
+      "p10": 372516,
+      "p25": 502150,
+      "p50": 716354,
+      "p75": 1069265,
+      "perfect_rate": 0.26398786959818044,
+      "no_hint_rate": 0.583199393479909
+    }
+  },
+  {
     "date": "2026-05-01",
     "puzzle_id": "386a0fcfb299",
     "difficulty": "Tricky",
