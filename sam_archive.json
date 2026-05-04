@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-03",
+    "puzzle_id": "b15f1e5f18c8",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal might be a comedian in disguise",
+    "share_url": "https://cluesbysam.com/s/archive/b15f1e5f18c8",
+    "stats": {
+      "p1": 215463,
+      "p5": 300238,
+      "p10": 350455,
+      "p25": 473424,
+      "p50": 693846,
+      "p75": 1054729,
+      "perfect_rate": 0.2206715147764196,
+      "no_hint_rate": 0.550085099798855
+    }
+  },
+  {
     "date": "2026-05-02",
     "puzzle_id": "ab9e922f5e3d",
     "difficulty": "Hard",
