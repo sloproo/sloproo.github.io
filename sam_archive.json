@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-04",
+    "puzzle_id": "9b803c6131f6",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal had fries for lunch",
+    "share_url": "https://cluesbysam.com/s/archive/9b803c6131f6",
+    "stats": {
+      "p1": 88094,
+      "p5": 113830,
+      "p10": 131727,
+      "p25": 170595,
+      "p50": 237269,
+      "p75": 345424,
+      "perfect_rate": 0.4686656603083116,
+      "no_hint_rate": 0.8344311788115822
+    }
+  },
+  {
     "date": "2026-05-03",
     "puzzle_id": "b15f1e5f18c8",
     "difficulty": "Hard",
