@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-05",
+    "puzzle_id": "6f62263df63b",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal has the digestive system of a hyena",
+    "share_url": "https://cluesbysam.com/s/archive/6f62263df63b",
+    "stats": {
+      "p1": 106027,
+      "p5": 135752,
+      "p10": 154953,
+      "p25": 197066,
+      "p50": 266984,
+      "p75": 375858,
+      "perfect_rate": 0.5053916446183605,
+      "no_hint_rate": 0.8849411921648843
+    }
+  },
+  {
     "date": "2026-05-04",
     "puzzle_id": "9b803c6131f6",
     "difficulty": "Easy",
