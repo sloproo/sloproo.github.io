@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-06",
+    "puzzle_id": "7577cf9bc4d8",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal has never seen space witches",
+    "share_url": "https://cluesbysam.com/s/archive/7577cf9bc4d8",
+    "stats": {
+      "p1": 110078,
+      "p5": 141994,
+      "p10": 163771,
+      "p25": 211223,
+      "p50": 290547,
+      "p75": 417876,
+      "perfect_rate": 0.5300860897145446,
+      "no_hint_rate": 0.813411871318532
+    }
+  },
+  {
     "date": "2026-05-05",
     "puzzle_id": "6f62263df63b",
     "difficulty": "Medium",
