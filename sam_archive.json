@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-07",
+    "puzzle_id": "9345b956e0c9",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is hiding her light under a bushel",
+    "share_url": "https://cluesbysam.com/s/archive/9345b956e0c9",
+    "stats": {
+      "p1": 134202,
+      "p5": 177839,
+      "p10": 207661,
+      "p25": 276250,
+      "p50": 390760,
+      "p75": 571756,
+      "perfect_rate": 0.3457913400522583,
+      "no_hint_rate": 0.7411347517730497
+    }
+  },
+  {
     "date": "2026-05-06",
     "puzzle_id": "7577cf9bc4d8",
     "difficulty": "Medium",
