@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-08",
+    "puzzle_id": "89a20eeabf64",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal does not hide her true nature",
+    "share_url": "https://cluesbysam.com/s/archive/89a20eeabf64",
+    "stats": {
+      "p1": 206417,
+      "p5": 279112,
+      "p10": 325726,
+      "p25": 435015,
+      "p50": 618674,
+      "p75": 926054,
+      "perfect_rate": 0.22933798488246532,
+      "no_hint_rate": 0.6070825373093003
+    }
+  },
+  {
     "date": "2026-05-07",
     "puzzle_id": "9345b956e0c9",
     "difficulty": "Tricky",
