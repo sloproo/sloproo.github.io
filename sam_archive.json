@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-09",
+    "puzzle_id": "fdd78289c03b",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal didn't learn from yesterday's mistakes",
+    "share_url": "https://cluesbysam.com/s/archive/fdd78289c03b",
+    "stats": {
+      "p1": 202316,
+      "p5": 275854,
+      "p10": 324862,
+      "p25": 429455,
+      "p50": 604792,
+      "p75": 873256,
+      "perfect_rate": 0.2310496862811599,
+      "no_hint_rate": 0.6529591317619129
+    }
+  },
+  {
     "date": "2026-05-08",
     "puzzle_id": "89a20eeabf64",
     "difficulty": "Hard",
