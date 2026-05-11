@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-10",
+    "puzzle_id": "8f134f130f26",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal needs a bearole officer",
+    "share_url": "https://cluesbysam.com/s/archive/8f134f130f26",
+    "stats": {
+      "p1": 182417,
+      "p5": 271469,
+      "p10": 326295,
+      "p25": 448103,
+      "p50": 692948,
+      "p75": 1099867,
+      "perfect_rate": 0.1489165660545212,
+      "no_hint_rate": 0.46320772701277246
+    }
+  },
+  {
     "date": "2026-05-09",
     "puzzle_id": "fdd78289c03b",
     "difficulty": "Hard",
