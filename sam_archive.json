@@ -14,6 +14,47 @@
     "date": "void"
   },
   {
+    "date": "2026-05-11",
+    "puzzle_id": "ca8cb661cc79",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/ca8cb661cc79"
+  },
+  {
+    "date": "2026-05-11",
+    "puzzle_id": "ad5b44fa203d",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/ad5b44fa203d"
+  },
+  {
+    "date": "2026-05-11",
+    "puzzle_id": "9a784e01dc8b",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is in big trouble",
+    "share_url": "https://cluesbysam.com/s/archive/9a784e01dc8b",
+    "stats": {
+      "p1": 77597,
+      "p5": 98002,
+      "p10": 110742,
+      "p25": 139206,
+      "p50": 186178,
+      "p75": 260539,
+      "perfect_rate": 0.4019817203382592,
+      "no_hint_rate": 0.9253865208849407
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "puzzle_id": "84ec43d1cf94",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/84ec43d1cf94"
+  },
+  {
+    "date": "2026-05-11",
+    "puzzle_id": "403a29e021c6",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/403a29e021c6"
+  },
+  {
     "date": "2026-05-10",
     "puzzle_id": "8f134f130f26",
     "difficulty": "Hard",
@@ -117,6 +158,12 @@
   },
   {
     "date": "2026-05-04",
+    "puzzle_id": "def54bdfc315",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/def54bdfc315"
+  },
+  {
+    "date": "2026-05-04",
     "puzzle_id": "9b803c6131f6",
     "difficulty": "Easy",
     "flavor_text": "One criminal had fries for lunch",
@@ -131,6 +178,18 @@
       "perfect_rate": 0.4686656603083116,
       "no_hint_rate": 0.8344311788115822
     }
+  },
+  {
+    "date": "2026-05-04",
+    "puzzle_id": "8604a932bae1",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/8604a932bae1"
+  },
+  {
+    "date": "2026-05-04",
+    "puzzle_id": "5fce6111dd5f",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/5fce6111dd5f"
   },
   {
     "date": "2026-05-03",
