@@ -32,14 +32,14 @@
     "flavor_text": "One criminal is in big trouble",
     "share_url": "https://cluesbysam.com/s/archive/9a784e01dc8b",
     "stats": {
-      "p1": 77597,
-      "p5": 98002,
-      "p10": 110742,
-      "p25": 139206,
-      "p50": 186178,
-      "p75": 260539,
-      "perfect_rate": 0.4019817203382592,
-      "no_hint_rate": 0.9253865208849407
+      "p1": 78677,
+      "p5": 99742,
+      "p10": 112982,
+      "p25": 142467,
+      "p50": 191987,
+      "p75": 273376,
+      "perfect_rate": 0.38533195975714,
+      "no_hint_rate": 0.9116454419919777
     }
   },
   {
