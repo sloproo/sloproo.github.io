@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-12",
+    "puzzle_id": "e0ca7ee8c192",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is trustworthy, at least",
+    "share_url": "https://cluesbysam.com/s/archive/e0ca7ee8c192",
+    "stats": {
+      "p1": 95635,
+      "p5": 124947,
+      "p10": 145778,
+      "p25": 192257,
+      "p50": 273560,
+      "p75": 402827,
+      "perfect_rate": 0.382927374301676,
+      "no_hint_rate": 0.8061675977653632
+    }
+  },
+  {
     "date": "2026-05-11",
     "puzzle_id": "ca8cb661cc79",
     "difficulty": "Tricky",
