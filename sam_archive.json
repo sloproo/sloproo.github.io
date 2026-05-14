@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-13",
+    "puzzle_id": "46326978284f",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent is picky about her dates",
+    "share_url": "https://cluesbysam.com/s/archive/46326978284f",
+    "stats": {
+      "p1": 127306,
+      "p5": 166943,
+      "p10": 194413,
+      "p25": 259328,
+      "p50": 371387,
+      "p75": 546178,
+      "perfect_rate": 0.32892226703049915,
+      "no_hint_rate": 0.7362053560648137
+    }
+  },
+  {
     "date": "2026-05-12",
     "puzzle_id": "e0ca7ee8c192",
     "difficulty": "Medium",
