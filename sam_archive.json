@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-14",
+    "puzzle_id": "c71fc20523a7",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal could've been married a long time go",
+    "share_url": "https://cluesbysam.com/s/archive/c71fc20523a7",
+    "stats": {
+      "p1": 156651,
+      "p5": 209968,
+      "p10": 251045,
+      "p25": 332786,
+      "p50": 474411,
+      "p75": 706382,
+      "perfect_rate": 0.3340521667693572,
+      "no_hint_rate": 0.7078198808790306
+    }
+  },
+  {
     "date": "2026-05-13",
     "puzzle_id": "46326978284f",
     "difficulty": "Medium",
