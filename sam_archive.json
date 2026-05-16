@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-15",
+    "puzzle_id": "97b3db24c42f",
+    "difficulty": "Tricky",
+    "flavor_text": "Several criminals exceed all expectations",
+    "share_url": "https://cluesbysam.com/s/archive/97b3db24c42f",
+    "stats": {
+      "p1": 201291,
+      "p5": 271080,
+      "p10": 318744,
+      "p25": 417753,
+      "p50": 584660,
+      "p75": 859187,
+      "perfect_rate": 0.21884984025559107,
+      "no_hint_rate": 0.5960209119953529
+    }
+  },
+  {
     "date": "2026-05-14",
     "puzzle_id": "c71fc20523a7",
     "difficulty": "Tricky",
