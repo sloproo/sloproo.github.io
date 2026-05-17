@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-16",
+    "puzzle_id": "bcfc14c1825d",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal's favorite music genre is heavy metal",
+    "share_url": "https://cluesbysam.com/s/archive/bcfc14c1825d",
+    "stats": {
+      "p1": 200716,
+      "p5": 271832,
+      "p10": 319312,
+      "p25": 426389,
+      "p50": 603024,
+      "p75": 889874,
+      "perfect_rate": 0.2242792288190555,
+      "no_hint_rate": 0.5968987677613349
+    }
+  },
+  {
     "date": "2026-05-15",
     "puzzle_id": "97b3db24c42f",
     "difficulty": "Tricky",
