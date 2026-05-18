@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-17",
+    "puzzle_id": "c7bade62ffb3",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is into japanese philosophy",
+    "share_url": "https://cluesbysam.com/s/archive/c7bade62ffb3",
+    "stats": {
+      "p1": 284687,
+      "p5": 370921,
+      "p10": 436716,
+      "p25": 591188,
+      "p50": 847161,
+      "p75": 1243278,
+      "perfect_rate": 0.16017214919596984,
+      "no_hint_rate": 0.5152799092546874
+    }
+  },
+  {
     "date": "2026-05-16",
     "puzzle_id": "bcfc14c1825d",
     "difficulty": "Hard",
