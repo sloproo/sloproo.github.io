@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-18",
+    "puzzle_id": "e4c32d810d5a",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent is missing his souvenir collection",
+    "share_url": "https://cluesbysam.com/s/archive/e4c32d810d5a",
+    "stats": {
+      "p1": 73056,
+      "p5": 93559,
+      "p10": 107829,
+      "p25": 139614,
+      "p50": 193999,
+      "p75": 281114,
+      "perfect_rate": 0.5925448126018468,
+      "no_hint_rate": 0.8395346731848633
+    }
+  },
+  {
     "date": "2026-05-17",
     "puzzle_id": "c7bade62ffb3",
     "difficulty": "Hard",
