@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-19",
+    "puzzle_id": "2c2e0f375da6",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals don't understand the laws of attraction",
+    "share_url": "https://cluesbysam.com/s/archive/2c2e0f375da6",
+    "stats": {
+      "p1": 92943,
+      "p5": 118857,
+      "p10": 136395,
+      "p25": 174129,
+      "p50": 236663,
+      "p75": 336826,
+      "perfect_rate": 0.5617684721317368,
+      "no_hint_rate": 0.80729225170175
+    }
+  },
+  {
     "date": "2026-05-18",
     "puzzle_id": "e4c32d810d5a",
     "difficulty": "Easy",
