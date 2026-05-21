@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-20",
+    "puzzle_id": "3aea244a2580",
+    "difficulty": "Tricky",
+    "flavor_text": "Only one innocent has a license to prepare fugu",
+    "share_url": "https://cluesbysam.com/s/archive/3aea244a2580",
+    "stats": {
+      "p1": 122657,
+      "p5": 159994,
+      "p10": 185183,
+      "p25": 246558,
+      "p50": 352058,
+      "p75": 526392,
+      "perfect_rate": 0.4347805377598895,
+      "no_hint_rate": 0.7525780561575651
+    }
+  },
+  {
     "date": "2026-05-19",
     "puzzle_id": "2c2e0f375da6",
     "difficulty": "Medium",
