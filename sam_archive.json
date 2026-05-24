@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-23",
+    "puzzle_id": "1cee4f90f441",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals learned a bitter lesson",
+    "share_url": "https://cluesbysam.com/s/archive/1cee4f90f441",
+    "stats": {
+      "p1": 185611,
+      "p5": 257548,
+      "p10": 308055,
+      "p25": 408647,
+      "p50": 579064,
+      "p75": 854072,
+      "perfect_rate": 0.38048166786484544,
+      "no_hint_rate": 0.679247543733525
+    }
+  },
+  {
     "date": "2026-05-22",
     "puzzle_id": "0b9239fa0cf1",
     "difficulty": "Tricky",
