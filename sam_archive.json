@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-24",
+    "puzzle_id": "202badefb2a4",
+    "difficulty": "Hard",
+    "flavor_text": "Two criminals seem fishy",
+    "share_url": "https://cluesbysam.com/s/archive/202badefb2a4",
+    "stats": {
+      "p1": 176909,
+      "p5": 241035,
+      "p10": 284005,
+      "p25": 383043,
+      "p50": 552560,
+      "p75": 825982,
+      "perfect_rate": 0.3557048949407207,
+      "no_hint_rate": 0.6238114802206832
+    }
+  },
+  {
     "date": "2026-05-23",
     "puzzle_id": "1cee4f90f441",
     "difficulty": "Tricky",
