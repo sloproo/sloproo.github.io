@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-25",
+    "puzzle_id": "ae75a7695beb",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent is an avid user of Crimadvisor",
+    "share_url": "https://cluesbysam.com/s/archive/ae75a7695beb",
+    "stats": {
+      "p1": 83744,
+      "p5": 107273,
+      "p10": 123490,
+      "p25": 160885,
+      "p50": 225709,
+      "p75": 333378,
+      "perfect_rate": 0.3882315937190003,
+      "no_hint_rate": 0.8394667440903922
+    }
+  },
+  {
     "date": "2026-05-24",
     "puzzle_id": "202badefb2a4",
     "difficulty": "Hard",
