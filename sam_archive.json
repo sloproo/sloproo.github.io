@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-26",
+    "puzzle_id": "7fbf86a3e195",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals have done a favor to humankind",
+    "share_url": "https://cluesbysam.com/s/archive/7fbf86a3e195",
+    "stats": {
+      "p1": 91905,
+      "p5": 116570,
+      "p10": 133598,
+      "p25": 171763,
+      "p50": 239287,
+      "p75": 359116,
+      "perfect_rate": 0.5511177347242922,
+      "no_hint_rate": 0.8531239252550727
+    }
+  },
+  {
     "date": "2026-05-25",
     "puzzle_id": "ae75a7695beb",
     "difficulty": "Easy",
