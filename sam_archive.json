@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-27",
+    "puzzle_id": "6b3329bf607b",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is a helpless romantic",
+    "share_url": "https://cluesbysam.com/s/archive/6b3329bf607b",
+    "stats": {
+      "p1": 112678,
+      "p5": 148020,
+      "p10": 172022,
+      "p25": 228317,
+      "p50": 322839,
+      "p75": 473576,
+      "perfect_rate": 0.3866709967756153,
+      "no_hint_rate": 0.8149342364703426
+    }
+  },
+  {
     "date": "2026-05-26",
     "puzzle_id": "7fbf86a3e195",
     "difficulty": "Medium",
