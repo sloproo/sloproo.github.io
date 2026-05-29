@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-28",
+    "puzzle_id": "2251c101e6a0",
+    "difficulty": "Tricky",
+    "flavor_text": "Not all criminals are individuals",
+    "share_url": "https://cluesbysam.com/s/archive/2251c101e6a0",
+    "stats": {
+      "p1": 148819,
+      "p5": 206212,
+      "p10": 248118,
+      "p25": 342585,
+      "p50": 499895,
+      "p75": 759006,
+      "perfect_rate": 0.34887125356344867,
+      "no_hint_rate": 0.6423196445540231
+    }
+  },
+  {
     "date": "2026-05-27",
     "puzzle_id": "6b3329bf607b",
     "difficulty": "Medium",
