@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-29",
+    "puzzle_id": "a2aee84763dd",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is running a tight schedule",
+    "share_url": "https://cluesbysam.com/s/archive/a2aee84763dd",
+    "stats": {
+      "p1": 164491,
+      "p5": 220400,
+      "p10": 261502,
+      "p25": 347543,
+      "p50": 490840,
+      "p75": 723345,
+      "perfect_rate": 0.4358596055288088,
+      "no_hint_rate": 0.6753377853703991
+    }
+  },
+  {
     "date": "2026-05-28",
     "puzzle_id": "2251c101e6a0",
     "difficulty": "Tricky",
