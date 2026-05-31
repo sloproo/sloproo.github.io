@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-30",
+    "puzzle_id": "d34207a6b3ea",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are chipping away at their sentence",
+    "share_url": "https://cluesbysam.com/s/archive/d34207a6b3ea",
+    "stats": {
+      "p1": 213502,
+      "p5": 303418,
+      "p10": 355217,
+      "p25": 478278,
+      "p50": 685756,
+      "p75": 1003643,
+      "perfect_rate": 0.2074488993710692,
+      "no_hint_rate": 0.47110849056603776
+    }
+  },
+  {
     "date": "2026-05-29",
     "puzzle_id": "a2aee84763dd",
     "difficulty": "Tricky",
