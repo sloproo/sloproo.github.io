@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-05-31",
+    "puzzle_id": "9c00cb22e946",
+    "difficulty": "Hard",
+    "flavor_text": "One farmer does not have the required degree",
+    "share_url": "https://cluesbysam.com/s/archive/9c00cb22e946",
+    "stats": {
+      "p1": 179411,
+      "p5": 254370,
+      "p10": 305152,
+      "p25": 412838,
+      "p50": 584714,
+      "p75": 853335,
+      "perfect_rate": 0.2740537052105839,
+      "no_hint_rate": 0.6283846348101798
+    }
+  },
+  {
     "date": "2026-05-30",
     "puzzle_id": "d34207a6b3ea",
     "difficulty": "Hard",
