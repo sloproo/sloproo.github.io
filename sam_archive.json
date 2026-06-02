@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-01",
+    "puzzle_id": "5645f8e32ed4",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals are mendacious",
+    "share_url": "https://cluesbysam.com/s/archive/5645f8e32ed4",
+    "stats": {
+      "p1": 87630,
+      "p5": 115215,
+      "p10": 134981,
+      "p25": 179816,
+      "p50": 259428,
+      "p75": 387315,
+      "perfect_rate": 0.5240171634002088,
+      "no_hint_rate": 0.7807027716571959
+    }
+  },
+  {
     "date": "2026-05-31",
     "puzzle_id": "9c00cb22e946",
     "difficulty": "Hard",
