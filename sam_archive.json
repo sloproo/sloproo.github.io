@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-02",
+    "puzzle_id": "5c7110bc6f8f",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is a contemporary partyist",
+    "share_url": "https://cluesbysam.com/s/archive/5c7110bc6f8f",
+    "stats": {
+      "p1": 92265,
+      "p5": 119256,
+      "p10": 139185,
+      "p25": 183281,
+      "p50": 262660,
+      "p75": 390607,
+      "perfect_rate": 0.5576818429167423,
+      "no_hint_rate": 0.8374977326319608
+    }
+  },
+  {
     "date": "2026-06-01",
     "puzzle_id": "5645f8e32ed4",
     "difficulty": "Easy",
