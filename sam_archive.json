@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-03",
+    "puzzle_id": "b39bdd6d6a9a",
+    "difficulty": "Medium",
+    "flavor_text": "One singer is too modest",
+    "share_url": "https://cluesbysam.com/s/archive/b39bdd6d6a9a",
+    "stats": {
+      "p1": 115723,
+      "p5": 150204,
+      "p10": 173930,
+      "p25": 226557,
+      "p50": 317260,
+      "p75": 472407,
+      "perfect_rate": 0.4318946254263201,
+      "no_hint_rate": 0.7933435258144185
+    }
+  },
+  {
     "date": "2026-06-02",
     "puzzle_id": "5c7110bc6f8f",
     "difficulty": "Medium",
