@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-04",
+    "puzzle_id": "0de0ed36c797",
+    "difficulty": "Tricky",
+    "flavor_text": "One teacher steals apples from students",
+    "share_url": "https://cluesbysam.com/s/archive/0de0ed36c797",
+    "stats": {
+      "p1": 191897,
+      "p5": 263172,
+      "p10": 310816,
+      "p25": 405996,
+      "p50": 562296,
+      "p75": 807007,
+      "perfect_rate": 0.15895717554756456,
+      "no_hint_rate": 0.5741800152555301
+    }
+  },
+  {
     "date": "2026-06-03",
     "puzzle_id": "b39bdd6d6a9a",
     "difficulty": "Medium",
