@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-05",
+    "puzzle_id": "a0c54dcff7e0",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is easily surprised",
+    "share_url": "https://cluesbysam.com/s/archive/a0c54dcff7e0",
+    "stats": {
+      "p1": 183944,
+      "p5": 251264,
+      "p10": 297424,
+      "p25": 390865,
+      "p50": 547011,
+      "p75": 795244,
+      "perfect_rate": 0.2417854067716579,
+      "no_hint_rate": 0.6495014304363526
+    }
+  },
+  {
     "date": "2026-06-04",
     "puzzle_id": "0de0ed36c797",
     "difficulty": "Tricky",
