@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-06",
+    "puzzle_id": "da651d99a8f8",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal does his job with one eye",
+    "share_url": "https://cluesbysam.com/s/archive/da651d99a8f8",
+    "stats": {
+      "p1": 182040,
+      "p5": 270408,
+      "p10": 325592,
+      "p25": 448483,
+      "p50": 678139,
+      "p75": 1057667,
+      "perfect_rate": 0.18523734835632663,
+      "no_hint_rate": 0.4871482987100285
+    }
+  },
+  {
     "date": "2026-06-05",
     "puzzle_id": "a0c54dcff7e0",
     "difficulty": "Hard",
