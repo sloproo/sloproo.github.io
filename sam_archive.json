@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-07",
+    "puzzle_id": "0376cfc89f4f",
+    "difficulty": "Brutal",
+    "flavor_text": "One criminal looked it up in the dictionary",
+    "share_url": "https://cluesbysam.com/s/archive/0376cfc89f4f",
+    "stats": {
+      "p1": 230685,
+      "p5": 333555,
+      "p10": 397405,
+      "p25": 556938,
+      "p50": 819996,
+      "p75": 1234341,
+      "perfect_rate": 0.18659191138764486,
+      "no_hint_rate": 0.5342723325698266
+    }
+  },
+  {
     "date": "2026-06-06",
     "puzzle_id": "da651d99a8f8",
     "difficulty": "Hard",
