@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-08",
+    "puzzle_id": "403e579258c5",
+    "difficulty": "Easy",
+    "flavor_text": "Criminals think rules are stupid",
+    "share_url": "https://cluesbysam.com/s/archive/403e579258c5",
+    "stats": {
+      "p1": 75948,
+      "p5": 95561,
+      "p10": 109216,
+      "p25": 137970,
+      "p50": 189375,
+      "p75": 272768,
+      "perfect_rate": 0.611276566941925,
+      "no_hint_rate": 0.881345607147692
+    }
+  },
+  {
     "date": "2026-06-07",
     "puzzle_id": "0376cfc89f4f",
     "difficulty": "Brutal",
