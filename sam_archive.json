@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-09",
+    "puzzle_id": "9533c64be132",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal found the cup of shame",
+    "share_url": "https://cluesbysam.com/s/archive/9533c64be132",
+    "stats": {
+      "p1": 100714,
+      "p5": 131924,
+      "p10": 154069,
+      "p25": 204589,
+      "p50": 289461,
+      "p75": 425157,
+      "perfect_rate": 0.5226205421490677,
+      "no_hint_rate": 0.7513135258288
+    }
+  },
+  {
     "date": "2026-06-08",
     "puzzle_id": "403e579258c5",
     "difficulty": "Easy",
