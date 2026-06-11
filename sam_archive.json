@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-10",
+    "puzzle_id": "c3f000923c8d",
+    "difficulty": "Tricky",
+    "flavor_text": "One bug is hoping to become a fast butterfly",
+    "share_url": "https://cluesbysam.com/s/archive/c3f000923c8d",
+    "stats": {
+      "p1": 155300,
+      "p5": 211996,
+      "p10": 252659,
+      "p25": 339019,
+      "p50": 488642,
+      "p75": 721885,
+      "perfect_rate": 0.3277226186782501,
+      "no_hint_rate": 0.643137863274382
+    }
+  },
+  {
     "date": "2026-06-09",
     "puzzle_id": "9533c64be132",
     "difficulty": "Medium",
