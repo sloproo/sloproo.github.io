@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-11",
+    "puzzle_id": "5e7cf66692ae",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are criming while the iron is hot",
+    "share_url": "https://cluesbysam.com/s/archive/5e7cf66692ae",
+    "stats": {
+      "p1": 152757,
+      "p5": 202519,
+      "p10": 237777,
+      "p25": 317383,
+      "p50": 447025,
+      "p75": 654467,
+      "perfect_rate": 0.22441343042071196,
+      "no_hint_rate": 0.7109375
+    }
+  },
+  {
     "date": "2026-06-10",
     "puzzle_id": "c3f000923c8d",
     "difficulty": "Tricky",
