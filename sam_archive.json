@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-12",
+    "puzzle_id": "1ab4e20484ac",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals have a bone to pick with someone",
+    "share_url": "https://cluesbysam.com/s/archive/1ab4e20484ac",
+    "stats": {
+      "p1": 153060,
+      "p5": 208420,
+      "p10": 246378,
+      "p25": 327010,
+      "p50": 458319,
+      "p75": 668355,
+      "perfect_rate": 0.4099882302589343,
+      "no_hint_rate": 0.7737534774234966
+    }
+  },
+  {
     "date": "2026-06-11",
     "puzzle_id": "5e7cf66692ae",
     "difficulty": "Tricky",
