@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-13",
+    "puzzle_id": "f477dc7c46dd",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are losing hope",
+    "share_url": "https://cluesbysam.com/s/archive/f477dc7c46dd",
+    "stats": {
+      "p1": 149324,
+      "p5": 206748,
+      "p10": 248126,
+      "p25": 343238,
+      "p50": 496733,
+      "p75": 745335,
+      "perfect_rate": 0.40388099112653136,
+      "no_hint_rate": 0.6840553900948755
+    }
+  },
+  {
     "date": "2026-06-12",
     "puzzle_id": "1ab4e20484ac",
     "difficulty": "Hard",
