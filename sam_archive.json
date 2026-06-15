@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-14",
+    "puzzle_id": "126f6b95be00",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals dug out the truth about themselves",
+    "share_url": "https://cluesbysam.com/s/archive/126f6b95be00",
+    "stats": {
+      "p1": 227895,
+      "p5": 331361,
+      "p10": 398810,
+      "p25": 573873,
+      "p50": 896791,
+      "p75": 1388272,
+      "perfect_rate": 0.18649605227334604,
+      "no_hint_rate": 0.5454328886468827
+    }
+  },
+  {
     "date": "2026-06-13",
     "puzzle_id": "f477dc7c46dd",
     "difficulty": "Hard",
