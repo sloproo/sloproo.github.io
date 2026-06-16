@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-15",
+    "puzzle_id": "16dc8a3e5a7f",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals are bonding",
+    "share_url": "https://cluesbysam.com/s/archive/16dc8a3e5a7f",
+    "stats": {
+      "p1": 86802,
+      "p5": 111520,
+      "p10": 129217,
+      "p25": 168106,
+      "p50": 235704,
+      "p75": 348135,
+      "perfect_rate": 0.48761891438164523,
+      "no_hint_rate": 0.8634349934713673
+    }
+  },
+  {
     "date": "2026-06-14",
     "puzzle_id": "126f6b95be00",
     "difficulty": "Hard",
