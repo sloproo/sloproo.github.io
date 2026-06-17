@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-16",
+    "puzzle_id": "dbc40fcea9c9",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals might be secretly forming a folk band",
+    "share_url": "https://cluesbysam.com/s/archive/dbc40fcea9c9",
+    "stats": {
+      "p1": 84275,
+      "p5": 109520,
+      "p10": 125801,
+      "p25": 163155,
+      "p50": 228512,
+      "p75": 343572,
+      "perfect_rate": 0.4528359758399396,
+      "no_hint_rate": 0.8789401661004153
+    }
+  },
+  {
     "date": "2026-06-15",
     "puzzle_id": "16dc8a3e5a7f",
     "difficulty": "Easy",
