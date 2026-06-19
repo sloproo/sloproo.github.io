@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-18",
+    "puzzle_id": "e4069a54de9c",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are definitely not up to something",
+    "share_url": "https://cluesbysam.com/s/archive/e4069a54de9c",
+    "stats": {
+      "p1": 144311,
+      "p5": 193599,
+      "p10": 226344,
+      "p25": 303135,
+      "p50": 429242,
+      "p75": 639624,
+      "perfect_rate": 0.28839132987822,
+      "no_hint_rate": 0.7511552503255126
+    }
+  },
+  {
     "date": "2026-06-17",
     "puzzle_id": "be32135c23ff",
     "difficulty": "Medium",
