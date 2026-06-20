@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-19",
+    "puzzle_id": "5c59c6f704ec",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals would not have conquered Troy",
+    "share_url": "https://cluesbysam.com/s/archive/5c59c6f704ec",
+    "stats": {
+      "p1": 162912,
+      "p5": 223210,
+      "p10": 265683,
+      "p25": 359003,
+      "p50": 513434,
+      "p75": 754965,
+      "perfect_rate": 0.262074086767772,
+      "no_hint_rate": 0.5815554222717276
+    }
+  },
+  {
     "date": "2026-06-18",
     "puzzle_id": "e4069a54de9c",
     "difficulty": "Tricky",
