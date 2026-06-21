@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-20",
+    "puzzle_id": "dc701584afac",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal hasn't seen the movie Midsommar",
+    "share_url": "https://cluesbysam.com/s/archive/dc701584afac",
+    "stats": {
+      "p1": 205168,
+      "p5": 279734,
+      "p10": 329265,
+      "p25": 431276,
+      "p50": 609146,
+      "p75": 891130,
+      "perfect_rate": 0.3108139266774268,
+      "no_hint_rate": 0.6639876148753253
+    }
+  },
+  {
     "date": "2026-06-19",
     "puzzle_id": "5c59c6f704ec",
     "difficulty": "Tricky",
