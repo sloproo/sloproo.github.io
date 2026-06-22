@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-21",
+    "puzzle_id": "67146c73f0af",
+    "difficulty": "Brutal",
+    "flavor_text": "The innocents could be first-grade criminals",
+    "share_url": "https://cluesbysam.com/s/archive/67146c73f0af",
+    "stats": {
+      "p1": 196956,
+      "p5": 280939,
+      "p10": 336613,
+      "p25": 465313,
+      "p50": 677443,
+      "p75": 1011308,
+      "perfect_rate": 0.2724067544999072,
+      "no_hint_rate": 0.5591946557802931
+    }
+  },
+  {
     "date": "2026-06-20",
     "puzzle_id": "dc701584afac",
     "difficulty": "Hard",
