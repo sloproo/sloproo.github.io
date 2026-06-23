@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-22",
+    "puzzle_id": "a3169485c56b",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals are lacking common sense",
+    "share_url": "https://cluesbysam.com/s/archive/a3169485c56b",
+    "stats": {
+      "p1": 76728,
+      "p5": 98014,
+      "p10": 112390,
+      "p25": 144353,
+      "p50": 199499,
+      "p75": 290924,
+      "perfect_rate": 0.6662633501640413,
+      "no_hint_rate": 0.8841240663610769
+    }
+  },
+  {
     "date": "2026-06-21",
     "puzzle_id": "67146c73f0af",
     "difficulty": "Brutal",
