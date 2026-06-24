@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-23",
+    "puzzle_id": "55323616f0d0",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal brought home the bacon",
+    "share_url": "https://cluesbysam.com/s/archive/55323616f0d0",
+    "stats": {
+      "p1": 107584,
+      "p5": 136250,
+      "p10": 157070,
+      "p25": 204889,
+      "p50": 286601,
+      "p75": 418970,
+      "perfect_rate": 0.4369839612793015,
+      "no_hint_rate": 0.8223640504887539
+    }
+  },
+  {
     "date": "2026-06-22",
     "puzzle_id": "a3169485c56b",
     "difficulty": "Easy",
