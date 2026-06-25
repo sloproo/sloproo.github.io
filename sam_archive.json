@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-24",
+    "puzzle_id": "846b9f8fb07f",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent gets all the best cases",
+    "share_url": "https://cluesbysam.com/s/archive/846b9f8fb07f",
+    "stats": {
+      "p1": 141799,
+      "p5": 184414,
+      "p10": 216046,
+      "p25": 291923,
+      "p50": 420927,
+      "p75": 626503,
+      "perfect_rate": 0.37106768350810293,
+      "no_hint_rate": 0.7107562758182396
+    }
+  },
+  {
     "date": "2026-06-23",
     "puzzle_id": "55323616f0d0",
     "difficulty": "Medium",
