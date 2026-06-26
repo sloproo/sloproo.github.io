@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-25",
+    "puzzle_id": "fe49c97d481f",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals have found a new weakness",
+    "share_url": "https://cluesbysam.com/s/archive/fe49c97d481f",
+    "stats": {
+      "p1": 179619,
+      "p5": 243435,
+      "p10": 283348,
+      "p25": 371258,
+      "p50": 517244,
+      "p75": 748363,
+      "perfect_rate": 0.3132754845511313,
+      "no_hint_rate": 0.6648284810639851
+    }
+  },
+  {
     "date": "2026-06-24",
     "puzzle_id": "846b9f8fb07f",
     "difficulty": "Medium",
