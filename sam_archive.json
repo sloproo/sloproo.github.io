@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-26",
+    "puzzle_id": "7ad69c4b3f16",
+    "difficulty": "Tricky",
+    "flavor_text": "Two people feel betrayed",
+    "share_url": "https://cluesbysam.com/s/archive/7ad69c4b3f16",
+    "stats": {
+      "p1": 191898,
+      "p5": 265436,
+      "p10": 314753,
+      "p25": 423555,
+      "p50": 607483,
+      "p75": 907928,
+      "perfect_rate": 0.32620856150267913,
+      "no_hint_rate": 0.5855561443796737
+    }
+  },
+  {
     "date": "2026-06-25",
     "puzzle_id": "fe49c97d481f",
     "difficulty": "Tricky",
