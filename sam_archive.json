@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-27",
+    "puzzle_id": "583458dee3d8",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are less enthusiastic about sports",
+    "share_url": "https://cluesbysam.com/s/archive/583458dee3d8",
+    "stats": {
+      "p1": 167196,
+      "p5": 232450,
+      "p10": 276309,
+      "p25": 367085,
+      "p50": 519492,
+      "p75": 760304,
+      "perfect_rate": 0.2172549965333253,
+      "no_hint_rate": 0.5800198956983089
+    }
+  },
+  {
     "date": "2026-06-26",
     "puzzle_id": "7ad69c4b3f16",
     "difficulty": "Tricky",
