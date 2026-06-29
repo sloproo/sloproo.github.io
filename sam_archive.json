@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-28",
+    "puzzle_id": "23f8ed003ec2",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal didn't reach for the stars",
+    "share_url": "https://cluesbysam.com/s/archive/23f8ed003ec2",
+    "stats": {
+      "p1": 193773,
+      "p5": 279926,
+      "p10": 336239,
+      "p25": 460914,
+      "p50": 676143,
+      "p75": 1010589,
+      "perfect_rate": 0.22663918033291283,
+      "no_hint_rate": 0.5799513861111966
+    }
+  },
+  {
     "date": "2026-06-27",
     "puzzle_id": "583458dee3d8",
     "difficulty": "Hard",
