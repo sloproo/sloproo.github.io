@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-29",
+    "puzzle_id": "1672035de719",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent is oversharing",
+    "share_url": "https://cluesbysam.com/s/archive/1672035de719",
+    "stats": {
+      "p1": 74390,
+      "p5": 94625,
+      "p10": 109049,
+      "p25": 142068,
+      "p50": 200696,
+      "p75": 299317,
+      "perfect_rate": 0.5620509016735432,
+      "no_hint_rate": 0.8602290111724074
+    }
+  },
+  {
     "date": "2026-06-28",
     "puzzle_id": "23f8ed003ec2",
     "difficulty": "Hard",
