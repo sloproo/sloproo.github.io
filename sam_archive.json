@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-06-30",
+    "puzzle_id": "caf72748c9da",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent thinks it might be Colonel Mustard",
+    "share_url": "https://cluesbysam.com/s/archive/caf72748c9da",
+    "stats": {
+      "p1": 105209,
+      "p5": 139101,
+      "p10": 162905,
+      "p25": 215699,
+      "p50": 304044,
+      "p75": 444004,
+      "perfect_rate": 0.37615903864698463,
+      "no_hint_rate": 0.7612936725762184
+    }
+  },
+  {
     "date": "2026-06-29",
     "puzzle_id": "1672035de719",
     "difficulty": "Easy",
