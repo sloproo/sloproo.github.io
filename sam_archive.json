@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-01",
+    "puzzle_id": "60fdf879a200",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is nicer than most innocents",
+    "share_url": "https://cluesbysam.com/s/archive/60fdf879a200",
+    "stats": {
+      "p1": 95987,
+      "p5": 125432,
+      "p10": 145687,
+      "p25": 192746,
+      "p50": 273220,
+      "p75": 413153,
+      "perfect_rate": 0.42965454910624623,
+      "no_hint_rate": 0.8413336011247239
+    }
+  },
+  {
     "date": "2026-06-30",
     "puzzle_id": "caf72748c9da",
     "difficulty": "Easy",
