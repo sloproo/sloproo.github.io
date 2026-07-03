@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-02",
+    "puzzle_id": "e85be5d1006d",
+    "difficulty": "Tricky",
+    "flavor_text": "One sleuth misunderstood his profession",
+    "share_url": "https://cluesbysam.com/s/archive/e85be5d1006d",
+    "stats": {
+      "p1": 169326,
+      "p5": 225580,
+      "p10": 264657,
+      "p25": 346506,
+      "p50": 476154,
+      "p75": 685356,
+      "perfect_rate": 0.2996625783300305,
+      "no_hint_rate": 0.6122864335065075
+    }
+  },
+  {
     "date": "2026-07-01",
     "puzzle_id": "60fdf879a200",
     "difficulty": "Medium",
