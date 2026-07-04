@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-03",
+    "puzzle_id": "49356d6dd849",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent doesn't trust modern technology",
+    "share_url": "https://cluesbysam.com/s/archive/49356d6dd849",
+    "stats": {
+      "p1": 231207,
+      "p5": 311825,
+      "p10": 362050,
+      "p25": 481128,
+      "p50": 692187,
+      "p75": 1036117,
+      "perfect_rate": 0.2390312625788273,
+      "no_hint_rate": 0.551321615456863
+    }
+  },
+  {
     "date": "2026-07-02",
     "puzzle_id": "e85be5d1006d",
     "difficulty": "Tricky",
