@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-04",
+    "puzzle_id": "da1d73b47bb2",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal almost got away with it",
+    "share_url": "https://cluesbysam.com/s/archive/da1d73b47bb2",
+    "stats": {
+      "p1": 161803,
+      "p5": 217295,
+      "p10": 259434,
+      "p25": 344486,
+      "p50": 485107,
+      "p75": 709023,
+      "perfect_rate": 0.33889535239728125,
+      "no_hint_rate": 0.731890270038577
+    }
+  },
+  {
     "date": "2026-07-03",
     "puzzle_id": "49356d6dd849",
     "difficulty": "Hard",
