@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-05",
+    "puzzle_id": "9a2f55622757",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are all suspended",
+    "share_url": "https://cluesbysam.com/s/archive/9a2f55622757",
+    "stats": {
+      "p1": 164791,
+      "p5": 224934,
+      "p10": 265839,
+      "p25": 353446,
+      "p50": 492870,
+      "p75": 713097,
+      "perfect_rate": 0.2484670599517596,
+      "no_hint_rate": 0.6544709540553892
+    }
+  },
+  {
     "date": "2026-07-04",
     "puzzle_id": "da1d73b47bb2",
     "difficulty": "Hard",
