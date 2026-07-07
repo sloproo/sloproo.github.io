@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-06",
+    "puzzle_id": "c4c1dc8c70f9",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal might be exaggerating",
+    "share_url": "https://cluesbysam.com/s/archive/c4c1dc8c70f9",
+    "stats": {
+      "p1": 78048,
+      "p5": 99381,
+      "p10": 113295,
+      "p25": 143788,
+      "p50": 196348,
+      "p75": 283274,
+      "perfect_rate": 0.6075369610099908,
+      "no_hint_rate": 0.8886779467951303
+    }
+  },
+  {
     "date": "2026-07-05",
     "puzzle_id": "9a2f55622757",
     "difficulty": "Hard",
