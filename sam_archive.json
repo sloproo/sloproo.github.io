@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-07",
+    "puzzle_id": "a6f09e2713b2",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals have a new hobby",
+    "share_url": "https://cluesbysam.com/s/archive/a6f09e2713b2",
+    "stats": {
+      "p1": 101939,
+      "p5": 132766,
+      "p10": 154320,
+      "p25": 202675,
+      "p50": 289565,
+      "p75": 431388,
+      "perfect_rate": 0.4595192307692308,
+      "no_hint_rate": 0.7944471153846154
+    }
+  },
+  {
     "date": "2026-07-06",
     "puzzle_id": "c4c1dc8c70f9",
     "difficulty": "Easy",
