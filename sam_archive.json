@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-08",
+    "puzzle_id": "f23f73a4a543",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is less cute than the others",
+    "share_url": "https://cluesbysam.com/s/archive/f23f73a4a543",
+    "stats": {
+      "p1": 112473,
+      "p5": 145973,
+      "p10": 169497,
+      "p25": 224386,
+      "p50": 320805,
+      "p75": 481191,
+      "perfect_rate": 0.5272596665923559,
+      "no_hint_rate": 0.7649550419855837
+    }
+  },
+  {
     "date": "2026-07-07",
     "puzzle_id": "a6f09e2713b2",
     "difficulty": "Medium",
