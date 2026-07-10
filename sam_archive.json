@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-09",
+    "puzzle_id": "f882829f6aba",
+    "difficulty": "Tricky",
+    "flavor_text": "All innocents are jealous",
+    "share_url": "https://cluesbysam.com/s/archive/f882829f6aba",
+    "stats": {
+      "p1": 107173,
+      "p5": 147995,
+      "p10": 177925,
+      "p25": 244002,
+      "p50": 350958,
+      "p75": 519055,
+      "perfect_rate": 0.4725845978661782,
+      "no_hint_rate": 0.7189890338391465
+    }
+  },
+  {
     "date": "2026-07-08",
     "puzzle_id": "f23f73a4a543",
     "difficulty": "Tricky",
