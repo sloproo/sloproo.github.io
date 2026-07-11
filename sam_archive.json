@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-10",
+    "puzzle_id": "4e625521b10b",
+    "difficulty": "Tricky",
+    "flavor_text": "Innocents do more than the criminals",
+    "share_url": "https://cluesbysam.com/s/archive/4e625521b10b",
+    "stats": {
+      "p1": 155628,
+      "p5": 209137,
+      "p10": 246642,
+      "p25": 329588,
+      "p50": 466637,
+      "p75": 689788,
+      "perfect_rate": 0.33126038706910416,
+      "no_hint_rate": 0.7179006058006755
+    }
+  },
+  {
     "date": "2026-07-09",
     "puzzle_id": "f882829f6aba",
     "difficulty": "Tricky",
