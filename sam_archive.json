@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-11",
+    "puzzle_id": "d293827ab8eb",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal will be missed",
+    "share_url": "https://cluesbysam.com/s/archive/d293827ab8eb",
+    "stats": {
+      "p1": 213603,
+      "p5": 288643,
+      "p10": 337388,
+      "p25": 444548,
+      "p50": 621277,
+      "p75": 896176,
+      "perfect_rate": 0.30289268437160627,
+      "no_hint_rate": 0.5683022345081779
+    }
+  },
+  {
     "date": "2026-07-10",
     "puzzle_id": "4e625521b10b",
     "difficulty": "Tricky",
