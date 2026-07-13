@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-12",
+    "puzzle_id": "5f8f3cdc3053",
+    "difficulty": "Brutal",
+    "flavor_text": "One criminal found the ultimate question",
+    "share_url": "https://cluesbysam.com/s/archive/5f8f3cdc3053",
+    "stats": {
+      "p1": 210275,
+      "p5": 312479,
+      "p10": 377986,
+      "p25": 534946,
+      "p50": 822400,
+      "p75": 1289871,
+      "perfect_rate": 0.19254963978211212,
+      "no_hint_rate": 0.5286944298014409
+    }
+  },
+  {
     "date": "2026-07-11",
     "puzzle_id": "d293827ab8eb",
     "difficulty": "Hard",
