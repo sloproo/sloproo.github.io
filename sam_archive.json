@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-13",
+    "puzzle_id": "4491a665584b",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal was seen swimming in money",
+    "share_url": "https://cluesbysam.com/s/archive/4491a665584b",
+    "stats": {
+      "p1": 76475,
+      "p5": 98652,
+      "p10": 114055,
+      "p25": 148794,
+      "p50": 212518,
+      "p75": 326478,
+      "perfect_rate": 0.5430399010795643,
+      "no_hint_rate": 0.8308603224425738
+    }
+  },
+  {
     "date": "2026-07-12",
     "puzzle_id": "5f8f3cdc3053",
     "difficulty": "Brutal",
