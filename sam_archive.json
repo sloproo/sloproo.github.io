@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-14",
+    "puzzle_id": "a92b6a0750d8",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals are here to teach a lesson",
+    "share_url": "https://cluesbysam.com/s/archive/a92b6a0750d8",
+    "stats": {
+      "p1": 119834,
+      "p5": 157284,
+      "p10": 183595,
+      "p25": 241550,
+      "p50": 336183,
+      "p75": 486352,
+      "perfect_rate": 0.47836271729749724,
+      "no_hint_rate": 0.8049315744051289
+    }
+  },
+  {
     "date": "2026-07-13",
     "puzzle_id": "4491a665584b",
     "difficulty": "Easy",
