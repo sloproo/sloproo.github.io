@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-15",
+    "puzzle_id": "1259d5d26236",
+    "difficulty": "Tricky",
+    "flavor_text": "Innocents think you should own a hammer",
+    "share_url": "https://cluesbysam.com/s/archive/1259d5d26236",
+    "stats": {
+      "p1": 114237,
+      "p5": 147044,
+      "p10": 169733,
+      "p25": 223604,
+      "p50": 319040,
+      "p75": 477133,
+      "perfect_rate": 0.4582243498001283,
+      "no_hint_rate": 0.7871983418052608
+    }
+  },
+  {
     "date": "2026-07-14",
     "puzzle_id": "a92b6a0750d8",
     "difficulty": "Medium",
