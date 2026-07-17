@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-16",
+    "puzzle_id": "6b16a1095431",
+    "difficulty": "Tricky",
+    "flavor_text": "Innocents can't help themselves",
+    "share_url": "https://cluesbysam.com/s/archive/6b16a1095431",
+    "stats": {
+      "p1": 136131,
+      "p5": 179771,
+      "p10": 210146,
+      "p25": 278576,
+      "p50": 389043,
+      "p75": 563903,
+      "perfect_rate": 0.3734254368143031,
+      "no_hint_rate": 0.7764120276310443
+    }
+  },
+  {
     "date": "2026-07-15",
     "puzzle_id": "1259d5d26236",
     "difficulty": "Tricky",
