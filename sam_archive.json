@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-17",
+    "puzzle_id": "1183118f3658",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are not sarcastic at all",
+    "share_url": "https://cluesbysam.com/s/archive/1183118f3658",
+    "stats": {
+      "p1": 172425,
+      "p5": 234504,
+      "p10": 274580,
+      "p25": 356994,
+      "p50": 493532,
+      "p75": 705879,
+      "perfect_rate": 0.26832329317269077,
+      "no_hint_rate": 0.564061802766622
+    }
+  },
+  {
     "date": "2026-07-16",
     "puzzle_id": "6b16a1095431",
     "difficulty": "Tricky",
