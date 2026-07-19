@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-18",
+    "puzzle_id": "e40685a5d75d",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is out of the bag",
+    "share_url": "https://cluesbysam.com/s/archive/e40685a5d75d",
+    "stats": {
+      "p1": 171587,
+      "p5": 238391,
+      "p10": 284491,
+      "p25": 378853,
+      "p50": 536492,
+      "p75": 790131,
+      "perfect_rate": 0.26619236810496166,
+      "no_hint_rate": 0.6017432012073054
+    }
+  },
+  {
     "date": "2026-07-17",
     "puzzle_id": "1183118f3658",
     "difficulty": "Tricky",
