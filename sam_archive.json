@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-19",
+    "puzzle_id": "7a84a36669a6",
+    "difficulty": "Brutal",
+    "flavor_text": "One criminal just likes big crowds",
+    "share_url": "https://cluesbysam.com/s/archive/7a84a36669a6",
+    "stats": {
+      "p1": 155168,
+      "p5": 227945,
+      "p10": 283672,
+      "p25": 404837,
+      "p50": 627662,
+      "p75": 986992,
+      "perfect_rate": 0.21913432359048077,
+      "no_hint_rate": 0.5550231592397381
+    }
+  },
+  {
     "date": "2026-07-18",
     "puzzle_id": "e40685a5d75d",
     "difficulty": "Hard",
