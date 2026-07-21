@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-20",
+    "puzzle_id": "edc01d9fa557",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal was caught just in time",
+    "share_url": "https://cluesbysam.com/s/archive/edc01d9fa557",
+    "stats": {
+      "p1": 98890,
+      "p5": 127070,
+      "p10": 146497,
+      "p25": 190556,
+      "p50": 270167,
+      "p75": 408452,
+      "perfect_rate": 0.5395768956501069,
+      "no_hint_rate": 0.8315188970763014
+    }
+  },
+  {
     "date": "2026-07-19",
     "puzzle_id": "7a84a36669a6",
     "difficulty": "Brutal",
