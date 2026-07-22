@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-21",
+    "puzzle_id": "0a9fd4518fe8",
+    "difficulty": "Easy",
+    "flavor_text": "Somneone stole the cookie from the cookie jar",
+    "share_url": "https://cluesbysam.com/s/archive/0a9fd4518fe8",
+    "stats": {
+      "p1": 77920,
+      "p5": 98974,
+      "p10": 112578,
+      "p25": 143184,
+      "p50": 196397,
+      "p75": 290597,
+      "perfect_rate": 0.6174855824682814,
+      "no_hint_rate": 0.8689042675893887
+    }
+  },
+  {
     "date": "2026-07-20",
     "puzzle_id": "edc01d9fa557",
     "difficulty": "Easy",
