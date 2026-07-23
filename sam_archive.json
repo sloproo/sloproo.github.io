@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-22",
+    "puzzle_id": "9ad94e6d6ab3",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal might escape ASAP",
+    "share_url": "https://cluesbysam.com/s/archive/9ad94e6d6ab3",
+    "stats": {
+      "p1": 118921,
+      "p5": 160431,
+      "p10": 189080,
+      "p25": 251086,
+      "p50": 352286,
+      "p75": 514552,
+      "perfect_rate": 0.5134866154592084,
+      "no_hint_rate": 0.7781151912624085
+    }
+  },
+  {
     "date": "2026-07-21",
     "puzzle_id": "0a9fd4518fe8",
     "difficulty": "Easy",
