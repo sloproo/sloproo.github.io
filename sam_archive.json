@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-23",
+    "puzzle_id": "9a3944c28717",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal stole something, but no one knows when",
+    "share_url": "https://cluesbysam.com/s/archive/9a3944c28717",
+    "stats": {
+      "p1": 106059,
+      "p5": 137544,
+      "p10": 158792,
+      "p25": 207388,
+      "p50": 292914,
+      "p75": 429284,
+      "perfect_rate": 0.5121339315868191,
+      "no_hint_rate": 0.8263376272494813
+    }
+  },
+  {
     "date": "2026-07-22",
     "puzzle_id": "9ad94e6d6ab3",
     "difficulty": "Tricky",
