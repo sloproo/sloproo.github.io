@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-24",
+    "puzzle_id": "781ce7d5cb4f",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent has to learn to let go",
+    "share_url": "https://cluesbysam.com/s/archive/781ce7d5cb4f",
+    "stats": {
+      "p1": 115217,
+      "p5": 154581,
+      "p10": 180928,
+      "p25": 243487,
+      "p50": 355518,
+      "p75": 543465,
+      "perfect_rate": 0.4074810582223677,
+      "no_hint_rate": 0.7770533893825358
+    }
+  },
+  {
     "date": "2026-07-23",
     "puzzle_id": "9a3944c28717",
     "difficulty": "Tricky",
