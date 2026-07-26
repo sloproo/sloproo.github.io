@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-25",
+    "puzzle_id": "44efd7435e65",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal has it all",
+    "share_url": "https://cluesbysam.com/s/archive/44efd7435e65",
+    "stats": {
+      "p1": 187808,
+      "p5": 267735,
+      "p10": 322064,
+      "p25": 436260,
+      "p50": 638321,
+      "p75": 962044,
+      "perfect_rate": 0.23113562296314866,
+      "no_hint_rate": 0.49749310604161445
+    }
+  },
+  {
     "date": "2026-07-24",
     "puzzle_id": "781ce7d5cb4f",
     "difficulty": "Tricky",
