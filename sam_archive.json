@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-26",
+    "puzzle_id": "45beb0437025",
+    "difficulty": "Hard",
+    "flavor_text": "Everyone is feeling apologetic",
+    "share_url": "https://cluesbysam.com/s/archive/45beb0437025",
+    "stats": {
+      "p1": 213243,
+      "p5": 315496,
+      "p10": 378083,
+      "p25": 531095,
+      "p50": 799831,
+      "p75": 1222201,
+      "perfect_rate": 0.1846991914485405,
+      "no_hint_rate": 0.48818007400301494
+    }
+  },
+  {
     "date": "2026-07-25",
     "puzzle_id": "44efd7435e65",
     "difficulty": "Hard",
