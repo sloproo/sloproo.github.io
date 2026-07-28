@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-27",
+    "puzzle_id": "588ef925f2ee",
+    "difficulty": "Easy",
+    "flavor_text": "The innocents are disappointed",
+    "share_url": "https://cluesbysam.com/s/archive/588ef925f2ee",
+    "stats": {
+      "p1": 84340,
+      "p5": 109021,
+      "p10": 125680,
+      "p25": 164009,
+      "p50": 235443,
+      "p75": 357002,
+      "perfect_rate": 0.5245897856038402,
+      "no_hint_rate": 0.8572846230181626
+    }
+  },
+  {
     "date": "2026-07-26",
     "puzzle_id": "45beb0437025",
     "difficulty": "Hard",
