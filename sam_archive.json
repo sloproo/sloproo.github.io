@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-28",
+    "puzzle_id": "5e87f220d3d9",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals stole something cuddly",
+    "share_url": "https://cluesbysam.com/s/archive/5e87f220d3d9",
+    "stats": {
+      "p1": 96040,
+      "p5": 123210,
+      "p10": 141331,
+      "p25": 180671,
+      "p50": 247059,
+      "p75": 352505,
+      "perfect_rate": 0.5439976425786562,
+      "no_hint_rate": 0.8598921026384985
+    }
+  },
+  {
     "date": "2026-07-27",
     "puzzle_id": "588ef925f2ee",
     "difficulty": "Easy",
