@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-29",
+    "puzzle_id": "443f8a338a44",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal makes excellent scam chowder",
+    "share_url": "https://cluesbysam.com/s/archive/443f8a338a44",
+    "stats": {
+      "p1": 146396,
+      "p5": 195523,
+      "p10": 231196,
+      "p25": 311262,
+      "p50": 446899,
+      "p75": 668034,
+      "perfect_rate": 0.34283986962464513,
+      "no_hint_rate": 0.6931184943749343
+    }
+  },
+  {
     "date": "2026-07-28",
     "puzzle_id": "5e87f220d3d9",
     "difficulty": "Medium",
