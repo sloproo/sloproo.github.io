@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-30",
+    "puzzle_id": "b08ce9887faf",
+    "difficulty": "Tricky",
+    "flavor_text": "No criminel likes loosing",
+    "share_url": "https://cluesbysam.com/s/archive/b08ce9887faf",
+    "stats": {
+      "p1": 183649,
+      "p5": 260331,
+      "p10": 309812,
+      "p25": 410413,
+      "p50": 575434,
+      "p75": 842220,
+      "perfect_rate": 0.257483910593639,
+      "no_hint_rate": 0.6159104868213742
+    }
+  },
+  {
     "date": "2026-07-29",
     "puzzle_id": "443f8a338a44",
     "difficulty": "Tricky",
