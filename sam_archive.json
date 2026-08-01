@@ -20,14 +20,14 @@
     "flavor_text": "One criminal is not green enough",
     "share_url": "https://cluesbysam.com/s/archive/8d16a1e6082b",
     "stats": {
-      "p1": 144060,
-      "p5": 186690,
-      "p10": 220316,
-      "p25": 292162,
-      "p50": 414360,
-      "p75": 614372,
-      "perfect_rate": 0.29132087594367406,
-      "no_hint_rate": 0.7159072656208171
+      "p1": 144608,
+      "p5": 191786,
+      "p10": 226833,
+      "p25": 303453,
+      "p50": 434796,
+      "p75": 652082,
+      "perfect_rate": 0.2740958126137877,
+      "no_hint_rate": 0.6929974728947583
     }
   },
   {
