@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-07-31",
+    "puzzle_id": "8d16a1e6082b",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is not green enough",
+    "share_url": "https://cluesbysam.com/s/archive/8d16a1e6082b",
+    "stats": {
+      "p1": 144060,
+      "p5": 186690,
+      "p10": 220316,
+      "p25": 292162,
+      "p50": 414360,
+      "p75": 614372,
+      "perfect_rate": 0.29132087594367406,
+      "no_hint_rate": 0.7159072656208171
+    }
+  },
+  {
     "date": "2026-07-30",
     "puzzle_id": "b08ce9887faf",
     "difficulty": "Tricky",
@@ -66,6 +83,18 @@
   },
   {
     "date": "2026-07-27",
+    "puzzle_id": "ed0c6c-d8fa97af401ea931",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=ed0c6c-d8fa97af401ea931"
+  },
+  {
+    "date": "2026-07-27",
+    "puzzle_id": "a8611a-fd831d19dcfdcf1a",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=a8611a-fd831d19dcfdcf1a"
+  },
+  {
+    "date": "2026-07-27",
     "puzzle_id": "588ef925f2ee",
     "difficulty": "Easy",
     "flavor_text": "The innocents are disappointed",
@@ -80,6 +109,30 @@
       "perfect_rate": 0.5245897856038402,
       "no_hint_rate": 0.8572846230181626
     }
+  },
+  {
+    "date": "2026-07-27",
+    "puzzle_id": "55499641e443",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/55499641e443"
+  },
+  {
+    "date": "2026-07-27",
+    "puzzle_id": "3b42b97e978a",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/3b42b97e978a"
+  },
+  {
+    "date": "2026-07-27",
+    "puzzle_id": "1832eb-92227577149c8bfa",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=1832eb-92227577149c8bfa"
+  },
+  {
+    "date": "2026-07-27",
+    "puzzle_id": "0f55d0be4039",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/0f55d0be4039"
   },
   {
     "date": "2026-07-26",
@@ -201,6 +254,41 @@
     }
   },
   {
+    "date": "2026-07-20",
+    "puzzle_id": "e1a8c1b592f7",
+    "share_url": "https://cluesbysam.com/s/help/e1a8c1b592f7"
+  },
+  {
+    "date": "2026-07-20",
+    "puzzle_id": "de1c824f27dd",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/de1c824f27dd"
+  },
+  {
+    "date": "2026-07-20",
+    "puzzle_id": "70ce57-05d22fa41aa0c8f8",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=70ce57-05d22fa41aa0c8f8"
+  },
+  {
+    "date": "2026-07-20",
+    "puzzle_id": "520d50-0cbdd3274445ad10",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=520d50-0cbdd3274445ad10"
+  },
+  {
+    "date": "2026-07-20",
+    "puzzle_id": "4bc363e9a544",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/4bc363e9a544"
+  },
+  {
+    "date": "2026-07-20",
+    "puzzle_id": "1832eb-5cbb6c1f21b825ca",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=1832eb-5cbb6c1f21b825ca"
+  },
+  {
     "date": "2026-07-19",
     "puzzle_id": "7a84a36669a6",
     "difficulty": "Brutal",
@@ -304,6 +392,36 @@
   },
   {
     "date": "2026-07-13",
+    "puzzle_id": "f9fb73-8092e7c200ca4bde",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=f9fb73-8092e7c200ca4bde"
+  },
+  {
+    "date": "2026-07-13",
+    "puzzle_id": "c34de3-76325123c6321a4f",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=c34de3-76325123c6321a4f"
+  },
+  {
+    "date": "2026-07-13",
+    "puzzle_id": "a0cb1483fabc",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/a0cb1483fabc"
+  },
+  {
+    "date": "2026-07-13",
+    "puzzle_id": "98501fee863e",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/98501fee863e"
+  },
+  {
+    "date": "2026-07-13",
+    "puzzle_id": "70ce57-0beaee4606f3feca",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=70ce57-0beaee4606f3feca"
+  },
+  {
+    "date": "2026-07-13",
     "puzzle_id": "4491a665584b",
     "difficulty": "Easy",
     "flavor_text": "One criminal was seen swimming in money",
@@ -318,6 +436,12 @@
       "perfect_rate": 0.5430399010795643,
       "no_hint_rate": 0.8308603224425738
     }
+  },
+  {
+    "date": "2026-07-13",
+    "puzzle_id": "38a169bc124c",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/38a169bc124c"
   },
   {
     "date": "2026-07-12",
@@ -439,6 +563,42 @@
     }
   },
   {
+    "date": "2026-07-06",
+    "puzzle_id": "c29f579bf814",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/c29f579bf814"
+  },
+  {
+    "date": "2026-07-06",
+    "puzzle_id": "9f138871d9ca",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/9f138871d9ca"
+  },
+  {
+    "date": "2026-07-06",
+    "puzzle_id": "89fd55-aa71bcb9b893d27f",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=89fd55-aa71bcb9b893d27f"
+  },
+  {
+    "date": "2026-07-06",
+    "puzzle_id": "70ce57-1b6c2e75ab14f8fb",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=70ce57-1b6c2e75ab14f8fb"
+  },
+  {
+    "date": "2026-07-06",
+    "puzzle_id": "2463570cc9cf",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/2463570cc9cf"
+  },
+  {
+    "date": "2026-07-06",
+    "puzzle_id": "1cf536-8e8320bde17f4dce",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=1cf536-8e8320bde17f4dce"
+  },
+  {
     "date": "2026-07-05",
     "puzzle_id": "9a2f55622757",
     "difficulty": "Hard",
@@ -542,6 +702,29 @@
   },
   {
     "date": "2026-06-29",
+    "puzzle_id": "f432346e52a0",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/f432346e52a0"
+  },
+  {
+    "date": "2026-06-29",
+    "puzzle_id": "885e8a5fd527",
+    "share_url": "https://cluesbysam.com/s/help/885e8a5fd527"
+  },
+  {
+    "date": "2026-06-29",
+    "puzzle_id": "58d0ad230fd8",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/58d0ad230fd8"
+  },
+  {
+    "date": "2026-06-29",
+    "puzzle_id": "1f9216-f08b9559238f8f82",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=1f9216-f08b9559238f8f82"
+  },
+  {
+    "date": "2026-06-29",
     "puzzle_id": "1672035de719",
     "difficulty": "Easy",
     "flavor_text": "One innocent is oversharing",
@@ -556,6 +739,18 @@
       "perfect_rate": 0.5620509016735432,
       "no_hint_rate": 0.8602290111724074
     }
+  },
+  {
+    "date": "2026-06-29",
+    "puzzle_id": "11a92e-9ad9364e1c3a1ded",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=11a92e-9ad9364e1c3a1ded"
+  },
+  {
+    "date": "2026-06-29",
+    "puzzle_id": "11a92e-0795f9630bbcbd02",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=11a92e-0795f9630bbcbd02"
   },
   {
     "date": "2026-06-28",
@@ -661,6 +856,12 @@
   },
   {
     "date": "2026-06-22",
+    "puzzle_id": "e331bd8408eb",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/e331bd8408eb"
+  },
+  {
+    "date": "2026-06-22",
     "puzzle_id": "a3169485c56b",
     "difficulty": "Easy",
     "flavor_text": "The criminals are lacking common sense",
@@ -675,6 +876,36 @@
       "perfect_rate": 0.6662633501640413,
       "no_hint_rate": 0.8841240663610769
     }
+  },
+  {
+    "date": "2026-06-22",
+    "puzzle_id": "70ce57-f2b2d4755b958ef9",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=70ce57-f2b2d4755b958ef9"
+  },
+  {
+    "date": "2026-06-22",
+    "puzzle_id": "45fc09-2986530b6e5ceb76",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=45fc09-2986530b6e5ceb76"
+  },
+  {
+    "date": "2026-06-22",
+    "puzzle_id": "43cf2f161736",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/43cf2f161736"
+  },
+  {
+    "date": "2026-06-22",
+    "puzzle_id": "11a92e-0b0b709df5aa5993",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=11a92e-0b0b709df5aa5993"
+  },
+  {
+    "date": "2026-06-22",
+    "puzzle_id": "0efe3232890b",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/0efe3232890b"
   },
   {
     "date": "2026-06-21",
@@ -777,6 +1008,23 @@
       "perfect_rate": 0.4528359758399396,
       "no_hint_rate": 0.8789401661004153
     }
+  },
+  {
+    "date": "2026-06-15",
+    "puzzle_id": "68033299dee7",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/68033299dee7"
+  },
+  {
+    "date": "2026-06-15",
+    "puzzle_id": "650271483c48",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/650271483c48"
+  },
+  {
+    "date": "2026-06-15",
+    "puzzle_id": "35de82062d50",
+    "share_url": "https://cluesbysam.com/s/help/35de82062d50"
   },
   {
     "date": "2026-06-15",
@@ -899,6 +1147,30 @@
   },
   {
     "date": "2026-06-08",
+    "puzzle_id": "ea7b8758b455",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/ea7b8758b455"
+  },
+  {
+    "date": "2026-06-08",
+    "puzzle_id": "e7ec4700d5fa",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/e7ec4700d5fa"
+  },
+  {
+    "date": "2026-06-08",
+    "puzzle_id": "8986f219be08",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/8986f219be08"
+  },
+  {
+    "date": "2026-06-08",
+    "puzzle_id": "83b5afef1c81",
+    "difficulty": "Evil",
+    "share_url": "https://cluesbysam.com/s/help/83b5afef1c81"
+  },
+  {
+    "date": "2026-06-08",
     "puzzle_id": "403e579258c5",
     "difficulty": "Easy",
     "flavor_text": "Criminals think rules are stupid",
@@ -1018,6 +1290,24 @@
   },
   {
     "date": "2026-06-01",
+    "puzzle_id": "f5b5f9141a03",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/f5b5f9141a03"
+  },
+  {
+    "date": "2026-06-01",
+    "puzzle_id": "758ad458ca70",
+    "difficulty": "Easy",
+    "share_url": "https://cluesbysam.com/s/help/758ad458ca70"
+  },
+  {
+    "date": "2026-06-01",
+    "puzzle_id": "700f0ef5b7e7",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/700f0ef5b7e7"
+  },
+  {
+    "date": "2026-06-01",
     "puzzle_id": "5645f8e32ed4",
     "difficulty": "Easy",
     "flavor_text": "The criminals are mendacious",
@@ -1032,6 +1322,12 @@
       "perfect_rate": 0.5240171634002088,
       "no_hint_rate": 0.7807027716571959
     }
+  },
+  {
+    "date": "2026-06-01",
+    "puzzle_id": "006ec6ad1812",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/help/006ec6ad1812"
   },
   {
     "date": "2026-05-31",
@@ -1137,6 +1433,17 @@
   },
   {
     "date": "2026-05-25",
+    "puzzle_id": "ec2a9fafbfc3",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/help/ec2a9fafbfc3"
+  },
+  {
+    "date": "2026-05-25",
+    "puzzle_id": "ae97c7a310f3",
+    "share_url": "https://cluesbysam.com/s/help/ae97c7a310f3"
+  },
+  {
+    "date": "2026-05-25",
     "puzzle_id": "ae75a7695beb",
     "difficulty": "Easy",
     "flavor_text": "One innocent is an avid user of Crimadvisor",
@@ -1151,6 +1458,17 @@
       "perfect_rate": 0.3882315937190003,
       "no_hint_rate": 0.8394667440903922
     }
+  },
+  {
+    "date": "2026-05-25",
+    "puzzle_id": "aaa2cd15fa3d",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/aaa2cd15fa3d"
+  },
+  {
+    "date": "2026-05-25",
+    "puzzle_id": "8366951bcf40",
+    "share_url": "https://cluesbysam.com/s/help/8366951bcf40"
   },
   {
     "date": "2026-05-24",
