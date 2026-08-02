@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-01",
+    "puzzle_id": "7c4f0e81edba",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal feels neglected",
+    "share_url": "https://cluesbysam.com/s/archive/7c4f0e81edba",
+    "stats": {
+      "p1": 197751,
+      "p5": 309307,
+      "p10": 362246,
+      "p25": 500433,
+      "p50": 741145,
+      "p75": 1113757,
+      "perfect_rate": 0.2034462574083559,
+      "no_hint_rate": 0.45994000146337893
+    }
+  },
+  {
     "date": "2026-07-31",
     "puzzle_id": "8d16a1e6082b",
     "difficulty": "Tricky",
