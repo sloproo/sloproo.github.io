@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-02",
+    "puzzle_id": "dad016b0b6e6",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent really likes cake",
+    "share_url": "https://cluesbysam.com/s/archive/dad016b0b6e6",
+    "stats": {
+      "p1": 235117,
+      "p5": 322786,
+      "p10": 374016,
+      "p25": 493539,
+      "p50": 686119,
+      "p75": 993488,
+      "perfect_rate": 0.16112757772592545,
+      "no_hint_rate": 0.5687393580122343
+    }
+  },
+  {
     "date": "2026-08-01",
     "puzzle_id": "7c4f0e81edba",
     "difficulty": "Hard",
