@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-03",
+    "puzzle_id": "c1e26fb1f97b",
+    "difficulty": "Easy",
+    "flavor_text": "If one criminal was innocent, everything would be different",
+    "share_url": "https://cluesbysam.com/s/archive/c1e26fb1f97b",
+    "stats": {
+      "p1": 83385,
+      "p5": 106595,
+      "p10": 122452,
+      "p25": 160088,
+      "p50": 228089,
+      "p75": 343759,
+      "perfect_rate": 0.5734121464997682,
+      "no_hint_rate": 0.8544042651831247
+    }
+  },
+  {
     "date": "2026-08-02",
     "puzzle_id": "dad016b0b6e6",
     "difficulty": "Hard",
