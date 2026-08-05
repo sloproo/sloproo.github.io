@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-04",
+    "puzzle_id": "c45df9afea51",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent wasn't on time",
+    "share_url": "https://cluesbysam.com/s/archive/c45df9afea51",
+    "stats": {
+      "p1": 116904,
+      "p5": 157323,
+      "p10": 185309,
+      "p25": 251434,
+      "p50": 362171,
+      "p75": 540444,
+      "perfect_rate": 0.43835992023928216,
+      "no_hint_rate": 0.7302841475573281
+    }
+  },
+  {
     "date": "2026-08-03",
     "puzzle_id": "c1e26fb1f97b",
     "difficulty": "Easy",
