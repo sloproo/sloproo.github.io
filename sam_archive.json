@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-05",
+    "puzzle_id": "bd31411bef10",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are on call 24/7",
+    "share_url": "https://cluesbysam.com/s/archive/bd31411bef10",
+    "stats": {
+      "p1": 128814,
+      "p5": 164981,
+      "p10": 189504,
+      "p25": 246364,
+      "p50": 344716,
+      "p75": 513809,
+      "perfect_rate": 0.32532810008585794,
+      "no_hint_rate": 0.7993131362688581
+    }
+  },
+  {
     "date": "2026-08-04",
     "puzzle_id": "c45df9afea51",
     "difficulty": "Medium",
