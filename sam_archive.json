@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-07",
+    "puzzle_id": "33230d40fbee",
+    "difficulty": "Tricky",
+    "flavor_text": "If a criminal seems criminal, she's probably criminal",
+    "share_url": "https://cluesbysam.com/s/archive/33230d40fbee",
+    "stats": {
+      "p1": 211723,
+      "p5": 292157,
+      "p10": 339080,
+      "p25": 447149,
+      "p50": 630750,
+      "p75": 924244,
+      "perfect_rate": 0.20822028517000518,
+      "no_hint_rate": 0.5234947757316862
+    }
+  },
+  {
     "date": "2026-08-06",
     "puzzle_id": "8a1713d9a4ee",
     "difficulty": "Tricky",
