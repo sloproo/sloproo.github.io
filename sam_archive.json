@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-08",
+    "puzzle_id": "288178df85a8",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal needs a toothpick",
+    "share_url": "https://cluesbysam.com/s/archive/288178df85a8",
+    "stats": {
+      "p1": 137540,
+      "p5": 194965,
+      "p10": 233744,
+      "p25": 318925,
+      "p50": 456203,
+      "p75": 671937,
+      "perfect_rate": 0.1353587786259542,
+      "no_hint_rate": 0.624824427480916
+    }
+  },
+  {
     "date": "2026-08-07",
     "puzzle_id": "33230d40fbee",
     "difficulty": "Tricky",
