@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-10",
+    "puzzle_id": "7f31bc6af856",
+    "difficulty": "Easy",
+    "flavor_text": "Innocents are feeling festive",
+    "share_url": "https://cluesbysam.com/s/archive/7f31bc6af856",
+    "stats": {
+      "p1": 97227,
+      "p5": 126029,
+      "p10": 145389,
+      "p25": 189572,
+      "p50": 268769,
+      "p75": 401738,
+      "perfect_rate": 0.5226624332781152,
+      "no_hint_rate": 0.8669473587336647
+    }
+  },
+  {
     "date": "2026-08-09",
     "puzzle_id": "96a87d670886",
     "difficulty": "Hard",
