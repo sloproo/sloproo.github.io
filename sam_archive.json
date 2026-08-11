@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-11",
+    "puzzle_id": "0459fd9e90ae",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal might secretly be a wolf",
+    "share_url": "https://cluesbysam.com/s/archive/0459fd9e90ae",
+    "stats": {
+      "p1": 94506,
+      "p5": 120147,
+      "p10": 138668,
+      "p25": 177741,
+      "p50": 250782,
+      "p75": 372849,
+      "perfect_rate": 0.6042510582130991,
+      "no_hint_rate": 0.853534204178235
+    }
+  },
+  {
     "date": "2026-08-10",
     "puzzle_id": "7f31bc6af856",
     "difficulty": "Easy",
@@ -29,6 +46,41 @@
       "perfect_rate": 0.5226624332781152,
       "no_hint_rate": 0.8669473587336647
     }
+  },
+  {
+    "date": "2026-08-10",
+    "puzzle_id": "78e5d3c3471f",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/78e5d3c3471f"
+  },
+  {
+    "date": "2026-08-10",
+    "puzzle_id": "758cea-5ff4dc57925b1452",
+    "difficulty": "Hard",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=758cea-5ff4dc57925b1452"
+  },
+  {
+    "date": "2026-08-10",
+    "puzzle_id": "45fc09-61d9a651e103456e",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=45fc09-61d9a651e103456e"
+  },
+  {
+    "date": "2026-08-10",
+    "puzzle_id": "41a8e9-f72b3a69641e9eca",
+    "difficulty": "Medium",
+    "share_url": "https://cluesbysam.com/s/play/?puzzleId=41a8e9-f72b3a69641e9eca"
+  },
+  {
+    "date": "2026-08-10",
+    "puzzle_id": "1ecfdc984e6d",
+    "difficulty": "Tricky",
+    "share_url": "https://cluesbysam.com/s/help/1ecfdc984e6d"
+  },
+  {
+    "date": "2026-08-10",
+    "puzzle_id": "147da481b09c",
+    "share_url": "https://cluesbysam.com/s/help/147da481b09c"
   },
   {
     "date": "2026-08-09",
