@@ -20,14 +20,14 @@
     "flavor_text": "One criminal might secretly be a wolf",
     "share_url": "https://cluesbysam.com/s/archive/0459fd9e90ae",
     "stats": {
-      "p1": 94506,
-      "p5": 120147,
-      "p10": 138668,
-      "p25": 177741,
-      "p50": 250782,
-      "p75": 372849,
-      "perfect_rate": 0.6042510582130991,
-      "no_hint_rate": 0.853534204178235
+      "p1": 96072,
+      "p5": 122716,
+      "p10": 141308,
+      "p25": 183258,
+      "p50": 262147,
+      "p75": 397983,
+      "perfect_rate": 0.5793624941833411,
+      "no_hint_rate": 0.8325732899022801
     }
   },
   {
