@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-12",
+    "puzzle_id": "7e75bef6b6a2",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal didn't need any hints in an escape room",
+    "share_url": "https://cluesbysam.com/s/archive/7e75bef6b6a2",
+    "stats": {
+      "p1": 142381,
+      "p5": 186503,
+      "p10": 218324,
+      "p25": 293493,
+      "p50": 421954,
+      "p75": 635534,
+      "perfect_rate": 0.3214352808566598,
+      "no_hint_rate": 0.7386006816778937
+    }
+  },
+  {
     "date": "2026-08-11",
     "puzzle_id": "0459fd9e90ae",
     "difficulty": "Medium",
