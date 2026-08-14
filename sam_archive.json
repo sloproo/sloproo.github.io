@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-13",
+    "puzzle_id": "8f59640de056",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent wonders...",
+    "share_url": "https://cluesbysam.com/s/archive/8f59640de056",
+    "stats": {
+      "p1": 141442,
+      "p5": 189756,
+      "p10": 222259,
+      "p25": 294331,
+      "p50": 408799,
+      "p75": 593755,
+      "perfect_rate": 0.4086117335506213,
+      "no_hint_rate": 0.7551690772051334
+    }
+  },
+  {
     "date": "2026-08-12",
     "puzzle_id": "7e75bef6b6a2",
     "difficulty": "Medium",
