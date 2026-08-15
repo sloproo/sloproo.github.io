@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-14",
+    "puzzle_id": "275e956f6ed3",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal might come from space",
+    "share_url": "https://cluesbysam.com/s/archive/275e956f6ed3",
+    "stats": {
+      "p1": 167198,
+      "p5": 231410,
+      "p10": 273283,
+      "p25": 363226,
+      "p50": 513100,
+      "p75": 757554,
+      "perfect_rate": 0.35411761593608637,
+      "no_hint_rate": 0.6236872040422211
+    }
+  },
+  {
     "date": "2026-08-13",
     "puzzle_id": "8f59640de056",
     "difficulty": "Tricky",
