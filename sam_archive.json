@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-15",
+    "puzzle_id": "2306446d5892",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent will never listen to a criminal again",
+    "share_url": "https://cluesbysam.com/s/archive/2306446d5892",
+    "stats": {
+      "p1": 230568,
+      "p5": 317235,
+      "p10": 368599,
+      "p25": 483558,
+      "p50": 676864,
+      "p75": 982799,
+      "perfect_rate": 0.21592257258819855,
+      "no_hint_rate": 0.5685607243209491
+    }
+  },
+  {
     "date": "2026-08-14",
     "puzzle_id": "275e956f6ed3",
     "difficulty": "Tricky",
