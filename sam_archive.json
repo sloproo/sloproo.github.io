@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-16",
+    "puzzle_id": "07b3f17f5224",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal learned something today",
+    "share_url": "https://cluesbysam.com/s/archive/07b3f17f5224",
+    "stats": {
+      "p1": 195209,
+      "p5": 291254,
+      "p10": 346471,
+      "p25": 478896,
+      "p50": 710756,
+      "p75": 1076670,
+      "perfect_rate": 0.1799660441426146,
+      "no_hint_rate": 0.5062818336162989
+    }
+  },
+  {
     "date": "2026-08-15",
     "puzzle_id": "2306446d5892",
     "difficulty": "Hard",
