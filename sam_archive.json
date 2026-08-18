@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-17",
+    "puzzle_id": "2e6a1a42b9b6",
+    "difficulty": "Easy",
+    "flavor_text": "The innocents have Monday blues",
+    "share_url": "https://cluesbysam.com/s/archive/2e6a1a42b9b6",
+    "stats": {
+      "p1": 81167,
+      "p5": 105167,
+      "p10": 121330,
+      "p25": 156926,
+      "p50": 218128,
+      "p75": 316957,
+      "perfect_rate": 0.21926076636147845,
+      "no_hint_rate": 0.8244828755510343
+    }
+  },
+  {
     "date": "2026-08-16",
     "puzzle_id": "07b3f17f5224",
     "difficulty": "Hard",
