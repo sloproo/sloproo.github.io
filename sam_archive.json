@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-18",
+    "puzzle_id": "39284910b173",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent is the victim of the day",
+    "share_url": "https://cluesbysam.com/s/archive/39284910b173",
+    "stats": {
+      "p1": 104690,
+      "p5": 139836,
+      "p10": 163935,
+      "p25": 219347,
+      "p50": 324235,
+      "p75": 501366,
+      "perfect_rate": 0.38556883576803896,
+      "no_hint_rate": 0.7479710786483695
+    }
+  },
+  {
     "date": "2026-08-17",
     "puzzle_id": "2e6a1a42b9b6",
     "difficulty": "Easy",
