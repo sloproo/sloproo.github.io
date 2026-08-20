@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-19",
+    "puzzle_id": "a1d888c95cc4",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal changed the light bulb",
+    "share_url": "https://cluesbysam.com/s/archive/a1d888c95cc4",
+    "stats": {
+      "p1": 132712,
+      "p5": 174088,
+      "p10": 203649,
+      "p25": 272322,
+      "p50": 399944,
+      "p75": 620470,
+      "perfect_rate": 0.4306820133997595,
+      "no_hint_rate": 0.7531106584533831
+    }
+  },
+  {
     "date": "2026-08-18",
     "puzzle_id": "39284910b173",
     "difficulty": "Medium",
