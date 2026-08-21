@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-20",
+    "puzzle_id": "88ed37be5319",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals can make a wallet disappear",
+    "share_url": "https://cluesbysam.com/s/archive/88ed37be5319",
+    "stats": {
+      "p1": 111119,
+      "p5": 147458,
+      "p10": 173329,
+      "p25": 231584,
+      "p50": 340232,
+      "p75": 537099,
+      "perfect_rate": 0.39496811594202896,
+      "no_hint_rate": 0.714504347826087
+    }
+  },
+  {
     "date": "2026-08-19",
     "puzzle_id": "a1d888c95cc4",
     "difficulty": "Medium",
