@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-21",
+    "puzzle_id": "e7beed227df9",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is hiding behind a curtain",
+    "share_url": "https://cluesbysam.com/s/archive/e7beed227df9",
+    "stats": {
+      "p1": 144922,
+      "p5": 194272,
+      "p10": 228657,
+      "p25": 308716,
+      "p50": 449697,
+      "p75": 707504,
+      "perfect_rate": 0.20832439390688692,
+      "no_hint_rate": 0.6837350115616582
+    }
+  },
+  {
     "date": "2026-08-20",
     "puzzle_id": "88ed37be5319",
     "difficulty": "Tricky",
