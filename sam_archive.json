@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-22",
+    "puzzle_id": "d690278ea076",
+    "difficulty": "Hard",
+    "flavor_text": "Some criminals are a closed book",
+    "share_url": "https://cluesbysam.com/s/archive/d690278ea076",
+    "stats": {
+      "p1": 165463,
+      "p5": 223978,
+      "p10": 265840,
+      "p25": 357704,
+      "p50": 520646,
+      "p75": 815149,
+      "perfect_rate": 0.3001391112627628,
+      "no_hint_rate": 0.6675240819969028
+    }
+  },
+  {
     "date": "2026-08-21",
     "puzzle_id": "e7beed227df9",
     "difficulty": "Tricky",
