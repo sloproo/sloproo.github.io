@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-23",
+    "puzzle_id": "fe3077761eb6",
+    "difficulty": "Brutal",
+    "flavor_text": "One criminal is definitely not Italian",
+    "share_url": "https://cluesbysam.com/s/archive/fe3077761eb6",
+    "stats": {
+      "p1": 187140,
+      "p5": 279763,
+      "p10": 337973,
+      "p25": 475296,
+      "p50": 721813,
+      "p75": 1122880,
+      "perfect_rate": 0.19319061843124238,
+      "no_hint_rate": 0.40588007522956077
+    }
+  },
+  {
     "date": "2026-08-22",
     "puzzle_id": "d690278ea076",
     "difficulty": "Hard",
