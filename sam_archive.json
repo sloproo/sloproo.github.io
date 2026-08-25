@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-24",
+    "puzzle_id": "b25fcf665961",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal loves cliffhangers",
+    "share_url": "https://cluesbysam.com/s/archive/b25fcf665961",
+    "stats": {
+      "p1": 69528,
+      "p5": 87090,
+      "p10": 98723,
+      "p25": 126143,
+      "p50": 176019,
+      "p75": 267502,
+      "perfect_rate": 0.6117790320086594,
+      "no_hint_rate": 0.8932078243389516
+    }
+  },
+  {
     "date": "2026-08-23",
     "puzzle_id": "fe3077761eb6",
     "difficulty": "Brutal",
