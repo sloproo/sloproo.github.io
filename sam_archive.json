@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-25",
+    "puzzle_id": "9c9c76053089",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal should not be judged by its cover",
+    "share_url": "https://cluesbysam.com/s/archive/9c9c76053089",
+    "stats": {
+      "p1": 77792,
+      "p5": 103437,
+      "p10": 119964,
+      "p25": 160503,
+      "p50": 235447,
+      "p75": 370444,
+      "perfect_rate": 0.5483033343169077,
+      "no_hint_rate": 0.8218550211468476
+    }
+  },
+  {
     "date": "2026-08-24",
     "puzzle_id": "b25fcf665961",
     "difficulty": "Easy",
