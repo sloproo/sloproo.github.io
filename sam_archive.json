@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-26",
+    "puzzle_id": "11c0b92f0347",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent hasn't seen many crime shows",
+    "share_url": "https://cluesbysam.com/s/archive/11c0b92f0347",
+    "stats": {
+      "p1": 117360,
+      "p5": 153729,
+      "p10": 178487,
+      "p25": 234286,
+      "p50": 341324,
+      "p75": 530343,
+      "perfect_rate": 0.33369976792475875,
+      "no_hint_rate": 0.7550384756320997
+    }
+  },
+  {
     "date": "2026-08-25",
     "puzzle_id": "9c9c76053089",
     "difficulty": "Easy",
