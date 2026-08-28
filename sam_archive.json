@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-27",
+    "puzzle_id": "3ce3f104bb9c",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal makes crime rhyme",
+    "share_url": "https://cluesbysam.com/s/archive/3ce3f104bb9c",
+    "stats": {
+      "p1": 170561,
+      "p5": 227066,
+      "p10": 269960,
+      "p25": 363186,
+      "p50": 531487,
+      "p75": 822140,
+      "perfect_rate": 0.34057738204516247,
+      "no_hint_rate": 0.6777125022948411
+    }
+  },
+  {
     "date": "2026-08-26",
     "puzzle_id": "11c0b92f0347",
     "difficulty": "Medium",
