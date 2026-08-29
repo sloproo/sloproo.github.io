@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-28",
+    "puzzle_id": "99b8b3bf1732",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal likes feeling noticed",
+    "share_url": "https://cluesbysam.com/s/archive/99b8b3bf1732",
+    "stats": {
+      "p1": 151685,
+      "p5": 212062,
+      "p10": 253587,
+      "p25": 350396,
+      "p50": 517053,
+      "p75": 809722,
+      "perfect_rate": 0.293531151607671,
+      "no_hint_rate": 0.5563161912031295
+    }
+  },
+  {
     "date": "2026-08-27",
     "puzzle_id": "3ce3f104bb9c",
     "difficulty": "Tricky",
