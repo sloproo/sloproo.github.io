@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-29",
+    "puzzle_id": "66b63a586a5c",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are hardly even criminals",
+    "share_url": "https://cluesbysam.com/s/archive/66b63a586a5c",
+    "stats": {
+      "p1": 176632,
+      "p5": 248105,
+      "p10": 297237,
+      "p25": 399595,
+      "p50": 572211,
+      "p75": 855389,
+      "perfect_rate": 0.24216636461534422,
+      "no_hint_rate": 0.5956189425577181
+    }
+  },
+  {
     "date": "2026-08-28",
     "puzzle_id": "99b8b3bf1732",
     "difficulty": "Tricky",
