@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-30",
+    "puzzle_id": "a6b6c6e38d40",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals think different",
+    "share_url": "https://cluesbysam.com/s/archive/a6b6c6e38d40",
+    "stats": {
+      "p1": 146380,
+      "p5": 212394,
+      "p10": 258487,
+      "p25": 353349,
+      "p50": 513423,
+      "p75": 765518,
+      "perfect_rate": 0.22467642796461945,
+      "no_hint_rate": 0.6430962970366298
+    }
+  },
+  {
     "date": "2026-08-29",
     "puzzle_id": "66b63a586a5c",
     "difficulty": "Hard",
