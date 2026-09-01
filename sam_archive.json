@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-08-31",
+    "puzzle_id": "eb324d2b87c5",
+    "difficulty": "Easy",
+    "flavor_text": "Criminals and innocents have opposing world views",
+    "share_url": "https://cluesbysam.com/s/archive/eb324d2b87c5",
+    "stats": {
+      "p1": 91933,
+      "p5": 119424,
+      "p10": 139100,
+      "p25": 184203,
+      "p50": 268088,
+      "p75": 412652,
+      "perfect_rate": 0.4521382495819065,
+      "no_hint_rate": 0.8140678506012583
+    }
+  },
+  {
     "date": "2026-08-30",
     "puzzle_id": "a6b6c6e38d40",
     "difficulty": "Hard",
