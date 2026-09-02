@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-01",
+    "puzzle_id": "e2c9cd8b3515",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal could name a wrench after you",
+    "share_url": "https://cluesbysam.com/s/archive/e2c9cd8b3515",
+    "stats": {
+      "p1": 113798,
+      "p5": 150720,
+      "p10": 176661,
+      "p25": 242552,
+      "p50": 371985,
+      "p75": 602752,
+      "perfect_rate": 0.32823952734218825,
+      "no_hint_rate": 0.6639420727644263
+    }
+  },
+  {
     "date": "2026-08-31",
     "puzzle_id": "eb324d2b87c5",
     "difficulty": "Easy",
