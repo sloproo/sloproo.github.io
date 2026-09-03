@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-02",
+    "puzzle_id": "418cbcc31228",
+    "difficulty": "Medium",
+    "flavor_text": "One innocents didn't think it through",
+    "share_url": "https://cluesbysam.com/s/archive/418cbcc31228",
+    "stats": {
+      "p1": 100682,
+      "p5": 133997,
+      "p10": 159883,
+      "p25": 218327,
+      "p50": 329762,
+      "p75": 535675,
+      "perfect_rate": 0.4463666310347084,
+      "no_hint_rate": 0.7813870285128384
+    }
+  },
+  {
     "date": "2026-09-01",
     "puzzle_id": "e2c9cd8b3515",
     "difficulty": "Medium",
