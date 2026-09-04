@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-03",
+    "puzzle_id": "aa574cd5e984",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is trying something new",
+    "share_url": "https://cluesbysam.com/s/archive/aa574cd5e984",
+    "stats": {
+      "p1": 156020,
+      "p5": 212225,
+      "p10": 252837,
+      "p25": 348463,
+      "p50": 519288,
+      "p75": 818110,
+      "perfect_rate": 0.35245687712055424,
+      "no_hint_rate": 0.6455026455026455
+    }
+  },
+  {
     "date": "2026-09-02",
     "puzzle_id": "418cbcc31228",
     "difficulty": "Medium",
