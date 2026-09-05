@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-04",
+    "puzzle_id": "d7ff3e9ca0e2",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is not a big on fables",
+    "share_url": "https://cluesbysam.com/s/archive/d7ff3e9ca0e2",
+    "stats": {
+      "p1": 178811,
+      "p5": 246282,
+      "p10": 293950,
+      "p25": 394384,
+      "p50": 572419,
+      "p75": 879670,
+      "perfect_rate": 0.2854885057471264,
+      "no_hint_rate": 0.5711446360153257
+    }
+  },
+  {
     "date": "2026-09-03",
     "puzzle_id": "aa574cd5e984",
     "difficulty": "Tricky",
