@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-05",
+    "puzzle_id": "fabf1225a6ad",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent is not getting much sympathy",
+    "share_url": "https://cluesbysam.com/s/archive/fabf1225a6ad",
+    "stats": {
+      "p1": 194566,
+      "p5": 277913,
+      "p10": 331249,
+      "p25": 453712,
+      "p50": 668883,
+      "p75": 1019982,
+      "perfect_rate": 0.16348008154719268,
+      "no_hint_rate": 0.49308501845831726
+    }
+  },
+  {
     "date": "2026-09-04",
     "puzzle_id": "d7ff3e9ca0e2",
     "difficulty": "Tricky",
