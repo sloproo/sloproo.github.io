@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-06",
+    "puzzle_id": "4b6a9de3f21b",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is phenomenal at picking apples",
+    "share_url": "https://cluesbysam.com/s/archive/4b6a9de3f21b",
+    "stats": {
+      "p1": 186240,
+      "p5": 275225,
+      "p10": 331989,
+      "p25": 459849,
+      "p50": 676945,
+      "p75": 1033099,
+      "perfect_rate": 0.19773043571352103,
+      "no_hint_rate": 0.5134621560860722
+    }
+  },
+  {
     "date": "2026-09-05",
     "puzzle_id": "fabf1225a6ad",
     "difficulty": "Hard",
