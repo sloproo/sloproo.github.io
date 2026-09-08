@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-07",
+    "puzzle_id": "eb9b08fd8839",
+    "difficulty": "Easy",
+    "flavor_text": "The criminals have read different rules",
+    "share_url": "https://cluesbysam.com/s/archive/eb9b08fd8839",
+    "stats": {
+      "p1": 91207,
+      "p5": 119113,
+      "p10": 139933,
+      "p25": 190459,
+      "p50": 290908,
+      "p75": 463993,
+      "perfect_rate": 0.4537289215970331,
+      "no_hint_rate": 0.7792007108226613
+    }
+  },
+  {
     "date": "2026-09-06",
     "puzzle_id": "4b6a9de3f21b",
     "difficulty": "Hard",
