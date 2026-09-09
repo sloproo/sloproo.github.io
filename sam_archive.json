@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-08",
+    "puzzle_id": "eb8b8967f5b6",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent is into horse-trading",
+    "share_url": "https://cluesbysam.com/s/archive/eb8b8967f5b6",
+    "stats": {
+      "p1": 111005,
+      "p5": 147635,
+      "p10": 174995,
+      "p25": 243453,
+      "p50": 383040,
+      "p75": 639607,
+      "perfect_rate": 0.34269550214661154,
+      "no_hint_rate": 0.6177426473538499
+    }
+  },
+  {
     "date": "2026-09-07",
     "puzzle_id": "eb9b08fd8839",
     "difficulty": "Easy",
