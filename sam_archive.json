@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-10",
+    "puzzle_id": "83c07cb27975",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is in for a disappointment",
+    "share_url": "https://cluesbysam.com/s/archive/83c07cb27975",
+    "stats": {
+      "p1": 148097,
+      "p5": 202054,
+      "p10": 238335,
+      "p25": 325696,
+      "p50": 480050,
+      "p75": 743555,
+      "perfect_rate": 0.2981098408614644,
+      "no_hint_rate": 0.5679814096313048
+    }
+  },
+  {
     "date": "2026-09-09",
     "puzzle_id": "ec9762de6882",
     "difficulty": "Tricky",
