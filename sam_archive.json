@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-11",
+    "puzzle_id": "410db3a65bf7",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals have unusually many eyeballs on them",
+    "share_url": "https://cluesbysam.com/s/archive/410db3a65bf7",
+    "stats": {
+      "p1": 186523,
+      "p5": 267331,
+      "p10": 320992,
+      "p25": 439826,
+      "p50": 659426,
+      "p75": 1015869,
+      "perfect_rate": 0.1167404946474714,
+      "no_hint_rate": 0.4662467700258398
+    }
+  },
+  {
     "date": "2026-09-10",
     "puzzle_id": "83c07cb27975",
     "difficulty": "Tricky",
