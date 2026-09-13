@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-12",
+    "puzzle_id": "0b009b454d67",
+    "difficulty": "Hard",
+    "flavor_text": "Some innocents don't appreciate value",
+    "share_url": "https://cluesbysam.com/s/archive/0b009b454d67",
+    "stats": {
+      "p1": 199285,
+      "p5": 283401,
+      "p10": 337364,
+      "p25": 462765,
+      "p50": 684309,
+      "p75": 1053862,
+      "perfect_rate": 0.1996490594276572,
+      "no_hint_rate": 0.5392098676231517
+    }
+  },
+  {
     "date": "2026-09-11",
     "puzzle_id": "410db3a65bf7",
     "difficulty": "Tricky",
