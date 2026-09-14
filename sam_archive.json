@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-13",
+    "puzzle_id": "cbb5d700abe1",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal didn't really need another trophy",
+    "share_url": "https://cluesbysam.com/s/archive/cbb5d700abe1",
+    "stats": {
+      "p1": 200788,
+      "p5": 282381,
+      "p10": 334814,
+      "p25": 450190,
+      "p50": 643822,
+      "p75": 949685,
+      "perfect_rate": 0.23850442432612143,
+      "no_hint_rate": 0.5726561301212214
+    }
+  },
+  {
     "date": "2026-09-12",
     "puzzle_id": "0b009b454d67",
     "difficulty": "Hard",
