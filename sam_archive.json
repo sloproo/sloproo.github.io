@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-14",
+    "puzzle_id": "248454e1a738",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal might like skirlie",
+    "share_url": "https://cluesbysam.com/s/archive/248454e1a738",
+    "stats": {
+      "p1": 67261,
+      "p5": 86621,
+      "p10": 99514,
+      "p25": 129629,
+      "p50": 184756,
+      "p75": 278357,
+      "perfect_rate": 0.5336573554807812,
+      "no_hint_rate": 0.8960636650109491
+    }
+  },
+  {
     "date": "2026-09-13",
     "puzzle_id": "cbb5d700abe1",
     "difficulty": "Hard",
