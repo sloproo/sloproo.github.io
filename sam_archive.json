@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-15",
+    "puzzle_id": "88fa41601f1f",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent is no longer called Donlda",
+    "share_url": "https://cluesbysam.com/s/archive/88fa41601f1f",
+    "stats": {
+      "p1": 111495,
+      "p5": 149296,
+      "p10": 176256,
+      "p25": 238214,
+      "p50": 351780,
+      "p75": 541531,
+      "perfect_rate": 0.40693890910491154,
+      "no_hint_rate": 0.7289897764685497
+    }
+  },
+  {
     "date": "2026-09-14",
     "puzzle_id": "248454e1a738",
     "difficulty": "Easy",
