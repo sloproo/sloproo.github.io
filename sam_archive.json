@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-16",
+    "puzzle_id": "b2f2fccc6669",
+    "difficulty": "Tricky",
+    "flavor_text": "There are by estimate 1031 criminals",
+    "share_url": "https://cluesbysam.com/s/archive/b2f2fccc6669",
+    "stats": {
+      "p1": 174345,
+      "p5": 244989,
+      "p10": 296477,
+      "p25": 404416,
+      "p50": 592682,
+      "p75": 886563,
+      "perfect_rate": 0.22387928379745722,
+      "no_hint_rate": 0.5622937838194536
+    }
+  },
+  {
     "date": "2026-09-15",
     "puzzle_id": "88fa41601f1f",
     "difficulty": "Medium",
