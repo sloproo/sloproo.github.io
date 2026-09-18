@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-17",
+    "puzzle_id": "e8f03c54a661",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent won't find out who did it",
+    "share_url": "https://cluesbysam.com/s/archive/e8f03c54a661",
+    "stats": {
+      "p1": 182401,
+      "p5": 250202,
+      "p10": 300720,
+      "p25": 418385,
+      "p50": 635999,
+      "p75": 998238,
+      "perfect_rate": 0.27051231089391353,
+      "no_hint_rate": 0.6004863563027568
+    }
+  },
+  {
     "date": "2026-09-16",
     "puzzle_id": "b2f2fccc6669",
     "difficulty": "Tricky",
