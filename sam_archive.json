@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-18",
+    "puzzle_id": "3b96861fe211",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent now has an outdoor cinema",
+    "share_url": "https://cluesbysam.com/s/archive/3b96861fe211",
+    "stats": {
+      "p1": 210834,
+      "p5": 303058,
+      "p10": 354770,
+      "p25": 474137,
+      "p50": 676538,
+      "p75": 1000149,
+      "perfect_rate": 0.2483085722257097,
+      "no_hint_rate": 0.6212364278905397
+    }
+  },
+  {
     "date": "2026-09-17",
     "puzzle_id": "e8f03c54a661",
     "difficulty": "Tricky",
