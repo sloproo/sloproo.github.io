@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-19",
+    "puzzle_id": "631381b6c270",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is an adult. The others, not so much.",
+    "share_url": "https://cluesbysam.com/s/archive/631381b6c270",
+    "stats": {
+      "p1": 151268,
+      "p5": 222574,
+      "p10": 274229,
+      "p25": 389736,
+      "p50": 606460,
+      "p75": 994450,
+      "perfect_rate": 0.11017782621408256,
+      "no_hint_rate": 0.412376066558571
+    }
+  },
+  {
     "date": "2026-09-18",
     "puzzle_id": "3b96861fe211",
     "difficulty": "Hard",
