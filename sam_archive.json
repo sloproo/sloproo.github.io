@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-20",
+    "puzzle_id": "827d06a1d5d8",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are not after an Oscar",
+    "share_url": "https://cluesbysam.com/s/archive/827d06a1d5d8",
+    "stats": {
+      "p1": 243046,
+      "p5": 343659,
+      "p10": 408924,
+      "p25": 588042,
+      "p50": 928306,
+      "p75": 1480081,
+      "perfect_rate": 0.15486194477791115,
+      "no_hint_rate": 0.4247745609871856
+    }
+  },
+  {
     "date": "2026-09-19",
     "puzzle_id": "631381b6c270",
     "difficulty": "Hard",
