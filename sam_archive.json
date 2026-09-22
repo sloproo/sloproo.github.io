@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-21",
+    "puzzle_id": "5c7b4296e8dc",
+    "difficulty": "Easy",
+    "flavor_text": "All criminals make mistakes, some worse than others",
+    "share_url": "https://cluesbysam.com/s/archive/5c7b4296e8dc",
+    "stats": {
+      "p1": 62763,
+      "p5": 80466,
+      "p10": 92910,
+      "p25": 121340,
+      "p50": 173980,
+      "p75": 260907,
+      "perfect_rate": 0.5123040880446035,
+      "no_hint_rate": 0.8480104607449649
+    }
+  },
+  {
     "date": "2026-09-20",
     "puzzle_id": "827d06a1d5d8",
     "difficulty": "Hard",
