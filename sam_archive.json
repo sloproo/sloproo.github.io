@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-22",
+    "puzzle_id": "55fd076c35ef",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals didn't know about the catch",
+    "share_url": "https://cluesbysam.com/s/archive/55fd076c35ef",
+    "stats": {
+      "p1": 93368,
+      "p5": 123794,
+      "p10": 145617,
+      "p25": 197309,
+      "p50": 300854,
+      "p75": 467473,
+      "perfect_rate": 0.3650191542101705,
+      "no_hint_rate": 0.7292683842860362
+    }
+  },
+  {
     "date": "2026-09-21",
     "puzzle_id": "5c7b4296e8dc",
     "difficulty": "Easy",
