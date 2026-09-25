@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-24",
+    "puzzle_id": "68667e367963",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal isn't sure how money printing works",
+    "share_url": "https://cluesbysam.com/s/archive/68667e367963",
+    "stats": {
+      "p1": 163599,
+      "p5": 222305,
+      "p10": 263827,
+      "p25": 356793,
+      "p50": 518943,
+      "p75": 788704,
+      "perfect_rate": 0.2202909074406045,
+      "no_hint_rate": 0.6542694411037238
+    }
+  },
+  {
     "date": "2026-09-23",
     "puzzle_id": "bec313a9983b",
     "difficulty": "Medium",
