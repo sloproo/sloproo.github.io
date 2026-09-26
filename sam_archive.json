@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-25",
+    "puzzle_id": "38fba402eba6",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent is about to sing about a man called Joe",
+    "share_url": "https://cluesbysam.com/s/archive/38fba402eba6",
+    "stats": {
+      "p1": 186979,
+      "p5": 261821,
+      "p10": 311997,
+      "p25": 417329,
+      "p50": 602171,
+      "p75": 908757,
+      "perfect_rate": 0.2920647492698381,
+      "no_hint_rate": 0.4896292262759269
+    }
+  },
+  {
     "date": "2026-09-24",
     "puzzle_id": "68667e367963",
     "difficulty": "Tricky",
