@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-26",
+    "puzzle_id": "070ab87a842b",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal was raised different",
+    "share_url": "https://cluesbysam.com/s/archive/070ab87a842b",
+    "stats": {
+      "p1": 161829,
+      "p5": 230858,
+      "p10": 279329,
+      "p25": 378810,
+      "p50": 547857,
+      "p75": 811880,
+      "perfect_rate": 0.25163209235500217,
+      "no_hint_rate": 0.629420512691251
+    }
+  },
+  {
     "date": "2026-09-25",
     "puzzle_id": "38fba402eba6",
     "difficulty": "Hard",
