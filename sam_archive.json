@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-27",
+    "puzzle_id": "68849bbc0907",
+    "difficulty": "Brutal",
+    "flavor_text": "The criminals could try stealing a health club membership",
+    "share_url": "https://cluesbysam.com/s/archive/68849bbc0907",
+    "stats": {
+      "p1": 178612,
+      "p5": 248114,
+      "p10": 300985,
+      "p25": 411657,
+      "p50": 601526,
+      "p75": 912029,
+      "perfect_rate": 0.24666371202048554,
+      "no_hint_rate": 0.5705667996257449
+    }
+  },
+  {
     "date": "2026-09-26",
     "puzzle_id": "070ab87a842b",
     "difficulty": "Hard",
