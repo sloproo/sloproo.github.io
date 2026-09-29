@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-28",
+    "puzzle_id": "eb1973cc75f5",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal likes plain old forks",
+    "share_url": "https://cluesbysam.com/s/archive/eb1973cc75f5",
+    "stats": {
+      "p1": 70640,
+      "p5": 90496,
+      "p10": 104285,
+      "p25": 136321,
+      "p50": 195751,
+      "p75": 301061,
+      "perfect_rate": 0.43313576588257086,
+      "no_hint_rate": 0.8745693646971662
+    }
+  },
+  {
     "date": "2026-09-27",
     "puzzle_id": "68849bbc0907",
     "difficulty": "Brutal",
