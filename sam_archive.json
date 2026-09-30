@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-29",
+    "puzzle_id": "f0e09126cb18",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal has mastered the art of slow clap",
+    "share_url": "https://cluesbysam.com/s/archive/f0e09126cb18",
+    "stats": {
+      "p1": 75811,
+      "p5": 100127,
+      "p10": 117841,
+      "p25": 162415,
+      "p50": 245656,
+      "p75": 380212,
+      "perfect_rate": 0.4910659272951325,
+      "no_hint_rate": 0.7887376538023488
+    }
+  },
+  {
     "date": "2026-09-28",
     "puzzle_id": "eb1973cc75f5",
     "difficulty": "Easy",
