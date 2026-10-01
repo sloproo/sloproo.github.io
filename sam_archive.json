@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-09-30",
+    "puzzle_id": "0d989e572085",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent is not happy with his job",
+    "share_url": "https://cluesbysam.com/s/archive/0d989e572085",
+    "stats": {
+      "p1": 113395,
+      "p5": 150852,
+      "p10": 176248,
+      "p25": 237053,
+      "p50": 347899,
+      "p75": 521786,
+      "perfect_rate": 0.4070430452939287,
+      "no_hint_rate": 0.7493776100224864
+    }
+  },
+  {
     "date": "2026-09-29",
     "puzzle_id": "f0e09126cb18",
     "difficulty": "Medium",
