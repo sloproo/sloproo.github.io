@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-01",
+    "puzzle_id": "4cd16157a7f9",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent has a charming voice, according to some",
+    "share_url": "https://cluesbysam.com/s/archive/4cd16157a7f9",
+    "stats": {
+      "p1": 133713,
+      "p5": 180515,
+      "p10": 215905,
+      "p25": 293882,
+      "p50": 426561,
+      "p75": 632917,
+      "perfect_rate": 0.3897931709705054,
+      "no_hint_rate": 0.7096438624403377
+    }
+  },
+  {
     "date": "2026-09-30",
     "puzzle_id": "0d989e572085",
     "difficulty": "Medium",
