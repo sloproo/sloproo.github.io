@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-02",
+    "puzzle_id": "66d0773a4ca2",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent doesn't know the meaning of secret",
+    "share_url": "https://cluesbysam.com/s/archive/66d0773a4ca2",
+    "stats": {
+      "p1": 154224,
+      "p5": 210892,
+      "p10": 251449,
+      "p25": 337812,
+      "p50": 488576,
+      "p75": 732631,
+      "perfect_rate": 0.15865135068041797,
+      "no_hint_rate": 0.6656360723071021
+    }
+  },
+  {
     "date": "2026-10-01",
     "puzzle_id": "4cd16157a7f9",
     "difficulty": "Tricky",
