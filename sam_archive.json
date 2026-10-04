@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-03",
+    "puzzle_id": "0779171325b4",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals went out of the frying pan and into the fire",
+    "share_url": "https://cluesbysam.com/s/archive/0779171325b4",
+    "stats": {
+      "p1": 200063,
+      "p5": 288555,
+      "p10": 337344,
+      "p25": 451464,
+      "p50": 644412,
+      "p75": 954328,
+      "perfect_rate": 0.2019894706209159,
+      "no_hint_rate": 0.4893780258737004
+    }
+  },
+  {
     "date": "2026-10-02",
     "puzzle_id": "66d0773a4ca2",
     "difficulty": "Tricky",
