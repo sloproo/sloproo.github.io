@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-04",
+    "puzzle_id": "e9c470156c04",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal was the first domino to fall",
+    "share_url": "https://cluesbysam.com/s/archive/e9c470156c04",
+    "stats": {
+      "p1": 167702,
+      "p5": 249324,
+      "p10": 305796,
+      "p25": 424410,
+      "p50": 626621,
+      "p75": 954439,
+      "perfect_rate": 0.27509079982231976,
+      "no_hint_rate": 0.5080086749758302
+    }
+  },
+  {
     "date": "2026-10-03",
     "puzzle_id": "0779171325b4",
     "difficulty": "Hard",
