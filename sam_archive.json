@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-05",
+    "puzzle_id": "fe367eb841bc",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is in immediate danger",
+    "share_url": "https://cluesbysam.com/s/archive/fe367eb841bc",
+    "stats": {
+      "p1": 75397,
+      "p5": 100842,
+      "p10": 118704,
+      "p25": 163011,
+      "p50": 250411,
+      "p75": 396808,
+      "perfect_rate": 0.5075920679886685,
+      "no_hint_rate": 0.7702171860245515
+    }
+  },
+  {
     "date": "2026-10-04",
     "puzzle_id": "e9c470156c04",
     "difficulty": "Hard",
