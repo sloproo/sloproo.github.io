@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-06",
+    "puzzle_id": "a80d732ffbb6",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal might be a builder in disguise",
+    "share_url": "https://cluesbysam.com/s/archive/a80d732ffbb6",
+    "stats": {
+      "p1": 79526,
+      "p5": 103791,
+      "p10": 121115,
+      "p25": 165105,
+      "p50": 247874,
+      "p75": 375788,
+      "perfect_rate": 0.5648135863075494,
+      "no_hint_rate": 0.832085520953771
+    }
+  },
+  {
     "date": "2026-10-05",
     "puzzle_id": "fe367eb841bc",
     "difficulty": "Easy",
