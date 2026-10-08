@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-07",
+    "puzzle_id": "f72aa50bb139",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal feels attached to his loot",
+    "share_url": "https://cluesbysam.com/s/archive/f72aa50bb139",
+    "stats": {
+      "p1": 168962,
+      "p5": 227129,
+      "p10": 268933,
+      "p25": 355810,
+      "p50": 497935,
+      "p75": 718255,
+      "perfect_rate": 0.3621476043612354,
+      "no_hint_rate": 0.6358325007601755
+    }
+  },
+  {
     "date": "2026-10-06",
     "puzzle_id": "a80d732ffbb6",
     "difficulty": "Medium",
