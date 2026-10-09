@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-08",
+    "puzzle_id": "82818907924d",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are feeling ducky today",
+    "share_url": "https://cluesbysam.com/s/archive/82818907924d",
+    "stats": {
+      "p1": 133281,
+      "p5": 189112,
+      "p10": 229552,
+      "p25": 315291,
+      "p50": 457366,
+      "p75": 684804,
+      "perfect_rate": 0.3563208556149733,
+      "no_hint_rate": 0.6400213903743316
+    }
+  },
+  {
     "date": "2026-10-07",
     "puzzle_id": "f72aa50bb139",
     "difficulty": "Tricky",
