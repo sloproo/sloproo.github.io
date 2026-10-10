@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-09",
+    "puzzle_id": "7c5721764c44",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are dancing with the detective",
+    "share_url": "https://cluesbysam.com/s/archive/7c5721764c44",
+    "stats": {
+      "p1": 152605,
+      "p5": 220360,
+      "p10": 266424,
+      "p25": 363729,
+      "p50": 526955,
+      "p75": 788509,
+      "perfect_rate": 0.3041726154838115,
+      "no_hint_rate": 0.5910284161562198
+    }
+  },
+  {
     "date": "2026-10-08",
     "puzzle_id": "82818907924d",
     "difficulty": "Tricky",
