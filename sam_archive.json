@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-10",
+    "puzzle_id": "42b22dcf000e",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals can explain it all",
+    "share_url": "https://cluesbysam.com/s/archive/42b22dcf000e",
+    "stats": {
+      "p1": 207856,
+      "p5": 305399,
+      "p10": 360221,
+      "p25": 492451,
+      "p50": 719751,
+      "p75": 1084691,
+      "perfect_rate": 0.2228980120515853,
+      "no_hint_rate": 0.555499239736442
+    }
+  },
+  {
     "date": "2026-10-09",
     "puzzle_id": "7c5721764c44",
     "difficulty": "Tricky",
