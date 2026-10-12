@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-11",
+    "puzzle_id": "10e107d2d709",
+    "difficulty": "Brutal",
+    "flavor_text": "One innocent has discovered a criminal weakness",
+    "share_url": "https://cluesbysam.com/s/archive/10e107d2d709",
+    "stats": {
+      "p1": 183516,
+      "p5": 283014,
+      "p10": 342788,
+      "p25": 482305,
+      "p50": 724497,
+      "p75": 1129504,
+      "perfect_rate": 0.18438805888618798,
+      "no_hint_rate": 0.4821784612023052
+    }
+  },
+  {
     "date": "2026-10-10",
     "puzzle_id": "42b22dcf000e",
     "difficulty": "Hard",
