@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-12",
+    "puzzle_id": "20dca4d07b54",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is very confused, isn't she?",
+    "share_url": "https://cluesbysam.com/s/archive/20dca4d07b54",
+    "stats": {
+      "p1": 93563,
+      "p5": 120575,
+      "p10": 140642,
+      "p25": 187712,
+      "p50": 278895,
+      "p75": 428230,
+      "perfect_rate": 0.41337231968810917,
+      "no_hint_rate": 0.7956725146198831
+    }
+  },
+  {
     "date": "2026-10-11",
     "puzzle_id": "10e107d2d709",
     "difficulty": "Brutal",
