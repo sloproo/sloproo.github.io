@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-13",
+    "puzzle_id": "e6b5fcc65544",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals have company credit cards",
+    "share_url": "https://cluesbysam.com/s/archive/e6b5fcc65544",
+    "stats": {
+      "p1": 89375,
+      "p5": 114849,
+      "p10": 131841,
+      "p25": 172362,
+      "p50": 244877,
+      "p75": 363902,
+      "perfect_rate": 0.3997974759502691,
+      "no_hint_rate": 0.8490258218163407
+    }
+  },
+  {
     "date": "2026-10-12",
     "puzzle_id": "20dca4d07b54",
     "difficulty": "Easy",
