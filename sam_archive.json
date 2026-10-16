@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-15",
+    "puzzle_id": "69ffcab543cc",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are bad, they're bad, they're really really bad",
+    "share_url": "https://cluesbysam.com/s/archive/69ffcab543cc",
+    "stats": {
+      "p1": 132558,
+      "p5": 182004,
+      "p10": 217055,
+      "p25": 294202,
+      "p50": 420689,
+      "p75": 619071,
+      "perfect_rate": 0.4382527601204416,
+      "no_hint_rate": 0.7023461023753764
+    }
+  },
+  {
     "date": "2026-10-14",
     "puzzle_id": "e726b8935c67",
     "difficulty": "Medium",
