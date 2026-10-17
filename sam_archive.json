@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-16",
+    "puzzle_id": "883806200917",
+    "difficulty": "Tricky",
+    "flavor_text": "Nobody puts one criminal in a corner",
+    "share_url": "https://cluesbysam.com/s/archive/883806200917",
+    "stats": {
+      "p1": 128330,
+      "p5": 176621,
+      "p10": 213180,
+      "p25": 299334,
+      "p50": 436596,
+      "p75": 657753,
+      "perfect_rate": 0.3034764826175869,
+      "no_hint_rate": 0.6904794364917064
+    }
+  },
+  {
     "date": "2026-10-15",
     "puzzle_id": "69ffcab543cc",
     "difficulty": "Tricky",
