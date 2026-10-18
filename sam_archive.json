@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-17",
+    "puzzle_id": "1a9b5cf92ad4",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are young",
+    "share_url": "https://cluesbysam.com/s/archive/1a9b5cf92ad4",
+    "stats": {
+      "p1": 169868,
+      "p5": 231081,
+      "p10": 278655,
+      "p25": 384491,
+      "p50": 574435,
+      "p75": 878277,
+      "perfect_rate": 0.33183116627265563,
+      "no_hint_rate": 0.6524576438140268
+    }
+  },
+  {
     "date": "2026-10-16",
     "puzzle_id": "883806200917",
     "difficulty": "Tricky",
