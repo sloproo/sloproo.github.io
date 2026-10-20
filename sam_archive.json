@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-19",
+    "puzzle_id": "c2c4ab423c30",
+    "difficulty": "Easy",
+    "flavor_text": "The innocents placed a tall order",
+    "share_url": "https://cluesbysam.com/s/archive/c2c4ab423c30",
+    "stats": {
+      "p1": 91625,
+      "p5": 120088,
+      "p10": 140795,
+      "p25": 188666,
+      "p50": 275354,
+      "p75": 410740,
+      "perfect_rate": 0.48998978162964085,
+      "no_hint_rate": 0.7739090943496196
+    }
+  },
+  {
     "date": "2026-10-18",
     "puzzle_id": "8df6a9ef3064",
     "difficulty": "Hard",
