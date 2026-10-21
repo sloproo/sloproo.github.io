@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-20",
+    "puzzle_id": "df6ad6e3a12c",
+    "difficulty": "Medium",
+    "flavor_text": "One pumpkin is scarier than a criminal",
+    "share_url": "https://cluesbysam.com/s/archive/df6ad6e3a12c",
+    "stats": {
+      "p1": 92701,
+      "p5": 123774,
+      "p10": 147006,
+      "p25": 205964,
+      "p50": 327083,
+      "p75": 520614,
+      "perfect_rate": 0.44744162356997336,
+      "no_hint_rate": 0.7242791098573891
+    }
+  },
+  {
     "date": "2026-10-19",
     "puzzle_id": "c2c4ab423c30",
     "difficulty": "Easy",
