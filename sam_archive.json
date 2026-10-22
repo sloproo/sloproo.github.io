@@ -18,7 +18,17 @@
     "puzzle_id": "f8e17eee9d87",
     "difficulty": "Tricky",
     "flavor_text": "One criminal has chosen the wrong profession",
-    "share_url": "https://cluesbysam.com/s/archive/f8e17eee9d87"
+    "share_url": "https://cluesbysam.com/s/archive/f8e17eee9d87",
+    "stats": {
+      "p1": 108155,
+      "p5": 144998,
+      "p10": 170407,
+      "p25": 236340,
+      "p50": 362480,
+      "p75": 575652,
+      "perfect_rate": 0.4486056850330055,
+      "no_hint_rate": 0.7514482015357672
+    }
   },
   {
     "date": "2026-10-20",
@@ -5318,7 +5328,17 @@
     "puzzle_id": "1c479aac06e7",
     "difficulty": "Medium",
     "flavor_text": "One criminal borrows a lot of pens",
-    "share_url": "https://cluesbysam.com/s/archive/1c479aac06e7"
+    "share_url": "https://cluesbysam.com/s/archive/1c479aac06e7",
+    "stats": {
+      "p1": 91838,
+      "p5": 128183,
+      "p10": 152903,
+      "p25": 205697,
+      "p50": 299177,
+      "p75": 455673,
+      "perfect_rate": 0.4935965848452508,
+      "no_hint_rate": 0.7110458911419424
+    }
   },
   {
     "date": "2026-01-19",
@@ -5337,7 +5357,17 @@
     "puzzle_id": "6e07c9f022fe",
     "difficulty": "Easy",
     "flavor_text": "All criminals had a leisure weekend",
-    "share_url": "https://cluesbysam.com/s/archive/6e07c9f022fe"
+    "share_url": "https://cluesbysam.com/s/archive/6e07c9f022fe",
+    "stats": {
+      "p1": 77352,
+      "p5": 101249,
+      "p10": 116729,
+      "p25": 150286,
+      "p50": 206636,
+      "p75": 302556,
+      "perfect_rate": 0.5475339909357505,
+      "no_hint_rate": 0.8578512396694215
+    }
   },
   {
     "date": "2026-01-19",
@@ -5356,28 +5386,68 @@
     "puzzle_id": "e01d5d9e723c",
     "difficulty": "Hard",
     "flavor_text": "One criminal doesn't have any standards",
-    "share_url": "https://cluesbysam.com/s/archive/e01d5d9e723c"
+    "share_url": "https://cluesbysam.com/s/archive/e01d5d9e723c",
+    "stats": {
+      "p1": 233724,
+      "p5": 361600,
+      "p10": 435394,
+      "p25": 596357,
+      "p50": 855442,
+      "p75": 1251986,
+      "perfect_rate": 0.16410574537125405,
+      "no_hint_rate": 0.5368390914296621
+    }
   },
   {
     "date": "2026-01-17",
     "puzzle_id": "47ee39574404",
     "difficulty": "Hard",
     "flavor_text": "One criminal runs in a lot of meetings",
-    "share_url": "https://cluesbysam.com/s/archive/47ee39574404"
+    "share_url": "https://cluesbysam.com/s/archive/47ee39574404",
+    "stats": {
+      "p1": 238095,
+      "p5": 390178,
+      "p10": 472834,
+      "p25": 656993,
+      "p50": 939764,
+      "p75": 1382452,
+      "perfect_rate": 0.22895203097316097,
+      "no_hint_rate": 0.6011549314259466
+    }
   },
   {
     "date": "2026-01-16",
     "puzzle_id": "dcda9c372cbc",
     "difficulty": "Tricky",
     "flavor_text": "One innocent doesn't like to brag",
-    "share_url": "https://cluesbysam.com/s/archive/dcda9c372cbc"
+    "share_url": "https://cluesbysam.com/s/archive/dcda9c372cbc",
+    "stats": {
+      "p1": 177439,
+      "p5": 245874,
+      "p10": 285382,
+      "p25": 368797,
+      "p50": 506976,
+      "p75": 715414,
+      "perfect_rate": 0.3155217153783119,
+      "no_hint_rate": 0.7828462168806337
+    }
   },
   {
     "date": "2026-01-15",
     "puzzle_id": "c02abebbc2d6",
     "difficulty": "Tricky",
     "flavor_text": "Criminals share 60% of their DNA with a banana",
-    "share_url": "https://cluesbysam.com/s/archive/c02abebbc2d6"
+    "share_url": "https://cluesbysam.com/s/archive/c02abebbc2d6",
+    "stats": {
+      "p1": 107245,
+      "p5": 142016,
+      "p10": 167066,
+      "p25": 220657,
+      "p50": 308413,
+      "p75": 453846,
+      "perfect_rate": 0.4924265605875153,
+      "no_hint_rate": 0.8260403916768666
+    }
   },
   {
     "date": "2026-01-14",
@@ -5391,7 +5461,17 @@
     "puzzle_id": "5c9194fe0759",
     "difficulty": "Medium",
     "flavor_text": "One innocent looks like an emoji, but is he one?",
-    "share_url": "https://cluesbysam.com/s/archive/5c9194fe0759"
+    "share_url": "https://cluesbysam.com/s/archive/5c9194fe0759",
+    "stats": {
+      "p1": 112950,
+      "p5": 152157,
+      "p10": 175562,
+      "p25": 229313,
+      "p50": 319487,
+      "p75": 461898,
+      "perfect_rate": 0.3557211491322679,
+      "no_hint_rate": 0.8316828447233389
+    }
   },
   {
     "date": "2026-01-12",
@@ -5404,7 +5484,17 @@
     "puzzle_id": "5e6c7d8fb6f5",
     "difficulty": "Easy",
     "flavor_text": "One #innocent is a total #bore. #JustSaying.",
-    "share_url": "https://cluesbysam.com/s/archive/5e6c7d8fb6f5"
+    "share_url": "https://cluesbysam.com/s/archive/5e6c7d8fb6f5",
+    "stats": {
+      "p1": 86907,
+      "p5": 128924,
+      "p10": 155279,
+      "p25": 210681,
+      "p50": 303720,
+      "p75": 449307,
+      "perfect_rate": 0.3713506759059412,
+      "no_hint_rate": 0.6665909349085539
+    }
   },
   {
     "date": "2026-01-12",
@@ -5431,7 +5521,17 @@
     "puzzle_id": "a64ac617e04e",
     "difficulty": "Tricky",
     "flavor_text": "One criminal doesn't think much of his clue",
-    "share_url": "https://cluesbysam.com/s/archive/a64ac617e04e"
+    "share_url": "https://cluesbysam.com/s/archive/a64ac617e04e",
+    "stats": {
+      "p1": 193369,
+      "p5": 270776,
+      "p10": 321132,
+      "p25": 436597,
+      "p50": 617715,
+      "p75": 895424,
+      "perfect_rate": 0.2815230961298377,
+      "no_hint_rate": 0.6239994124990821
+    }
   },
   {
     "date": "2026-01-08",
@@ -5448,6 +5548,20 @@
     "share_url": "https://cluesbysam.com/s/archive/01c315cae125"
   },
   {
+    "date": "2026-01-06",
+    "puzzle_id": "bfea995f8025",
+    "difficulty": "Medium",
+    "flavor_text": "All criminals are nice and trustworthy",
+    "share_url": "https://cluesbysam.com/s/archive/bfea995f8025"
+  },
+  {
+    "date": "2026-01-05",
+    "puzzle_id": "02f6cd80d132",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent is not that innocent",
+    "share_url": "https://cluesbysam.com/s/archive/02f6cd80d132"
+  },
+  {
     "date": "2026-01-04",
     "puzzle_id": "18c8b4eb4137",
     "difficulty": "Hard",
@@ -5462,10 +5576,150 @@
     "share_url": "https://cluesbysam.com/s/archive/4941d32678b7"
   },
   {
+    "date": "2026-01-02",
+    "puzzle_id": "7d6c0aa554f9",
+    "difficulty": "Tricky",
+    "flavor_text": "One banker became a criminal after losing interest",
+    "share_url": "https://cluesbysam.com/s/archive/7d6c0aa554f9"
+  },
+  {
+    "date": "2025-12-31",
+    "puzzle_id": "7062cb0305b5",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is longing for space travel",
+    "share_url": "https://cluesbysam.com/s/archive/7062cb0305b5"
+  },
+  {
+    "date": "2025-12-29",
+    "puzzle_id": "9671cfa701ab",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal questions the meaning of guilt",
+    "share_url": "https://cluesbysam.com/s/archive/9671cfa701ab"
+  },
+  {
     "date": "2025-12-29",
     "puzzle_id": "853530e65aac",
     "share_url": "https://cluesbysam.com/s/help/853530e65aac",
     "difficulty": "Evil"
+  },
+  {
+    "date": "2025-12-28",
+    "puzzle_id": "7ea596d0bec0",
+    "difficulty": "Hard",
+    "flavor_text": "One swiss criminal has only one guineapig",
+    "share_url": "https://cluesbysam.com/s/archive/7ea596d0bec0"
+  },
+  {
+    "date": "2025-12-27",
+    "puzzle_id": "3ea4d9508da3",
+    "difficulty": "Tricky",
+    "flavor_text": "Some criminals should get paid double",
+    "share_url": "https://cluesbysam.com/s/archive/3ea4d9508da3"
+  },
+  {
+    "date": "2025-12-26",
+    "puzzle_id": "88dc98b2e130",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are only getting started",
+    "share_url": "https://cluesbysam.com/s/archive/88dc98b2e130"
+  },
+  {
+    "date": "2025-12-24",
+    "puzzle_id": "7a8ce4511cca",
+    "difficulty": "Medium",
+    "flavor_text": "Criminals are having second thoughts",
+    "share_url": "https://cluesbysam.com/s/archive/7a8ce4511cca"
+  },
+  {
+    "date": "2025-12-22",
+    "puzzle_id": "ee72ab23b867",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is surprisingly good at counting",
+    "share_url": "https://cluesbysam.com/s/archive/ee72ab23b867"
+  },
+  {
+    "date": "2025-12-21",
+    "puzzle_id": "2b890ed9dee4",
+    "difficulty": "Hard",
+    "flavor_text": "All criminals are feeling cozy today",
+    "share_url": "https://cluesbysam.com/s/archive/2b890ed9dee4"
+  },
+  {
+    "date": "2025-12-20",
+    "puzzle_id": "82212838858d",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent is enjoying the time of the year",
+    "share_url": "https://cluesbysam.com/s/archive/82212838858d"
+  },
+  {
+    "date": "2025-12-19",
+    "puzzle_id": "6a2b49f1e634",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is hiding antlers under his hat",
+    "share_url": "https://cluesbysam.com/s/archive/6a2b49f1e634"
+  },
+  {
+    "date": "2025-12-18",
+    "puzzle_id": "2be2ce40eee5",
+    "difficulty": "Tricky",
+    "flavor_text": "One reindeer feels backstabbed",
+    "share_url": "https://cluesbysam.com/s/archive/2be2ce40eee5"
+  },
+  {
+    "date": "2025-12-17",
+    "puzzle_id": "de58dabace19",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is snowbored",
+    "share_url": "https://cluesbysam.com/s/archive/de58dabace19"
+  },
+  {
+    "date": "2025-12-16",
+    "puzzle_id": "a3e0cfe4714d",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent is born to chill",
+    "share_url": "https://cluesbysam.com/s/archive/a3e0cfe4714d"
+  },
+  {
+    "date": "2025-12-15",
+    "puzzle_id": "162de583bac4",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is covered in engine oil",
+    "share_url": "https://cluesbysam.com/s/archive/162de583bac4"
+  },
+  {
+    "date": "2025-12-14",
+    "puzzle_id": "f2122f2fcbdf",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent has warm feet again",
+    "share_url": "https://cluesbysam.com/s/archive/f2122f2fcbdf"
+  },
+  {
+    "date": "2025-12-13",
+    "puzzle_id": "e0bd0bf279af",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal's scheduling is not to be trusted",
+    "share_url": "https://cluesbysam.com/s/archive/e0bd0bf279af"
+  },
+  {
+    "date": "2025-12-12",
+    "puzzle_id": "75d64d949995",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals rank high on Santa's naughty list",
+    "share_url": "https://cluesbysam.com/s/archive/75d64d949995"
+  },
+  {
+    "date": "2025-12-10",
+    "puzzle_id": "7012646ca564",
+    "difficulty": "Medium",
+    "flavor_text": "More than one criminal believes in Santa",
+    "share_url": "https://cluesbysam.com/s/archive/7012646ca564"
+  },
+  {
+    "date": "2025-12-09",
+    "puzzle_id": "86ed789273f8",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal knows how to tease a secret. One doesn't.",
+    "share_url": "https://cluesbysam.com/s/archive/86ed789273f8"
   },
   {
     "date": "2025-12-08",
@@ -5473,6 +5727,237 @@
     "difficulty": "Easy",
     "flavor_text": "One criminal is no longer invited to secret meetings",
     "share_url": "https://cluesbysam.com/s/archive/b123cc595475"
+  },
+  {
+    "date": "2025-12-07",
+    "puzzle_id": "7c53f2f1232a",
+    "difficulty": "Hard",
+    "flavor_text": "No criminal stole a spatula today",
+    "share_url": "https://cluesbysam.com/s/archive/7c53f2f1232a"
+  },
+  {
+    "date": "2025-12-06",
+    "puzzle_id": "bf25bbc88076",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal's life is being watched",
+    "share_url": "https://cluesbysam.com/s/archive/bf25bbc88076"
+  },
+  {
+    "date": "2025-12-05",
+    "puzzle_id": "272213285846",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is cooler than an iceberg",
+    "share_url": "https://cluesbysam.com/s/archive/272213285846"
+  },
+  {
+    "date": "2025-12-03",
+    "puzzle_id": "a44fb9dacb31",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal has thoughts subliminal",
+    "share_url": "https://cluesbysam.com/s/archive/a44fb9dacb31"
+  },
+  {
+    "date": "2025-12-02",
+    "puzzle_id": "36ea51ee6557",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal won't get skis for a present",
+    "share_url": "https://cluesbysam.com/s/archive/36ea51ee6557"
+  },
+  {
+    "date": "2025-12-01",
+    "puzzle_id": "ecd3fa36483b",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal's opinion is not popular",
+    "share_url": "https://cluesbysam.com/s/archive/ecd3fa36483b"
+  },
+  {
+    "date": "2025-11-30",
+    "puzzle_id": "8a63d7a2881e",
+    "difficulty": "Evil",
+    "flavor_text": "One criminal doesn't deny taking the spatula",
+    "share_url": "https://cluesbysam.com/s/archive/8a63d7a2881e"
+  },
+  {
+    "date": "2025-11-29",
+    "puzzle_id": "1d7ee63b2621",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal isn't taking his medicine",
+    "share_url": "https://cluesbysam.com/s/archive/1d7ee63b2621"
+  },
+  {
+    "date": "2025-11-28",
+    "puzzle_id": "65cefde81f08",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is brewing coffee for you",
+    "share_url": "https://cluesbysam.com/s/archive/65cefde81f08"
+  },
+  {
+    "date": "2025-11-27",
+    "puzzle_id": "730a0f9d6663",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal won't show the money",
+    "share_url": "https://cluesbysam.com/s/archive/730a0f9d6663"
+  },
+  {
+    "date": "2025-11-26",
+    "puzzle_id": "703fc86c4504",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal did it with a piece of string in the library",
+    "share_url": "https://cluesbysam.com/s/archive/703fc86c4504"
+  },
+  {
+    "date": "2025-11-25",
+    "puzzle_id": "012af892ca92",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal might secretly be a rapper",
+    "share_url": "https://cluesbysam.com/s/archive/012af892ca92"
+  },
+  {
+    "date": "2025-11-24",
+    "puzzle_id": "a6235c1afb74",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal doesn't quite blend in",
+    "share_url": "https://cluesbysam.com/s/archive/a6235c1afb74"
+  },
+  {
+    "date": "2025-11-23",
+    "puzzle_id": "64d662e5c29a",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent should not be innocent",
+    "share_url": "https://cluesbysam.com/s/archive/64d662e5c29a"
+  },
+  {
+    "date": "2025-11-21",
+    "puzzle_id": "b5f83ae03c93",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is not like yesterday",
+    "share_url": "https://cluesbysam.com/s/archive/b5f83ae03c93"
+  },
+  {
+    "date": "2025-11-20",
+    "puzzle_id": "08680c85d590",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal gave up before it was cool",
+    "share_url": "https://cluesbysam.com/s/archive/08680c85d590"
+  },
+  {
+    "date": "2025-11-19",
+    "puzzle_id": "0fac1b514e74",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal wants to skip prison",
+    "share_url": "https://cluesbysam.com/s/archive/0fac1b514e74"
+  },
+  {
+    "date": "2025-11-18",
+    "puzzle_id": "efbc0ee7e9f1",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal has lots of spoons",
+    "share_url": "https://cluesbysam.com/s/archive/efbc0ee7e9f1"
+  },
+  {
+    "date": "2025-11-17",
+    "puzzle_id": "98b19930cf87",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal isn't prepared",
+    "share_url": "https://cluesbysam.com/s/archive/98b19930cf87"
+  },
+  {
+    "date": "2025-11-16",
+    "puzzle_id": "66f4178ab5ce",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is spending time in prison writing",
+    "share_url": "https://cluesbysam.com/s/archive/66f4178ab5ce"
+  },
+  {
+    "date": "2025-11-15",
+    "puzzle_id": "c4f2b146552a",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal is ready for a chase",
+    "share_url": "https://cluesbysam.com/s/archive/c4f2b146552a"
+  },
+  {
+    "date": "2025-11-14",
+    "puzzle_id": "26599565f5f1",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal has someone's wallet",
+    "share_url": "https://cluesbysam.com/s/archive/26599565f5f1"
+  },
+  {
+    "date": "2025-11-13",
+    "puzzle_id": "cc06fcc6b8bd",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent was very thirsty",
+    "share_url": "https://cluesbysam.com/s/archive/cc06fcc6b8bd"
+  },
+  {
+    "date": "2025-11-12",
+    "puzzle_id": "0d2e96b2a384",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is practicing ventriloquism",
+    "share_url": "https://cluesbysam.com/s/archive/0d2e96b2a384"
+  },
+  {
+    "date": "2025-11-11",
+    "puzzle_id": "9e692950dc43",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is not competing, but...",
+    "share_url": "https://cluesbysam.com/s/archive/9e692950dc43"
+  },
+  {
+    "date": "2025-11-10",
+    "puzzle_id": "efb1aad8995c",
+    "difficulty": "Easy",
+    "flavor_text": "Three innocents are about to retire",
+    "share_url": "https://cluesbysam.com/s/archive/efb1aad8995c"
+  },
+  {
+    "date": "2025-11-09",
+    "puzzle_id": "94bed74d0925",
+    "difficulty": "Evil",
+    "flavor_text": "One criminal took it all",
+    "share_url": "https://cluesbysam.com/s/archive/94bed74d0925"
+  },
+  {
+    "date": "2025-11-08",
+    "puzzle_id": "7101bcfe6254",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal was almost miscounted",
+    "share_url": "https://cluesbysam.com/s/archive/7101bcfe6254"
+  },
+  {
+    "date": "2025-11-07",
+    "puzzle_id": "24256d39d9fd",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal didn't know enough",
+    "share_url": "https://cluesbysam.com/s/archive/24256d39d9fd"
+  },
+  {
+    "date": "2025-11-06",
+    "puzzle_id": "e7230acdce71",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is eager to meet criminal clowns",
+    "share_url": "https://cluesbysam.com/s/archive/e7230acdce71"
+  },
+  {
+    "date": "2025-11-05",
+    "puzzle_id": "df2608cb5347",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal isn't doing much",
+    "share_url": "https://cluesbysam.com/s/archive/df2608cb5347"
+  },
+  {
+    "date": "2025-11-03",
+    "puzzle_id": "611441cb31d8",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent is studying Chinese philosphy",
+    "share_url": "https://cluesbysam.com/s/archive/611441cb31d8"
+  },
+  {
+    "date": "2025-11-02",
+    "puzzle_id": "d49e5f356a96",
+    "difficulty": "Evil",
+    "flavor_text": "One sinner shall yet return!",
+    "share_url": "https://cluesbysam.com/s/archive/d49e5f356a96"
   },
   {
     "date": "2025-10-31",
@@ -5744,6 +6229,13 @@
     "share_url": "https://cluesbysam.com/s/archive/e2d570f233fa"
   },
   {
+    "date": "2025-09-25",
+    "puzzle_id": "06219bbbdc31",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal has been banned from entering Italy",
+    "share_url": "https://cluesbysam.com/s/archive/06219bbbdc31"
+  },
+  {
     "date": "2025-09-24",
     "puzzle_id": "4c782f15fbc6",
     "difficulty": "Tricky",
@@ -5975,6 +6467,13 @@
     "difficulty": "Medium",
     "flavor_text": "One innocent wonders if anyone is actually criminal",
     "share_url": "https://cluesbysam.com/s/archive/fda869978937"
+  },
+  {
+    "date": "2025-09-01",
+    "puzzle_id": "7535a78a2f77",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is hiding inside a pocket-sized ball",
+    "share_url": "https://cluesbysam.com/s/archive/7535a78a2f77"
   },
   {
     "date": "2025-08-31",
@@ -6430,6 +6929,7 @@
   {
     "date": "2025-06-17",
     "puzzle_id": "7b1d92260fed",
+    "flavor_text": "It's all Vicky's fault",
     "share_url": "https://cluesbysam.com/s/archive/7b1d92260fed"
   },
   {
@@ -6437,6 +6937,12 @@
     "puzzle_id": "cb0c9c04fdb9",
     "flavor_text": "The jewel thief is nearby",
     "share_url": "https://cluesbysam.com/s/archive/cb0c9c04fdb9"
+  },
+  {
+    "date": "2025-06-15",
+    "puzzle_id": "f1324ab949be",
+    "flavor_text": "Sam's mom is innocent",
+    "share_url": "https://cluesbysam.com/s/archive/f1324ab949be"
   },
   {
     "date": "2025-06-14",
