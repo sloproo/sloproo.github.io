@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-22",
+    "puzzle_id": "d4fa9b421ffa",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals always take their pet to work",
+    "share_url": "https://cluesbysam.com/s/archive/d4fa9b421ffa",
+    "stats": {
+      "p1": 180810,
+      "p5": 255207,
+      "p10": 308353,
+      "p25": 416692,
+      "p50": 603939,
+      "p75": 901660,
+      "perfect_rate": 0.23102002794597112,
+      "no_hint_rate": 0.4952026082906381
+    }
+  },
+  {
     "date": "2026-10-21",
     "puzzle_id": "f8e17eee9d87",
     "difficulty": "Tricky",
