@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-24",
+    "puzzle_id": "67a5becd7ee8",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are not excused",
+    "share_url": "https://cluesbysam.com/s/archive/67a5becd7ee8",
+    "stats": {
+      "p1": 154176,
+      "p5": 219083,
+      "p10": 264321,
+      "p25": 362806,
+      "p50": 521204,
+      "p75": 767413,
+      "perfect_rate": 0.3098855129898723,
+      "no_hint_rate": 0.7189564068692206
+    }
+  },
+  {
     "date": "2026-10-23",
     "puzzle_id": "07c9a2562269",
     "difficulty": "Hard",
