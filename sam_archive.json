@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-10-25",
+    "puzzle_id": "512dff90d06a",
+    "difficulty": "Hard",
+    "flavor_text": "One innocent isn't much for idioms",
+    "share_url": "https://cluesbysam.com/s/archive/512dff90d06a",
+    "stats": {
+      "p1": 183216,
+      "p5": 250753,
+      "p10": 300890,
+      "p25": 401102,
+      "p50": 562448,
+      "p75": 807672,
+      "perfect_rate": 0.25394584236800966,
+      "no_hint_rate": 0.598003126418234
+    }
+  },
+  {
     "date": "2026-10-24",
     "puzzle_id": "67a5becd7ee8",
     "difficulty": "Hard",
