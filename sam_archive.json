@@ -14,6 +14,40 @@
     "date": "void"
   },
   {
+    "date": "2026-10-27",
+    "puzzle_id": "dba3987dc04f",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal has an odd conception of earning",
+    "share_url": "https://cluesbysam.com/s/archive/dba3987dc04f",
+    "stats": {
+      "p1": 123521,
+      "p5": 183186,
+      "p10": 216223,
+      "p25": 299511,
+      "p50": 416663,
+      "p75": 602294,
+      "perfect_rate": 0.20164013506994694,
+      "no_hint_rate": 0.5441389290882779
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "puzzle_id": "3cd92b8a41cd",
+    "difficulty": "Easy",
+    "flavor_text": "One innocent should watch out for his neighbor",
+    "share_url": "https://cluesbysam.com/s/archive/3cd92b8a41cd",
+    "stats": {
+      "p1": 95857,
+      "p5": 123770,
+      "p10": 143506,
+      "p25": 186500,
+      "p50": 261343,
+      "p75": 380842,
+      "perfect_rate": 0.4100878929448096,
+      "no_hint_rate": 0.7864438989627048
+    }
+  },
+  {
     "date": "2026-10-25",
     "puzzle_id": "512dff90d06a",
     "difficulty": "Hard",
