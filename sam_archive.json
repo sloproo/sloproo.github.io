@@ -14,20 +14,37 @@
     "date": "void"
   },
   {
+    "date": "2026-10-28",
+    "puzzle_id": "b05ea763c38b",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is not a popular night guest",
+    "share_url": "https://cluesbysam.com/s/archive/b05ea763c38b",
+    "stats": {
+      "p1": 116473,
+      "p5": 163482,
+      "p10": 195081,
+      "p25": 266314,
+      "p50": 379182,
+      "p75": 548702,
+      "perfect_rate": 0.351138353765324,
+      "no_hint_rate": 0.7040280210157618
+    }
+  },
+  {
     "date": "2026-10-27",
     "puzzle_id": "dba3987dc04f",
     "difficulty": "Medium",
     "flavor_text": "One criminal has an odd conception of earning",
     "share_url": "https://cluesbysam.com/s/archive/dba3987dc04f",
     "stats": {
-      "p1": 123521,
-      "p5": 183186,
-      "p10": 216223,
-      "p25": 299511,
-      "p50": 416663,
-      "p75": 602294,
-      "perfect_rate": 0.20164013506994694,
-      "no_hint_rate": 0.5441389290882779
+      "p1": 137001,
+      "p5": 198287,
+      "p10": 235586,
+      "p25": 319969,
+      "p50": 452679,
+      "p75": 665368,
+      "perfect_rate": 0.17726923405345402,
+      "no_hint_rate": 0.4975663905729656
     }
   },
   {
