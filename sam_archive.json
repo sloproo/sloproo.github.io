@@ -14,20 +14,37 @@
     "date": "void"
   },
   {
+    "date": "2026-10-29",
+    "puzzle_id": "f5187aaff893",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal stole something with her mouth",
+    "share_url": "https://cluesbysam.com/s/archive/f5187aaff893",
+    "stats": {
+      "p1": 116205,
+      "p5": 144093,
+      "p10": 169270,
+      "p25": 223337,
+      "p50": 316239,
+      "p75": 464529,
+      "perfect_rate": 0.44301248489730166,
+      "no_hint_rate": 0.8248086991542489
+    }
+  },
+  {
     "date": "2026-10-28",
     "puzzle_id": "b05ea763c38b",
     "difficulty": "Tricky",
     "flavor_text": "One innocent is not a popular night guest",
     "share_url": "https://cluesbysam.com/s/archive/b05ea763c38b",
     "stats": {
-      "p1": 116473,
-      "p5": 163482,
-      "p10": 195081,
-      "p25": 266314,
-      "p50": 379182,
-      "p75": 548702,
-      "perfect_rate": 0.351138353765324,
-      "no_hint_rate": 0.7040280210157618
+      "p1": 135022,
+      "p5": 184720,
+      "p10": 215978,
+      "p25": 289318,
+      "p50": 407247,
+      "p75": 591243,
+      "perfect_rate": 0.3148840992273282,
+      "no_hint_rate": 0.66470109800732
     }
   },
   {
