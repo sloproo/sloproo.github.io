@@ -14,20 +14,37 @@
     "date": "void"
   },
   {
+    "date": "2026-10-30",
+    "puzzle_id": "3256dac816c2",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal had a brain freeze",
+    "share_url": "https://cluesbysam.com/s/archive/3256dac816c2",
+    "stats": {
+      "p1": 129468,
+      "p5": 177903,
+      "p10": 214731,
+      "p25": 295519,
+      "p50": 424073,
+      "p75": 620807,
+      "perfect_rate": 0.37957875457875456,
+      "no_hint_rate": 0.7614468864468864
+    }
+  },
+  {
     "date": "2026-10-29",
     "puzzle_id": "f5187aaff893",
     "difficulty": "Tricky",
     "flavor_text": "One criminal stole something with her mouth",
     "share_url": "https://cluesbysam.com/s/archive/f5187aaff893",
     "stats": {
-      "p1": 116205,
-      "p5": 144093,
-      "p10": 169270,
-      "p25": 223337,
-      "p50": 316239,
-      "p75": 464529,
-      "perfect_rate": 0.44301248489730166,
-      "no_hint_rate": 0.8248086991542489
+      "p1": 122416,
+      "p5": 158873,
+      "p10": 183002,
+      "p25": 241422,
+      "p50": 341311,
+      "p75": 497524,
+      "perfect_rate": 0.41826368044331563,
+      "no_hint_rate": 0.7911952589856076
     }
   },
   {
