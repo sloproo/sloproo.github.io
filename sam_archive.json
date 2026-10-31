@@ -14,20 +14,37 @@
     "date": "void"
   },
   {
+    "date": "2026-10-31",
+    "puzzle_id": "fd0005e9dd2d",
+    "difficulty": "Hard",
+    "flavor_text": "One ghost forgot her sheets at the laundry",
+    "share_url": "https://cluesbysam.com/s/archive/fd0005e9dd2d",
+    "stats": {
+      "p1": 169457,
+      "p5": 236089,
+      "p10": 286564,
+      "p25": 376779,
+      "p50": 534231,
+      "p75": 753989,
+      "perfect_rate": 0.2693952351863164,
+      "no_hint_rate": 0.6017104459376909
+    }
+  },
+  {
     "date": "2026-10-30",
     "puzzle_id": "3256dac816c2",
     "difficulty": "Tricky",
     "flavor_text": "One criminal had a brain freeze",
     "share_url": "https://cluesbysam.com/s/archive/3256dac816c2",
     "stats": {
-      "p1": 129468,
-      "p5": 177903,
-      "p10": 214731,
-      "p25": 295519,
-      "p50": 424073,
-      "p75": 620807,
-      "perfect_rate": 0.37957875457875456,
-      "no_hint_rate": 0.7614468864468864
+      "p1": 149570,
+      "p5": 198993,
+      "p10": 235931,
+      "p25": 319101,
+      "p50": 458734,
+      "p75": 683023,
+      "perfect_rate": 0.3570353811100125,
+      "no_hint_rate": 0.7333734577189287
     }
   },
   {
