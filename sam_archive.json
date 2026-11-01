@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-01",
+    "puzzle_id": "84b467a6bd5c",
+    "difficulty": "Brutal",
+    "flavor_text": "One innocent is already thinking of the Holidays",
+    "share_url": "https://cluesbysam.com/s/archive/84b467a6bd5c",
+    "stats": {
+      "p1": 170896,
+      "p5": 230269,
+      "p10": 281098,
+      "p25": 371723,
+      "p50": 526670,
+      "p75": 744692,
+      "perfect_rate": 0.213013698630137,
+      "no_hint_rate": 0.5575342465753425
+    }
+  },
+  {
     "date": "2026-10-31",
     "puzzle_id": "fd0005e9dd2d",
     "difficulty": "Hard",
