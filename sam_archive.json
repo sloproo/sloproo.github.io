@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-02",
+    "puzzle_id": "93372fa5f71c",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is specialized in unicellular organisms",
+    "share_url": "https://cluesbysam.com/s/archive/93372fa5f71c",
+    "stats": {
+      "p1": 79283,
+      "p5": 103189,
+      "p10": 119932,
+      "p25": 159581,
+      "p50": 234559,
+      "p75": 364987,
+      "perfect_rate": 0.501168912626157,
+      "no_hint_rate": 0.8297188907684413
+    }
+  },
+  {
     "date": "2026-11-01",
     "puzzle_id": "84b467a6bd5c",
     "difficulty": "Brutal",
