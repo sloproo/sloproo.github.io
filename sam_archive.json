@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-03",
+    "puzzle_id": "77822f4192de",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal is not from a galaxy far far away",
+    "share_url": "https://cluesbysam.com/s/archive/77822f4192de",
+    "stats": {
+      "p1": 99950,
+      "p5": 130226,
+      "p10": 150190,
+      "p25": 195678,
+      "p50": 277536,
+      "p75": 412138,
+      "perfect_rate": 0.5173475752377982,
+      "no_hint_rate": 0.8298573210665835
+    }
+  },
+  {
     "date": "2026-11-02",
     "puzzle_id": "93372fa5f71c",
     "difficulty": "Easy",
