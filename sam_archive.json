@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-04",
+    "puzzle_id": "846dbcd66c5b",
+    "difficulty": "Tricky",
+    "flavor_text": "The innocents nearly had a close encounter of the first kind",
+    "share_url": "https://cluesbysam.com/s/archive/846dbcd66c5b",
+    "stats": {
+      "p1": 125066,
+      "p5": 167235,
+      "p10": 197222,
+      "p25": 270668,
+      "p50": 402988,
+      "p75": 609653,
+      "perfect_rate": 0.420966053536713,
+      "no_hint_rate": 0.6947809181994915
+    }
+  },
+  {
     "date": "2026-11-03",
     "puzzle_id": "77822f4192de",
     "difficulty": "Medium",
