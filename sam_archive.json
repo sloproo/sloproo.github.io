@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-05",
+    "puzzle_id": "3952ee3693e9",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent should not be sent to space alone",
+    "share_url": "https://cluesbysam.com/s/archive/3952ee3693e9",
+    "stats": {
+      "p1": 136491,
+      "p5": 188151,
+      "p10": 226248,
+      "p25": 307854,
+      "p50": 439949,
+      "p75": 654007,
+      "perfect_rate": 0.3310347847026116,
+      "no_hint_rate": 0.544712243602373
+    }
+  },
+  {
     "date": "2026-11-04",
     "puzzle_id": "846dbcd66c5b",
     "difficulty": "Tricky",
