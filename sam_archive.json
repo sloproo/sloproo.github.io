@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-06",
+    "puzzle_id": "432583f57288",
+    "difficulty": "Tricky",
+    "flavor_text": "Some innocents are far from home",
+    "share_url": "https://cluesbysam.com/s/archive/432583f57288",
+    "stats": {
+      "p1": 137661,
+      "p5": 190237,
+      "p10": 225606,
+      "p25": 306391,
+      "p50": 435788,
+      "p75": 641883,
+      "perfect_rate": 0.3847316368485387,
+      "no_hint_rate": 0.6518724302700301
+    }
+  },
+  {
     "date": "2026-11-05",
     "puzzle_id": "3952ee3693e9",
     "difficulty": "Tricky",
