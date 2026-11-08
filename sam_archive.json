@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-07",
+    "puzzle_id": "d7e332966f93",
+    "difficulty": "Hard",
+    "flavor_text": "One criminals plan a grand day out",
+    "share_url": "https://cluesbysam.com/s/archive/d7e332966f93",
+    "stats": {
+      "p1": 175223,
+      "p5": 242615,
+      "p10": 289231,
+      "p25": 386401,
+      "p50": 549864,
+      "p75": 817692,
+      "perfect_rate": 0.3341591112246201,
+      "no_hint_rate": 0.6163452943429958
+    }
+  },
+  {
     "date": "2026-11-06",
     "puzzle_id": "432583f57288",
     "difficulty": "Tricky",
