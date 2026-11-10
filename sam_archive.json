@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-09",
+    "puzzle_id": "222416c1d327",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal is great at pub quizzes",
+    "share_url": "https://cluesbysam.com/s/archive/222416c1d327",
+    "stats": {
+      "p1": 74778,
+      "p5": 96174,
+      "p10": 111095,
+      "p25": 144758,
+      "p50": 206496,
+      "p75": 312056,
+      "perfect_rate": 0.5152433759904836,
+      "no_hint_rate": 0.8349225839872604
+    }
+  },
+  {
     "date": "2026-11-08",
     "puzzle_id": "ddc6273b3e49",
     "difficulty": "Hard",
