@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-10",
+    "puzzle_id": "1cda2fe9a271",
+    "difficulty": "Medium",
+    "flavor_text": "One innocent xylophonist is safe for a while.",
+    "share_url": "https://cluesbysam.com/s/archive/1cda2fe9a271",
+    "stats": {
+      "p1": 90584,
+      "p5": 115827,
+      "p10": 133646,
+      "p25": 173873,
+      "p50": 246751,
+      "p75": 365279,
+      "perfect_rate": 0.5394075769626195,
+      "no_hint_rate": 0.8376365152955326
+    }
+  },
+  {
     "date": "2026-11-09",
     "puzzle_id": "222416c1d327",
     "difficulty": "Easy",
