@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-11",
+    "puzzle_id": "88e5f60587bd",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is always prepared",
+    "share_url": "https://cluesbysam.com/s/archive/88e5f60587bd",
+    "stats": {
+      "p1": 106166,
+      "p5": 141782,
+      "p10": 167237,
+      "p25": 228791,
+      "p50": 342865,
+      "p75": 522938,
+      "perfect_rate": 0.5032268879389825,
+      "no_hint_rate": 0.7874235185650825
+    }
+  },
+  {
     "date": "2026-11-10",
     "puzzle_id": "1cda2fe9a271",
     "difficulty": "Medium",
