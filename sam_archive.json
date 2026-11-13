@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-12",
+    "puzzle_id": "9d9f350ffa9a",
+    "difficulty": "Tricky",
+    "flavor_text": "One criminal is not fun at parties",
+    "share_url": "https://cluesbysam.com/s/archive/9d9f350ffa9a",
+    "stats": {
+      "p1": 115747,
+      "p5": 153650,
+      "p10": 181441,
+      "p25": 246415,
+      "p50": 365052,
+      "p75": 550000,
+      "perfect_rate": 0.4939214140492096,
+      "no_hint_rate": 0.7371478361893697
+    }
+  },
+  {
     "date": "2026-11-11",
     "puzzle_id": "88e5f60587bd",
     "difficulty": "Tricky",
