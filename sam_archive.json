@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-13",
+    "puzzle_id": "4a15ea3cc8df",
+    "difficulty": "Hard",
+    "flavor_text": "The criminals are just lazy",
+    "share_url": "https://cluesbysam.com/s/archive/4a15ea3cc8df",
+    "stats": {
+      "p1": 130700,
+      "p5": 177131,
+      "p10": 208585,
+      "p25": 277715,
+      "p50": 390309,
+      "p75": 569357,
+      "perfect_rate": 0.3146580221373883,
+      "no_hint_rate": 0.6922305871313101
+    }
+  },
+  {
     "date": "2026-11-12",
     "puzzle_id": "9d9f350ffa9a",
     "difficulty": "Tricky",
