@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-14",
+    "puzzle_id": "1f1e94acd3ea",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal feels henpecked",
+    "share_url": "https://cluesbysam.com/s/archive/1f1e94acd3ea",
+    "stats": {
+      "p1": 204655,
+      "p5": 303970,
+      "p10": 359818,
+      "p25": 499808,
+      "p50": 747101,
+      "p75": 1137363,
+      "perfect_rate": 0.20373670434927885,
+      "no_hint_rate": 0.4930110820292922
+    }
+  },
+  {
     "date": "2026-11-13",
     "puzzle_id": "4a15ea3cc8df",
     "difficulty": "Hard",
