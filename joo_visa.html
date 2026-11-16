@@ -230,7 +230,7 @@
 
     .select-box {
       width: 100%;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.55);
       color: #fff;
       border: 1px solid rgba(255, 255, 255, 0.25);
       border-radius: 12px;
@@ -622,21 +622,21 @@
       <div class="reveal-box" id="q1Reveal"></div>
     </section>
 
-    <!-- SLIDE 3: Arvaus 2 – Ketkä olivat kakkonen ja kolmonen ja millä erolla -->
+    <!-- SLIDE 3: Arvaus 2 – Ketkä olivat kolmonen ja nelonen ja millä erolla -->
     <section class="slide justify-top" data-theme="q2">
       <span class="kicker">Arvaus 2 / 5</span>
-      <h2>Ketkä olivat kakkonen &amp; kolmonen ja millä erolla?</h2>
+      <h2>Ketkä olivat kolmonen &amp; nelonen ja millä erolla?</h2>
 
       <div id="q2Form">
         <div class="glass-card">
           <div class="split-grid" style="margin-bottom:0;">
             <div>
-              <div class="stat-label">Kakkonen (#2)</div>
-              <select class="select-box" id="q2Second"></select>
-            </div>
-            <div>
               <div class="stat-label">Kolmonen (#3)</div>
               <select class="select-box" id="q2Third"></select>
+            </div>
+            <div>
+              <div class="stat-label">Nelonen (#4)</div>
+              <select class="select-box" id="q2Fourth"></select>
             </div>
           </div>
         </div>
@@ -644,10 +644,10 @@
         <div class="glass-card">
           <div class="slider-header">
             <span class="stat-label">Arvaa heidän eronsa (1 000 € välein)</span>
-            <span class="slider-val" id="q2SliderVal">20 000 €</span>
+            <span class="slider-val" id="q2SliderVal">10 000 €</span>
           </div>
-          <input type="range" id="q2Slider" min="0" max="100000" step="1000" value="20000" oninput="updateSliderText('q2Slider','q2SliderVal')" />
-          <div class="range-labels"><span>0 €</span><span>50 000 €</span><span>100 000 €</span></div>
+          <input type="range" id="q2Slider" min="0" max="60000" step="1000" value="10000" oninput="updateSliderText('q2Slider','q2SliderVal')" />
+          <div class="range-labels"><span>0 €</span><span>30 000 €</span><span>60 000 €</span></div>
         </div>
 
         <button class="cta-btn" onclick="revealQ2()">Lukitse &amp; paljasta</button>
@@ -790,13 +790,22 @@
 
   // Quiz state
   const quizScores = { q1: null, q2: null, q3: null, q4: null, q5: null };
-  let q1SelectedName = 'Tuomas';
+  let q1SelectedName = null;
   let q4Order = ['Kristian', 'Juho', 'Ville', 'Tatu', 'Pirkka', 'Niko'];
   let q4PickedIndex = null;
   let q4Locked = false;
 
   const fmt = (v) => v === null || v === undefined ? 'N/A' : v.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
   const fmtInt = (v) => Math.round(v).toLocaleString('fi-FI') + ' €';
+
+  function shuffleArray(arr) {
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
 
   // Progress bar
   const progressRow = document.getElementById('progressRow');
@@ -819,13 +828,15 @@
     return total;
   }
 
-  // Build Q1 chips & Q2 selects (Juho mukana!)
+  // Build Q1 chips & Q2 selects in shuffled order (Juho mukana)
   function initQuizInputs() {
-    const candidates = ['Tuomas', 'Pyry', 'Joonas', 'Jaakko', 'Tatu', 'Niko', 'Kristian', 'Pirkka', 'Ville', 'Juho'];
+    const baseCandidates = ['Niko', 'Pyry', 'Kristian', 'Juho', 'Jaakko', 'Tuomas', 'Ville', 'Joonas', 'Tatu', 'Pirkka'];
+
+    const q1List = shuffleArray(baseCandidates);
     const q1Chips = document.getElementById('q1Chips');
-    candidates.forEach(name => {
+    q1List.forEach(name => {
       const btn = document.createElement('button');
-      btn.className = 'choice-chip' + (name === q1SelectedName ? ' selected' : '');
+      btn.className = 'choice-chip';
       btn.textContent = name;
       btn.onclick = () => {
         q1SelectedName = name;
@@ -834,14 +845,15 @@
       q1Chips.appendChild(btn);
     });
 
-    const s2 = document.getElementById('q2Second');
+    const q2List = shuffleArray(baseCandidates);
     const s3 = document.getElementById('q2Third');
-    candidates.forEach(name => {
-      s2.add(new Option(name, name));
+    const s4 = document.getElementById('q2Fourth');
+    s3.add(new Option('Valitse nimi...', ''));
+    s4.add(new Option('Valitse nimi...', ''));
+    q2List.forEach(name => {
       s3.add(new Option(name, name));
+      s4.add(new Option(name, name));
     });
-    s2.value = 'Tuomas';
-    s3.value = 'Joonas';
 
     renderQ4List();
   }
@@ -849,6 +861,11 @@
   // Q1 Reveal
   function revealQ1() {
     if (quizScores.q1 !== null) return;
+    if (!q1SelectedName) {
+      showToast('Valitse ensin hopeasijan nimi!');
+      return;
+    }
+
     const guessVal = Number(document.getElementById('q1Slider').value);
     const actualEarned = 101708.87;
     const actualTotal = 113212.58;
@@ -876,31 +893,40 @@
     box.classList.add('open');
   }
 
-  // Q2 Reveal
+  // Q2 Reveal – Kolmonen & Nelonen ja ero
   function revealQ2() {
     if (quizScores.q2 !== null) return;
-    const g2 = document.getElementById('q2Second').value;
     const g3 = document.getElementById('q2Third').value;
+    const g4 = document.getElementById('q2Fourth').value;
+    if (!g3 || !g4) {
+      showToast('Valitse sekä kolmonen että nelonen!');
+      return;
+    }
+    if (g3 === g4) {
+      showToast('Valitse kaksi eri henkilöä!');
+      return;
+    }
+
     const guessDiff = Number(document.getElementById('q2Slider').value);
-    const actualDiffEarned = 101708.87 - 64130.26;
-    const actualDiffTotal = 113212.58 - 64136.53;
+    const actualDiffEarned = 64130.26 - 62846.59; // 1 283,67 €
+    const actualDiffTotal = 64136.53 - 62846.59;  // 1 289,94 €
     const bestDiff = Math.min(Math.abs(guessDiff - actualDiffEarned), Math.abs(guessDiff - actualDiffTotal));
 
-    let pts = (g2 === 'Tuomas' ? 5 : 0) + (g3 === 'Pyry' ? 5 : 0);
-    pts += Math.max(0, Math.round(10 - (bestDiff / 4000)));
+    let pts = (g3 === 'Pyry' ? 5 : 0) + (g4 === 'Joonas' ? 5 : 0);
+    pts += Math.max(0, Math.round(10 - (bestDiff / 2500)));
     quizScores.q2 = pts;
     updateScorePill();
 
     document.getElementById('q2Form').style.display = 'none';
     const box = document.getElementById('q2Reveal');
     box.innerHTML = `
-      <span class="feedback-tag">Arvasit: #2 ${g2}, #3 ${g3} • +${pts} / 20 p</span>
-      <h3 style="font-size:1.25rem; font-weight:900; margin-bottom:6px;">#2 Tuomas &amp; #3 Pyry</h3>
+      <span class="feedback-tag">Arvasit: #3 ${g3}, #4 ${g4} • +${pts} / 20 p</span>
+      <h3 style="font-size:1.25rem; font-weight:900; margin-bottom:6px;">#3 Pyry &amp; #4 Joonas 🥉</h3>
       <p style="font-size:0.86rem; line-height:1.45; margin-bottom:10px;">
-        <strong>Tuomas:</strong> 101 708,87 € ansio (113 212,58 € kok.)<br/>
-        <strong>Pyry:</strong> 64 130,26 € ansio (64 136,53 € kok.)<br/>
-        <strong>Ero:</strong> <strong>37 578,61 €</strong> ansiotuloissa (49 076,05 € kok.). Arvauksesi oli ${fmtInt(guessDiff)}.<br/>
-        <span style="opacity:0.85;">🥉 Tiukka kolmossijakisa: Joonas (62 846,59 €) jäi Pyrystä vain 1 283,67 €!</span>
+        <strong>Pyry (#3):</strong> 64 130,26 € ansio (+ 6,27 € pääoma = 64 136,53 €)<br/>
+        <strong>Joonas (#4):</strong> 62 846,59 € ansio<br/>
+        <strong>Ero ansiotuloissa:</strong> vain <strong>1 283,67 €</strong> (noin 107 €/kk! Kokonaistuloissa ero 1 289,94 €). Arvauksesi oli ${fmtInt(guessDiff)}.<br/>
+        <span style="opacity:0.85;">⚔️ Koko porukan tiukin mitalitaisto!</span>
       </p>
       <button class="cta-btn" onclick="goToSlide(4)">Seuraava arvaus →</button>
     `;
