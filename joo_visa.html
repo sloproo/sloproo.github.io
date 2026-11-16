@@ -181,13 +181,13 @@
       border-radius: 99px;
       background: rgba(255, 255, 255, 0.15);
       border: 1px solid rgba(255, 255, 255, 0.18);
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     h1 { font-size: clamp(2.2rem, 8.5vw, 3rem); font-weight: 900; line-height: 0.98; letter-spacing: -0.03em; margin-bottom: 14px; }
-    h2 { font-size: clamp(1.55rem, 6vw, 2.05rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.025em; margin-bottom: 10px; }
+    h2 { font-size: clamp(1.5rem, 5.8vw, 2rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.025em; margin-bottom: 8px; }
 
-    .lead { font-size: 0.96rem; line-height: 1.44; color: var(--text-muted); font-weight: 500; margin-bottom: 14px; }
+    .lead { font-size: 0.95rem; line-height: 1.44; color: var(--text-muted); font-weight: 500; margin-bottom: 12px; }
     .big-stat { font-size: clamp(2.1rem, 8.5vw, 3rem); font-weight: 900; letter-spacing: -0.03em; line-height: 1.05; margin: 4px 0; }
     .stat-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; opacity: 0.8; }
 
@@ -201,19 +201,12 @@
       box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
     }
 
-    .glass-card.highlight { background: rgba(255, 255, 255, 0.13); border-color: rgba(255, 255, 255, 0.34); }
-
     .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
     .mini-card { background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 15px; padding: 12px; }
     .mini-card .val { font-size: 1.1rem; font-weight: 800; margin-top: 4px; }
 
     /* Quiz Controls */
-    .chip-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-      margin-top: 8px;
-    }
+    .chip-grid { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 8px; }
 
     .choice-chip {
       background: rgba(255, 255, 255, 0.1);
@@ -249,19 +242,8 @@
       outline: none;
     }
 
-    .slider-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 8px;
-    }
-
-    .slider-val {
-      font-size: 1.45rem;
-      font-weight: 900;
-      color: var(--yellow);
-      letter-spacing: -0.02em;
-    }
+    .slider-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .slider-val { font-size: 1.45rem; font-weight: 900; color: var(--yellow); letter-spacing: -0.02em; }
 
     input[type="range"] {
       -webkit-appearance: none;
@@ -296,16 +278,10 @@
       cursor: pointer;
     }
 
-    .range-labels {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 6px;
-    }
+    .range-labels { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); margin-top: 6px; }
 
-    /* Ordering Game */
-    .order-list { display: flex; flex-direction: column; gap: 7px; margin-bottom: 10px; }
+    /* Ordering Game (6 items) */
+    .order-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
 
     .order-row {
       display: flex;
@@ -313,45 +289,41 @@
       justify-content: space-between;
       background: rgba(0, 0, 0, 0.42);
       border: 1px solid rgba(255, 255, 255, 0.16);
-      border-radius: 13px;
-      padding: 8px 12px;
+      border-radius: 12px;
+      padding: 7px 11px;
       transition: transform 0.15s, border-color 0.2s, background 0.2s;
       cursor: pointer;
     }
 
-    .order-row.picked {
-      border-color: var(--yellow);
-      background: rgba(255, 214, 10, 0.15);
-    }
-
+    .order-row.picked { border-color: var(--yellow); background: rgba(255, 214, 10, 0.15); }
     .order-row.correct-pos { border-color: var(--green); background: rgba(30, 215, 96, 0.16); }
     .order-row.wrong-pos { border-color: var(--pink); background: rgba(255, 42, 133, 0.12); }
 
     .order-left { display: flex; align-items: center; gap: 10px; }
 
     .rank-badge {
-      width: 28px;
-      height: 28px;
-      border-radius: 9px;
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
       background: rgba(255, 255, 255, 0.15);
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 900;
-      font-size: 0.86rem;
+      font-size: 0.84rem;
     }
 
     .move-btns { display: flex; gap: 5px; }
 
     .move-btn {
-      width: 30px;
-      height: 30px;
+      width: 28px;
+      height: 28px;
       border-radius: 8px;
       border: 1px solid rgba(255, 255, 255, 0.22);
       background: rgba(255, 255, 255, 0.1);
       color: #fff;
       font-weight: 800;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       cursor: pointer;
     }
 
@@ -361,10 +333,10 @@
     .reveal-box {
       display: none;
       border-radius: 18px;
-      padding: 14px 16px;
+      padding: 13px 15px;
       background: linear-gradient(135deg, rgba(30, 215, 96, 0.2), rgba(0, 245, 212, 0.12));
       border: 1px solid rgba(30, 215, 96, 0.55);
-      margin-top: 8px;
+      margin-top: 6px;
       animation: slideUp 0.38s ease both;
     }
 
@@ -372,7 +344,7 @@
 
     .feedback-tag {
       display: inline-block;
-      font-size: 0.76rem;
+      font-size: 0.75rem;
       font-weight: 800;
       padding: 3px 9px;
       border-radius: 99px;
@@ -386,8 +358,8 @@
       color: #09090b;
       border: none;
       border-radius: 99px;
-      padding: 13px 22px;
-      font-size: 0.96rem;
+      padding: 12px 20px;
+      font-size: 0.95rem;
       font-weight: 800;
       font-family: inherit;
       cursor: pointer;
@@ -400,11 +372,7 @@
     }
 
     .cta-btn:active { transform: scale(0.97); }
-    .cta-btn.secondary {
-      background: rgba(255, 255, 255, 0.15);
-      color: #fff;
-      border: 1px solid rgba(255, 255, 255, 0.28);
-    }
+    .cta-btn.secondary { background: rgba(255, 255, 255, 0.15); color: #fff; border: 1px solid rgba(255, 255, 255, 0.28); }
 
     /* Leaderboard */
     .tabs {
@@ -712,12 +680,12 @@
       <div class="reveal-box" id="q3Reveal"></div>
     </section>
 
-    <!-- SLIDE 5: Arvaus 4 – Järjestä Tatu, Niko, Kristian, Pirkka ja Ville -->
+    <!-- SLIDE 5: Arvaus 4 – Järjestä kuusikko: Tatu, Niko, Kristian, Pirkka, Ville ja Juho -->
     <section class="slide justify-top" data-theme="q4">
       <span class="kicker">Arvaus 4 / 5</span>
-      <h2>Laita viisikko suuruusjärjestykseen</h2>
-      <p class="lead" style="margin-bottom:8px; font-size:0.86rem;">
-        Suurimmat tulot ylimmäksi (1.) ja pienimmät alimmaksi (5.). Siirrä nuolilla tai napauta kahta nimeä vaihtaaksesi paikkaa.
+      <h2>Laita kuusikko suuruusjärjestykseen</h2>
+      <p class="lead" style="margin-bottom:8px; font-size:0.84rem;">
+        Suurimmat tulot ylimmäksi (1.) ja pienimmät alimmaksi (6.). Siirrä nuolilla tai napauta kahta nimeä vaihtaaksesi paikkaa.
       </p>
 
       <div class="order-list" id="q4OrderList"></div>
@@ -801,7 +769,7 @@
     { id: 'kristian', name: 'Kristian', earned: 36779.20, capital: 0, badge: '⚡ Tiukka haastaja', note: 'Jäi ansiotuloissa alle 200 euron päähän Nikosta!' },
     { id: 'pirkka', name: 'Pirkka', earned: 29818.20, capital: 0, badge: '🧱 Peruskallio', note: 'Lähes kolmenkympin kerhossa vakailla ansiotuloilla.' },
     { id: 'ville', name: 'Ville', earned: 11418.27, capital: 4642.87, badge: '🎓 Opiskelijasijoittaja', note: 'Opiskelijaksi siirtyminen laski ansiotuloja rajusti, mutta 4 642,87 € pääomatulot paikkasivat hienosti!' },
-    { id: 'juho', name: 'Juho Ramilak', earned: null, capital: null, badge: '🕶️ Mysteeri (N/A)', note: 'Tulotiedot luokiteltu muotoon N/A.' }
+    { id: 'juho', name: 'Juho Ramilak', earned: null, capital: null, badge: '🕶️ Mysteeri (N/A)', note: 'Nimellä Juho Ramilak ei löytynyt tietoja – verottajan tutkassa täysi mysteeri. Ehkä veroparatiisissa, ehkä vain tutkan ulkopuolella.' }
   ];
 
   const themes = {
@@ -823,7 +791,7 @@
   // Quiz state
   const quizScores = { q1: null, q2: null, q3: null, q4: null, q5: null };
   let q1SelectedName = 'Tuomas';
-  let q4Order = ['Kristian', 'Ville', 'Tatu', 'Pirkka', 'Niko'];
+  let q4Order = ['Kristian', 'Juho', 'Ville', 'Tatu', 'Pirkka', 'Niko'];
   let q4PickedIndex = null;
   let q4Locked = false;
 
@@ -914,8 +882,8 @@
     const g2 = document.getElementById('q2Second').value;
     const g3 = document.getElementById('q2Third').value;
     const guessDiff = Number(document.getElementById('q2Slider').value);
-    const actualDiffEarned = 101708.87 - 64130.26; // 37 578,61
-    const actualDiffTotal = 113212.58 - 64136.53;  // 49 076,05
+    const actualDiffEarned = 101708.87 - 64130.26;
+    const actualDiffTotal = 113212.58 - 64136.53;
     const bestDiff = Math.min(Math.abs(guessDiff - actualDiffEarned), Math.abs(guessDiff - actualDiffTotal));
 
     let pts = (g2 === 'Tuomas' ? 5 : 0) + (g3 === 'Pyry' ? 5 : 0);
@@ -963,16 +931,17 @@
     box.classList.add('open');
   }
 
-  // Q4 Ordering
+  // Q4 Ordering (kuusikko: Tatu, Niko, Kristian, Pirkka, Ville, Juho)
   function renderQ4List() {
     const list = document.getElementById('q4OrderList');
-    const correct = ['Tatu', 'Niko', 'Kristian', 'Pirkka', 'Ville'];
+    const correct = ['Tatu', 'Niko', 'Kristian', 'Pirkka', 'Ville', 'Juho'];
     const details = {
       'Tatu': '40 687,73 €',
       'Niko': '36 977,82 € (+ 1 263,32 € pääoma)',
       'Kristian': '36 779,20 € (198,62 € Nikosta)',
       'Pirkka': '29 818,20 €',
-      'Ville': '11 418,27 € (+ 4 642,87 € pääoma)'
+      'Ville': '11 418,27 € (+ 4 642,87 € pääoma)',
+      'Juho': 'N/A (tietoja ei löytynyt)'
     };
 
     list.innerHTML = '';
@@ -994,9 +963,13 @@
         renderQ4List();
       };
 
-      const sub = q4Locked ? `<div style="font-size:0.74rem; color:var(--text-muted);">${details[name]}</div>` : '';
+      const sub = q4Locked ? `<div style="font-size:0.72rem; color:var(--text-muted);">${details[name]}</div>` : '';
+      const statusBadge = name === correct[idx]
+        ? '✅'
+        : (name === 'Juho' ? 'N/A (#6)' : 'Oikea #' + (correct.indexOf(name) + 1));
+
       const controls = q4Locked
-        ? `<span style="font-size:0.78rem; font-weight:800;">${name === correct[idx] ? '✅' : 'Oikea #' + (correct.indexOf(name) + 1)}</span>`
+        ? `<span style="font-size:0.76rem; font-weight:800;">${statusBadge}</span>`
         : `
           <div class="move-btns">
             <button class="move-btn" ${idx === 0 ? 'disabled' : ''} onclick="moveQ4(${idx}, -1)">↑</button>
@@ -1004,11 +977,13 @@
           </div>
         `;
 
+      const displayRank = q4Locked && name === 'Juho' ? '–' : (idx + 1);
+
       row.innerHTML = `
         <div class="order-left">
-          <div class="rank-badge">${idx + 1}</div>
+          <div class="rank-badge">${displayRank}</div>
           <div>
-            <div style="font-weight:800; font-size:0.96rem;">${name}</div>
+            <div style="font-weight:800; font-size:0.94rem;">${name}</div>
             ${sub}
           </div>
         </div>
@@ -1029,9 +1004,9 @@
 
   function revealQ4() {
     if (quizScores.q4 !== null) return;
-    const correct = ['Tatu', 'Niko', 'Kristian', 'Pirkka', 'Ville'];
+    const correct = ['Tatu', 'Niko', 'Kristian', 'Pirkka', 'Ville', 'Juho'];
     const hits = q4Order.filter((n, i) => n === correct[i]).length;
-    const pts = hits * 4;
+    const pts = Math.round((hits / 6) * 20);
     quizScores.q4 = pts;
     q4Locked = true;
     q4PickedIndex = null;
@@ -1041,10 +1016,10 @@
     document.getElementById('q4BtnWrap').style.display = 'none';
     const box = document.getElementById('q4Reveal');
     box.innerHTML = `
-      <span class="feedback-tag">${hits} / 5 oikealla paikalla • +${pts} / 20 p</span>
-      <p style="font-size:0.84rem; line-height:1.42; margin-bottom:10px;">
-        Oikea järjestys: <strong>Tatu → Niko → Kristian → Pirkka → Ville</strong>.<br/>
-        Nikon ja Kristianin ero ansioissa oli vain <strong>198,62 €</strong>, ja opiskelijaksi siirtynyt Ville keräsi lähes 29 % tuloistaan pääomasta!
+      <span class="feedback-tag">${hits} / 6 oikealla paikalla • +${pts} / 20 p</span>
+      <p style="font-size:0.82rem; line-height:1.42; margin-bottom:10px;">
+        Oikea järjestys: <strong>Tatu → Niko → Kristian → Pirkka → Ville → Juho (N/A)</strong>.<br/>
+        Nikon ja Kristianin ero ansioissa oli vain <strong>198,62 €</strong>, opiskelijaksi siirtynyt Ville keräsi lähes 29 % tuloistaan pääomasta, ja <strong>Juho</strong> jäi täydeksi mysteeriksi (<strong>N/A</strong>)!
       </p>
       <button class="cta-btn" onclick="goToSlide(6)">Viimeiseen arvaukseen →</button>
     `;
@@ -1124,7 +1099,6 @@
   function nextSlide() { if (currentSlide < totalSlides - 1) goToSlide(currentSlide + 1); }
   function prevSlide() { if (currentSlide > 0) goToSlide(currentSlide - 1); }
 
-  // Swipe protection when dragging sliders
   const viewport = document.getElementById('slidesViewport');
   let touchStartX = 0, touchStartY = 0, touchOnInput = false;
   viewport.addEventListener('touchstart', (e) => {
