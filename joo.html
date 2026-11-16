@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Vero Wrapped 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-dark: #09090b;
+      --green: #1ed760;
+      --purple: #9d4edd;
+      --pink: #ff2a85;
+      --orange: #ff7b00;
+      --yellow: #ffd60a;
+      --cyan: #00f5d4;
+      --blue: #3a86ff;
+      --text-main: #ffffff;
+      --text-muted: rgba(255, 255, 255, 0.78);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Desktop framing like mobile story player */
+    .app-shell {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 460px;
+      max-height: 880px;
+      background: #121212;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.85);
+    }
+
+    @media (min-width: 520px) {
+      .app-shell {
+        height: 92vh;
+        border-radius: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+    }
+
+    /* Dynamic Animated Background */
+    .bg-layer {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      transition: background 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+      overflow: hidden;
+    }
+
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.65;
+      animation: floatBlob 10s infinite alternate ease-in-out;
+      transition: background 0.7s ease, transform 0.8s ease;
+    }
+
+    .blob-1 {
+      width: 300px;
+      height: 300px;
+      top: -80px;
+      left: -80px;
+    }
+
+    .blob-2 {
+      width: 320px;
+      height: 320px;
+      bottom: -90px;
+      right: -80px;
+      animation-delay: -4s;
+    }
+
+    .noise-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      opacity: 0.04;
+      pointer-events: none;
+      background-image: radial-gradient(#fff 1px, transparent 0);
+      background-size: 16px 16px;
+    }
+
+    @keyframes floatBlob {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(35px, 40px) scale(1.15); }
+    }
+
+    /* Top Story Bar */
+    .top-bar {
+      position: relative;
+      z-index: 10;
+      padding: 14px 16px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .progress-row {
+      display: flex;
+      gap: 5px;
+      width: 100%;
+    }
+
+    .progress-segment {
+      flex: 1;
+      height: 3.5px;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 99px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: #ffffff;
+      border-radius: 99px;
+      transition: width 0.25s linear;
+    }
+
+    .progress-segment.done .progress-fill {
+      width: 100%;
+    }
+
+    .progress-segment.active .progress-fill {
+      width: 100%;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .brand-tag {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .brand-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 10px var(--green);
+    }
+
+    .ctrl-btns {
+      display: flex;
+      gap: 8px;
+    }
+
+    .icon-btn {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      border-radius: 99px;
+      padding: 4px 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      transition: transform 0.15s ease, background 0.2s;
+    }
+
+    .icon-btn:active {
+      transform: scale(0.94);
+    }
+
+    /* Slides Container */
+    .slides-viewport {
+      position: relative;
+      z-index: 5;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      padding: 18px 24px 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(18px) scale(0.98);
+      transition: opacity 0.42s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+      overflow-y: auto;
+      scrollbar-width: none;
+    }
+
+    .slide::-webkit-scrollbar {
+      display: none;
+    }
+
+    .slide.active {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0) scale(1);
+    }
+
+    .slide.justify-top {
+      justify-content: flex-start;
+      padding-top: 8px;
+    }
+
+    /* Typography & Elements */
+    .kicker {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 5px 12px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      margin-bottom: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 9vw, 3.2rem);
+      font-weight: 900;
+      line-height: 0.98;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      font-size: clamp(1.8rem, 6.5vw, 2.35rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+      margin-bottom: 14px;
+    }
+
+    .lead {
+      font-size: 1.05rem;
+      line-height: 1.48;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-bottom: 22px;
+    }
+
+    .big-stat {
+      font-size: clamp(2.35rem, 9.5vw, 3.3rem);
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+      margin: 6px 0;
+      text-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      font-weight: 700;
+      opacity: 0.8;
+    }
+
+    /* Cards inside slides */
+    .glass-card {
+      background: rgba(15, 15, 20, 0.52);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 20px;
+      padding: 18px;
+      backdrop-filter: blur(14px);
+      margin-bottom: 12px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    }
+
+    .glass-card.highlight {
+      background: rgba(255, 255, 255, 0.14);
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    .split-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .mini-card {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .mini-card .val {
+      font-size: 1.18rem;
+      font-weight: 800;
+      margin-top: 4px;
+    }
+
+    /* VS Bar */
+    .vs-row {
+      margin-bottom: 14px;
+    }
+
+    .vs-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 6px;
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+
+    .bar-track {
+      height: 14px;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 99px;
+      transition: width 1s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* Midfield list */
+    .person-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 14px;
+      background: rgba(0, 0, 0, 0.34);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 15px;
+      margin-bottom: 9px;
+    }
+
+    .person-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .rank-badge {
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 0.9rem;
+    }
+
+    .person-name {
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+
+    .person-sub {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .person-amount {
+      text-align: right;
+      font-weight: 800;
+      font-size: 1.02rem;
+    }
+
+    /* Primary CTA button */
+    .cta-btn {
+      background: #ffffff;
+      color: #09090b;
+      border: none;
+      border-radius: 99px;
+      padding: 15px 26px;
+      font-size: 1rem;
+      font-weight: 800;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+      transition: transform 0.15s ease;
+    }
+
+    .cta-btn:active {
+      transform: scale(0.96);
+    }
+
+    .cta-btn.secondary {
+      background: rgba(255, 255, 255, 0.16);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      padding: 11px 18px;
+      font-size: 0.88rem;
+    }
+
+    /* Leaderboard tabs & clickable rows */
+    .tabs {
+      display: flex;
+      background: rgba(0, 0, 0, 0.38);
+      padding: 4px;
+      border-radius: 99px;
+      margin-bottom: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .tab-btn {
+      flex: 1;
+      border: none;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.7);
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 8px 10px;
+      border-radius: 99px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .tab-btn.active {
+      background: #ffffff;
+      color: #09090b;
+    }
+
+    .leaderboard-list {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+      padding-bottom: 16px;
+    }
+
+    .lb-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 13px;
+      border-radius: 14px;
+      background: rgba(0, 0, 0, 0.38);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      cursor: pointer;
+      transition: transform 0.15s, background 0.2s;
+    }
+
+    .lb-item:hover {
+      background: rgba(255, 255, 255, 0.14);
+    }
+
+    .lb-item:active {
+      transform: scale(0.98);
+    }
+
+    .lb-item.gold {
+      border-color: rgba(255, 214, 10, 0.6);
+      background: linear-gradient(90deg, rgba(255, 214, 10, 0.18), rgba(0, 0, 0, 0.4));
+    }
+
+    /* Footer hint */
+    .bottom-nav {
+      position: relative;
+      z-index: 10;
+      padding: 8px 20px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .nav-arrow-btn {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 99px;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+
+    .nav-arrow-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+
+    /* Modal for personal Wrapped card */
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      z-index: 50;
+      background: rgba(0, 0, 0, 0.78);
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .personal-card {
+      width: 100%;
+      border-radius: 24px;
+      padding: 24px;
+      background: linear-gradient(145deg, #1d1033, #0e241b);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+      position: relative;
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    .badge-pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 99px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      background: var(--green);
+      color: #051b0e;
+      margin-bottom: 10px;
+    }
+
+    .toast {
+      position: absolute;
+      bottom: 70px;
+      left: 50%;
+      transform: translateX(-50%) translateY(15px);
+      background: #ffffff;
+      color: #09090b;
+      padding: 8px 16px;
+      border-radius: 99px;
+      font-size: 0.82rem;
+      font-weight: 800;
+      z-index: 60;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Entrance stagger for active slide items */
+    .slide.active .anim-1 { animation: slideUp 0.5s 0.05s both; }
+    .slide.active .anim-2 { animation: slideUp 0.5s 0.14s both; }
+    .slide.active .anim-3 { animation: slideUp 0.5s 0.24s both; }
+    .slide.active .anim-4 { animation: slideUp 0.5s 0.34s both; }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-shell" id="appShell">
+  <!-- Dynamic Background -->
+  <div class="bg-layer" id="bgLayer">
+    <div class="blob blob-1" id="blob1"></div>
+    <div class="blob blob-2" id="blob2"></div>
+  </div>
+  <div class="noise-overlay"></div>
+
+  <!-- Top Progress & Controls -->
+  <div class="top-bar">
+    <div class="progress-row" id="progressRow"></div>
+    <div class="header-controls">
+      <div class="brand-tag">
+        <span class="brand-dot"></span>
+        <span>VERO WRAPPED 2025</span>
+      </div>
+      <div class="ctrl-btns">
+        <button class="icon-btn interactive" id="autoPlayBtn" title="Automaattinen toisto">▶ Auto</button>
+        <button class="icon-btn interactive" id="jumpBoardBtn">Tulostaulu</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slides -->
+  <div class="slides-viewport" id="slidesViewport">
+
+    <!-- SLIDE 0: Intro -->
+    <section class="slide active" data-theme="intro">
+      <span class="kicker anim-1">Vuosikatsaus 2025</span>
+      <h1 class="anim-2">Verottaja on puhunut.</h1>
+      <p class="lead anim-3">
+        11 nimeä, miljoonan euron unelmia, tiukka pronssikamppailu, urakiitoja sekä yksi täysi mysteeri. Tässä on porukan vuoden 2025 verotettavat tulot paketoituna.
+      </p>
+      <div class="glass-card anim-3">
+        <div class="stat-label">Mukana paketissa</div>
+        <div style="font-weight: 800; font-size: 1.05rem; margin-top: 6px; line-height: 1.45;">
+          Joona, Tuomas, Pyry, Joonas, Jaakko, Tatu, Niko, Kristian, Pirkka, Ville &amp; Juho Ramilak
+        </div>
+      </div>
+      <div class="anim-4" style="margin-top: 10px;">
+        <button class="cta-btn interactive" onclick="goToSlide(1)">Avaa paketti →</button>
+      </div>
+    </section>
+
+    <!-- SLIDE 1: Group Total -->
+    <section class="slide" data-theme="total">
+      <span class="kicker anim-1">Yhteispotti</span>
+      <h2 class="anim-2">Porukka tahkosi yhteensä...</h2>
+      <div class="big-stat anim-2" data-count="673329.53" data-suffix=" €">0 €</div>
+      <p class="lead anim-3" style="margin-bottom: 16px;">
+        kokonaistuloja vuonna 2025 (tunnettujen tulojen osalta). Verokarhu hieroi käsiään!
+      </p>
+      <div class="split-grid anim-3">
+        <div class="mini-card">
+          <div class="stat-label">Ansiotulot yht.</div>
+          <div class="val" style="color: var(--cyan);">655 890,36 €</div>
+        </div>
+        <div class="mini-card">
+          <div class="stat-label">Pääomatulot yht.</div>
+          <div class="val" style="color: var(--yellow);">17 439,17 €</div>
+        </div>
+      </div>
+      <div class="split-grid anim-4">
+        <div class="mini-card">
+          <div class="stat-label">Keskiarvo (kok.)</div>
+          <div class="val">67 332,95 €</div>
+        </div>
+        <div class="mini-card">
+          <div class="stat-label">Mediaani (kok.)</div>
+          <div class="val">48 144,23 €</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: Tuomas Surprise -->
+    <section class="slide" data-theme="tuomas">
+      <span class="kicker anim-1">Vuoden tulosylitys 🚀</span>
+      <h2 class="anim-2">Tuomas paineli yli sadan tonnin.</h2>
+      <p class="lead anim-2">
+        Odotuksiin nähden järisyttävän kova tulos – ja päälle porukan muhkeimmat pääomatulot!
+      </p>
+      <div class="glass-card highlight anim-3">
+        <div class="stat-label">Tuomaksen kokonaistulot (#2)</div>
+        <div class="big-stat" style="font-size: 2.5rem; color: var(--yellow);" data-count="113212.58" data-suffix=" €">0 €</div>
+        <div style="display: flex; justify-content: space-between; margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.18); font-size: 0.92rem;">
+          <span>Ansiotulot: <strong>101 708,87 €</strong></span>
+        </div>
+        <div style="margin-top: 4px; font-size: 0.92rem;">
+          <span>Pääomatulot: <strong style="color: var(--yellow);">11 503,71 €</strong></span>
+        </div>
+      </div>
+      <div class="mini-card anim-4">
+        <div style="font-size: 0.9rem; line-height: 1.4;">
+          💡 <strong>Salkkufakta:</strong> Tuomas keräsi yksin peräti <strong>66 %</strong> koko ryhmän kaikista pääomatuloista.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: Pyry vs Joonas -->
+    <section class="slide" data-theme="rivalry">
+      <span class="kicker anim-1">Vuoden tiukin vääntö 🥉</span>
+      <h2 class="anim-2">Taistelu pronssista: Pyry vs. Joonas</h2>
+      <p class="lead anim-2">
+        Kolmospaikasta käytiin kalkkiviivoille saakka verinen kisa – eroa kertyi lopulta vain reilun satasen verran kuukaudessa.
+      </p>
+
+      <div class="glass-card anim-3">
+        <div class="vs-row">
+          <div class="vs-head">
+            <span>🥉 3. Pyry</span>
+            <span style="color: var(--cyan);">64 130,26 €</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width: 100%; background: linear-gradient(90deg, var(--cyan), var(--green));"></div>
+          </div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 5px;">
+            + 6,27 € pääomatuloja (yht. 64 136,53 €)
+          </div>
+        </div>
+
+        <div class="vs-row" style="margin-bottom: 0;">
+          <div class="vs-head">
+            <span>4. Joonas</span>
+            <span style="color: var(--pink);">62 846,59 €</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" style="width: 98%; background: linear-gradient(90deg, var(--pink), var(--orange));"></div>
+          </div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 5px;">
+            Ansiotulojen ero: vain <strong>1 283,67 €</strong> (noin 107 €/kk!)
+          </div>
+        </div>
+      </div>
+
+      <div class="mini-card anim-4">
+        <div style="font-size: 0.88rem; line-height: 1.4;">
+          📈 Ne legendaariset <strong>6,27 €</strong> pääomatulot varmistivat Pyrylle myös sijoittajan kruunun tässä parissa.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: Jaakko -->
+    <section class="slide" data-theme="jaakko">
+      <span class="kicker anim-1">Urakiitäjä 📈</span>
+      <h2 class="anim-2">Jaakko otti kunnon loikan ylöspäin.</h2>
+      <p class="lead anim-2">
+        Uralla eteneminen näkyi suoraan tilinauhassa – nousu oli yllättävän kova ja vei kirkkaasti yli porukan mediaanin!
+      </p>
+      <div class="glass-card highlight anim-3">
+        <div class="stat-label">Jaakko (#5) – Vuoden nousija</div>
+        <div class="big-stat" style="font-size: 2.5rem;" data-count="55577.72" data-suffix=" €">0 €</div>
+        <div style="font-size: 0.92rem; color: var(--text-muted); margin-top: 8px;">
+          Ansiotulot: <strong>55 577,72 €</strong><br/>
+          Pääomatulot: <strong>23,00 €</strong> (yht. 55 600,72 €)
+        </div>
+      </div>
+      <div class="mini-card anim-4">
+        <div style="font-size: 0.9rem; line-height: 1.4;">
+          🎯 Jaakko jätti ryhmän mediaanitason (48 144 €) taakseen reilulla <strong>7 400 eurolla</strong>.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: Midfield -->
+    <section class="slide" data-theme="midfield">
+      <span class="kicker anim-1">Keskikastin taistelijat</span>
+      <h2 class="anim-2">Sijat 6–9 &amp; tiukka rintama</h2>
+      <p class="lead anim-2" style="margin-bottom: 14px;">
+        Ansiotuloissa Nikon ja Kristianin erotti vain alle 200 €, mutta Nikon pääomatulot repäisivät kaulaa.
+      </p>
+      <div class="anim-3">
+        <div class="person-row">
+          <div class="person-left">
+            <div class="rank-badge">6</div>
+            <div>
+              <div class="person-name">Tatu</div>
+              <div class="person-sub">Tasainen suorittaja</div>
+            </div>
+          </div>
+          <div class="person-amount">40 687,73 €</div>
+        </div>
+
+        <div class="person-row">
+          <div class="person-left">
+            <div class="rank-badge">7</div>
+            <div>
+              <div class="person-name">Niko</div>
+              <div class="person-sub">+ 1 263,32 € pääomatuloja</div>
+            </div>
+          </div>
+          <div class="person-amount">
+            36 977,82 €
+            <div class="person-sub">yht. 38 241,14 €</div>
+          </div>
+        </div>
+
+        <div class="person-row">
+          <div class="person-left">
+            <div class="rank-badge">8</div>
+            <div>
+              <div class="person-name">Kristian</div>
+              <div class="person-sub">Vain 198,62 € Nikosta ansioissa</div>
+            </div>
+          </div>
+          <div class="person-amount">36 779,20 €</div>
+        </div>
+
+        <div class="person-row">
+          <div class="person-left">
+            <div class="rank-badge">9</div>
+            <div>
+              <div class="person-name">Pirkka</div>
+              <div class="person-sub">Vakaata tekemistä</div>
+            </div>
+          </div>
+          <div class="person-amount">29 818,20 €</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: Ville & Juho Ramilak -->
+    <section class="slide" data-theme="specials">
+      <span class="kicker anim-1">Kaksi erikoistarinaa 🎓🕶️</span>
+      <h2 class="anim-2">Opiskelijaelämää &amp; täysi mysteeri</h2>
+
+      <div class="glass-card anim-3">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+          <strong style="font-size: 1.15rem;">🎓 Ville (#10)</strong>
+          <span class="badge-pill" style="margin:0; background: var(--cyan);">Sijoittajaopiskelija</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.4; margin-bottom: 10px;">
+          Opiskelijaksi siirtyminen tiputti ansiotulot rajusti alas, mutta pääomatulot pitivät kassaa pystyssä!
+        </p>
+        <div style="font-size: 0.92rem; line-height: 1.5;">
+          Ansiotulot: <strong>11 418,27 €</strong><br/>
+          Pääomatulot: <strong style="color: var(--yellow);">4 642,87 €</strong> (yht. 16 061,14 €)<br/>
+          <span style="font-size: 0.8rem; opacity: 0.8;">→ Peräti <strong>28,9 %</strong> tuloista tuli pääomasta (porukan korkein osuus!).</span>
+        </div>
+      </div>
+
+      <div class="glass-card anim-4">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+          <strong style="font-size: 1.15rem;">🕶️ Juho Ramilak</strong>
+          <span class="badge-pill" style="margin:0; background: #fff;">N/A</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.4;">
+          Verottajan tutkassa täysi mysteeri. Tiedot luokiteltu kategoriaan <strong>N/A</strong> – ehkä veroparatiisissa, ehkä vain tutkan ulkopuolella.
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDE 7: Joona #1 -->
+    <section class="slide" data-theme="king">
+      <span class="kicker anim-1">Vuoden Verokuningas 👑</span>
+      <h2 class="anim-2">Ykköspallilla täysin omilla luvuillaan...</h2>
+      <div class="glass-card highlight anim-3" style="text-align: center; padding: 26px 18px;">
+        <div style="font-size: 2.6rem; margin-bottom: 4px;">👑</div>
+        <div style="font-size: 1.65rem; font-weight: 900; letter-spacing: -0.02em;">JOONA</div>
+        <div class="big-stat" style="color: var(--green);" data-count="215945.70" data-suffix=" €">0 €</div>
+        <div class="stat-label" style="margin-top: 4px;">Verotettavat ansiotulot 2025</div>
+      </div>
+      <div class="split-grid anim-4">
+        <div class="mini-card">
+          <div class="stat-label">Osuus ansiotuloista</div>
+          <div class="val" style="color: var(--green);">32,9 %</div>
+        </div>
+        <div class="mini-card">
+          <div class="stat-label">Ero kakkoseen (ansio)</div>
+          <div class="val">+114 237 €</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8: Full Leaderboard & Personal Cards -->
+    <section class="slide justify-top" data-theme="board">
+      <span class="kicker" style="margin-bottom: 8px;">Lopullinen tulostaulu 🏆</span>
+      <h2 style="font-size: 1.55rem; margin-bottom: 6px;">Koko ranking 2025</h2>
+      <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 10px;">
+        Klikkaa mitä tahansa nimeä nähdäksesi henkilökohtaisen kortin &amp; jakopainikkeen.
+      </p>
+
+      <div class="tabs interactive">
+        <button class="tab-btn active" id="tabEarned" onclick="setSortMode('earned')">Ansiotulot</button>
+        <button class="tab-btn" id="tabTotal" onclick="setSortMode('total')">Kokonaistulot (Ansio+Pääoma)</button>
+      </div>
+
+      <div class="leaderboard-list interactive" id="leaderboardList"></div>
+
+      <div style="display: flex; gap: 8px; padding-bottom: 12px;" class="interactive">
+        <button class="cta-btn secondary" style="flex: 1;" onclick="goToSlide(0)">↺ Katso alusta</button>
+        <button class="cta-btn" style="flex: 1; padding: 11px 16px; font-size: 0.88rem;" onclick="copySummary()">📋 Kopioi yhteenveto</button>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bottom Navigation -->
+  <div class="bottom-nav">
+    <button class="nav-arrow-btn interactive" id="prevBtn" onclick="prevSlide()">← Edellinen</button>
+    <span id="slideCounter">1 / 9</span>
+    <button class="nav-arrow-btn interactive" id="nextBtn" onclick="nextSlide()">Seuraava →</button>
+  </div>
+
+  <!-- Personal Card Modal -->
+  <div class="modal-backdrop" id="personalModal" onclick="closeModal(event)">
+    <div class="personal-card" id="personalCardContent" onclick="event.stopPropagation()"></div>
+  </div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">Kopioitu leikepöydälle!</div>
+</div>
+
+<script>
+  const people = [
+    {
+      id: 'joona',
+      name: 'Joona',
+      earned: 215945.70,
+      capital: 0,
+      badge: '👑 Verokuningas #1',
+      note: 'Täysin omassa sarjassaan. Lähes kolmannes koko porukan verotettavista ansiotuloista!'
+    },
+    {
+      id: 'tuomas',
+      name: 'Tuomas',
+      earned: 101708.87,
+      capital: 11503.71,
+      badge: '🚀 Tulosylitys & Sijoittajakunkku',
+      note: 'Odotettua kovempi yli 100k € tulos ja porukan ylivoimaisesti suurimmat pääomatulot (11 503,71 €).'
+    },
+    {
+      id: 'pyry',
+      name: 'Pyry',
+      earned: 64130.26,
+      capital: 6.27,
+      badge: '🥉 Pronssimitalisti',
+      note: 'Tiukka taisto kolmospaikasta päättyi Pyryn voittoon! Joonas jäi 1 283,67 € päähän.'
+    },
+    {
+      id: 'joonas',
+      name: 'Joonas',
+      earned: 62846.59,
+      capital: 0,
+      badge: '⚔️ Hopeamitalisti pronssikisassa',
+      note: 'Äärimmäisen kova kiri kolmospaikasta Pyryn kanssa – jäi lopulta vain reilun satasen kuussa.'
+    },
+    {
+      id: 'jaakko',
+      name: 'Jaakko',
+      earned: 55577.72,
+      capital: 23.00,
+      badge: '📈 Urakiitäjä',
+      note: 'Uralla eteneminen nosti tulot yllättävän korkealle ja kirkkaasti yli porukan mediaanin.'
+    },
+    {
+      id: 'tatu',
+      name: 'Tatu',
+      earned: 40687.73,
+      capital: 0,
+      badge: '🎯 Vakaa suorittaja',
+      note: 'Vankka kuutossija yli 40 tuhannen euron verotettavilla ansiotuloilla.'
+    },
+    {
+      id: 'niko',
+      name: 'Niko',
+      earned: 36977.82,
+      capital: 1263.32,
+      badge: '💼 Sivutulosijoittaja',
+      note: 'Piti Kristianin niukasti takanaan ansiotuloissa (+198,62 €) ja otti 1 263 € pääomatuloja päälle.'
+    },
+    {
+      id: 'kristian',
+      name: 'Kristian',
+      earned: 36779.20,
+      capital: 0,
+      badge: '⚡ Tiukka haastaja',
+      note: 'Jäi ansiotuloissa vain alle 200 euron päähän Nikosta!'
+    },
+    {
+      id: 'pirkka',
+      name: 'Pirkka',
+      earned: 29818.20,
+      capital: 0,
+      badge: '🧱 Peruskallio',
+      note: 'Lähes kolmenkympin kerhossa vakailla ansiotuloilla.'
+    },
+    {
+      id: 'ville',
+      name: 'Ville',
+      earned: 11418.27,
+      capital: 4642.87,
+      badge: '🎓 Opiskelijasijoittaja',
+      note: 'Opiskelijaksi siirtyminen pudotti ansiotuloja rajusti, mutta 4 642,87 € pääomatulot (28,9 % kokonaistuloista) paikkasivat hienosti!'
+    },
+    {
+      id: 'juho',
+      name: 'Juho Ramilak',
+      earned: null,
+      capital: null,
+      badge: '🕶️ Mysteeri (N/A)',
+      note: 'Tulotiedot luokiteltu muotoon N/A. Verottajan tutkassa täysi arvoitus.'
+    }
+  ];
+
+  const themes = {
+    intro:   { bg: 'linear-gradient(155deg, #100824, #0a1f16)', b1: '#9d4edd', b2: '#1ed760' },
+    total:   { bg: 'linear-gradient(155deg, #071926, #130b29)', b1: '#00f5d4', b2: '#3a86ff' },
+    tuomas:  { bg: 'linear-gradient(155deg, #240c1f, #1f1404)', b1: '#ff2a85', b2: '#ffd60a' },
+    rivalry: { bg: 'linear-gradient(155deg, #061c21, #260a1c)', b1: '#00f5d4', b2: '#ff2a85' },
+    jaakko:  { bg: 'linear-gradient(155deg, #072115, #1b1e06)', b1: '#1ed760', b2: '#ffd60a' },
+    midfield:{ bg: 'linear-gradient(155deg, #160c2b, #0b192c)', b1: '#9d4edd', b2: '#3a86ff' },
+    specials:{ bg: 'linear-gradient(155deg, #0c1b29, #1f1024)', b1: '#00f5d4', b2: '#9d4edd' },
+    king:    { bg: 'linear-gradient(155deg, #062111, #1e1a05)', b1: '#1ed760', b2: '#ffd60a' },
+    board:   { bg: 'linear-gradient(155deg, #111116, #140d24)', b1: '#1ed760', b2: '#9d4edd' }
+  };
+
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const totalSlides = slides.length;
+  let currentSlide = 0;
+  let sortMode = 'earned';
+  let autoPlay = false;
+  let autoTimer = null;
+
+  const fmt = (val) => {
+    if (val === null || val === undefined) return 'N/A';
+    return val.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+  };
+
+  // Build top progress segments
+  const progressRow = document.getElementById('progressRow');
+  slides.forEach((_, idx) => {
+    const seg = document.createElement('div');
+    seg.className = 'progress-segment';
+    seg.onclick = (e) => { e.stopPropagation(); goToSlide(idx); };
+    const fill = document.createElement('div');
+    fill.className = 'progress-fill';
+    seg.appendChild(fill);
+    progressRow.appendChild(seg);
+  });
+
+  function applyTheme(themeKey) {
+    const t = themes[themeKey] || themes.intro;
+    document.getElementById('bgLayer').style.background = t.bg;
+    document.getElementById('blob1').style.background = t.b1;
+    document.getElementById('blob2').style.background = t.b2;
+  }
+
+  function animateCounters(slideEl) {
+    const counters = slideEl.querySelectorAll('[data-count]');
+    counters.forEach(el => {
+      const target = parseFloat(el.getAttribute('data-count'));
+      const suffix = el.getAttribute('data-suffix') || '';
+      const duration = 900;
+      const start = performance.now();
+
+      function tick(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const val = target * eased;
+        el.textContent = val.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + suffix;
+        if (progress < 1) requestAnimationFrame(tick);
+        else el.textContent = target.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + suffix;
+      }
+      requestAnimationFrame(tick);
+    });
+  }
+
+  function updateUI() {
+    slides.forEach((s, idx) => {
+      s.classList.toggle('active', idx === currentSlide);
+    });
+
+    const segs = document.querySelectorAll('.progress-segment');
+    segs.forEach((seg, idx) => {
+      seg.classList.toggle('done', idx < currentSlide);
+      seg.classList.toggle('active', idx === currentSlide);
+    });
+
+    const themeKey = slides[currentSlide].getAttribute('data-theme');
+    applyTheme(themeKey);
+    animateCounters(slides[currentSlide]);
+
+    document.getElementById('slideCounter').textContent = `${currentSlide + 1} / ${totalSlides}`;
+    document.getElementById('prevBtn').disabled = currentSlide === 0;
+    document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+  }
+
+  function goToSlide(idx) {
+    currentSlide = Math.max(0, Math.min(totalSlides - 1, idx));
+    updateUI();
+    if (autoPlay) resetAutoTimer();
+  }
+
+  function nextSlide() {
+    if (currentSlide < totalSlides - 1) goToSlide(currentSlide + 1);
+    else if (autoPlay) toggleAutoPlay();
+  }
+
+  function prevSlide() {
+    if (currentSlide > 0) goToSlide(currentSlide - 1);
+  }
+
+  function toggleAutoPlay() {
+    autoPlay = !autoPlay;
+    const btn = document.getElementById('autoPlayBtn');
+    btn.textContent = autoPlay ? '⏸ Pysäytä' : '▶ Auto';
+    if (autoPlay) resetAutoTimer();
+    else clearInterval(autoTimer);
+  }
+
+  function resetAutoTimer() {
+    clearInterval(autoTimer);
+    autoTimer = setInterval(() => {
+      if (currentSlide < totalSlides - 1) nextSlide();
+      else toggleAutoPlay();
+    }, 6500);
+  }
+
+  document.getElementById('autoPlayBtn').addEventListener('click', toggleAutoPlay);
+  document.getElementById('jumpBoardBtn').addEventListener('click', () => goToSlide(totalSlides - 1));
+
+  // Tap left/right on slide viewport (disabled on leaderboard slide to allow free scrolling/clicking)
+  const viewport = document.getElementById('slidesViewport');
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  viewport.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  viewport.addEventListener('touchend', (e) => {
+    const dx = e.changedTouches[0].screenX - touchStartX;
+    const dy = e.changedTouches[0].screenY - touchStartY;
+    if (Math.abs(dx) > 50 && Math.abs(dy) < 55) {
+      if (dx < 0) nextSlide();
+      else prevSlide();
+    }
+  }, { passive: true });
+
+  viewport.addEventListener('click', (e) => {
+    if (e.target.closest('button, a, .interactive, .lb-item, .tabs')) return;
+    if (currentSlide === totalSlides - 1) return; // Let user freely interact with final leaderboard
+    const rect = viewport.getBoundingClientRect();
+    const relX = (e.clientX - rect.left) / rect.width;
+    if (relX < 0.28) prevSlide();
+    else nextSlide();
+  });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (document.getElementById('personalModal').classList.contains('open')) {
+      if (e.key === 'Escape') closeModal();
+      return;
+    }
+    if (e.key === 'ArrowRight' || e.key === ' ') {
+      if (currentSlide < totalSlides - 1) nextSlide();
+    } else if (e.key === 'ArrowLeft') {
+      prevSlide();
+    }
+  });
+
+  // Leaderboard rendering
+  function setSortMode(mode) {
+    sortMode = mode;
+    document.getElementById('tabEarned').classList.toggle('active', mode === 'earned');
+    document.getElementById('tabTotal').classList.toggle('active', mode === 'total');
+    renderLeaderboard();
+  }
+
+  function getTotal(p) {
+    if (p.earned === null) return null;
+    return p.earned + (p.capital || 0);
+  }
+
+  function renderLeaderboard() {
+    const list = document.getElementById('leaderboardList');
+    list.innerHTML = '';
+
+    const sorted = [...people].sort((a, b) => {
+      const valA = sortMode === 'earned' ? a.earned : getTotal(a);
+      const valB = sortMode === 'earned' ? b.earned : getTotal(b);
+      if (valA === null) return 1;
+      if (valB === null) return -1;
+      return valB - valA;
+    });
+    
+    sorted.forEach((p, i) => {
+      const rank = p.earned === null ? '–' : i + 1;
+      const mainVal = sortMode === 'earned' ? p.earned : getTotal(p);
+
+      const item = document.createElement('div');
+      item.className = 'lb-item' + (rank === 1 ? ' gold' : '');
+      item.onclick = () => openPersonalModal(p.id);
+
+      let subText = p.badge;
+      if (p.capital > 0) {
+        subText = sortMode === 'earned'
+          ? `+ ${fmt(p.capital)} pääomatuloja`
+          : `Ansio ${fmt(p.earned)} + pääoma ${fmt(p.capital)}`;
+      }
+
+      item.innerHTML = `
+        <div class="person-left">
+          <div class="rank-badge">${rank}</div>
+          <div>
+            <div class="person-name">${p.name}</div>
+            <div class="person-sub">${subText}</div>
+          </div>
+        </div>
+        <div class="person-amount">${fmt(mainVal)}</div>
+      `;
+      list.appendChild(item);
+    });
+  }
+
+  function getRanks(id) {
+    const valid = people.filter(p => p.earned !== null);
+    const byEarned = [...valid].sort((a, b) => b.earned - a.earned);
+    const byTotal = [...valid].sort((a, b) => getTotal(b) - getTotal(a));
+    const eIdx = byEarned.findIndex(p => p.id === id);
+    const tIdx = byTotal.findIndex(p => p.id === id);
+    return {
+      earnedRank: eIdx >= 0 ? `#${eIdx + 1}` : 'N/A',
+      totalRank: tIdx >= 0 ? `#${tIdx + 1}` : 'N/A'
+    };
+  }
+
+  function openPersonalModal(id) {
+    const p = people.find(person => person.id === id);
+    if (!p) return;
+
+    const ranks = getRanks(id);
+    const total = getTotal(p);
+    const modal = document.getElementById('personalModal');
+    const card = document.getElementById('personalCardContent');
+
+    const statsHtml = p.earned === null
+      ? `
+        <div class="glass-card" style="margin: 14px 0; text-align: center;">
+          <div class="stat-label">Verotettavat tulot 2025</div>
+          <div class="big-stat" style="font-size: 2.4rem;">N/A</div>
+        </div>
+      `
+      : `
+        <div class="glass-card" style="margin: 14px 0;">
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 10px;">
+            <span class="stat-label">Ansiotulot (${ranks.earnedRank})</span>
+            <strong style="font-size: 1.15rem;">${fmt(p.earned)}</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 10px;">
+            <span class="stat-label">Pääomatulot</span>
+            <strong style="font-size: 1.05rem; color: var(--yellow);">${fmt(p.capital)}</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; align-items:baseline; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.16);">
+            <span class="stat-label">Yhteensä (${ranks.totalRank})</span>
+            <strong style="font-size: 1.3rem; color: var(--green);">${fmt(total)}</strong>
+          </div>
+        </div>
+      `;
+
+    card.innerHTML = `
+      <button class="close-modal" onclick="closeModal()" aria-label="Sulje">✕</button>
+      <div class="badge-pill">${p.badge}</div>
+      <h2 style="margin-bottom: 6px;">${p.name}</h2>
+      <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.45;">${p.note}</p>
+      ${statsHtml}
+      <div style="display: flex; gap: 8px; margin-top: 14px;">
+        <button class="cta-btn" style="flex: 1; padding: 12px 16px; font-size: 0.88rem;" onclick="copyPersonal('${p.id}')">
+          📋 Kopioi kortti
+        </button>
+        <button class="cta-btn secondary" style="padding: 12px 14px; font-size: 0.85rem;" onclick="closeModal()">
+          Sulje
+        </button>
+      </div>
+    `;
+
+    modal.classList.add('open');
+    if (window.location.hash !== `#${id}`) {
+      history.replaceState(null, '', `#${id}`);
+    }
+  }
+
+  function closeModal(event) {
+    if (event && event.target && event.target.id !== 'personalModal') return;
+    document.getElementById('personalModal').classList.remove('open');
+    if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+  }
+
+  function copyPersonal(id) {
+    const p = people.find(person => person.id === id);
+    if (!p) return;
+    const ranks = getRanks(id);
+    let text = `🎧 VERO WRAPPED 2025 – ${p.name}\n${p.badge}\n`;
+    if (p.earned === null) {
+      text += `Tulot: N/A\n`;
+    } else {
+      text += `Ansiotulot (${ranks.earnedRank}): ${fmt(p.earned)}\n`;
+      if (p.capital > 0) {
+        text += `Pääomatulot: ${fmt(p.capital)}\n`;
+        text += `Kokonaistulot (${ranks.totalRank}): ${fmt(getTotal(p))}\n`;
+      }
+    }
+    text += `💬 ${p.note}`;
+    copyText(text, `${p.name}n kortti kopioitu!`);
+  }
+
+  function copySummary() {
+    const sorted = [...people].sort((a, b) => {
+      if (a.earned === null) return 1;
+      if (b.earned === null) return -1;
+      return b.earned - a.earned;
+    });
+
+    const lines = sorted.map((p, i) => {
+      if (p.earned === null) return `– ${p.name}: N/A`;
+      const cap = p.capital > 0 ? ` (+ ${fmt(p.capital)} pääomatuloja)` : '';
+      return `${i + 1}. ${p.name}: ${fmt(p.earned)}${cap}`;
+    });
+
+    const text = `🏆 VERO WRAPPED 2025 – TULOSTAULU\n\n${lines.join('\n')}\n\nYhteispotti: 673 329,53 €`;
+    copyText(text, 'Koko yhteenveto kopioitu!');
+  }
+
+  let toastTimer = null;
+  function showToast(msg) {
+    const toast = document.getElementById('toast');
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2300);
+  }
+
+  function copyText(text, successMsg) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text)
+        .then(() => showToast(successMsg))
+        .catch(() => fallbackCopy(text, successMsg));
+    } else {
+      fallbackCopy(text, successMsg);
+    }
+  }
+
+  function fallbackCopy(text, successMsg) {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    try {
+      document.execCommand('copy');
+      showToast(successMsg);
+    } catch (e) {
+      showToast('Kopiointi epäonnistui');
+    }
+    document.body.removeChild(ta);
+  }
+
+  // Init
+  renderLeaderboard();
+  updateUI();
+
+  // Suora henkilölinkki esim. #tuomas tai #ville
+  const hashId = window.location.hash.replace('#', '').toLowerCase();
+  if (hashId && people.some(p => p.id === hashId)) {
+    goToSlide(totalSlides - 1);
+    setTimeout(() => openPersonalModal(hashId), 350);
+  }
+</script>
+</body>
+</html>
