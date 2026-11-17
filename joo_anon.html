@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Vero Wrapped 2025 – Arvauspeli</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-dark: #09090b;
+      --green: #1ed760;
+      --purple: #9d4edd;
+      --pink: #ff2a85;
+      --orange: #ff7b00;
+      --yellow: #ffd60a;
+      --cyan: #00f5d4;
+      --blue: #3a86ff;
+      --text-main: #ffffff;
+      --text-muted: rgba(255, 255, 255, 0.78);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .app-shell {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 460px;
+      max-height: 880px;
+      background: #121212;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 25px 70px rgba(0, 0, 0, 0.85);
+    }
+
+    @media (min-width: 520px) {
+      .app-shell {
+        height: 92vh;
+        border-radius: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+    }
+
+    .bg-layer {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      transition: background 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+      overflow: hidden;
+    }
+
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.65;
+      animation: floatBlob 10s infinite alternate ease-in-out;
+      transition: background 0.7s ease;
+    }
+
+    .blob-1 { width: 300px; height: 300px; top: -80px; left: -80px; }
+    .blob-2 { width: 320px; height: 320px; bottom: -90px; right: -80px; animation-delay: -4s; }
+
+    .noise-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      opacity: 0.04;
+      pointer-events: none;
+      background-image: radial-gradient(#fff 1px, transparent 0);
+      background-size: 16px 16px;
+    }
+
+    @keyframes floatBlob {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(35px, 40px) scale(1.15); }
+    }
+
+    .top-bar {
+      position: relative;
+      z-index: 10;
+      padding: 14px 16px 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .progress-row { display: flex; gap: 5px; width: 100%; }
+
+    .progress-segment {
+      flex: 1;
+      height: 3.5px;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 99px;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .progress-fill { height: 100%; width: 0%; background: #fff; border-radius: 99px; transition: width 0.25s linear; }
+    .progress-segment.done .progress-fill, .progress-segment.active .progress-fill { width: 100%; }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.88);
+    }
+
+    .brand-tag { display: flex; align-items: center; gap: 6px; }
+    .brand-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px var(--green); }
+
+    .score-pill {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 99px;
+      padding: 4px 10px;
+      font-size: 0.74rem;
+      font-weight: 800;
+    }
+
+    .icon-btn {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      border-radius: 99px;
+      padding: 4px 10px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    .slides-viewport { position: relative; z-index: 5; flex: 1; overflow: hidden; }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      padding: 14px 22px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(18px) scale(0.98);
+      transition: opacity 0.4s ease, transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+      overflow-y: auto;
+      scrollbar-width: none;
+    }
+
+    .slide::-webkit-scrollbar { display: none; }
+    .slide.active { opacity: 1; pointer-events: auto; transform: translateY(0) scale(1); }
+    .slide.justify-top { justify-content: flex-start; padding-top: 6px; }
+
+    .kicker {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 0.74rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.11em;
+      padding: 4px 11px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      margin-bottom: 10px;
+    }
+
+    h1 { font-size: clamp(2.2rem, 8.5vw, 3rem); font-weight: 900; line-height: 0.98; letter-spacing: -0.03em; margin-bottom: 14px; }
+    h2 { font-size: clamp(1.5rem, 5.8vw, 2rem); font-weight: 900; line-height: 1.08; letter-spacing: -0.025em; margin-bottom: 8px; }
+
+    .lead { font-size: 0.95rem; line-height: 1.44; color: var(--text-muted); font-weight: 500; margin-bottom: 12px; }
+    .big-stat { font-size: clamp(2.1rem, 8.5vw, 3rem); font-weight: 900; letter-spacing: -0.03em; line-height: 1.05; margin: 4px 0; }
+    .stat-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; opacity: 0.8; }
+
+    .glass-card {
+      background: rgba(15, 15, 20, 0.54);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 18px;
+      padding: 15px;
+      backdrop-filter: blur(14px);
+      margin-bottom: 10px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+    }
+
+    .split-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+    .mini-card { background: rgba(0, 0, 0, 0.35); border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 15px; padding: 12px; }
+    .mini-card .val { font-size: 1.1rem; font-weight: 800; margin-top: 4px; }
+
+    /* Quiz Controls */
+    .chip-grid { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 8px; }
+
+    .choice-chip {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      border-radius: 99px;
+      padding: 7px 13px;
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .choice-chip.selected {
+      background: var(--green);
+      color: #061b0e;
+      border-color: var(--green);
+      box-shadow: 0 0 16px rgba(30, 215, 96, 0.4);
+    }
+
+    .select-box {
+      width: 100%;
+      background: rgba(0, 0, 0, 0.55);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 12px;
+      padding: 10px 12px;
+      font-family: inherit;
+      font-size: 0.92rem;
+      font-weight: 700;
+      margin-top: 6px;
+      outline: none;
+    }
+
+    .slider-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+    .slider-val { font-size: 1.45rem; font-weight: 900; color: var(--yellow); letter-spacing: -0.02em; }
+
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 8px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.2);
+      outline: none;
+      cursor: pointer;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 3px solid var(--green);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 3px solid var(--green);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+    }
+
+    .range-labels { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); margin-top: 6px; }
+
+    /* Ordering Game (6 items) */
+    .order-list { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+
+    .order-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 0, 0, 0.42);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 12px;
+      padding: 7px 11px;
+      transition: transform 0.15s, border-color 0.2s, background 0.2s;
+      cursor: pointer;
+    }
+
+    .order-row.picked { border-color: var(--yellow); background: rgba(255, 214, 10, 0.15); }
+    .order-row.correct-pos { border-color: var(--green); background: rgba(30, 215, 96, 0.16); }
+    .order-row.wrong-pos { border-color: var(--pink); background: rgba(255, 42, 133, 0.12); }
+
+    .order-left { display: flex; align-items: center; gap: 10px; }
+
+    .rank-badge {
+      width: 26px;
+      height: 26px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 0.84rem;
+    }
+
+    .move-btns { display: flex; gap: 5px; }
+
+    .move-btn {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      font-weight: 800;
+      font-size: 0.82rem;
+      cursor: pointer;
+    }
+
+    .move-btn:disabled { opacity: 0.25; cursor: default; }
+
+    /* Reveal Box */
+    .reveal-box {
+      display: none;
+      border-radius: 18px;
+      padding: 13px 15px;
+      background: linear-gradient(135deg, rgba(30, 215, 96, 0.2), rgba(0, 245, 212, 0.12));
+      border: 1px solid rgba(30, 215, 96, 0.55);
+      margin-top: 6px;
+      animation: slideUp 0.38s ease both;
+    }
+
+    .reveal-box.open { display: block; }
+
+    .feedback-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 99px;
+      background: rgba(255, 255, 255, 0.18);
+      margin-bottom: 6px;
+    }
+
+    .cta-btn {
+      width: 100%;
+      background: #ffffff;
+      color: #09090b;
+      border: none;
+      border-radius: 99px;
+      padding: 12px 20px;
+      font-size: 0.95rem;
+      font-weight: 800;
+      font-family: inherit;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.32);
+      transition: transform 0.15s ease;
+    }
+
+    .cta-btn:active { transform: scale(0.97); }
+    .cta-btn.secondary { background: rgba(255, 255, 255, 0.15); color: #fff; border: 1px solid rgba(255, 255, 255, 0.28); }
+
+    /* Leaderboard */
+    .tabs {
+      display: flex;
+      background: rgba(0, 0, 0, 0.38);
+      padding: 4px;
+      border-radius: 99px;
+      margin-bottom: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .tab-btn {
+      flex: 1;
+      border: none;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.7);
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 7px 9px;
+      border-radius: 99px;
+      cursor: pointer;
+    }
+
+    .tab-btn.active { background: #fff; color: #09090b; }
+
+    .leaderboard-list { display: flex; flex-direction: column; gap: 7px; padding-bottom: 12px; }
+
+    .lb-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 13px;
+      border-radius: 14px;
+      background: rgba(0, 0, 0, 0.38);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      cursor: pointer;
+    }
+
+    .lb-item.gold {
+      border-color: rgba(255, 214, 10, 0.6);
+      background: linear-gradient(90deg, rgba(255, 214, 10, 0.18), rgba(0, 0, 0, 0.4));
+    }
+
+    .person-left { display: flex; align-items: center; gap: 11px; }
+    .person-name { font-weight: 800; font-size: 1rem; }
+    .person-sub { font-size: 0.76rem; color: var(--text-muted); margin-top: 2px; }
+    .person-amount { text-align: right; font-weight: 800; font-size: 0.98rem; }
+
+    .bottom-nav {
+      position: relative;
+      z-index: 10;
+      padding: 8px 18px 13px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.65);
+    }
+
+    .nav-arrow-btn {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 99px;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.78rem;
+      cursor: pointer;
+    }
+
+    .nav-arrow-btn:disabled { opacity: 0.3; cursor: default; }
+
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      z-index: 50;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+
+    .modal-backdrop.open { opacity: 1; pointer-events: auto; }
+
+    .personal-card {
+      width: 100%;
+      border-radius: 24px;
+      padding: 22px;
+      background: linear-gradient(145deg, #1d1033, #0e241b);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      position: relative;
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .badge-pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 99px;
+      font-size: 0.74rem;
+      font-weight: 800;
+      background: var(--green);
+      color: #051b0e;
+      margin-bottom: 10px;
+    }
+
+    .toast {
+      position: absolute;
+      bottom: 68px;
+      left: 50%;
+      transform: translateX(-50%) translateY(15px);
+      background: #fff;
+      color: #09090b;
+      padding: 8px 16px;
+      border-radius: 99px;
+      font-size: 0.82rem;
+      font-weight: 800;
+      z-index: 60;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease;
+    }
+
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-shell">
+  <div class="bg-layer" id="bgLayer">
+    <div class="blob blob-1" id="blob1"></div>
+    <div class="blob blob-2" id="blob2"></div>
+  </div>
+  <div class="noise-overlay"></div>
+
+  <div class="top-bar">
+    <div class="progress-row" id="progressRow"></div>
+    <div class="header-controls">
+      <div class="brand-tag">
+        <span class="brand-dot"></span>
+        <span>VERO WRAPPED 2025</span>
+      </div>
+      <div style="display:flex; gap:6px; align-items:center;">
+        <span class="score-pill" id="scorePill">Pisteet: 0 / 100</span>
+        <button class="icon-btn" onclick="goToSlide(7)">Tulostaulu</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="slides-viewport" id="slidesViewport">
+
+    <!-- SLIDE 0: Intro -->
+    <section class="slide active" data-theme="intro">
+      <span class="kicker">Arvauspeli 2025</span>
+      <h1>Paljonko verokarhu keräsi?</h1>
+      <p class="lead">
+        Ennen kuin lopullinen tulostaulu paljastuu, testaa vaistosi 5 kierroksessa! Lukitse arvauksesi liukuvalitsimilla ja katso totuus heti perään.
+      </p>
+      <div class="glass-card">
+        <div class="stat-label">Pelin säännöt</div>
+        <div style="font-size:0.9rem; line-height:1.45; margin-top:6px; color:var(--text-muted);">
+          • 5 arvoitusta (maks. 20 p / kierros)<br/>
+          • Liukuvalitsimet tuloissa 1 000 € ja pronssierossa 100 € tarkkuudella<br/>
+          • Lopussa koko ranking &amp; omat Wrapped-kortit
+        </div>
+      </div>
+      <button class="cta-btn" style="margin-top:8px;" onclick="goToSlide(1)">Aloita peli →</button>
+    </section>
+
+    <!-- SLIDE 1: Yhteispotti (ennallaan) -->
+    <section class="slide" data-theme="total">
+      <span class="kicker">Yhteispotti</span>
+      <h2>Porukka tahkosi yhteensä...</h2>
+      <div class="big-stat" data-count="673329.53" data-suffix=" €">0 €</div>
+      <p class="lead" style="margin-bottom:14px;">
+        kokonaistuloja vuonna 2025 (tunnettujen tulojen osalta). Verokarhu hieroi käsiään!
+      </p>
+      <div class="split-grid">
+        <div class="mini-card">
+          <div class="stat-label">Ansiotulot yht.</div>
+          <div class="val" style="color: var(--cyan);">655 890,36 €</div>
+        </div>
+        <div class="mini-card">
+          <div class="stat-label">Pääomatulot yht.</div>
+          <div class="val" style="color: var(--yellow);">17 439,17 €</div>
+        </div>
+      </div>
+      <div class="split-grid">
+        <div class="mini-card">
+          <div class="stat-label">Keskiarvo (kok.)</div>
+          <div class="val">67 332,95 €</div>
+        </div>
+        <div class="mini-card">
+          <div class="stat-label">Mediaani (kok.)</div>
+          <div class="val">48 144,23 €</div>
+        </div>
+      </div>
+      <button class="cta-btn" style="margin-top:4px;" onclick="goToSlide(2)">Ensimmäiseen arvaukseen →</button>
+    </section>
+
+    <!-- SLIDE 2: Arvaus 1 – Kuka oli kakkonen ja millä tuloilla -->
+    <section class="slide justify-top" data-theme="q1">
+      <span class="kicker">Arvaus 1 / 5</span>
+      <h2>Kuka oli kakkonen ja millä tuloilla?</h2>
+
+      <div id="q1Form">
+        <div class="glass-card">
+          <div class="stat-label">1. Valitse hopeasijan nimi</div>
+          <div class="chip-grid" id="q1Chips"></div>
+        </div>
+
+        <div class="glass-card">
+          <div class="slider-header">
+            <span class="stat-label">2. Arvaa tulot (1 000 € välein)</span>
+            <span class="slider-val" id="q1SliderVal">75 000 €</span>
+          </div>
+          <input type="range" id="q1Slider" min="20000" max="180000" step="1000" value="75000" oninput="updateSliderText('q1Slider','q1SliderVal')" />
+          <div class="range-labels"><span>20 000 €</span><span>100 000 €</span><span>180 000 €</span></div>
+        </div>
+
+        <button class="cta-btn" onclick="revealQ1()">Lukitse &amp; paljasta</button>
+      </div>
+
+      <div class="reveal-box" id="q1Reveal"></div>
+    </section>
+
+    <!-- SLIDE 3: Arvaus 2 – Ketkä olivat kolmonen ja nelonen ja millä erolla (100 € välein 0 - 5000 €) -->
+    <section class="slide justify-top" data-theme="q2">
+      <span class="kicker">Arvaus 2 / 5</span>
+      <h2>Ketkä olivat kolmonen &amp; nelonen ja millä erolla?</h2>
+
+      <div id="q2Form">
+        <div class="glass-card">
+          <div class="split-grid" style="margin-bottom:0;">
+            <div>
+              <div class="stat-label">Kolmonen (#3)</div>
+              <select class="select-box" id="q2Third"></select>
+            </div>
+            <div>
+              <div class="stat-label">Nelonen (#4)</div>
+              <select class="select-box" id="q2Fourth"></select>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <div class="slider-header">
+            <span class="stat-label">Arvaa heidän eronsa (100 € välein)</span>
+            <span class="slider-val" id="q2SliderVal">2 500 €</span>
+          </div>
+          <input type="range" id="q2Slider" min="0" max="5000" step="100" value="2500" oninput="updateSliderText('q2Slider','q2SliderVal')" />
+          <div class="range-labels"><span>0 €</span><span>2 500 €</span><span>5 000 €</span></div>
+        </div>
+
+        <button class="cta-btn" onclick="revealQ2()">Lukitse &amp; paljasta</button>
+      </div>
+
+      <div class="reveal-box" id="q2Reveal"></div>
+    </section>
+
+    <!-- SLIDE 4: Arvaus 3 – Mitkä olivat Jaakon tulot -->
+    <section class="slide justify-top" data-theme="q3">
+      <span class="kicker">Arvaus 3 / 5</span>
+      <h2>Mitkä olivat Jaakon tulot?</h2>
+      <p class="lead" style="margin-bottom:10px;">
+        Jaakko eteni urallaan vauhdilla. Kuinka korkealle ansiotulot nousivat?
+      </p>
+
+      <div id="q3Form">
+        <div class="glass-card">
+          <div class="slider-header">
+            <span class="stat-label">Jaakon tulot (1 000 € välein)</span>
+            <span class="slider-val" id="q3SliderVal">45 000 €</span>
+          </div>
+          <input type="range" id="q3Slider" min="20000" max="120000" step="1000" value="45000" oninput="updateSliderText('q3Slider','q3SliderVal')" />
+          <div class="range-labels"><span>20 000 €</span><span>70 000 €</span><span>120 000 €</span></div>
+        </div>
+
+        <button class="cta-btn" onclick="revealQ3()">Lukitse &amp; paljasta</button>
+      </div>
+
+      <div class="reveal-box" id="q3Reveal"></div>
+    </section>
+
+    <!-- SLIDE 5: Arvaus 4 – Järjestä kuusikko: Tatu, Niko, Kristian, Juuso, Ville ja Juho -->
+    <section class="slide justify-top" data-theme="q4">
+      <span class="kicker">Arvaus 4 / 5</span>
+      <h2>Laita kuusikko suuruusjärjestykseen</h2>
+      <p class="lead" style="margin-bottom:8px; font-size:0.84rem;">
+        Suurimmat tulot ylimmäksi (1.) ja pienimmät alimmaksi (6.). Siirrä nuolilla tai napauta kahta nimeä vaihtaaksesi paikkaa.
+      </p>
+
+      <div class="order-list" id="q4OrderList"></div>
+
+      <div id="q4BtnWrap">
+        <button class="cta-btn" onclick="revealQ4()">Lukitse järjestys &amp; paljasta</button>
+      </div>
+
+      <div class="reveal-box" id="q4Reveal"></div>
+    </section>
+
+    <!-- SLIDE 6: Arvaus 5 – Mitkä olivat Joonan tulot -->
+    <section class="slide justify-top" data-theme="q5">
+      <span class="kicker">Arvaus 5 / 5</span>
+      <h2>Mitkä olivat Joonan tulot?</h2>
+      <p class="lead" style="margin-bottom:10px;">
+        Vuoden verokuningas veti täysin omilla luvuillaan. Kuinka suureksi potti kipusi?
+      </p>
+
+      <div id="q5Form">
+        <div class="glass-card">
+          <div class="slider-header">
+            <span class="stat-label">Joonan tulot (1 000 € välein)</span>
+            <span class="slider-val" id="q5SliderVal">150 000 €</span>
+          </div>
+          <input type="range" id="q5Slider" min="80000" max="350000" step="1000" value="150000" oninput="updateSliderText('q5Slider','q5SliderVal')" />
+          <div class="range-labels"><span>80 000 €</span><span>215 000 €</span><span>350 000 €</span></div>
+        </div>
+
+        <button class="cta-btn" onclick="revealQ5()">Lukitse &amp; paljasta</button>
+      </div>
+
+      <div class="reveal-box" id="q5Reveal"></div>
+    </section>
+
+    <!-- SLIDE 7: Kokonaistaulukko -->
+    <section class="slide justify-top" data-theme="board">
+      <span class="kicker" style="margin-bottom: 6px;">Lopullinen tulostaulu 🏆</span>
+      <h2 style="font-size: 1.5rem; margin-bottom: 4px;">Koko ranking 2025</h2>
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 9px;" id="boardSubtitle">
+        Klikkaa mitä tahansa nimeä nähdäksesi henkilökohtaisen kortin &amp; jakopainikkeen.
+      </p>
+
+      <div class="tabs">
+        <button class="tab-btn active" id="tabEarned" onclick="setSortMode('earned')">Ansiotulot</button>
+        <button class="tab-btn" id="tabTotal" onclick="setSortMode('total')">Kokonaistulot (Ansio+Pääoma)</button>
+      </div>
+
+      <div class="leaderboard-list" id="leaderboardList"></div>
+
+      <div style="display: flex; gap: 8px; padding-bottom: 10px;">
+        <button class="cta-btn secondary" style="flex: 1; padding:11px;" onclick="goToSlide(0)">↺ Pelaa alusta</button>
+        <button class="cta-btn" style="flex: 1; padding: 11px; font-size: 0.86rem;" onclick="copySummary()">📋 Kopioi yhteenveto</button>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="bottom-nav">
+    <button class="nav-arrow-btn" id="prevBtn" onclick="prevSlide()">← Edellinen</button>
+    <span id="slideCounter">1 / 8</span>
+    <button class="nav-arrow-btn" id="nextBtn" onclick="nextSlide()">Seuraava →</button>
+  </div>
+
+  <div class="modal-backdrop" id="personalModal" onclick="closeModal(event)">
+    <div class="personal-card" id="personalCardContent" onclick="event.stopPropagation()"></div>
+  </div>
+
+  <div class="toast" id="toast">Kopioitu!</div>
+</div>
+
+<script>
+  const people = [
+    { id: 'joona', name: 'Joona', earned: 215945.70, capital: 0, badge: '👑 Verokuningas #1', note: 'Täysin omassa sarjassaan. Lähes kolmannes koko porukan verotettavista ansiotuloista!' },
+    { id: 'tuomas', name: 'Tuomas', earned: 101708.87, capital: 11503.71, badge: '🚀 Tulosylitys & Sijoittajakunkku', note: 'Odotettua kovempi yli 100k € tulos ja porukan ylivoimaisesti suurimmat pääomatulot (11 503,71 €).' },
+    { id: 'toni', name: 'Toni', earned: 64130.26, capital: 6.27, badge: '🥉 Pronssimitalisti', note: 'Tiukka taisto kolmospaikasta päättyi Tonin voittoon! Joonas jäi vain 1 283,67 € päähän.' },
+    { id: 'joonas', name: 'Joonas', earned: 62846.59, capital: 0, badge: '⚔️ Nelossija pronssikisassa', note: 'Huikea kiri kolmospaikasta Tonin kanssa – eroa vain reilu satanen kuukaudessa.' },
+    { id: 'jaakko', name: 'Jaakko', earned: 55577.72, capital: 23.00, badge: '📈 Urakiitäjä', note: 'Uralla eteneminen nosti tulot yllättävän korkealle ja kirkkaasti yli porukan mediaanin.' },
+    { id: 'tatu', name: 'Tatu', earned: 40687.73, capital: 0, badge: '🎯 Vakaa suorittaja', note: 'Vankka kuutossija yli 40 tuhannen euron verotettavilla ansiotuloilla.' },
+    { id: 'niko', name: 'Niko', earned: 36977.82, capital: 1263.32, badge: '💼 Sivutulosijoittaja', note: 'Piti Kristianin niukasti takanaan ansiotuloissa (+198,62 €) ja otti 1 263 € pääomatuloja päälle.' },
+    { id: 'kristian', name: 'Kristian', earned: 36779.20, capital: 0, badge: '⚡ Tiukka haastaja', note: 'Jäi ansiotuloissa alle 200 euron päähän Nikosta!' },
+    { id: 'juuso', name: 'Juuso', earned: 29818.20, capital: 0, badge: '🧱 Peruskallio', note: 'Lähes kolmenkympin kerhossa vakailla ansiotuloilla.' },
+    { id: 'ville', name: 'Ville', earned: 11418.27, capital: 4642.87, badge: '🎓 Opiskelijasijoittaja', note: 'Opiskelijaksi siirtyminen laski ansiotuloja rajusti, mutta 4 642,87 € pääomatulot paikkasivat hienosti!' },
+    { id: 'juho', name: 'Juho Ramilak', earned: null, capital: null, badge: '🕶️ Mysteeri (N/A)', note: 'Nimellä Juho Ramilak ei löytynyt tietoja – verottajan tutkassa täysi mysteeri. Ehkä veroparatiisissa, ehkä vain tutkan ulkopuolella.' }
+  ];
+
+  const themes = {
+    intro: { bg: 'linear-gradient(155deg, #100824, #0a1f16)', b1: '#9d4edd', b2: '#1ed760' },
+    total: { bg: 'linear-gradient(155deg, #071926, #130b29)', b1: '#00f5d4', b2: '#3a86ff' },
+    q1:    { bg: 'linear-gradient(155deg, #240c1f, #1f1404)', b1: '#ff2a85', b2: '#ffd60a' },
+    q2:    { bg: 'linear-gradient(155deg, #061c21, #260a1c)', b1: '#00f5d4', b2: '#ff2a85' },
+    q3:    { bg: 'linear-gradient(155deg, #072115, #1b1e06)', b1: '#1ed760', b2: '#ffd60a' },
+    q4:    { bg: 'linear-gradient(155deg, #160c2b, #0b192c)', b1: '#9d4edd', b2: '#3a86ff' },
+    q5:    { bg: 'linear-gradient(155deg, #062111, #1e1a05)', b1: '#1ed760', b2: '#ffd60a' },
+    board: { bg: 'linear-gradient(155deg, #111116, #140d24)', b1: '#1ed760', b2: '#9d4edd' }
+  };
+
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const totalSlides = slides.length;
+  let currentSlide = 0;
+  let sortMode = 'earned';
+
+  // Quiz state
+  const quizScores = { q1: null, q2: null, q3: null, q4: null, q5: null };
+  let q1SelectedName = null;
+  let q4Order = ['Kristian', 'Juho', 'Ville', 'Tatu', 'Juuso', 'Niko'];
+  let q4PickedIndex = null;
+  let q4Locked = false;
+
+  const fmt = (v) => v === null || v === undefined ? 'N/A' : v.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' €';
+  const fmtInt = (v) => Math.round(v).toLocaleString('fi-FI') + ' €';
+
+  function shuffleArray(arr) {
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  }
+
+  // Progress bar
+  const progressRow = document.getElementById('progressRow');
+  slides.forEach((_, idx) => {
+    const seg = document.createElement('div');
+    seg.className = 'progress-segment';
+    seg.onclick = () => goToSlide(idx);
+    seg.innerHTML = '<div class="progress-fill"></div>';
+    progressRow.appendChild(seg);
+  });
+
+  function updateSliderText(sliderId, valId) {
+    const val = Number(document.getElementById(sliderId).value);
+    document.getElementById(valId).textContent = fmtInt(val);
+  }
+
+  function updateScorePill() {
+    const total = Object.values(quizScores).reduce((sum, v) => sum + (v || 0), 0);
+    document.getElementById('scorePill').textContent = `Pisteet: ${total} / 100`;
+    return total;
+  }
+
+  // Build Q1 chips & Q2 selects in shuffled order (Toni, Juuso ja Juho mukana)
+  function initQuizInputs() {
+    const baseCandidates = ['Niko', 'Toni', 'Kristian', 'Juho', 'Jaakko', 'Tuomas', 'Ville', 'Joonas', 'Tatu', 'Juuso'];
+
+    const q1List = shuffleArray(baseCandidates);
+    const q1Chips = document.getElementById('q1Chips');
+    q1List.forEach(name => {
+      const btn = document.createElement('button');
+      btn.className = 'choice-chip';
+      btn.textContent = name;
+      btn.onclick = () => {
+        q1SelectedName = name;
+        q1Chips.querySelectorAll('.choice-chip').forEach(c => c.classList.toggle('selected', c.textContent === name));
+      };
+      q1Chips.appendChild(btn);
+    });
+
+    const q2List = shuffleArray(baseCandidates);
+    const s3 = document.getElementById('q2Third');
+    const s4 = document.getElementById('q2Fourth');
+    s3.add(new Option('Valitse nimi...', ''));
+    s4.add(new Option('Valitse nimi...', ''));
+    q2List.forEach(name => {
+      s3.add(new Option(name, name));
+      s4.add(new Option(name, name));
+    });
+
+    renderQ4List();
+  }
+
+  // Q1 Reveal
+  function revealQ1() {
+    if (quizScores.q1 !== null) return;
+    if (!q1SelectedName) {
+      showToast('Valitse ensin hopeasijan nimi!');
+      return;
+    }
+
+    const guessVal = Number(document.getElementById('q1Slider').value);
+    const actualEarned = 101708.87;
+    const actualTotal = 113212.58;
+    const nameCorrect = q1SelectedName === 'Tuomas';
+    const diffEarned = Math.abs(guessVal - actualEarned);
+    const diffTotal = Math.abs(guessVal - actualTotal);
+    const bestDiff = Math.min(diffEarned, diffTotal);
+
+    let pts = nameCorrect ? 10 : 0;
+    pts += Math.max(0, Math.round(10 - (bestDiff / 5000)));
+    quizScores.q1 = pts;
+    updateScorePill();
+
+    document.getElementById('q1Form').style.display = 'none';
+    const box = document.getElementById('q1Reveal');
+    box.innerHTML = `
+      <span class="feedback-tag">${nameCorrect ? '✅ Nimi oikein!' : '❌ Arvasit: ' + q1SelectedName} • +${pts} / 20 p</span>
+      <h3 style="font-size:1.3rem; font-weight:900; margin-bottom:6px;">Kakkonen oli Tuomas! 🚀</h3>
+      <p style="font-size:0.88rem; line-height:1.45; margin-bottom:10px;">
+        Odotuksia kovempi ylitys: ansiotulot <strong>101 708,87 €</strong> ja päälle ryhmän kovimmat pääomatulot <strong>11 503,71 €</strong> (yhteensä <strong>113 212,58 €</strong>).<br/>
+        <span style="opacity:0.85;">Arvauksesi (${fmtInt(guessVal)}) heitti ansiotuloista ${fmtInt(diffEarned)}.</span>
+      </p>
+      <button class="cta-btn" onclick="goToSlide(3)">Seuraava arvaus →</button>
+    `;
+    box.classList.add('open');
+  }
+
+  // Q2 Reveal – Kolmonen & Nelonen ja ero (100 € välein, 0 - 5000 €)
+  function revealQ2() {
+    if (quizScores.q2 !== null) return;
+    const g3 = document.getElementById('q2Third').value;
+    const g4 = document.getElementById('q2Fourth').value;
+    if (!g3 || !g4) {
+      showToast('Valitse sekä kolmonen että nelonen!');
+      return;
+    }
+    if (g3 === g4) {
+      showToast('Valitse kaksi eri henkilöä!');
+      return;
+    }
+
+    const guessDiff = Number(document.getElementById('q2Slider').value);
+    const actualDiffEarned = 64130.26 - 62846.59; // 1 283,67 €
+    const actualDiffTotal = 64136.53 - 62846.59;  // 1 289,94 €
+    const bestDiff = Math.min(Math.abs(guessDiff - actualDiffEarned), Math.abs(guessDiff - actualDiffTotal));
+
+    let pts = (g3 === 'Toni' ? 5 : 0) + (g4 === 'Joonas' ? 5 : 0);
+    pts += Math.max(0, Math.round(10 - (bestDiff / 350)));
+    quizScores.q2 = pts;
+    updateScorePill();
+
+    document.getElementById('q2Form').style.display = 'none';
+    const box = document.getElementById('q2Reveal');
+    box.innerHTML = `
+      <span class="feedback-tag">Arvasit: #3 ${g3}, #4 ${g4} • +${pts} / 20 p</span>
+      <h3 style="font-size:1.25rem; font-weight:900; margin-bottom:6px;">#3 Toni &amp; #4 Joonas 🥉</h3>
+      <p style="font-size:0.86rem; line-height:1.45; margin-bottom:10px;">
+        <strong>Toni (#3):</strong> 64 130,26 € ansio (+ 6,27 € pääoma = 64 136,53 €)<br/>
+        <strong>Joonas (#4):</strong> 62 846,59 € ansio<br/>
+        <strong>Ero ansiotuloissa:</strong> vain <strong>1 283,67 €</strong> (noin 107 €/kk! Kokonaistuloissa ero 1 289,94 €). Arvauksesi oli ${fmtInt(guessDiff)}.<br/>
+        <span style="opacity:0.85;">⚔️ Koko porukan tiukin mitalitaisto!</span>
+      </p>
+      <button class="cta-btn" onclick="goToSlide(4)">Seuraava arvaus →</button>
+    `;
+    box.classList.add('open');
+  }
+
+  // Q3 Reveal
+  function revealQ3() {
+    if (quizScores.q3 !== null) return;
+    const guessVal = Number(document.getElementById('q3Slider').value);
+    const actualEarned = 55577.72;
+    const diff = Math.abs(guessVal - actualEarned);
+    const pts = Math.max(0, Math.round(20 - (diff / 2500)));
+    quizScores.q3 = pts;
+    updateScorePill();
+
+    document.getElementById('q3Form').style.display = 'none';
+    const box = document.getElementById('q3Reveal');
+    box.innerHTML = `
+      <span class="feedback-tag">Arvauksesi: ${fmtInt(guessVal)} • +${pts} / 20 p</span>
+      <h3 style="font-size:1.3rem; font-weight:900; margin-bottom:6px;">Jaakko: 55 577,72 € 📈</h3>
+      <p style="font-size:0.88rem; line-height:1.45; margin-bottom:10px;">
+        Uralla eteneminen toi reippaan loikan yli mediaanin! Päälle tuli vielä <strong>23,00 €</strong> pääomatuloja (yht. 55 600,72 €).<br/>
+        <span style="opacity:0.85;">Heittoa arvaukseesi: ${fmtInt(diff)}.</span>
+      </p>
+      <button class="cta-btn" onclick="goToSlide(5)">Seuraava arvaus →</button>
+    `;
+    box.classList.add('open');
+  }
+
+  // Q4 Ordering (kuusikko: Tatu, Niko, Kristian, Juuso, Ville, Juho)
+  function renderQ4List() {
+    const list = document.getElementById('q4OrderList');
+    const correct = ['Tatu', 'Niko', 'Kristian', 'Juuso', 'Ville', 'Juho'];
+    const details = {
+      'Tatu': '40 687,73 €',
+      'Niko': '36 977,82 € (+ 1 263,32 € pääoma)',
+      'Kristian': '36 779,20 € (198,62 € Nikosta)',
+      'Juuso': '29 818,20 €',
+      'Ville': '11 418,27 € (+ 4 642,87 € pääoma)',
+      'Juho': 'N/A (tietoja ei löytynyt)'
+    };
+
+    list.innerHTML = '';
+    q4Order.forEach((name, idx) => {
+      const row = document.createElement('div');
+      let cls = 'order-row';
+      if (!q4Locked && q4PickedIndex === idx) cls += ' picked';
+      if (q4Locked) cls += (name === correct[idx] ? ' correct-pos' : ' wrong-pos');
+      row.className = cls;
+
+      row.onclick = (e) => {
+        if (q4Locked || e.target.closest('.move-btn')) return;
+        if (q4PickedIndex === null) {
+          q4PickedIndex = idx;
+        } else {
+          [q4Order[q4PickedIndex], q4Order[idx]] = [q4Order[idx], q4Order[q4PickedIndex]];
+          q4PickedIndex = null;
+        }
+        renderQ4List();
+      };
+
+      const sub = q4Locked ? `<div style="font-size:0.72rem; color:var(--text-muted);">${details[name]}</div>` : '';
+      const statusBadge = name === correct[idx]
+        ? '✅'
+        : (name === 'Juho' ? 'N/A (#6)' : 'Oikea #' + (correct.indexOf(name) + 1));
+
+      const controls = q4Locked
+        ? `<span style="font-size:0.76rem; font-weight:800;">${statusBadge}</span>`
+        : `
+          <div class="move-btns">
+            <button class="move-btn" ${idx === 0 ? 'disabled' : ''} onclick="moveQ4(${idx}, -1)">↑</button>
+            <button class="move-btn" ${idx === q4Order.length - 1 ? 'disabled' : ''} onclick="moveQ4(${idx}, 1)">↓</button>
+          </div>
+        `;
+
+      const displayRank = q4Locked && name === 'Juho' ? '–' : (idx + 1);
+
+      row.innerHTML = `
+        <div class="order-left">
+          <div class="rank-badge">${displayRank}</div>
+          <div>
+            <div style="font-weight:800; font-size:0.94rem;">${name}</div>
+            ${sub}
+          </div>
+        </div>
+        ${controls}
+      `;
+      list.appendChild(row);
+    });
+  }
+
+  function moveQ4(idx, dir) {
+    if (q4Locked) return;
+    const target = idx + dir;
+    if (target < 0 || target >= q4Order.length) return;
+    [q4Order[idx], q4Order[target]] = [q4Order[target], q4Order[idx]];
+    q4PickedIndex = null;
+    renderQ4List();
+  }
+
+  function revealQ4() {
+    if (quizScores.q4 !== null) return;
+    const correct = ['Tatu', 'Niko', 'Kristian', 'Juuso', 'Ville', 'Juho'];
+    const hits = q4Order.filter((n, i) => n === correct[i]).length;
+    const pts = Math.round((hits / 6) * 20);
+    quizScores.q4 = pts;
+    q4Locked = true;
+    q4PickedIndex = null;
+    updateScorePill();
+    renderQ4List();
+
+    document.getElementById('q4BtnWrap').style.display = 'none';
+    const box = document.getElementById('q4Reveal');
+    box.innerHTML = `
+      <span class="feedback-tag">${hits} / 6 oikealla paikalla • +${pts} / 20 p</span>
+      <p style="font-size:0.82rem; line-height:1.42; margin-bottom:10px;">
+        Oikea järjestys: <strong>Tatu → Niko → Kristian → Juuso → Ville → Juho (N/A)</strong>.<br/>
+        Nikon ja Kristianin ero ansioissa oli vain <strong>198,62 €</strong>, opiskelijaksi siirtynyt Ville keräsi lähes 29 % tuloistaan pääomasta, ja <strong>Juho</strong> jäi täydeksi mysteeriksi (<strong>N/A</strong>)!
+      </p>
+      <button class="cta-btn" onclick="goToSlide(6)">Viimeiseen arvaukseen →</button>
+    `;
+    box.classList.add('open');
+  }
+
+  // Q5 Reveal
+  function revealQ5() {
+    if (quizScores.q5 !== null) return;
+    const guessVal = Number(document.getElementById('q5Slider').value);
+    const actualEarned = 215945.70;
+    const diff = Math.abs(guessVal - actualEarned);
+    const pts = Math.max(0, Math.round(20 - (diff / 6000)));
+    quizScores.q5 = pts;
+    const finalTotal = updateScorePill();
+
+    document.getElementById('q5Form').style.display = 'none';
+    const box = document.getElementById('q5Reveal');
+    box.innerHTML = `
+      <span class="feedback-tag">Arvauksesi: ${fmtInt(guessVal)} • +${pts} / 20 p</span>
+      <h3 style="font-size:1.35rem; font-weight:900; margin-bottom:6px;">Joona: 215 945,70 € 👑</h3>
+      <p style="font-size:0.86rem; line-height:1.45; margin-bottom:10px;">
+        Täysin omissa sfääreissään – lähes kolmannes koko porukan ansiotuloista!<br/>
+        Heittoa arvaukseesi: <strong>${fmtInt(diff)}</strong>.<br/>
+        🏆 <strong>Visan lopputuloksesi: ${finalTotal} / 100 pistettä!</strong>
+      </p>
+      <button class="cta-btn" onclick="goToSlide(7)">Avaa kokonaistaulukko →</button>
+    `;
+    box.classList.add('open');
+
+    document.getElementById('boardSubtitle').textContent =
+      `Visapisteesi: ${finalTotal} / 100. Klikkaa nimeä avataksesi henkilökohtaisen kortin.`;
+  }
+
+  // Navigation & Animations
+  function applyTheme(key) {
+    const t = themes[key] || themes.intro;
+    document.getElementById('bgLayer').style.background = t.bg;
+    document.getElementById('blob1').style.background = t.b1;
+    document.getElementById('blob2').style.background = t.b2;
+  }
+
+  function animateCounters(slideEl) {
+    slideEl.querySelectorAll('[data-count]').forEach(el => {
+      const target = parseFloat(el.getAttribute('data-count'));
+      const suffix = el.getAttribute('data-suffix') || '';
+      const start = performance.now();
+      function tick(now) {
+        const p = Math.min((now - start) / 850, 1);
+        const val = target * (1 - Math.pow(1 - p, 3));
+        el.textContent = val.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + suffix;
+        if (p < 1) requestAnimationFrame(tick);
+        else el.textContent = target.toLocaleString('fi-FI', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + suffix;
+      }
+      requestAnimationFrame(tick);
+    });
+  }
+
+  function updateUI() {
+    slides.forEach((s, idx) => s.classList.toggle('active', idx === currentSlide));
+    document.querySelectorAll('.progress-segment').forEach((seg, idx) => {
+      seg.classList.toggle('done', idx < currentSlide);
+      seg.classList.toggle('active', idx === currentSlide);
+    });
+    applyTheme(slides[currentSlide].getAttribute('data-theme'));
+    animateCounters(slides[currentSlide]);
+    document.getElementById('slideCounter').textContent = `${currentSlide + 1} / ${totalSlides}`;
+    document.getElementById('prevBtn').disabled = currentSlide === 0;
+    document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+  }
+
+  function goToSlide(idx) {
+    currentSlide = Math.max(0, Math.min(totalSlides - 1, idx));
+    updateUI();
+  }
+
+  function nextSlide() { if (currentSlide < totalSlides - 1) goToSlide(currentSlide + 1); }
+  function prevSlide() { if (currentSlide > 0) goToSlide(currentSlide - 1); }
+
+  const viewport = document.getElementById('slidesViewport');
+  let touchStartX = 0, touchStartY = 0, touchOnInput = false;
+  viewport.addEventListener('touchstart', (e) => {
+    touchOnInput = e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT';
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+
+  viewport.addEventListener('touchend', (e) => {
+    if (touchOnInput) return;
+    const dx = e.changedTouches[0].screenX - touchStartX;
+    const dy = e.changedTouches[0].screenY - touchStartY;
+    if (Math.abs(dx) > 55 && Math.abs(dy) < 55) {
+      if (dx < 0) nextSlide();
+      else prevSlide();
+    }
+  }, { passive: true });
+
+  document.addEventListener('keydown', (e) => {
+    if (document.getElementById('personalModal').classList.contains('open')) {
+      if (e.key === 'Escape') closeModal();
+      return;
+    }
+    if (e.key === 'ArrowRight') nextSlide();
+    else if (e.key === 'ArrowLeft') prevSlide();
+  });
+
+  // Leaderboard & Personal Cards
+  function getTotal(p) { return p.earned === null ? null : p.earned + (p.capital || 0); }
+
+  function setSortMode(mode) {
+    sortMode = mode;
+    document.getElementById('tabEarned').classList.toggle('active', mode === 'earned');
+    document.getElementById('tabTotal').classList.toggle('active', mode === 'total');
+    renderLeaderboard();
+  }
+
+  function renderLeaderboard() {
+    const list = document.getElementById('leaderboardList');
+    list.innerHTML = '';
+    const sorted = [...people].sort((a, b) => {
+      const valA = sortMode === 'earned' ? a.earned : getTotal(a);
+      const valB = sortMode === 'earned' ? b.earned : getTotal(b);
+      if (valA === null) return 1;
+      if (valB === null) return -1;
+      return valB - valA;
+    });
+
+    sorted.forEach((p, i) => {
+      const rank = p.earned === null ? '–' : i + 1;
+      const mainVal = sortMode === 'earned' ? p.earned : getTotal(p);
+      const item = document.createElement('div');
+      item.className = 'lb-item' + (rank === 1 ? ' gold' : '');
+      item.onclick = () => openPersonalModal(p.id);
+
+      let subText = p.badge;
+      if (p.capital > 0) {
+        subText = sortMode === 'earned'
+          ? `+ ${fmt(p.capital)} pääomatuloja`
+          : `Ansio ${fmt(p.earned)} + pääoma ${fmt(p.capital)}`;
+      }
+
+      item.innerHTML = `
+        <div class="person-left">
+          <div class="rank-badge">${rank}</div>
+          <div>
+            <div class="person-name">${p.name}</div>
+            <div class="person-sub">${subText}</div>
+          </div>
+        </div>
+        <div class="person-amount">${fmt(mainVal)}</div>
+      `;
+      list.appendChild(item);
+    });
+  }
+
+  function getRanks(id) {
+    const valid = people.filter(p => p.earned !== null);
+    const eIdx = [...valid].sort((a, b) => b.earned - a.earned).findIndex(p => p.id === id);
+    const tIdx = [...valid].sort((a, b) => getTotal(b) - getTotal(a)).findIndex(p => p.id === id);
+    return { earnedRank: eIdx >= 0 ? `#${eIdx + 1}` : 'N/A', totalRank: tIdx >= 0 ? `#${tIdx + 1}` : 'N/A' };
+  }
+
+  function openPersonalModal(id) {
+    const p = people.find(x => x.id === id);
+    if (!p) return;
+    const ranks = getRanks(id);
+    const statsHtml = p.earned === null
+      ? `<div class="glass-card" style="margin:14px 0; text-align:center;"><div class="stat-label">Verotettavat tulot 2025</div><div class="big-stat">N/A</div></div>`
+      : `<div class="glass-card" style="margin:14px 0;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:8px;"><span class="stat-label">Ansiotulot (${ranks.earnedRank})</span><strong>${fmt(p.earned)}</strong></div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:8px;"><span class="stat-label">Pääomatulot</span><strong style="color:var(--yellow);">${fmt(p.capital)}</strong></div>
+          <div style="display:flex; justify-content:space-between; padding-top:8px; border-top:1px solid rgba(255,255,255,0.16);"><span class="stat-label">Yhteensä (${ranks.totalRank})</span><strong style="color:var(--green); font-size:1.2rem;">${fmt(getTotal(p))}</strong></div>
+        </div>`;
+
+    document.getElementById('personalCardContent').innerHTML = `
+      <button class="close-modal" onclick="closeModal()">✕</button>
+      <div class="badge-pill">${p.badge}</div>
+      <h2 style="margin-bottom:6px;">${p.name}</h2>
+      <p style="font-size:0.86rem; color:var(--text-muted); line-height:1.45;">${p.note}</p>
+      ${statsHtml}
+      <button class="cta-btn" onclick="copyPersonal('${p.id}')">📋 Kopioi kortti</button>
+    `;
+    document.getElementById('personalModal').classList.add('open');
+  }
+
+  function closeModal(event) {
+    if (event && event.target && event.target.id !== 'personalModal') return;
+    document.getElementById('personalModal').classList.remove('open');
+  }
+
+  function copyPersonal(id) {
+    const p = people.find(x => x.id === id);
+    if (!p) return;
+    const ranks = getRanks(id);
+    let text = `🎧 VERO WRAPPED 2025 – ${p.name}\n${p.badge}\n`;
+    if (p.earned === null) text += `Tulot: N/A\n`;
+    else {
+      text += `Ansiotulot (${ranks.earnedRank}): ${fmt(p.earned)}\n`;
+      if (p.capital > 0) text += `Pääomatulot: ${fmt(p.capital)}\nKokonaistulot (${ranks.totalRank}): ${fmt(getTotal(p))}\n`;
+    }
+    text += `💬 ${p.note}`;
+    copyText(text, `${p.name}n kortti kopioitu!`);
+  }
+
+  function copySummary() {
+    const sorted = [...people].sort((a, b) => a.earned === null ? 1 : b.earned === null ? -1 : b.earned - a.earned);
+    const lines = sorted.map((p, i) => p.earned === null ? `– ${p.name}: N/A` : `${i + 1}. ${p.name}: ${fmt(p.earned)}${p.capital > 0 ? ` (+ ${fmt(p.capital)} pääoma)` : ''}`);
+    copyText(`🏆 VERO WRAPPED 2025\n\n${lines.join('\n')}\n\nYhteispotti: 673 329,53 €`, 'Yhteenveto kopioitu!');
+  }
+
+  let toastTimer = null;
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+  }
+
+  function copyText(text, msg) {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard.writeText(text).then(() => showToast(msg)).catch(() => fallbackCopy(text, msg));
+    } else fallbackCopy(text, msg);
+  }
+
+  function fallbackCopy(text, msg) {
+    const ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); showToast(msg); } catch (e) { showToast('Kopiointi epäonnistui'); }
+    document.body.removeChild(ta);
+  }
+
+  initQuizInputs();
+  renderLeaderboard();
+  updateUI();
+</script>
+</body>
+</html>
