@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-16",
+    "puzzle_id": "99c39e0bb6bf",
+    "difficulty": "Easy",
+    "flavor_text": "One criminal should work on branding",
+    "share_url": "https://cluesbysam.com/s/archive/99c39e0bb6bf",
+    "stats": {
+      "p1": 70845,
+      "p5": 91224,
+      "p10": 104872,
+      "p25": 136298,
+      "p50": 190664,
+      "p75": 278060,
+      "perfect_rate": 0.5384790226347193,
+      "no_hint_rate": 0.8878871105218297
+    }
+  },
+  {
     "date": "2026-11-15",
     "puzzle_id": "814800923aba",
     "difficulty": "Brutal",
