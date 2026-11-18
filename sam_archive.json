@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-17",
+    "puzzle_id": "5fd426cdb045",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal has invented wireless power transfer",
+    "share_url": "https://cluesbysam.com/s/archive/5fd426cdb045",
+    "stats": {
+      "p1": 91623,
+      "p5": 116459,
+      "p10": 134884,
+      "p25": 176049,
+      "p50": 251012,
+      "p75": 373804,
+      "perfect_rate": 0.5002315350775642,
+      "no_hint_rate": 0.8334683954619124
+    }
+  },
+  {
     "date": "2026-11-16",
     "puzzle_id": "99c39e0bb6bf",
     "difficulty": "Easy",
