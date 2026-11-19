@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-18",
+    "puzzle_id": "df6f09ddf7af",
+    "difficulty": "Medium",
+    "flavor_text": "The criminals are 9 days early",
+    "share_url": "https://cluesbysam.com/s/archive/df6f09ddf7af",
+    "stats": {
+      "p1": 109749,
+      "p5": 146068,
+      "p10": 170599,
+      "p25": 229210,
+      "p50": 331345,
+      "p75": 492666,
+      "perfect_rate": 0.4662874251497006,
+      "no_hint_rate": 0.7561277445109781
+    }
+  },
+  {
     "date": "2026-11-17",
     "puzzle_id": "5fd426cdb045",
     "difficulty": "Medium",
