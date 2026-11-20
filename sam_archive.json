@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-19",
+    "puzzle_id": "4c4ca5fe45d5",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminal plan isn't half bad",
+    "share_url": "https://cluesbysam.com/s/archive/4c4ca5fe45d5",
+    "stats": {
+      "p1": 133735,
+      "p5": 181335,
+      "p10": 214427,
+      "p25": 288859,
+      "p50": 412267,
+      "p75": 606899,
+      "perfect_rate": 0.2692178512951845,
+      "no_hint_rate": 0.6468995339854737
+    }
+  },
+  {
     "date": "2026-11-18",
     "puzzle_id": "df6f09ddf7af",
     "difficulty": "Medium",
