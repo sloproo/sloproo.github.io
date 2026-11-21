@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-20",
+    "puzzle_id": "de3922cd7618",
+    "difficulty": "Tricky",
+    "flavor_text": "The criminals are practicing for the big moment",
+    "share_url": "https://cluesbysam.com/s/archive/de3922cd7618",
+    "stats": {
+      "p1": 128230,
+      "p5": 175660,
+      "p10": 208307,
+      "p25": 282681,
+      "p50": 399004,
+      "p75": 582873,
+      "perfect_rate": 0.32396219381153923,
+      "no_hint_rate": 0.6144602092059385
+    }
+  },
+  {
     "date": "2026-11-19",
     "puzzle_id": "4c4ca5fe45d5",
     "difficulty": "Tricky",
