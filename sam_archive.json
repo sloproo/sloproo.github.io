@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-21",
+    "puzzle_id": "18e5cda1f706",
+    "difficulty": "Hard",
+    "flavor_text": "The innocents got back in the saddle",
+    "share_url": "https://cluesbysam.com/s/archive/18e5cda1f706",
+    "stats": {
+      "p1": 182216,
+      "p5": 259186,
+      "p10": 310263,
+      "p25": 416543,
+      "p50": 585356,
+      "p75": 852062,
+      "perfect_rate": 0.16808614782183065,
+      "no_hint_rate": 0.5263827704356339
+    }
+  },
+  {
     "date": "2026-11-20",
     "puzzle_id": "de3922cd7618",
     "difficulty": "Tricky",
