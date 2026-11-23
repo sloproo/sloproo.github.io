@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-22",
+    "puzzle_id": "e04fc168ccb5",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal knows her operating systems",
+    "share_url": "https://cluesbysam.com/s/archive/e04fc168ccb5",
+    "stats": {
+      "p1": 160789,
+      "p5": 231615,
+      "p10": 279348,
+      "p25": 382125,
+      "p50": 552964,
+      "p75": 822635,
+      "perfect_rate": 0.27255510946140443,
+      "no_hint_rate": 0.6055601848344823
+    }
+  },
+  {
     "date": "2026-11-21",
     "puzzle_id": "18e5cda1f706",
     "difficulty": "Hard",
