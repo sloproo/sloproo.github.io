@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-23",
+    "puzzle_id": "ebb3d73a7a68",
+    "difficulty": "Easy",
+    "flavor_text": "The innocents are running out of time",
+    "share_url": "https://cluesbysam.com/s/archive/ebb3d73a7a68",
+    "stats": {
+      "p1": 65179,
+      "p5": 83356,
+      "p10": 95722,
+      "p25": 123553,
+      "p50": 173326,
+      "p75": 257597,
+      "perfect_rate": 0.5924655020551967,
+      "no_hint_rate": 0.8768166470933646
+    }
+  },
+  {
     "date": "2026-11-22",
     "puzzle_id": "e04fc168ccb5",
     "difficulty": "Hard",
