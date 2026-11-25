@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-24",
+    "puzzle_id": "ec3b1d093f9a",
+    "difficulty": "Medium",
+    "flavor_text": "One criminal still hasn't returned a quill she borrowed",
+    "share_url": "https://cluesbysam.com/s/archive/ec3b1d093f9a",
+    "stats": {
+      "p1": 70191,
+      "p5": 90203,
+      "p10": 103621,
+      "p25": 133726,
+      "p50": 188021,
+      "p75": 283653,
+      "perfect_rate": 0.4705090372556252,
+      "no_hint_rate": 0.850756178531907
+    }
+  },
+  {
     "date": "2026-11-23",
     "puzzle_id": "ebb3d73a7a68",
     "difficulty": "Easy",
