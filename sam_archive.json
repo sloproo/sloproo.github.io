@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-25",
+    "puzzle_id": "6cf454b03093",
+    "difficulty": "Tricky",
+    "flavor_text": "One innocent is odd, yet not a criminal",
+    "share_url": "https://cluesbysam.com/s/archive/6cf454b03093",
+    "stats": {
+      "p1": 106119,
+      "p5": 144660,
+      "p10": 174092,
+      "p25": 241469,
+      "p50": 357213,
+      "p75": 541789,
+      "perfect_rate": 0.3601901296872249,
+      "no_hint_rate": 0.6868532754337578
+    }
+  },
+  {
     "date": "2026-11-24",
     "puzzle_id": "ec3b1d093f9a",
     "difficulty": "Medium",
