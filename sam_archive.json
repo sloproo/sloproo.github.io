@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-26",
+    "puzzle_id": "672b803165de",
+    "difficulty": "Tricky",
+    "flavor_text": "One turkey is very lucky today",
+    "share_url": "https://cluesbysam.com/s/archive/672b803165de",
+    "stats": {
+      "p1": 146060,
+      "p5": 194371,
+      "p10": 232216,
+      "p25": 318535,
+      "p50": 467227,
+      "p75": 716249,
+      "perfect_rate": 0.3151215511152628,
+      "no_hint_rate": 0.6396755599097765
+    }
+  },
+  {
     "date": "2026-11-25",
     "puzzle_id": "6cf454b03093",
     "difficulty": "Tricky",
