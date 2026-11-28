@@ -14,6 +14,23 @@
     "date": "void"
   },
   {
+    "date": "2026-11-27",
+    "puzzle_id": "6a2df9cf8eb6",
+    "difficulty": "Hard",
+    "flavor_text": "One criminal spreads the joy",
+    "share_url": "https://cluesbysam.com/s/archive/6a2df9cf8eb6",
+    "stats": {
+      "p1": 185744,
+      "p5": 259106,
+      "p10": 312622,
+      "p25": 422741,
+      "p50": 610802,
+      "p75": 905299,
+      "perfect_rate": 0.3142363166994292,
+      "no_hint_rate": 0.6315515240508728
+    }
+  },
+  {
     "date": "2026-11-26",
     "puzzle_id": "672b803165de",
     "difficulty": "Tricky",
